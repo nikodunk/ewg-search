@@ -6,4 +6,15 @@ div {
 	border-width: 1px;
 	border-color: lightgrey;
 	padding: 10px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+
 }
+
+
+
+
+h1 {
+	font-weight: 100;
+}
+
