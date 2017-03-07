@@ -1,0 +1,21 @@
+<!-- <p>
+  {{this.searchQuery}}
+</p>
+<p>
+  {{this.company.name}}
+</p>
+ -->
+
+<div *ngIf="!resultItems" class="row">
+	<p style="padding: 20px">Loading Products...</p>
+</div> 
+
+
+<div *ngIf="resultItems" class="row">
+	<div *ngFor="let item of this.resultItems.items" class="col-sm-2">
+		<img src="{{item.imageUrl}}" height="100px" width="">
+		<h6>{{item.name}}</h6>
+		<p>{{item.price | currency }}</p>
+		<a href="{{item.url}}" target="_blank">Buy On {{item.merchant}}</a>
+	</div>
+</div> 
