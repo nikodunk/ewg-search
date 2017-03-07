@@ -5,17 +5,28 @@
   {{this.company.name}}
 </p>
  -->
+<hr>
 
-<div *ngIf="!resultItems" class="row">
+<div style="border-style: none" *ngIf="loader=='wait'" class="row">
+	<p style="padding: 20px"></p>
+</div> 
+
+<div style="border-style: none" *ngIf="loader=='loading'" class="row">
 	<p style="padding: 20px">Loading Products...</p>
 </div> 
 
 
-<div *ngIf="resultItems" class="row">
+<div style="border-style: none" *ngIf="loader=='loaded'" class="row">
 	<div *ngFor="let item of this.resultItems.items" class="col-sm-2">
 		<img src="{{item.imageUrl}}" height="100px" width="">
 		<h6>{{item.name}}</h6>
 		<p>{{item.price | currency }}</p>
 		<a href="{{item.url}}" target="_blank">Buy On {{item.merchant}}</a>
 	</div>
+</div> 
+
+
+
+<div style="border-style: none" *ngIf="resultItems?.items.length == 0" class="row">
+	<p style="padding: 20px">No Results</p>
 </div> 

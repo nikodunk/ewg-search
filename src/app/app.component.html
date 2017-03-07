@@ -9,18 +9,17 @@
 		type="text" 
 		style="width: 100%" 
 		class="form-control" 
-		placeholder="eg. clothing, surf, Patagonia" 
+		placeholder="eg. clothing, make-up, wine, Patagonia" 
 	/>
 	
-	<div style="border-style: none" *ngIf="this.searchQuery !==''">
+	<div style="border-style: none">
 		<div *ngFor="let company of this.companies | search: searchQuery">
 			<h3>
 				{{company.name}}
 			</h3>
 			Certification: {{company.cert}}
 			<a href="{{company.certlink}}" target="_blank">View</a>
-			<hr>
-			<juice-object [searchQuery]="this.searchQuery" [company]="company"></juice-object>
+			<juice-object *ngIf="this.searchQuery !==''" [searchQuery]="this.searchQuery" [company]="company"></juice-object>
 		</div>
 	</div>
 </div>

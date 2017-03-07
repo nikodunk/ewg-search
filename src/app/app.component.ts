@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { COMPANIES } from './services/companies'
 // import { RESULTS } from './services/results'
 import { Http, Response, Headers } from '@angular/http'
-import 'rxjs/add/operator/map';
+
 
 
 @Component({
