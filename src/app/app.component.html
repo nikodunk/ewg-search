@@ -1,57 +1,25 @@
 <div class="container">
+	<h1>
+	  {{title}}
+	</h1>
 
-<a (click)="getResult()">
-
-
-<h1>
-  {{title}}
-</h1>
-
-</a>
-
-
-<!-- <div class="input-group" style="width:50%"> -->
 	<input 
 		[(ngModel)]="this.searchQuery" 
 		name="searchQuery"
 		type="text" 
 		style="width: 100%" 
 		class="form-control" 
-		placeholder="eg. clothing, surf, Patagonia" 
+		placeholder="eg. clothing, make-up, wine, Patagonia" 
 	/>
-<!-- 	<span class="input-group-addon btn btn-success">
-		Search
-	</span> -->
-<!-- </div> -->
-
-
-
-
-<div *ngFor="let company of this.companies | search: searchQuery">
-	<h3>
-		{{company.name}}
-	</h3>
-	Certification: {{company.cert}}
-	<a href="{{company.certlink}}" target="_blank">View</a>
 	
-
-	<div *ngIf="this.searchQuery == 'surf'" class="row">
-		<div *ngFor="let item of this.results.items" class="col-sm-2">
-			<img src="{{item.imageUrl}}" height="100px" width="100px">
-			<h6>{{item.name}}</h6>
-			<p>{{item.price | currency }}</p>
-			<a href="{{item.url}}" target="_blank">Buy On {{item.merchant}}</a>
+	<div style="border-style: none">
+		<div *ngFor="let company of this.companies | search: searchQuery">
+			<h3>
+				{{company.name}}
+			</h3>
+			Certification: {{company.cert}}
+			<a href="{{company.certlink}}" target="_blank">View</a>
+			<juice-object *ngIf="this.searchQuery !==''" [searchQuery]="this.searchQuery" [company]="company"></juice-object>
 		</div>
 	</div>
-	<!-- <div *ngIf="resultItems" class="row">
-		<div *ngFor="let item of this.resultItems.items" class="col-sm-2">
-			<img src="{{item.imageUrl}}" height="100px" width="100px">
-			<h6>{{item.name}}</h6>
-			<p>{{item.price | currency }}</p>
-			<a href="{{item.url}}" target="_blank">Buy On {{item.merchant}}</a>
-		</div>
-	</div> -->
-</div>
-
-
 </div>
