@@ -23,11 +23,10 @@
 
 
 <div style="border-style: none" *ngIf="loader=='loaded'" class="row">
-	<div *ngFor="let item of this.resultItems.items" class="col-sm-2">
-		<img src="{{item.imageUrl}}" height="100px" width="">
-		<h6>{{item.name}}</h6>
-		<p>{{item.price | currency }}</p>
-		<a href="{{item.url}}" target="_blank">Buy On {{item.merchant}}</a>
+	<div *ngFor="let item of this.resultItems.items" class="col-sm-2" style="border-style: none; text-align:center">
+		<p><img src="{{item.imageUrl}}" height="" width="100%"></p>
+		<p><b>{{item.name}}</b></p>
+		<a href="{{item.url}}" target="_blank"><p>${{item.price}}</p></a>
 	</div>
 </div> 
 

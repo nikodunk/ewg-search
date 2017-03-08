@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { COMPANIES } from './services/companies'
+import { COMPANIES } from '../assets/companies'
 // import { RESULTS } from './services/results'
 import { Http, Response, Headers } from '@angular/http'
 
