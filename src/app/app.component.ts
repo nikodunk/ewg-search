@@ -12,7 +12,6 @@ import { Http, Response, Headers } from '@angular/http'
 })
 export class AppComponent {
 
-  title = 'Compare prices from 2058 certified sustainable companies';
   companies = COMPANIES;
   searchQuery: string = null;
 

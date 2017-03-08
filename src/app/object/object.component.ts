@@ -48,7 +48,7 @@ export class ObjectComponent implements OnInit {
 
 
   ngOnInit() {
-      let timer = Observable.timer(3000);
+      let timer = Observable.timer(1500);
       this.subscription = timer .subscribe(t=> { this.loader = 'loading';
                                                  this.getResult();
                                                  // console.log('now start getting request');

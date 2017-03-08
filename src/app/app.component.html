@@ -1,7 +1,7 @@
 <div class="container" style="margin-top: 80px; border-style: none">
 	
 		<h1>
-		  {{title}}
+		  Compare prices from 2058 certified sustainable companies.
 		</h1>
 		<br><br>
 		<input 
@@ -16,7 +16,7 @@
 	
 
 	<div style="border-style: none; color: grey; margin-top: 200px" *ngIf="!searchQuery || searchQuery.length == 0">
-		<p>Superjuice indexes certified sustainable companies and makes them searchable. We also find products by these brands for you. These are the certifications we currently index:</p>
+		<p>Superjuice searches certified sustainable companies & makes it simpler to buy from them. We currently support these certifications:</p>
 		<p><a href="www.bcorporation.net" target="_blank"><img height="30px" src="assets/bcorporation.jpg"> B-Corporation</a> | <a href="www.fairtradeusa.com" target="_blank"><img height="30px" src="assets/fairtradeusa.png">Fair Trade USA</a></p>
 	</div>
 
@@ -25,10 +25,6 @@
 			<h3>
 				{{company.name}}
 			</h3>
-			<p style="color: grey">{{company.meta}}</p>
-			<p *ngIf="company.cert == 'bcorporation'" style="color: grey"><img height="30px" src="assets/bcorporation.jpg"> Certification: B-Corporation <a href="{{company.certlink}}" target="_blank">View Certificate</a></p>
-			<p *ngIf="company.cert == 'fairtradeusa'" style="color: grey"><img height="30px" src="assets/fairtradeusa.png"> Certification: Fair Trade USA <a href="{{company.certlink}}" target="_blank">View Site</a></p>
-			
 			<juice-object *ngIf="this.searchQuery.length > 2" [searchQuery]="this.searchQuery" [company]="company"></juice-object>
 		</div>
 	</div>
