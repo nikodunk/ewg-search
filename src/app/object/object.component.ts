@@ -44,7 +44,7 @@ export class ObjectComponent implements OnInit {
 
     makeBrand(){
       // this.firstNameCompany = this.company.name.substr(0, this.company.name.indexOf(" "))
-     this.firstNameCompany = this.company.name.replace("Company", "").replace("LLC", "").replace("L.L.C.", "").replace("Inc.", "").replace("Company", "").replace("Cosmetics", "").replace("'s", "").replace("Dr.", "Dr")
+     this.firstNameCompany = this.company.name.replace("Company", "").replace("LLC", "").replace("L.L.C.", "").replace("Inc.", "").replace("Company", "").replace("Cosmetics", "").replace("'s", "").replace("Dr.", "Dr").replace("Group", "").replace("Ltd.", "")
      this.firstNameCompany = this.firstNameCompany.trim()
      this.firstNameCompany = this.firstNameCompany.replace(/,/g , "").replace(/ /g, "%20")
      console.log(this.firstNameCompany)

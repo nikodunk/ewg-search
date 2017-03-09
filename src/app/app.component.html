@@ -1,7 +1,7 @@
 <div class="container" style="margin-top: 80px; border-style: none">
 	
-		<h1>
-		  Compare prices from 2058 certified sustainable companies.
+		<h1 style="display: inline">
+		  Compare prices from {{this.companyCount}} certified sustainable companies.
 		</h1>
 		<br><br>
 		<input 
@@ -10,14 +10,14 @@
 			type="text" 
 			autofocus="autofocus"
 			class="form-control" 
-			placeholder="eg. make-up, surf, wine, Patagonia" 
+			placeholder="Try: footwear, cosmetics, surf, Patagonia, energy, cleaning" 
 			autocorrect="off" 
 		/>
 	
 
 	<div style="border-style: none; color: grey; margin-top: 200px" *ngIf="!searchQuery || searchQuery.length == 0">
-		<p>Superjuice searches certification sites for sustainable companies & searches the internet for their products. We currently support these certifications:</p>
-		<p><a href="https://www.bcorporation.net" target="_blank"><img height="30px" src="assets/bcorporation.jpg"> B-Corporation</a> | <a href="https://www.fairtradeusa.com" target="_blank"><img height="30px" src="assets/fairtradeusa.png">Fair Trade USA</a></p>
+		<p>Superjuice searches these certification websites for certified partners & their products.</p>
+		<p><a href="https://www.bcorporation.net" target="_blank"><img height="30px" src="assets/bcorporation.jpg"> B-Corporation</a> | <a href="https://www.fairtradeusa.com" target="_blank"><img height="30px" src="assets/fairtradeusa.png">Fair Trade USA</a> | <a href="http://www.fairlabor.org" target="_blank"><img height="30px" src="assets/fairlabor.png"> Fair Labor Association</a></p>
 	</div>
 
 	<div style="border-style: none; margin-top: 80px">

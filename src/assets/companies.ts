@@ -1,4 +1,4 @@
-[
+export const COMPANIES = [
   {
     "name": 1893,
     "cert": "fairtradeusa",
