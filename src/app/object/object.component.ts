@@ -6,6 +6,8 @@ import { Observable, Subscription } from 'rxjs'
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/debounceTime';
 
+declare var ga: any;
+
 @Component({
   selector: 'juice-object',
   templateUrl: './object.component.html',
@@ -40,15 +42,19 @@ export class ObjectComponent implements OnInit {
                                      })
       // console.log('resultItems: ' + this.resultItems.items[2].name)
       // return resultItems
-    }
+  }
 
-    makeBrand(){
-      // this.firstNameCompany = this.company.name.substr(0, this.company.name.indexOf(" "))
-     this.firstNameCompany = this.company.name.replace("Company", "").replace("LLC", "").replace("L.L.C.", "").replace("Inc.", "").replace("Company", "").replace("Cosmetics", "").replace("'s", "").replace("Dr.", "Dr").replace("Group", "").replace("Ltd.", "")
-     this.firstNameCompany = this.firstNameCompany.trim()
-     this.firstNameCompany = this.firstNameCompany.replace(/,/g , "").replace(/ /g, "%20")
-     console.log(this.firstNameCompany)
-    }
+  makeBrand(){
+    // this.firstNameCompany = this.company.name.substr(0, this.company.name.indexOf(" "))
+   this.firstNameCompany = this.company.name.replace("Company", "").replace("LLC", "").replace("L.L.C.", "").replace("Inc.", "").replace("Company", "").replace("Cosmetics", "").replace("'s", "").replace("Dr.", "Dr").replace("Group", "").replace("Ltd.", "")
+   this.firstNameCompany = this.firstNameCompany.trim()
+   this.firstNameCompany = this.firstNameCompany.replace(/,/g , "").replace(/ /g, "%20")
+   console.log(this.firstNameCompany)
+  }
+
+  googleAnalytics(){
+    ga('send', 'event', 'Affiliate', this.company.name)
+  }
 
 
   ngOnInit() {
