@@ -16,6 +16,7 @@ export class AppComponent implements OnInit {
 	searchQuery: string = null;
 	resultShower: boolean = false;
 	timer = null
+	companyCount
 
 
 
@@ -56,7 +57,7 @@ export class AppComponent implements OnInit {
 
 
 	ngOnInit(){
-		var companyCount = this.objectLength(this.companies); 
+		this.companyCount = this.objectLength(this.companies); 
 		}
 
 

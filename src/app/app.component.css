@@ -1,26 +1,16 @@
-.blink_text {
-
-    animation:2s blinker linear infinite;
-    -webkit-animation:2s blinker linear infinite;
-    -moz-animation:2s blinker linear infinite;
-
-    
+/*@media (max-width: 978px) {
+    .container {
+      padding:0;
+      margin:0;
     }
 
-    @-moz-keyframes blinker {  
-     0% { opacity: 1.0; }
-     50% { opacity: 0.0; }
-     100% { opacity: 1.0; }
-     }
+    body {
+      padding:0;
+    }
 
-    @-webkit-keyframes blinker {  
-     0% { opacity: 1.0; }
-     50% { opacity: 0.0; }
-     100% { opacity: 1.0; }
-     }
-
-    @keyframes blinker {  
-     0% { opacity: 1.0; }
-     50% { opacity: 0.0; }
-     100% { opacity: 1.0; }
-     }
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom:0;
+    }
+}*/
