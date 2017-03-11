@@ -34,7 +34,7 @@ export class ObjectComponent implements OnInit {
       let reqUrl = 'https://rest.viglink.com/api/product/search?apiKey=645728cd6d815e3890d53f3b16f562cd&brand[]='+this.firstNameCompany+'&filterImages=false'
       // let reqUrl = 'https://rest.viglink.com/api/product/search?apiKey=645728cd6d815e3890d53f3b16f562cd&query='+this.firstNameCompany+'%20'+this.searchQuery+'&filterImages=false';
       // let reqUrl = 'https://rest.viglink.com/api/product/search?apiKey=645728cd6d815e3890d53f3b16f562cd&query='+this.company.name+'%20'+this.searchQuery+'&filterImages=false';
-      let reqHeaders = new Headers({ 'Authorization': '57b0201432561234baaf7c58fa7797fb70b5689f' });
+      let reqHeaders = new Headers({ 'Authorization': 'secret 57b0201432561234baaf7c58fa7797fb70b5689f' });
       this.http.get(reqUrl, {headers: reqHeaders})
                .map(res => {this.resultItems = res.json()})
                .subscribe((data) => {console.log(this.resultItems)
@@ -59,7 +59,7 @@ export class ObjectComponent implements OnInit {
 
   ngOnInit() {
       let timer = Observable.timer(1500);
-      this.subscription = timer .subscribe(t=> { this.loader = 'loading';
+      this.subscription = timer.subscribe(t=> { this.loader = 'loading';
                                                  this.getResult();
                                                  // console.log('now start getting request');
                                                 });

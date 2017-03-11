@@ -24,10 +24,10 @@
 
 
 <div style="border-style: none" *ngIf="loader=='loaded'" class="row">
-	<div *ngFor="let item of this.resultItems.items" class="col-sm-2" style="border-style: none; text-align:center">
-		<p><img src="{{item.imageUrl}}" height="" width="100%"></p>
-		<p><b>{{item.name}}</b></p>
-		<a href="{{item.url}}" target="_blank" (click)="googleAnalytics()"><p>${{item.price}}</p></a>
+	<div *ngFor="let item of this.resultItems.items" class="col-xs-5 col-sm-3 hoverBox" style="border-style: none; text-align:center; position: relative; ">
+		<p><img class="hoverImage" src="{{item.imageUrl}}" height="" width="100%"></p>
+		<p class="hoverText" style="position: absolute; top: 50px; left: 0; width: 100%;"><b>{{item.name.substring(0,50)}}</b></p>
+		<a href="{{item.url}}" target="_blank" (click)="googleAnalytics()"><p><b>${{item.price}}</b></p></a>
 	</div>
 </div> 
 

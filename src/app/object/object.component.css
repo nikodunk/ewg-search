@@ -1,0 +1,19 @@
+.hoverImage{
+	opacity: 1.0
+}
+
+.hoverText {
+	
+	display:none;
+}
+
+
+
+.hoverBox:hover .hoverImage{
+	opacity: 0.5;
+}
+
+.hoverBox:hover .hoverText{
+	display:inline;
+
+}
