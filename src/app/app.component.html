@@ -5,7 +5,8 @@
 		</h1>
 		<br><br>
 		<input 
-			[(ngModel)]="this.searchQuery" 
+			(keyup)="keyDown()"
+			[(ngModel)]="this.searchQuery"
 			name="searchQuery"
 			type="text" 
 			autofocus="autofocus"
@@ -24,7 +25,7 @@
 
 	</div>
 
-	<div style="border-style: none; margin-top: 80px">
+	<div style="border-style: none; margin-top: 80px" *ngIf="resultShower">
 		<div *ngFor="let company of this.companies | search: searchQuery" style="margin-bottom:20px">
 			<h3 style="margin-left: 15px; margin-top: 10px">
 				{{company.name}}

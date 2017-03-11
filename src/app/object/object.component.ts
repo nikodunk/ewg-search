@@ -19,7 +19,7 @@ export class ObjectComponent implements OnInit {
 	@Input() company;
 	resultItems = null;
   subscription: Subscription;
-  loader: string = 'wait'
+  loader: string;
   firstNameCompany: string;
 
 
@@ -58,16 +58,17 @@ export class ObjectComponent implements OnInit {
 
 
   ngOnInit() {
-      let timer = Observable.timer(1500);
-      this.subscription = timer.subscribe(t=> { this.loader = 'loading';
+      // let timer = Observable.timer(1500);
+      // this.subscription = timer.subscribe(t=> { 
+                                                 this.loader = 'loading';
                                                  this.getResult();
                                                  // console.log('now start getting request');
-                                                });
+                                                // });
     };
 
 
   ngOnDestroy() {
-      this.subscription.unsubscribe();
+      // this.subscription.unsubscribe();
       this.resultItems = null;
    }
 

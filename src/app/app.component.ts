@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { COMPANIES } from '../assets/companies'
 // import { RESULTS } from './services/results'
 import { Http, Response, Headers } from '@angular/http'
@@ -10,27 +10,54 @@ import { Http, Response, Headers } from '@angular/http'
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
 
-  companies = COMPANIES;
-  searchQuery: string = null;
+	companies = COMPANIES;
+	searchQuery: string = null;
+	resultShower: boolean = false;
+	timer = null
 
-  companyCount = this.objectLength(this.companies); // for your example, 3
+
+
+  keyDown(){
+  	this.resultShower = false;
+	  if ( this.timer ){
+	    clearTimeout( this.timer );
+	    this.timer = window.setTimeout(()=>{
+				   		this.search()}, 1000);;
+				}
+	  else{
+	    this.timer = window.setTimeout(()=>{
+				   		this.search()}, 1000);
+	  }
+	}
+
+
+
+	search(){
+		// console.log('searching');
+		this.resultShower = true;
+		// console.log(this.resultShower)
+		this.timer = null
+	}
 
 
 
   objectLength(obj) {
-	  var result = 0;
-	  for(var prop in obj) {
-	    if (obj.hasOwnProperty(prop)) {
-	    // or Object.prototype.hasOwnProperty.call(obj, prop)
-	      result++;
-	    }
-	  }
-	  return result;
-	}
+		  var result = 0;
+		  for(var prop in obj) {
+		    if (obj.hasOwnProperty(prop)) {
+		    // or Object.prototype.hasOwnProperty.call(obj, prop)
+		      result++;
+		    }
+		  }
+		  return result;
+		}
 
-	
+
+	ngOnInit(){
+		var companyCount = this.objectLength(this.companies); 
+		}
 
 
 }
