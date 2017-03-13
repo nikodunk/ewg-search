@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { COMPANIES } from '../assets/companies'
+import { PRODUCTS } from '../assets/companies'
 // import { RESULTS } from './services/results'
 import { Http, Response, Headers } from '@angular/http'
 
@@ -12,7 +12,7 @@ import { Http, Response, Headers } from '@angular/http'
 })
 export class AppComponent implements OnInit {
 
-	companies = COMPANIES;
+	products = PRODUCTS;
 	searchQuery: string = null;
 	resultShower: boolean = false;
 	timer = null

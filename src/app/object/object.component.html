@@ -7,9 +7,8 @@
  -->
 <div style="border-style: none" *ngIf="loader=='loading' || loader=='loaded'">
  	<p style="color: grey">{{company.meta}}</p>
-	<p *ngIf="company.cert == 'bcorporation'" style="color: grey"><img height="30px" src="assets/bcorporation.jpg"> Certification: B-Corporation <a href="{{company.certlink}}" target="_blank">View Certificate</a></p>
-	<p *ngIf="company.cert == 'fairtradeusa'" style="color: grey"><img height="30px" src="assets/fairtradeusa.png"> Certification: Fair Trade USA <a href="{{company.certlink}}" target="_blank">View Site</a></p>
-	<p *ngIf="company.cert == 'fairlaborassociation'" style="color: grey"><img height="30px" src="assets/fairlabor.png"> Certification: Fair Labor Association <a href="{{company.certlink}}" target="_blank">View Site</a></p>
+	<p *ngIf="company.cert == 'ewg_score_10'" style="color: grey"><img height="30px" src="assets/bcorporation.jpg"><b>10</b><a href="{{company.certlink}}" target="_blank">View Certificate</a></p>
+	<p *ngIf="company.cert == 'ewg_verified'" style="color: grey"><img height="30px" src="assets/fairtradeusa.png"><b>EWG VERIFIED</b><a href="{{company.certlink}}" target="_blank">View Site</a></p>
 </div>
 
 <hr>

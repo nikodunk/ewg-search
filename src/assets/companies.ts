@@ -1,12608 +1,3206 @@
-export const COMPANIES = [
+export const PRODUCTS = [
   {
-    "name": 1893,
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer, Brandholder"
+    "name": "TIGI Bed Head Maxxed-Out Massive Hold Hairspray",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/466345/TIGI_Bed_Head_Maxxed-Out_Massive_Hold_Hairspray/",
+    "meta": "hair spray"
   },
-  {
-    "name": "100 Percent Wine",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/100-percent-wine",
-    "meta": "Drink wine, help people"
-  },
-  {
-    "name": "1051 by GOODONYA®",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/1051-goodonya%C2%AE",
-    "meta": "1051 is great tasting, low in sugar, organic and effective!"
-  },
-  {
-    "name": "1908 Brands",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/1908-brands",
-    "meta": ""
-  },
-  {
-    "name": "1st Playable Productions",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/1st-playable-productions",
-    "meta": "Independent game development studio with a focus on games for kids & education"
-  },
-  {
-    "name": "20 Below Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://20belowcoffee.com/",
-    "meta": "coffee"
-  },
-  {
-    "name": "32CUP North America Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.32cup.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "32CUP NV",
-    "cert": "fairtradeusa",
-    "certlink": "http://coffee@32cup.com",
-    "meta": "coffee"
-  },
-  {
-    "name": "35 North Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.35northcoffeeco.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "3Degrees Group Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/3degrees-group-inc",
-    "meta": ""
-  },
-  {
-    "name": "3P Partners, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/3p-partners-inc",
-    "meta": "Smarter choices deserve smarter rewards"
-  },
-  {
-    "name": "479 Degrees",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.479degrees.com/",
-    "meta": "Brandholder"
-  },
-  {
-    "name": "4th Bin Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/4th-bin-inc",
-    "meta": "4th Bin is the only electronic waste collection company who offers convenient electronic recycling."
-  },
-  {
-    "name": "616 Lofts",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/616-lofts",
-    "meta": "Simple Urban Living. Uniquely urban spaces for people who live, work & play in Grand Rapids."
-  },
-  {
-    "name": "7group, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/7group-llc",
-    "meta": ""
-  },
-  {
-    "name": "828 Coffee Inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://828coffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "A & E Custom Coffee Roastery",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.aeroastery.com/",
-    "meta": "coffee"
-  },
-  {
-    "name": "A Holliday & Company Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer"
-  },
-  {
-    "name": "A to Z Wineworks",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/a-to-z-wineworks",
-    "meta": ""
-  },
-  {
-    "name": "A Van Weely BV",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer"
-  },
-  {
-    "name": "A&R Solar",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/ar-solar",
-    "meta": "Solar Energy System Design & Installation"
-  },
-  {
-    "name": "Abacus Wealth Partners, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/abacus-wealth-partners-llc",
-    "meta": "National financial planning firm committed to sustainability and positive social impact"
-  },
-  {
-    "name": "Abednego Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.abednegocoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "ABF Twinings Beverages (Shanghai) LTD",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "drink, beverages"
-  },
-  {
-    "name": "Above Green LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/above-green-llc",
-    "meta": "An environmental consulting firm that takes the stress out of LEED certification."
-  },
-  {
-    "name": "Acadian Coffee Roasters LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.acadiancoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Acorn Sign Graphics",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/acorn-sign-graphics",
-    "meta": "be found, be seen, be remembered"
-  },
-  {
-    "name": "ACS Industries",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.scrubble.com/contact-us/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Active Concepts LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.activeconceptsllc.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Adam Shay CPA, PLLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/adam-shay-cpa-pllc",
-    "meta": "A new era CPA firm utilizing technology + collaboration to help businesses grow their post-tax profits and impacts"
-  },
-  {
-    "name": "Adbibo Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.adbibocoffee.com",
-    "meta": "coffee"
-  },
-  {
-    "name": "Addison Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.addisoncoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Advance Humanity",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/advance-humanity",
-    "meta": ""
-  },
-  {
-    "name": "Advanced Enviro Systems",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/advanced-enviro-systems",
-    "meta": ""
-  },
-  {
-    "name": "Adventure Coffee Roasting",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.adventurecoffeeroasting.com/",
-    "meta": "coffee"
-  },
-  {
-    "name": "AE Works",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/ae-works",
-    "meta": "AE creates social, environmental, and technical capital as a TBL design firm for the built environment"
-  },
-  {
-    "name": "AeroFarms",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/aerofarms",
-    "meta": "Pioneer and leader for indoor vertical farming, transforming agriculture around the world."
-  },
-  {
-    "name": "Agathon LLC",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Agostoni Chocolate",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.agostonichocolate.com/",
-    "meta": "chocolate"
-  },
-  {
-    "name": "Agua Dulce Coffee & Tea & Frenchtown Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.aguadulcecafe.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "AguaClara LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/aguaclara-llc",
-    "meta": ""
-  },
-  {
-    "name": "Ainsley's Pharmacy",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/ainsleys-pharmacy",
-    "meta": ""
-  },
-  {
-    "name": "Akoma International LTD",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.akoma.biz",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "Alakef Coffee Roasters Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.alakef.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Alamode Foods Inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://alamodefood.com/",
-    "meta": "food"
-  },
-  {
-    "name": "Alaska Glacial Mud Co.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/alaska-glacial-mud-co",
-    "meta": "Pure Glacier Derived Natural Spa & Skin Therapy."
-  },
-  {
-    "name": "Albina Community Bank",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/albina-community-bank",
-    "meta": ""
-  },
-  {
-    "name": "ALDI GmbH & Company KG",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.aldi-sued.de",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Alexis Advisors",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/alexis-advisors",
-    "meta": "Investment advisory and financial planning…with a focus on full transparency and accountability."
-  },
-  {
-    "name": "Alfrebro LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.moorelab.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Alima Cosmetics, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/alima-cosmetics-inc",
-    "meta": "Manufactures mineral makeup using the purest materials available"
-  },
-  {
-    "name": "Aliments Messidor inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://millegrains.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "All Across Africa",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/all-across-africa",
-    "meta": "All Across Africa works to provides jobs, empowerment + restore dignity."
-  },
-  {
-    "name": "All Good by Elemental Herbs",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/all-good-elemental-herbs",
-    "meta": "Produces and sells organic herbal body care products."
-  },
-  {
-    "name": "Allann Bros Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.allannbroscoffee.com",
-    "meta": "coffee"
-  },
-  {
-    "name": "Allegro Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.allegrocoffee.com",
-    "meta": "Manufacturer, Brandholder, Special"
-  },
-  {
-    "name": "Alli & Rose",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.alli-rose.com",
-    "meta": "Brandholder"
-  },
-  {
-    "name": "Alliant International University",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/alliant-international-university",
-    "meta": "Private university offering degrees in psychology, law, forensic studies, management, and education."
-  },
-  {
-    "name": "Alltech Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.alltech.com",
-    "meta": "Importer, Manufacturer"
-  },
-  {
-    "name": "Ally Brazilian Coffee Merchants",
-    "cert": "fairtradeusa",
-    "certlink": "http://allycoffee.com/",
-    "meta": "coffee"
-  },
-  {
-    "name": "Alter Eco",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/alter-eco",
-    "meta": "Sustainable foods from around the world: delicious, 100% fair trade, organic, and carbon neutral"
-  },
-  {
-    "name": "Alter Eco Americas",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.alterecofoods.com/",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "AltSchool, PBC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/altschool-pbc",
-    "meta": "AltSchool is a collaborative community of micro-schools that uses outstanding teachers, deep"
-  },
-  {
-    "name": "Altvia Solutions, LLC (formerly Application Experts, LLC)",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/altvia-solutions-llc-formerly-application-experts-llc",
-    "meta": "Cloud based solutions for Alternative Asset Managers"
-  },
-  {
-    "name": "Alvin's of San Francisco",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.alvinsofsf.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Amalgamated Bank",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/amalgamated-bank",
-    "meta": ""
-  },
-  {
-    "name": "Amavida Coffee and Trading",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/amavida-coffee-and-trading",
-    "meta": "Importer, roaster, and purveyor of Organic and Fair Trade specialty coffees."
-  },
-  {
-    "name": "Amazon Preservation Partners",
-    "cert": "fairtradeusa",
-    "certlink": "http://livezola.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Amcafe USA LLC",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer"
-  },
-  {
-    "name": "Amen Clinics Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.amenclinics.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "America's Best Coffee Roasting Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.ambestcoffee.com/",
-    "meta": "coffee"
-  },
-  {
-    "name": "American Coffee Corporation",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.amcof.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "American Cold Brew LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://americancoldbrew.com",
-    "meta": "coffee"
-  },
-  {
-    "name": "American College of Education",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/american-college-of-education",
-    "meta": ""
-  },
-  {
-    "name": "American College of Healthcare Sciences (ACHS)",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/american-college-of-healthcare-sciences-achs",
-    "meta": "Founded in 1978, ACHS.edu is an accredited global educator in online integrative health education. W"
-  },
-  {
-    "name": "American Prison Data Systems, PBC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/american-prison-data-systems-pbc",
-    "meta": ""
-  },
-  {
-    "name": "AmeriCann, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/americann-inc",
-    "meta": ""
-  },
-  {
-    "name": "Amicus Solar Cooperative",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/amicus-solar-cooperative",
-    "meta": "Purchasing cooperative equally owned by 36 solar installation companies."
-  },
-  {
-    "name": "AMS Exotic LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://amsexotic.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Anchorhead Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.anchorheadcoffee.com/",
-    "meta": "coffee"
-  },
-  {
-    "name": "Andean Fair Produce",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer"
-  },
-  {
-    "name": "Andean Naturals",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.andeannaturals.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "Andean Naturals, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/andean-naturals-inc",
-    "meta": ""
-  },
-  {
-    "name": "Andrew & Williamson Sales Company Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.andrew-williamson.com/home/home.aspx",
-    "meta": "Importer"
-  },
-  {
-    "name": "Andy Smith Photography",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/andy-smith-photography",
-    "meta": "Provides fine art nature photography of birds, wildlife, and scenery"
-  },
-  {
-    "name": "Angel Oak Creative, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/angel-oak-creative-llc",
-    "meta": "Provides marketing services and strategy for nonprofit organizations in North Carolina"
-  },
-  {
-    "name": "Ann Marie's Fine Coffee & Tea LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.annmarie.com",
-    "meta": "coffee"
-  },
-  {
-    "name": "Anodyne Coffee Roasting Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.anodynecoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "ANOVA",
-    "cert": "fairtradeusa",
-    "certlink": "http://anovafoodusa.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "AoSA inc",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/aosa-inc",
-    "meta": "AoSA is a fabrication and print company committed to decreasing waste within the sign a"
-  },
-  {
-    "name": "Apolis Holdings LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/apolis-holdings-llc",
-    "meta": "Apolis is a pioneer in the socially responsible apparel industry and creates opportunity by forming"
-  },
-  {
-    "name": "Appalachian Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.appalachiancoffeecompany.com/",
-    "meta": "Brandholder"
-  },
-  {
-    "name": "Aquafina",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Arabella Advisors",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/arabella-advisors",
-    "meta": "Arabella Advisors helps philanthropists and investors achieve greater good with their resources."
-  },
-  {
-    "name": "Arabica Coffee Roasters (Beijing) Company LTD",
-    "cert": "fairtradeusa",
-    "certlink": "http://arabicaroasters.com/en/mall/index.php?a=36&b=&c=&d=",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Arbor Teas",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.arborteas.com/",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Arbuckle Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.arbucklecoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Arcadia Power",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/arcadia-power",
-    "meta": ""
-  },
-  {
-    "name": "Archi's Acres",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/archis-acres",
-    "meta": "Archi's Acres is a farming enterprise that utilizes hydro-organic technology to grow produce"
-  },
-  {
-    "name": "ARCO coffee company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.arcocoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Arctic Solar Ventures Corporation",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/arctic-solar-ventures-corporation",
-    "meta": "Arctic Solar Ventures is the only clean energy development company in Alaska."
-  },
-  {
-    "name": "Argo Tea Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.argotea.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Arizona Production & Packaging",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.azpack.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Armada Skis",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer, Brandholder"
-  },
-  {
-    "name": "Armenia Coffee Corporation",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer"
-  },
-  {
-    "name": "Armeno Coffee Roasters LTD",
-    "cert": "fairtradeusa",
-    "certlink": "http://https://www.armeno.com/store/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Armonia LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/armonia-llc",
-    "meta": "Armonia uses multiple forms of capital (financial, human, network, intangible) to support sy"
-  },
-  {
-    "name": "Aroma Coffee of Santa Fe",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.aromacoffee.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Arrowhead Mills",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.arrowheadmills.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Art of Tea",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.artoftea.com/",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "Artemis Foods, Inc",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/artemis-foods-inc",
-    "meta": "Artemis Foods is in business to create meaningful impact to environment and community with food."
-  },
-  {
-    "name": "ARTISAN COCOA Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.amellacaramels.com",
-    "meta": "Brandholder"
-  },
-  {
-    "name": "Artisan Sweets Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.naturalcandystore.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Artizan Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://artizancoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Ash Creek Forest Management, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/ash-creek-forest-management-llc",
-    "meta": "Restoration Ecology"
-  },
-  {
-    "name": "Aslan Brewing Company",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/aslan-brewing-company",
-    "meta": "A sustainable microbrewery and restaurant, exclusively brewing 100% certified organic beer."
-  },
-  {
-    "name": "Aspen Beverage Group",
-    "cert": "fairtradeusa",
-    "certlink": "http://aspenbeverage.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Aspiration",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/aspiration",
-    "meta": ""
-  },
-  {
-    "name": "Associated Brands Delta",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.natcinc.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Associated Brands Medina",
-    "cert": "fairtradeusa",
-    "certlink": "http://associatedbrands.com/",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Assurity Life Insurance Company",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/assurity-life-insurance-company",
-    "meta": "Protection-based financial solutions provided through a nationwide network of skilled brokers."
-  },
-  {
-    "name": "Astar Suppliers LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.erapidbuy.com",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "Astor Chocolate",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.astorchocolate.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Atayne, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/atayne-llc",
-    "meta": "Makes high performing outdoor and athletic apparel in the USA from 100% recycled materials"
-  },
-  {
-    "name": "Athleta",
-    "cert": "fairtradeusa",
-    "certlink": "http://athleta.com",
-    "meta": "Importer, Brandholder"
-  },
-  {
-    "name": "Atlantic Coffee Solutions",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.atlanticcoffeesolutions.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Atlantic Specialty Coffee Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.atlanticspecialtycoffee.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "Atlas Coffee Importers LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.atlascoffee.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Atrium Innovations Inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.atrium-innovations.com",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "Audacious Inquiry",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/audacious-inquiry",
-    "meta": "Bold solutions for connected care."
-  },
-  {
-    "name": "Aunt Bertha, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/aunt-bertha-inc",
-    "meta": "A simple way to find and apply for need-based food, health, housing and education programs"
-  },
-  {
-    "name": "AVANT Group LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/avant-group-llc",
-    "meta": "Staffing company focused on reducing turnover by matching based on skill, personality, and passion"
-  },
-  {
-    "name": "aWhere, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/awhere-inc",
-    "meta": "aWhere applies the power of agricultural intelligence from the farm to global level."
-  },
-  {
-    "name": "Axiom Specialty Coffee LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.axiomcoffeeventures.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Azavea",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/azavea",
-    "meta": "Civic software and data analytics for the web"
-  },
-  {
-    "name": "Azul 7",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/azul-7",
-    "meta": ""
-  },
-  {
-    "name": "B Lab",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/b-lab",
-    "meta": ""
-  },
-  {
-    "name": "B Storytelling",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/b-storytelling",
-    "meta": "Telling the Story Where Business Meets Good"
-  },
-  {
-    "name": "B-Line",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/b-line",
-    "meta": "Sustainable urban delivery and advertising service"
-  },
-  {
-    "name": "B'more Organic",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/bmore-organic",
-    "meta": "An organic food company based on skyr, an Icelandic style yogurt"
-  },
-  {
-    "name": "Babo Botanicals",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/babo-botanicals",
-    "meta": "Natural hair, skin and sun solutions for babies, kids and grown-ups too."
-  },
-  {
-    "name": "Babyganics",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/babyganics",
-    "meta": "The most important ingredient in everything Babyganics makes is the"
-  },
-  {
-    "name": "Back Bay Trading LTD",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.ameliabay.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Back to the Roots",
-    "cert": "fairtradeusa",
-    "certlink": "http://https://www.backtotheroots.com/",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Backroom Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.backroomcoffeeroasters.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Backyard Beans Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.backyardbeans.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Badger Brothers Coffee LLC",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Badger Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.badgerbalm.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Bake One Inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.bakeone.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Bakkavor Foods USA Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.bakkavor.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Baldwin&",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/baldwin",
-    "meta": "Hybrid/digital/branding/advertising/content/design/social media company"
-  },
-  {
-    "name": "Balzac Bros & Company Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.balzac.net, goodcoffeeofcharleston.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Bamboo Sushi",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/bamboo-sushi",
-    "meta": "The first certified, sustainable sushi restaurant in the world."
-  },
-  {
-    "name": "BarberGale",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/barbergale",
-    "meta": "Provides sustainable brand development and graphic design solutions."
-  },
-  {
-    "name": "BARE Snacks",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/bare-snacks",
-    "meta": "Bare Snacks is devoted to simplifying foods we consume. Fewer ingredients, less processing. Healthy. Crunchy. Delicious."
-  },
-  {
-    "name": "Barefoot & Chocolate LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.barefootandchocolate.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "barkTHINS",
-    "cert": "fairtradeusa",
-    "certlink": "http://ripplebrands.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Barnana",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/barnana",
-    "meta": ""
-  },
-  {
-    "name": "Barnie's Coffee & Tea Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.barniescoffee.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Baronet Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.baronetcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Barrie House Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.barriehouse.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Barry Callebaut USA",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.barry-callebaut.com/",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "BATCH",
-    "cert": "fairtradeusa",
-    "certlink": "http://batchicecream.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Batdorf & Bronson Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.batdorf.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Bay Area Coffee Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Bay Valley Foods",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.bayvalleyfoods.com/",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Bazzani Building Company",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/bazzani-building-company",
-    "meta": ""
-  },
-  {
-    "name": "BBMG",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/bbmg",
-    "meta": "Award-winning branding and marketing firm"
-  },
-  {
-    "name": "bCause",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/bcause",
-    "meta": "bIntentional. bImpactful. bInspirational. bCause transformation doesn’t just happen, it’s by design."
-  },
-  {
-    "name": "Bean Cycle",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.thebeancycle.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "BEAN HEAD",
-    "cert": "fairtradeusa",
-    "certlink": "http://beanhead.ca/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "bean2bean",
-    "cert": "fairtradeusa",
-    "certlink": "http://bean2bean.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Beanetics Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.beanetics.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Beanfields PBC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/beanfields-pbc",
-    "meta": "Award winning, gluten free, non-GMO verified, vegan bean and rice tortilla chips, family owned"
-  },
-  {
-    "name": "BeanFruit Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.beanfruit.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Beans & Brews",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.beansandbrews.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Beans Coffee Company LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.coffeebybeans.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Beans Roasted LLC",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Beanstock Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.beanstockcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Bear Mountain Coffee Roasters Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.bearmountaincoffeeroasters.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Beartooth Capital",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/beartooth-capital",
-    "meta": "Private investment firm generating financial returns and conserving land in the western US"
-  },
-  {
-    "name": "Beautycounter",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/beautycounter",
-    "meta": "Beautycounter offers safe, performance-driven skincare & cosmetics through direct retail."
-  },
-  {
-    "name": "Beckman Printing",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/beckman-printing",
-    "meta": ""
-  },
-  {
-    "name": "Bed Bandits",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/bed-bandits",
-    "meta": "High quality mattress toppers and bedding. For every 3 toppers sold 1 is donated to a shelter."
-  },
-  {
-    "name": "Bella Rosa International Inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.bellarosainternational.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "Bellingham Bay Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.bellinghambaycoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Ben and Jerry's",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/ben-and-jerrys",
-    "meta": ""
-  },
-  {
-    "name": "Ben's Beans",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.bensbeans.org",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Bend Law Group",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/bend-law-group",
-    "meta": "A boutique business law firm that provides legal solutions to startups and small businesses."
-  },
-  {
-    "name": "Benecke Coffee GmbH & Company KG",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.benecke-coffee.de/",
-    "meta": "Importer"
-  },
-  {
-    "name": "Beneficial State Bank",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/beneficial-state-bank",
-    "meta": "Innovative, triple-bottom line, community development financial institution"
-  },
-  {
-    "name": "Berner Food & Beverage LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.bernerfoods.com",
-    "meta": "food"
-  },
-  {
-    "name": "Berrett-Koehler Publishers",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/berrett-koehler-publishers",
-    "meta": ""
-  },
-  {
-    "name": "Best Organics, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/best-organics-inc",
-    "meta": "100% organic gift basket-in-a-box provider featuring artisan & eco-friendly gifts for any occasion."
-  },
-  {
-    "name": "Better Bean Company",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/better-bean-company",
-    "meta": "Pioneer of fresh, ready-to-eat, refrigerated beans in BPA-free tubs; vegan, gluten free & non-GMO."
-  },
-  {
-    "name": "Better Way Imports LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/better-way-imports-llc",
-    "meta": "Better Way Imports seeks to partner with organizations that are working to end sex trafficking throu"
-  },
-  {
-    "name": "Better World Books",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/better-world-books",
-    "meta": "Online book retailer and social enterprise"
-  },
-  {
-    "name": "Better World Club, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/better-world-club-inc",
-    "meta": ""
-  },
-  {
-    "name": "BetterWorld Telecom",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/betterworld-telecom",
-    "meta": ""
-  },
-  {
-    "name": "Between the Sheets Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/between-the-sheets-inc",
-    "meta": ""
-  },
-  {
-    "name": "Beyond Green Sustainable Food Partners",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/beyond-green-sustainable-food-partners",
-    "meta": "Beyond Green is a foodservice consulting team specializing in sustainability"
-  },
-  {
-    "name": "bgreen",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.bgreenapparel.com/",
-    "meta": "Brandholder"
-  },
-  {
-    "name": "Bhakti Chai",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/bhakti-chai",
-    "meta": "Ready-to-drink organic ginger and fiery spices in a brew of antioxidant rich black tea"
-  },
-  {
-    "name": "Bhakti Inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.bhaktichai.com",
-    "meta": "tea, chai"
-  },
-  {
-    "name": "Bi-Rite Market",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/bi-rite-market",
-    "meta": "Bi-Rite is a mission-minded family of sustainable food businesses in San Francisco, CA."
-  },
-  {
-    "name": "Big Bend Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.bigbendcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Big Medicine Ranch LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://bigmedicineranch.com",
-    "meta": "medicine"
-  },
-  {
-    "name": "Big Path Capital",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/big-path-capital",
-    "meta": "Advises sustainable companies and funds in capital raises in mergers & acquisitions"
-  },
-  {
-    "name": "Big Water Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.bigwatercoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Bigelow Tea",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.bigelowtea.com",
-    "meta": "tea"
-  },
-  {
-    "name": "Bigger Boat Consulting",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/bigger-boat-consulting",
-    "meta": "Data management consulting for mission driven organizations"
-  },
-  {
-    "name": "Bio Trading SA",
-    "cert": "fairtradeusa",
-    "certlink": "http://biotrading.com.py/",
-    "meta": "Exporter"
-  },
-  {
-    "name": "Biomimicry 3.8",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/biomimicry-38",
-    "meta": ""
-  },
-  {
-    "name": "Birds & Beans Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.birdsandbeans.ca",
-    "meta": "coffee"
-  },
-  {
-    "name": "Birmingham Chocolate LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://birminghamchocolate.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Bison Brewing Company",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/bison-brewing-company",
-    "meta": "Bison is the Johnny Appleseed for organic beer. Its easy to learn why, then you'll ask for it."
-  },
-  {
-    "name": "Bixbee",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/bixbee",
-    "meta": "For every schoolbag sold, one bag with school supplies will be given to a child in need."
-  },
-  {
-    "name": "Black Fox Philanthropy LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/black-fox-philanthropy-llc",
-    "meta": "Black Fox Philanthropy is comprised of a team of fundraising strategists serving global nonprofits."
-  },
-  {
-    "name": "Black River Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.blackriverroasters.com",
-    "meta": "roasting, coffee"
-  },
-  {
-    "name": "Blanchard's Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.blanchardscoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Blommer Chocolate",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.blommer.com",
-    "meta": "chocolate"
-  },
-  {
-    "name": "Bloomin",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/bloomin",
-    "meta": "Manufactures recycled seed paper products as a medium for communicating environmental initiatives"
-  },
-  {
-    "name": "Blue Bean Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.bluebeancoffeeroasters.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Blue Beautifly LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/blue-beautifly-llc",
-    "meta": "Manufacturer of botanical, organic, Non-GMO, and cruelty-free face and body care products."
-  },
-  {
-    "name": "Blue Circle Foods",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.changingseas.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Blue Dot Advocates",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/blue-dot-advocates",
-    "meta": ""
-  },
-  {
-    "name": "Blue Fire Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.bluefirecoffee.com!",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Blue Garnet",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/blue-garnet",
-    "meta": "A social purpose strategy and management consulting firm."
-  },
-  {
-    "name": "Blue Hill Partners LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/blue-hill-partners-llc",
-    "meta": "Blue Hill Partners provides turn-key, funded energy efficiency retrofits as a service for commercial and institutional property owners"
-  },
-  {
-    "name": "Blue Monkey Coconut",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.bluemonkeydrinks.com",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "BlueAvocado Co.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/blueavocado-co",
-    "meta": "Launched in 2008 by three women, BlueAvocado's vision is to inspire consumers to reduce their environmental footprint with eco-chic products and services that reduce waste and reward green living."
-  },
-  {
-    "name": "Blunt Bros Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.bluntbroscoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Boardwalk Capital Management",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/boardwalk-capital-management",
-    "meta": "Advising individuals and institutions on sustainable, responsible and impact investments."
-  },
-  {
-    "name": "Bodhi Leaf Trading Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.bodhileaftrading.com",
-    "meta": "Importer, Manufacturer"
-  },
-  {
-    "name": "Bohlsen Group",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/bohlsen-group",
-    "meta": ""
-  },
-  {
-    "name": "Boll & Branch",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.bollandbranch.com",
-    "meta": "Importer, Brandholder"
-  },
-  {
-    "name": "Boloco",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/boloco",
-    "meta": ""
-  },
-  {
-    "name": "Boly:Welch",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/bolywelch",
-    "meta": "Executive Search, Recruiting, Staffing and HR Consulting solutions for regional employers."
-  },
-  {
-    "name": "Bond&Devick Wealth Partners",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/bonddevick-wealth-partners",
-    "meta": "Bond and Devick’s objective is to help clients reach their long-term goals and dreams."
-  },
-  {
-    "name": "Bonfire Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.bonfirecoffee.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Boomerang Information Services, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/boomerang-information-services-inc",
-    "meta": ""
-  },
-  {
-    "name": "Bootstrap Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://bootstrapcoffeeroasters.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Boston Common Asset Management LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/boston-common-asset-management-llc",
-    "meta": ""
-  },
-  {
-    "name": "Boston Common Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.bostoncommoncoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Boston Organics",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/boston-organics",
-    "meta": "Save time and eat healthily! We deliver fresh organic produce and groceries to your door!"
-  },
-  {
-    "name": "Box Latch Products - Made by Eco-Latch Systems LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/box-latch-products-made-eco-latch-systems-llc",
-    "meta": "To change the way the world closes and Re-Uses boxes."
-  },
-  {
-    "name": "Bramo LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.bramocoffee.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Branching Minds, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/branching-minds-inc",
-    "meta": "On a mission to provide teachers and parents the tools to help their struggling learners."
-  },
-  {
-    "name": "Brand Cool",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/brand-cool",
-    "meta": "Sustainability Communication and Engagement Agency"
-  },
-  {
-    "name": "BrandIQ",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/brandiq",
-    "meta": "BrandIQ is a Los Angeles-based research, brand strategy, and innovation design firm"
-  },
-  {
-    "name": "Brazuka Coffee Roaster LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.brazukacoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "BREAD & CHOCOLATE Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.burnhamandmills.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Breckinridge Capital Advisors",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/breckinridge-capital-advisors",
-    "meta": ""
-  },
-  {
-    "name": "Bremer Authentic Ingredients",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.bremeringredients.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Breve Coffee Roasting Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.brevecoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Brewery Vivant",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/brewery-vivant",
-    "meta": "Belgian and French inspired brewery and brasserie with a focus on community and sustainability."
-  },
-  {
-    "name": "Bridgeport Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.bridgeportcoffee.net/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Bridges Produce",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.bridgesproduce.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Bridgetown Natural Foods",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/bridgetown-natural-foods",
-    "meta": ""
-  },
-  {
-    "name": "Brightworks Sustainability",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/brightworks-sustainability",
-    "meta": "Built environment and organizational sustainability consulting services and sustainability education"
-  },
-  {
-    "name": "Bristlecone Advisors",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/bristlecone-advisors",
-    "meta": "Independent investment advisory firm providing wealth management"
-  },
-  {
-    "name": "Broadway Cafe & Roastery",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.broadwayroasting.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Brooklyn Roasting Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.brooklynroasting.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Brown Sugar Coffee Roastery",
-    "cert": "fairtradeusa",
-    "certlink": "http://brownsugarcoffeeroastery.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Brownie Brittle LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.browniebrittle.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Brulerie Virgin Hill Coffee Roasters Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.virginhillcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "BSW Wealth Partners LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/bsw-wealth-partners-llc",
-    "meta": "Colorado's leading multi-family office & wealth advisory firm."
-  },
-  {
-    "name": "BSYD Corporation",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer"
-  },
-  {
-    "name": "Buena Vida Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://buenavidacoffee.com/",
-    "meta": "Brandholder"
-  },
-  {
-    "name": "Buena Vista Roastery & Bongo Billys Coffees",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.bongobillys.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Buendia Coffee LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.buendia.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "Bully Blends Coffee & Tea Shop Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://bullyblends.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Bum Boosa Bamboo Products",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/bum-boosa-bamboo-products",
-    "meta": "Baby wipes, toilet paper, clothing and more made from sustainable bamboo - safe for the whole family"
-  },
-  {
-    "name": "Bureo Inc",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/bureo-inc",
-    "meta": "Bureo is a California and Chile based company making innovative products from discarded fishing gear"
-  },
-  {
-    "name": "Burgie's Coffee & Tea Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.burgiescoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Burlap & Bean",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.burlapandbean.com/home.htm",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Burnham Benefits Insurance Services",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/burnham-benefits-insurance-services",
-    "meta": ""
-  },
-  {
-    "name": "Business Culture Consultants",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/business-culture-consultants",
-    "meta": ""
-  },
-  {
-    "name": "Buy The Change",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/buy-the-change",
-    "meta": ""
-  },
-  {
-    "name": "BV Foods",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.impactcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "BWS Enterprises LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.greenroottea.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "C and L LLC dba Conscious Coffees",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/c-and-l-llc-dba-conscious-coffees",
-    "meta": "We are a wholesale roasting company fueled by its social mission & driven by a passion for quality"
-  },
-  {
-    "name": "C88 Holdings LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.c88holdings.com",
-    "meta": "Brandholder"
-  },
-  {
-    "name": "Cabot Creamery Cooperative",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/cabot-creamery-cooperative",
-    "meta": "Cabot Creamery is a 1,200 farm family dairy cooperative with members in New England and upstate New"
-  },
-  {
-    "name": "Cafe Campesino",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/cafe-campesino",
-    "meta": "100% organic fair trade coffee roaster supplying specialty coffee shops throughout the Southeast U.S"
-  },
-  {
-    "name": "Cafe Excellence Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.cafeexcellence.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Cafe Imports LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.cafeimports.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "Cafe Lobo LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.cafelobo.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "Cafe Moto",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.cafemoto.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Cafe Santana Roasting Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://cafesantanaroastingcompany.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Cafe Virtuoso LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.cafevirtuoso.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Cafe Xaragua",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.cafexaragua.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Cafeto Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.cafeto.com",
-    "meta": "Importer, Manufacturer"
-  },
-  {
-    "name": "Caffe D'Arte",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.caffedarte.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Caffe Ibis Coffee Roasting Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.caffeibis.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Caffe Ladro",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.caffeladro.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Caffè Umbria Coffee Roasting Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.caffeumbria.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "CaffeMarco",
-    "cert": "fairtradeusa",
-    "certlink": "http://caffemarco.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Cage Free Productions",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/cage-free-productions",
-    "meta": "We creatively release media to promote social justice, human rights and sustainability."
-  },
-  {
-    "name": "Cal Java Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.caljavacoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Cal Poly Chocolates",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Calavo Growers Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.calavo.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "Caleb's Europe",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Caleb's Kola",
-    "cert": "fairtradeusa",
-    "certlink": "http://calebskola.com/",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "California Clothing Company Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://brownboy.us",
-    "meta": "Importer, Brandholder"
-  },
-  {
-    "name": "California Custom Fruits & Flavors Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.ccff.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Calsoft Systems",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/calsoft-systems",
-    "meta": ""
-  },
-  {
-    "name": "Cambridge Naturals",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/cambridge-naturals",
-    "meta": ""
-  },
-  {
-    "name": "Camino Coffee Roasters LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.caminocoffeeroasters.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Canvas Host",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/canvas-host",
-    "meta": "Green Web hosting technology helping companies operate more efficiently and sustainably"
-  },
-  {
-    "name": "Capespan North America",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.capespan.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Capital City Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.capitalcityroasters.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Capital Plus Financial, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/capital-plus-financial-llc",
-    "meta": ""
-  },
-  {
-    "name": "Capitol Grounds Cafe & Roastery",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.capitolgrounds.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Capricorn Coffees Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.capricorncoffees.com/index.html",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Capricorn Investment Group, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/capricorn-investment-group-llc",
-    "meta": "Capricorn Investment Group was recently certified as a B Corp!"
-  },
-  {
-    "name": "Caravan Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.caravancoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Carbon Credit Capital LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/carbon-credit-capital-llc",
-    "meta": "Carbon Credit Capital is a carbon offset management firm."
-  },
-  {
-    "name": "CardioReady",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/cardioready",
-    "meta": "CardioReady specializes in AED program management, including AED procurement and AED/CPR training."
-  },
-  {
-    "name": "Care2",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/care2",
-    "meta": "Largest and fastest growing social action network, helping individuals make the world a better place"
-  },
-  {
-    "name": "CareAcademy",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/careacademy",
-    "meta": "Provides evidence-based online education for in-home professional & family caregivers."
-  },
-  {
-    "name": "Cargill Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.cargill.com",
-    "meta": "Importer, Manufacturer"
-  },
-  {
-    "name": "Carlson Roasting Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.carlsonroasting.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Carmel Valley Coffee Roasting Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.carmel-coffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Carnegie Fabrics",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/carnegie-fabrics",
-    "meta": ""
-  },
-  {
-    "name": "Carpe Diem Coffee Roasting Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://carpediemcoffee.com/",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Carrubba Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.carrubba.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Caruso's Coffee Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.carusoscoffee.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Cascade Coffee Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.cascadecoffeeinc.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Cascade Engineering",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/cascade-engineering",
-    "meta": ""
-  },
-  {
-    "name": "Cascadian Farm",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Brandholder"
-  },
-  {
-    "name": "Catalyst Partners",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/catalyst-partners",
-    "meta": "Specializing in High Performance, Restorative Design, Construction, Operations & Education services."
-  },
-  {
-    "name": "Catchafire",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/catchafire",
-    "meta": "Connects professionals who want to volunteer their skills with nonprofits that need their help"
-  },
-  {
-    "name": "Catskill Mountain Coffee LTD",
-    "cert": "fairtradeusa",
-    "certlink": "http://cmcoffeeroasters.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Caturra Coffee Corporation",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer"
-  },
-  {
-    "name": "Cause Strategy Partners, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/cause-strategy-partners-llc",
-    "meta": "Cause Strategy Partners builds great leadership and strategy for social good organizations."
-  },
-  {
-    "name": "Causecast",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/causecast",
-    "meta": ""
-  },
-  {
-    "name": "CauseLabs",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/causelabs",
-    "meta": ""
-  },
-  {
-    "name": "Celestial Seasonings",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.hain-celestial.com/",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Celilo Group Media",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/celilo-group-media",
-    "meta": "Publishes regional Chinook Book coupon guides to encourage shopping with local, green businesses"
-  },
-  {
-    "name": "Cents",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/cents",
-    "meta": "Centscere transforms Tweets, Posts and Likes into small donations."
-  },
-  {
-    "name": "Cerro Grande Corporation",
-    "cert": "fairtradeusa",
-    "certlink": "http://cerrogrande.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "Cervantes Coffee LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.cervantescoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Chai Wallah",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.chai-wallah.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Chameleon Cold Brew",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.chameleoncoldbrew.com/",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Change Catalyst",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/change-catalyst",
-    "meta": ""
-  },
-  {
-    "name": "Change.org",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/changeorg",
-    "meta": "Platform that empowers anyone, anywhere to start, join and win campaigns for social change."
-  },
-  {
-    "name": "Channel Islands Outfitters",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/channel-islands-outfitters",
-    "meta": ""
-  },
-  {
-    "name": "Charming Beard Retail LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://labarbacoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Charter School Business Management Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/charter-school-business-management-inc",
-    "meta": ""
-  },
-  {
-    "name": "Cherry Central",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.cherrycentral.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Cherrybean Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.cherrybean.net",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "ChicoBag Company",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/chicobag-company",
-    "meta": "ChicoBag is helping humanity bag the single-use habit with reusable alternatives to single-use waste."
-  },
-  {
-    "name": "Chief River Ventures Inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.u-roast-em.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Chill Brands LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.titantea.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "China Mist",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.chinamist.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "CHOCMOD USA INC",
-    "cert": "fairtradeusa",
-    "certlink": "http://na",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Chocolat Stella Bernrain Trading GMBH",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.swisschocolate.ch",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "Chocolate Alchemy",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.chocolatealchemy.com/",
-    "meta": "Brandholder"
-  },
-  {
-    "name": "Chocolate Chocolate Chocolate Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.chocolatechocolate.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Chocolaterie de Bourgogne",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.chocolateriedebourgogne.com",
-    "meta": "Importer, Manufacturer"
-  },
-  {
-    "name": "Chocolove",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Choice Organic Tea Granum Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.choiceorganicteas.com",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "Cholaca Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.cholaca.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "ChoN'anga LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.chonanga.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Chris Candies Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.chriscandies.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Chris' Coffee Service",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.chriscoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Christian Ganem",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.goodvibescoffeeroasters.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Chroma Technology Corp",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/chroma-technology-corp",
-    "meta": "Chroma Technology Corp is an employee-owned manufacturer of cutting-edge optical interference filters."
-  },
-  {
-    "name": "Chuao Chocolatier",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.chuaochocolatier.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Cinco Terras LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://https://www.facebook.com/cincoterras",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Ciranda",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.ciranda.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Cisse",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.cissecocoa.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "City Light Capital",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/city-light-capital",
-    "meta": "Venture capital firm that invests in early stage companies"
-  },
-  {
-    "name": "City Of Roses Disposal & Recycling Inc",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/city-of-roses-disposal-recycling-inc",
-    "meta": ""
-  },
-  {
-    "name": "CJGO Fullfillment Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.coffeeam.com/fair-trade-coffee.html",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Clasen Quality Coatings Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.clasen.us",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Clean Foods Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.cafealtura.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Clean Markets",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/clean-markets",
-    "meta": "Leading market development firms with a concentration on growing the US clean energy market."
-  },
-  {
-    "name": "Clean Solar",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/clean-solar",
-    "meta": "The Bay Area’s largest residential solar installer with unparalleled customer service and quality."
-  },
-  {
-    "name": "Clean the World Global",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/clean-the-world-global",
-    "meta": "CTW Global offers sustainable, socially responsible solutions & services for the global marketplace."
-  },
-  {
-    "name": "Clean Yield Asset Management",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/clean-yield-asset-management",
-    "meta": "A pioneer in the field of socially responsible investing"
-  },
-  {
-    "name": "CleanChoice Energy",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/cleanchoice-energy",
-    "meta": ""
-  },
-  {
-    "name": "Cleantech Law Partners",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/cleantech-law-partners",
-    "meta": "Specialty law firm catering to the unique legal needs of clients in cleantech and renewable energy"
-  },
-  {
-    "name": "Clear Blue Commercial",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/clear-blue-commercial",
-    "meta": ""
-  },
-  {
-    "name": "Clear Comfort Water",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/clear-comfort-water",
-    "meta": ""
-  },
-  {
-    "name": "Clearinghouse CDFI",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/clearinghouse-cdfi",
-    "meta": "Clearinghouse CDFI&r"
-  },
-  {
-    "name": "Clearly Kombucha",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.clearlykombucha.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Climate Advisers",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/climate-advisers",
-    "meta": "Climate Advisers is a policy and politics shop working to deliver a strong low-carbon economy."
-  },
-  {
-    "name": "Clipper Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.clippercoffee.ca",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Cloud for Good",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/cloud-good",
-    "meta": "Works with nonprofit and educational organizations to create and implement strategic solutions."
-  },
-  {
-    "name": "Clover Sonoma",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/clover-sonoma",
-    "meta": ""
-  },
-  {
-    "name": "CLR (Cafe La Rica) Roasters LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.cafelarica.com",
-    "meta": "Importer, Manufacturer"
-  },
-  {
-    "name": "Club Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.clubcoffee.ca",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Coalesence LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.coalescencellc.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Coast Roast Coffee co",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.thecoastroast.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Coastal Peaks Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.coastalpeaksroasters.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Coastal Roasters LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.coastalroasters.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Cobra Verde Club Corporation",
-    "cert": "fairtradeusa",
-    "certlink": "http://cobraverde.org",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "CocoaPlanet Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://cocoaplanet.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "CocoFUEL",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.cocofueltreats@gmail.com",
-    "meta": "Brandholder"
-  },
-  {
-    "name": "Coconut Business GmbH",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.tropicai.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Coconut Secret",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.coconutsecret.com",
-    "meta": "Brandholder"
-  },
-  {
-    "name": "Coda Coffee",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/coda-coffee",
-    "meta": "Coda Coffee was recently certified as a B Corp!"
-  },
-  {
-    "name": "Coda Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.codacoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Coex Coffee International",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer"
-  },
-  {
-    "name": "Coexist Corporation",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.coexistcampaign.org",
-    "meta": "Importer"
-  },
-  {
-    "name": "Cofco Americas Resources Corp",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.cofcoagri.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Coffee - Tea - Etc LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.coffee-tea-etc.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Coffee & Tea LTD",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.coffeeandtealtd.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Coffee America USA Corporation",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.coffeeamericausa.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Coffee Bean Direct LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.coffeebeandirect.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Coffee Break Roasting Company",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Coffee By Design",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/coffee-design",
-    "meta": ""
-  },
-  {
-    "name": "Coffee Express Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.coffeeexpressco.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Coffee Holding Company Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.coffeeholding.com/home.html",
-    "meta": "Importer, Manufacturer"
-  },
-  {
-    "name": "Coffee Kinetics LLC DBA Sonofresco",
-    "cert": "fairtradeusa",
-    "certlink": "http://sonofresco.com",
-    "meta": "Importer, Manufacturer"
-  },
-  {
-    "name": "Coffee King Inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.caturraroasting.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Coffee Klatch Roasting",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.klatchroasting.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Coffee Resources Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.coffee-resources.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Coffee Roasters Alliance",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.roastersalliance.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Coffee Traders Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.texascoffeetraders.com",
-    "meta": "Importer, Manufacturer"
-  },
-  {
-    "name": "Coffee Tree Roasters Corporation",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.coffeetree.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Coffeebabees LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.coffeebabees.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Coffees of the World Inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://n/a",
-    "meta": "Importer"
-  },
-  {
-    "name": "COIND SC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.coind.it",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Colectivo Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://colectivocoffee.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Coles Hill Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.coleshillroasters.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Colibri Digital Marketing",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/colibri-digital-marketing",
-    "meta": "A digital marketing agency focused on the triple bottom line of people, planet, and profit."
-  },
-  {
-    "name": "Collaborative Coaching LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/collaborative-coaching-llc",
-    "meta": "Transforming how leaders and teams collaborate by fostering authentic, conscious interactions"
-  },
-  {
-    "name": "Colorado Capital Management",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/colorado-capital-management",
-    "meta": ""
-  },
-  {
-    "name": "Colorado Impact Fund",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/colorado-impact-fund",
-    "meta": ""
-  },
-  {
-    "name": "Colored Organics",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.coloredorganics.com",
-    "meta": "Importer, Brandholder"
-  },
-  {
-    "name": "Columbia River Coffee Co",
-    "cert": "fairtradeusa",
-    "certlink": "http://columbiarivercoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Comet Skateboards",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/comet-skateboards",
-    "meta": "Leading manufacturer of high performance, eco-friendly skateboards"
-  },
-  {
-    "name": "CoMetrics",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/cometrics",
-    "meta": ""
-  },
-  {
-    "name": "Common Interests",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/common-interests",
-    "meta": "Independent Family Wealth Management Practice Specializing in Socially Responsible Investing."
-  },
-  {
-    "name": "Communitas Financial Planning",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/communitas-financial-planning",
-    "meta": "Fee-only advisory firm offering financial planning, socially responsible investment management, and group retirement plan services."
-  },
-  {
-    "name": "Community Wealth Partners",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/community-wealth-partners",
-    "meta": "Management consulting firm for nonprofit organizations and foundations"
-  },
-  {
-    "name": "Compass(x) Strategy",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/compassx-strategy",
-    "meta": "We build brands, better."
-  },
-  {
-    "name": "Compensation Venture Group, SPC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/compensation-venture-group-spc",
-    "meta": ""
-  },
-  {
-    "name": "Confluence Coffee Co",
-    "cert": "fairtradeusa",
-    "certlink": "http://confluencecoffeeco.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Conillin LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.conillin.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Conscience Bay Company LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/conscience-bay-company-llc",
-    "meta": "Investing in real estate to make positive changes in both built and natural environments."
-  },
-  {
-    "name": "Conscious Coconut",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.consciouscoconut.com",
-    "meta": "Brandholder"
-  },
-  {
-    "name": "Conscious Company Magazine",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/conscious-company-magazine",
-    "meta": "The premier source of information and inspiration about sustainable business"
-  },
-  {
-    "name": "Consilio",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/consilio",
-    "meta": "Love Your Work"
-  },
-  {
-    "name": "Contemporary-Craft",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/contemporary-craft",
-    "meta": ""
-  },
-  {
-    "name": "Context Travel",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/context-travel",
-    "meta": ""
-  },
-  {
-    "name": "Contibio SL",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.cafecontibio.com",
-    "meta": "Brandholder"
-  },
-  {
-    "name": "Conundrum Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://conundrumcoffee.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Cooperative Home Care Associates",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/cooperative-home-care-associates",
-    "meta": "CHCA is a nationally recognized, South Bronx-based owner home care agency"
-  },
-  {
-    "name": "Copper Moon Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.coppermooncoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Corazon Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.corazoncoffeeroasters.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Core Capital Management",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/core-capital-management",
-    "meta": "Innovative, independent, sustainable, and responsible investment, planning, and wealth management"
-  },
-  {
-    "name": "CORE Foods",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/core-foods",
-    "meta": ""
-  },
-  {
-    "name": "Cornfields Inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.cornfieldsinc.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Cotopaxi",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/cotopaxi",
-    "meta": "Cotopaxi creates innovative outdoor products and experiences that fund lasting poverty solutions."
-  },
-  {
-    "name": "Council Fire LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/council-fire-llc",
-    "meta": "Management consulting firm: operationalizing sustainability and harnessing the power of information"
-  },
-  {
-    "name": "Country Life LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/country-life-llc",
-    "meta": "Pioneer of natural vitamins and supplements, protein and personal care products since 1971."
-  },
-  {
-    "name": "Covilli Brand Organics",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.agrilicious.org/covilli-brand-organics-inc",
-    "meta": "Importer"
-  },
-  {
-    "name": "Coyuchi",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.coyuchi.com",
-    "meta": "Importer, Brandholder"
-  },
-  {
-    "name": "CR-Building Performance Specialists",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/cr-building-performance-specialists",
-    "meta": "Energy efficiency and sustainability experts"
-  },
-  {
-    "name": "Crave Fishbar",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/crave-fishbar",
-    "meta": "NYC restaurant committed to sustainable and fun neighborhood fine dining."
-  },
-  {
-    "name": "Craven's Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.cravenscoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Creative Action Network",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/creative-action-network",
-    "meta": "A global community of artists and designers, harnessing our talents for good."
-  },
-  {
-    "name": "Creative Bakery Solutions",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Cricket Design Works, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/cricket-design-works-inc",
-    "meta": ""
-  },
-  {
-    "name": "Crimson Cup Coffee & Tea",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.crimsoncup.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Crop to Cup Coffee Importers",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer"
-  },
-  {
-    "name": "Crosby Hop Farm, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/crosby-hop-farm-llc",
-    "meta": "Vertically integrated hop grower, merchant, and processor."
-  },
-  {
-    "name": "Crystal Creek Logistics",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/crystal-creek-logistics",
-    "meta": "Sustainable, socially-responsible order fulfillment, shipping and logistics for ecommerce companies"
-  },
-  {
-    "name": "CSRHub LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/csrhub-llc",
-    "meta": "Transparent sustainability and CSR ratings on 15,000 companies in 130 countries and 135 industries."
-  },
-  {
-    "name": "Culinary Collective",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/culinary-collective",
-    "meta": "Import and distribution company specializing in gourmet cultural foods"
-  },
-  {
-    "name": "Cultivating Capital",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/cultivating-capital",
-    "meta": ""
-  },
-  {
-    "name": "Cultivation Center",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/cultivation-center",
-    "meta": "Cultivation Center provides education and consulting to not-for-profits, small businesses, a"
-  },
-  {
-    "name": "Cumberland Packing Corp",
-    "cert": "fairtradeusa",
-    "certlink": "http://cpack.com/",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "Cup to Cup Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.cuptocupcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Cuppow",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/cuppow",
-    "meta": ""
-  },
-  {
-    "name": "Custom Roasting Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Cutback Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://n/a",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Cutting Edge Capital",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/cutting-edge-capital",
-    "meta": ""
-  },
-  {
-    "name": "Cutting Edge Counsel",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/cutting-edge-counsel",
-    "meta": "Full-service law firm focused solely on social ventures"
-  },
-  {
-    "name": "Cyrus-Xp",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/cyrus-xp",
-    "meta": "A Health Information Technology company committed to serving the underserved and vulnerable."
-  },
-  {
-    "name": "D & M Coffee Company Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.dmcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Daabon Organic USA",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.daabon.com/daabon/",
-    "meta": "Importer"
-  },
-  {
-    "name": "Dale & Thomas Popcorn",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.daleandthomas.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Dallis Brothers Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.dallisbroscoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Dammann & Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.dammanvanilla.com",
-    "meta": "Importer, Manufacturer"
-  },
-  {
-    "name": "Dan Vaughn Law",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/dan-vaughn-law",
-    "meta": "Dan Vaughn Law is a legal firm with exceptional experience and legal skills in the business, contracts, real estate and finance arena."
-  },
-  {
-    "name": "Dang Foods LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/dang-foods-llc",
-    "meta": "Dang is a better-for-you, minimally processed, family-run snack company."
-  },
-  {
-    "name": "Dansko",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/dansko",
-    "meta": ""
-  },
-  {
-    "name": "Dapple",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/dapple",
-    "meta": "Dapple makes plant-based, toxin-free cleaning products for homes with kids."
-  },
-  {
-    "name": "Dapwood Furniture Co.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/dapwood-furniture-co",
-    "meta": "Dapwood Furniture operates out of Albuquerque, New Mexico producing solid hardwood furniture"
-  },
-  {
-    "name": "Dark Canyon Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.darkcanyon-coffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Davan Espresso Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.mountainpeakcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "David Michael - DM Flavors",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.dmflavors.com",
-    "meta": "Importer, Manufacturer"
-  },
-  {
-    "name": "Davidson's Organics",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.davidsonstea.com/",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "DAVIDsTEA",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.davidstea.com/",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Davis Chocolate",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.davischocolate.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Daybreak Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.daybreakcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Death Wish Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://deathwishcoffee.com",
-    "meta": "Manufacturer, Brand Holder"
-  },
-  {
-    "name": "Decisely",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/decisely",
-    "meta": ""
-  },
-  {
-    "name": "DeDora Capital",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/dedora-capital",
-    "meta": "A comprehensive planning & investment management firm"
-  },
-  {
-    "name": "DeeBee's SpecialTea Foods LTD",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.deebeesorganics.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Del Pacifico Seafoods",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.delpacificoseafoods.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Del Rey Avocado Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.delreyavocado.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "Deltec Homes, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/deltec-homes-inc",
-    "meta": "Deltec Homes is an award-winning prefabricated home builder based out of Asheville, NC."
-  },
-  {
-    "name": "Desta Epicures Guild",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.desta.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Dev Equity, L.L.C.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/dev-equity-llc",
-    "meta": "Dev Equity invests in companies that make a positive impact in low-income countries."
-  },
-  {
-    "name": "Dhana Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/dhana-inc",
-    "meta": "Award winning fairtrade & organic children's clothing. Comfy, fun fashions for kids ages 0-16."
-  },
-  {
-    "name": "Dharma Merchant Services",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/dharma-merchant-services",
-    "meta": "Socially responsible and green provider of credit card processing accounts"
-  },
-  {
-    "name": "Diamond Crystal Sales LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.diamondcrystal.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Dianne's Fine Desserts",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.diannesfinedesserts.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Dillano's Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.dillanos.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Dimagi, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/dimagi-inc",
-    "meta": "A socially conscious technology company that builds mobile applications for underserved communities."
-  },
-  {
-    "name": "Dimensions in Occupational Health and Safety",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/dimensions-in-occupational-health-and-safety",
-    "meta": "Dimensions is a health & safety consulting company with a mission to make the workplace a better place by fostering individual and organization wellbeing."
-  },
-  {
-    "name": "Direct Dental Administrators, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/direct-dental-administrators-llc",
-    "meta": "Saving money and improving dental health of employees through better use of premium dollars"
-  },
-  {
-    "name": "Disconnect, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/disconnect-inc",
-    "meta": "Disconnect was recently certified as a B Corp! Disconnect was co-founded in 2011 by Brian Ke"
-  },
-  {
-    "name": "Ditto Hangers",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/ditto-hangers",
-    "meta": "Conceives, designs, manufactures, and markets products that are less harmful to the environment"
-  },
-  {
-    "name": "Divine Flavor",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.divineflavor.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "DLG Naturals Inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.dlgnaturals.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "DMH Ingredients Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.dmhingredients.com",
-    "meta": "Importer, Manufacturer"
-  },
-  {
-    "name": "Dogeared",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/dogeared",
-    "meta": ""
-  },
-  {
-    "name": "DOJO4",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/dojo4",
-    "meta": "A software agency that partners with purpose-driven organizations to make the world a better place."
-  },
-  {
-    "name": "Dole Food Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.dole.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Dolphin Blue, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/dolphin-blue-inc",
-    "meta": "Environmentally responsible products for home and business, all made in the USA"
-  },
-  {
-    "name": "Domino Foods Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.dominosugar.com/about-us",
-    "meta": "Importer, Manufacturer"
-  },
-  {
-    "name": "Domoto Brands",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/domoto-brands",
-    "meta": ""
-  },
-  {
-    "name": "Donegood, PBC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/donegood-pbc",
-    "meta": "Discover companies making great stuff, and making the world better."
-  },
-  {
-    "name": "Door County Coffee & Tea Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.doorcountycoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Door To Door Organics",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/door-to-door-organics",
-    "meta": "E-grocer that delivers fresh, high-quality organic produce and natural groceries"
-  },
-  {
-    "name": "Double Mission",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.doublemission.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Down to Earth Market",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/down-to-earth-market",
-    "meta": ""
-  },
-  {
-    "name": "Dr. Brite",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/dr-brite",
-    "meta": "Offering USA made, all-natural with organic ingredients, cruelty-free oral and skin care products"
-  },
-  {
-    "name": "Dr. Bronner's",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/dr-bronners",
-    "meta": "Family soapmakers since 1858. Pioneers in organic and fair trade body care. All-One!"
-  },
-  {
-    "name": "Dr. Hauschka Skin Care, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/dr-hauschka-skin-care-inc",
-    "meta": "Founded in 1967, Dr.Hauschka Skin Care makes natural face care, body care and make-up."
-  },
-  {
-    "name": "Dragonfly Coffee Roasters LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.dragonflycoffeeroasters.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Dragononi Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://hawaiianola.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Drazil Foods",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.drazilfoods.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Dried Ingredients LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.driedingredients.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "Driven Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.drivencoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Droga Chocolates",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.drogachocolates.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Dunn Bros Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.dunnbrosgrand.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Dunn Bros Coffee Franchising Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.dunnbros.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Durham Co-op Market",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/durham-co-op-market",
-    "meta": ""
-  },
-  {
-    "name": "Dutch Gold Honey",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.dutchgoldhoney.com",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "Dynamite Roasting Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.dynamiteroasting.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Earth Bean Coffee LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.earthbeancoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Earth Equity Advisors",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/earth-equity-advisors",
-    "meta": "Krull & Company is a socially and environmentally responsible financial services firm."
-  },
-  {
-    "name": "EartH2O",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/earth2o",
-    "meta": ""
-  },
-  {
-    "name": "Earthback Coffee Roasters LLC",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Eastern Carolina Organics",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/eastern-carolina-organics",
-    "meta": "ECO is a farmer-owned, staff-owned, and woman-owned national distributor of NC organic produce."
-  },
-  {
-    "name": "Eastern Warmth",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.easternwarmth.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "Eating Evolved Inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://eatingevolved.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Eco - Coffee Corporation",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.eco-coffee.ca",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Eco - Prima Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.ecoprimatea.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "Eco Brands Group, LLC- Ecologic Designs/Green Guru",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/eco-brands-group-llc-ecologic-designsgreen-guru",
-    "meta": "Ecologic Designs and Green Guru Gear upcycle durable waste streams into functional products."
-  },
-  {
-    "name": "Eco Lips INC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.ecolips.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Eco Lips, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/eco-lips-inc",
-    "meta": ""
-  },
-  {
-    "name": "Eco Promotional Products, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/eco-promotional-products-inc",
-    "meta": ""
-  },
-  {
-    "name": "Eco-Bags Products",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/eco-bags-products",
-    "meta": "Manufacturer of reusable, eco-friendly bags"
-  },
-  {
-    "name": "Eco-Products, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/eco-products-inc",
-    "meta": "We help the food service industry keep waste out of landfills."
-  },
-  {
-    "name": "EcoInnovate",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/ecoinnovate",
-    "meta": ""
-  },
-  {
-    "name": "EcoLogic Solutions Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/ecologic-solutions-inc",
-    "meta": "Aiming to introduce the safest and most cost-effective cleaning products to mass consumers"
-  },
-  {
-    "name": "ECOM Agrotrade LTD",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer"
-  },
-  {
-    "name": "ECOM Cocoa - Atlantic USA",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.ecomtrading.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "EcoWatch",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/ecowatch",
-    "meta": "EcoWatch reports on environmental news, sustainable living and green business."
-  },
-  {
-    "name": "Ecrossland Incorporated/ Sierra Tea Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.ecrossland.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "EdOps",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/edops",
-    "meta": "EdOps is focused on providing high-value business management services to charter schools."
-  },
-  {
-    "name": "Education Funding Partners",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/education-funding-partners",
-    "meta": "Sustainable and significant corporate marketing sponsorships for public school districts"
-  },
-  {
-    "name": "Éfac Incorporated (TEST ACCOUNT)",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "EILEEN FISHER, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/eileen-fisher-inc",
-    "meta": ""
-  },
-  {
-    "name": "ELADC Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.eladc.com",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "Elan Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.elan-chemical.com",
-    "meta": "Importer, Manufacturer"
-  },
-  {
-    "name": "Eldot, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/eldot-llc",
-    "meta": "Bamboo product design firm and distributor."
-  },
-  {
-    "name": "Eleek Incorporated",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/eleek-incorporated",
-    "meta": "Sustainable decorative lighting made in the USA"
-  },
-  {
-    "name": "Elemental Coffee Roasters LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.elementalcoffeeroasters.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Elephants Delicatessen",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/elephants-delicatessen",
-    "meta": "Since 1979, Elephants Delicatessen has provided Portland with great local foods from scratch."
-  },
-  {
-    "name": "Ellevate Network",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/ellevate-network",
-    "meta": "Ellevate is a global professional women's network."
-  },
-  {
-    "name": "Emmy's Organics",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/emmys-organics",
-    "meta": "Emmy's Organics creates vegan, gluten-free and non-gmo foods made with high quality, clean ingredients."
-  },
-  {
-    "name": "Emory Knoll Farms",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/emory-knoll-farms",
-    "meta": "Supplier of green roof plants; horticultural consultants"
-  },
-  {
-    "name": "Empresa Nacional de Cacao",
-    "cert": "fairtradeusa",
-    "certlink": "http://domenico.pe/en/",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "Emzingo",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/emzingo",
-    "meta": "Preparing Leaders. Empowering communities."
-  },
-  {
-    "name": "en*theos",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/entheos",
-    "meta": "Helping people optimize their lives so we can change the world together."
-  },
-  {
-    "name": "Encanto Jewels",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/encanto-jewels",
-    "meta": "Eco-friendly Tagua jewelry sustainably sourced from Colombia."
-  },
-  {
-    "name": "Encore Renewable Energy",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/encore-renewable-energy",
-    "meta": ""
-  },
-  {
-    "name": "Energy Opportunities",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/energy-opportunities",
-    "meta": "Energy management and green building consulting services"
-  },
-  {
-    "name": "Engelhart CTP (US) LLC",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer"
-  },
-  {
-    "name": "Envirofit International Inc",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/envirofit-international-inc",
-    "meta": "Envirofit, a social enterprise, designs and produces efficient cookstoves targeted towards d"
-  },
-  {
-    "name": "EnviroMedia, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/enviromedia-inc",
-    "meta": "Since 1997, we’ve been giving a damn about keeping the planet healthy."
-  },
-  {
-    "name": "Environmental & Public Health Consulting",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/environmental-public-health-consulting",
-    "meta": "Provide research and practical tools for safer chemical and product choices for global supply chains"
-  },
-  {
-    "name": "EO Products",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/eo-products",
-    "meta": ""
-  },
-  {
-    "name": "Eosta BV Organic Fruits & Vegetables",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.eosta.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Equal Exchange Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.equalexchange.com",
-    "meta": "Importer, Manufacturer, ImporterofFinishedProduct"
-  },
-  {
-    "name": "Equator Coffees & Teas Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.equatorcoffees.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Equator Coffees & Teas, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/equator-coffees-teas-inc",
-    "meta": "Equator Coffees and Teas is a women-owned, green-certified coffee roaster."
-  },
-  {
-    "name": "Equilibrium",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/equilibrium",
-    "meta": ""
-  },
-  {
-    "name": "Erbaviva",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/erbaviva",
-    "meta": "Produces organic and eco-friendly skincare products for mothers and children"
-  },
-  {
-    "name": "Erbaviva",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.erbaviva.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Esselon Coffee Roasting Company Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.esselon.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Essence Restaurant Group",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/essence-restaurant-group",
-    "meta": ""
-  },
-  {
-    "name": "Essential Living Foods, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/essential-living-foods-inc",
-    "meta": ""
-  },
-  {
-    "name": "Estancia Beef",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/estancia-beef",
-    "meta": "Estancia is a market leader and innovator in pasture-raised, grass-fed beef."
-  },
-  {
-    "name": "Estorino Coffee Company LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.javatino.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Ethical Markets Media, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/ethical-markets-media-llc",
-    "meta": "Reforming markets and metrics while accelerating and tracking the green economy worldwide."
-  },
-  {
-    "name": "Etiko Pty LTD",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer, Brandholder"
-  },
-  {
-    "name": "Etsy",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/etsy",
-    "meta": "Bringing heart to commerce and making the world more fair, more sustainable, and more fun."
-  },
-  {
-    "name": "Euclid Coffee Company Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Euro - USA Trading Company Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.jovialfoods.com",
-    "meta": "Brandholder"
-  },
-  {
-    "name": "Euro Cafe Corp",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.eurocafeusa.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Euro Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.eurocoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "European Roasterie Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.euroroast.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Evelina Eco Events",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/evelina-eco-events",
-    "meta": ""
-  },
-  {
-    "name": "Evergreen Lodge",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/evergreen-lodge",
-    "meta": "The Evergreen Lodge is a newly-expanded Yosemite tourist resort that runs and self-funds an onsite"
-  },
-  {
-    "name": "Evi International Group LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.evicorporation.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "evolveEA",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/evolveea",
-    "meta": "A design and consulting practice at the intersection of sustainability and the built environment"
-  },
-  {
-    "name": "Evox Television",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/evox-television",
-    "meta": ""
-  },
-  {
-    "name": "eWaste Tech Systems, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/ewaste-tech-systems-llc",
-    "meta": "Electronic waste recycler and ITAM solutions provider."
-  },
-  {
-    "name": "Excelco Trading LP",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer"
-  },
-  {
-    "name": "Excellent Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.excellentcoffee.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Exim Products LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.eximproducts.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Exotic Green Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer"
-  },
-  {
-    "name": "Exponent Partners",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/exponent-partners",
-    "meta": ""
-  },
-  {
-    "name": "Exygy",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/exygy",
-    "meta": "Digital Agency. Software Design, Strategy, and Engineering. Web & Mobile ; Sites & Applications."
-  },
-  {
-    "name": "F Gavina & Sons Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.gavina.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Facilities Management Services, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/facilities-management-services-inc",
-    "meta": "FMS is a mission-driven business providing contractual janitorial and post-construction services."
-  },
-  {
-    "name": "Fair Bean Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.fairbeancoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Fair Game Beverage Company",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/fair-game-beverage-company",
-    "meta": "A mission driven artisan distillery designed to be a value added processor in their foodshed."
-  },
-  {
-    "name": "Fair Trade World",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.viventecoffee.com",
-    "meta": "Brandholder"
-  },
-  {
-    "name": "Fairway Market",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.fairwaymarket.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "FairWinds Advisors",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/fairwinds-advisors",
-    "meta": ""
-  },
-  {
-    "name": "Falcon & Singer P.C.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/falcon-singer-pc",
-    "meta": "A boutique law firm focused on relationship-based quality services for business owners and individuals."
-  },
-  {
-    "name": "Falcon Waterfree Technologies",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/falcon-waterfree-technologies",
-    "meta": "Promoting the conservation of Earth's precious fresh water through sustainable restroom solutions."
-  },
-  {
-    "name": "Fall River Florist Supply Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.fallriverfloristsupply.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Falls Flowers",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/falls-flowers",
-    "meta": "Falls Flowers was recently certified as a B Corp!"
-  },
-  {
-    "name": "FAMCO Group Inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.famcoroasters.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Far East Food Products LTD",
-    "cert": "fairtradeusa",
-    "certlink": "http://none",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Farm Dog Naturals",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/farm-dog-naturals",
-    "meta": "We Put Love For Dogs and the Environment In Everything We Do."
-  },
-  {
-    "name": "Farmer Bros Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.farmerbroscousa.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Farmer Brothers & CBI - Houston Facility",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Farmer Brothers Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.coffeebeanintl.com",
-    "meta": "Importer, Manufacturer"
-  },
-  {
-    "name": "Farmigo",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/farmigo",
-    "meta": "Farmigo is the world’s first online farmer’s market, connecting people and communities"
-  },
-  {
-    "name": "Farmland LP",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/farmland-lp",
-    "meta": ""
-  },
-  {
-    "name": "Fashionista Tea",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.fashionistatea.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Fat Puppy Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.fatpuppycoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Fearless Unlimited LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/fearless-unlimited-llc",
-    "meta": "Helping values-driven brands and organizations unlock their future."
-  },
-  {
-    "name": "Feronia Forests LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/feronia-forests-llc",
-    "meta": ""
-  },
-  {
-    "name": "Ferris Coffee & Nut Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.ferriscoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Fetzer Vineyards",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/fetzer-vineyards",
-    "meta": ""
-  },
-  {
-    "name": "Fidalgo Bay Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.fidalgobaycoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Fido Systems",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/fido-systems",
-    "meta": "Fido Systems is a team of professional IT consultants functioning as an Outsourced IT department."
-  },
-  {
-    "name": "Fig Food Company, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/fig-food-company-llc",
-    "meta": "Fig Food specializes in soups that are 100% plant-based, certified organic, and kosher."
-  },
-  {
-    "name": "FIGS",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/figs",
-    "meta": "FIGS creates 100% awesome medical apparel. For every set of scrubs sold, FIGS gives a set to a healthcare provider in need."
-  },
-  {
-    "name": "FILET BLEU SAS",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.filet-bleu.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Finger Lakes Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.fingerlakescoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Fingerlakes Wealth Management",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/fingerlakes-wealth-management",
-    "meta": "An Investment Advisory Firm specializing in socially responsible investing and financial planning."
-  },
-  {
-    "name": "Finlay Extracts & Ingredients USA Incorporated - Coffee Division",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.autocrat.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Finlay Extracts & Ingredients USA Incorporated - Tea Division",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.finlays.net",
-    "meta": "Importer"
-  },
-  {
-    "name": "Finnriver Farm and Cidery",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/finnriver-farm-and-cidery",
-    "meta": "Finnriver is an organic family farm & craft cidery located on the north Olympic Peninsula of WA."
-  },
-  {
-    "name": "Fireclay Tile",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/fireclay-tile",
-    "meta": ""
-  },
-  {
-    "name": "Firepot Chai LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.firepot.com",
-    "meta": "Brandholder"
-  },
-  {
-    "name": "Firespring",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/firespring",
-    "meta": "Firespring helps nonprofits raise funds, manage their events and build community awareness online."
-  },
-  {
-    "name": "Firmenich Grasse",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.firmenich.com",
-    "meta": "Importer, Manufacturer"
-  },
-  {
-    "name": "Firsd Tea North America LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.firsdtea.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "First Affirmative Financial Network",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/first-affirmative-financial-network",
-    "meta": "Nationwide investment advisory firm specializing in socially responsible investments"
-  },
-  {
-    "name": "First Rate, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/first-rate-inc",
-    "meta": ""
-  },
-  {
-    "name": "Fishpeople",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/fishpeople",
-    "meta": "Provides healthy food to the people of the Pacific North West"
-  },
-  {
-    "name": "Fishpond Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/fishpond-inc",
-    "meta": "It’s the journey along the way that counts."
-  },
-  {
-    "name": "Fit 4 Dance",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/fit-4-dance",
-    "meta": "Fitness for the Dancer in YOU!"
-  },
-  {
-    "name": "Flavorman",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.flavorman.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Flip Labs",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/flip-labs",
-    "meta": "Flip Labs is a systems change consultancy that helps companies, investors, and philanthropists."
-  },
-  {
-    "name": "FloBeds",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/flobeds",
-    "meta": ""
-  },
-  {
-    "name": "Flowerlink",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.flowerlinkla.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Flowers for Dreams",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/flowers-dreams",
-    "meta": ""
-  },
-  {
-    "name": "Flying M Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.flyingmcoffee.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Flynner Design+Build",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/flynner-designbuild",
-    "meta": ""
-  },
-  {
-    "name": "Fmyi",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/fmyi",
-    "meta": "Collaboration site for managing projects, tracking contacts, sharing files, and more"
-  },
-  {
-    "name": "Fona International Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.fona.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Fontana Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Fonte Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.fontecoffee.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Food for Thought",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.foodforthought.net",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Food Guys",
-    "cert": "fairtradeusa",
-    "certlink": "http://foodguys.com",
-    "meta": "Importer, Manufacturer"
-  },
-  {
-    "name": "Food.Stories.Travel.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/foodstoriestravel",
-    "meta": "Learn the stories behind local food makers, tasting and supporting their work."
-  },
-  {
-    "name": "ForceBrain.com",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/forcebraincom",
-    "meta": "ForceBrain makes cloud computing simple. They blueprint, develop, deploy, and support cloud solutio"
-  },
-  {
-    "name": "Forrest Firm, PC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/forrest-firm-pc",
-    "meta": ""
-  },
-  {
-    "name": "Fort Findlay Coffee & Doughnut Shoppe",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.fortfindlaycoffee.com/index.html",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Forte Legato Coffee LTD Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.fortelegato.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Fortunare (So America) Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer"
-  },
-  {
-    "name": "Forward Philanthropy",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/forward-philanthropy",
-    "meta": "Supporting families, foundations, and corporations in strategic and satisfying philanthropy."
-  },
-  {
-    "name": "Foster Dairy Farms",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.fosterfarmsdairy.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Found My Animal",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/found-my-animal",
-    "meta": "Accessories for adopted animals and their people"
-  },
-  {
-    "name": "Foundry Group",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/foundry-group",
-    "meta": ""
-  },
-  {
-    "name": "Four Seasons Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.4seasonscoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Francesco's Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://https://www.francescoscoffee.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Francis Biddle International Inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.fbiflowers.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "Free Range",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/free-range",
-    "meta": ""
-  },
-  {
-    "name": "free2b Foods",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.free2bfoods.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Freeflow Digital",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/freeflow-digital",
-    "meta": ""
-  },
-  {
-    "name": "Freeport Coffee Roasting",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.freeportcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "French Truck Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.frenchtruckcoffee.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Fresh Quest Melons",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.freshquest.net/",
-    "meta": "Importer"
-  },
-  {
-    "name": "Fresh Roasted Coffee LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.freshroastedcoffee.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Friedrich's Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.sirfriedrich.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Friends of the Third World Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.friendsofthethirdworld.org",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Friendship Organics",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.friendshiporganics.com/",
-    "meta": "Brandholder"
-  },
-  {
-    "name": "Frito - Lay North America Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Frontier Natural Products Coop",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.frontiercoop.com/index.html",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "Frontier Snacks",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/frontier-snacks",
-    "meta": ""
-  },
-  {
-    "name": "Fru - Veg Marketing Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.fruveg.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Fuel So Good Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.karmabakeria.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Fulcrum Creatives",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/fulcrum-creatives",
-    "meta": "We create, elevate and sustain brands that positively impact their communities."
-  },
-  {
-    "name": "Full Circle Exchange",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.fullcircleexchange.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Full Circle Home",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/full-circle-home",
-    "meta": "Stylish, functional, sustainable, affordable kitchen and cleaning tools for the home."
-  },
-  {
-    "name": "Full City Rooster LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://fullcityrooster.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Fully",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/fully",
-    "meta": "Healthy workspaces for healthy business."
-  },
-  {
-    "name": "FusionSpark Media, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/fusionspark-media-inc",
-    "meta": ""
-  },
-  {
-    "name": "Future State",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/future-state",
-    "meta": "Your Future State, Realized."
-  },
-  {
-    "name": "Fyffes North America Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.fyffes.us",
-    "meta": "Importer"
-  },
-  {
-    "name": "G2 Insurance Services",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/g2-insurance-services",
-    "meta": ""
-  },
-  {
-    "name": "Galileo Learning",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/galileo-learning",
-    "meta": "The leader in high-quality summer day camps for Pre-K -- 8th graders in the San Francisco Bay"
-  },
-  {
-    "name": "Gallant International",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.gallantintl.com",
-    "meta": "Importer, Brandholder"
-  },
-  {
-    "name": "Gap Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer, Brandholder"
-  },
-  {
-    "name": "Garden of Life, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/garden-of-life-llc",
-    "meta": "The Leading Vitamin Brand dedicated to Certified Organic, NON GMO Verified Nutrition"
-  },
-  {
-    "name": "Gardener's Supply Company",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/gardeners-supply-company",
-    "meta": ""
-  },
-  {
-    "name": "Gary Community Investments",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/gary-community-investments",
-    "meta": ""
-  },
-  {
-    "name": "gb&d Magazine",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/gbd-magazine",
-    "meta": "gb&d is a national trade magazine focusing on sustainability in the building & design industry."
-  },
-  {
-    "name": "gDiapers",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/gdiapers",
-    "meta": "Manufacturer of compostable and disposable baby diapers"
-  },
-  {
-    "name": "Gelfand Partners Architects",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/gelfand-partners-architects",
-    "meta": "Architects partnering with communities, serving the public good and advancing sustainable practices."
-  },
-  {
-    "name": "General Mills",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Geneva Global, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/geneva-global-inc",
-    "meta": "Geneva Global is a philanthropic consulting company that specializes in international development."
-  },
-  {
-    "name": "Georgia Nut Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.georgianut.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Gerard's Organics",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.gerardsorganics.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Gerding Edlen Development Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/gerding-edlen-development-inc",
-    "meta": "Gerding Edlen owns, develops and manages urban infill office, apartment and mixed-use properties"
-  },
-  {
-    "name": "Gerhart Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.gerhartcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Gertrude Hawk Chocolates",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.gertrudehawkchocolates.com/",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Ghost Town Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.ghosttowncoffeeroasters.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Gilded Rogue Enterprises, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/gilded-rogue-enterprises-llc",
-    "meta": ""
-  },
-  {
-    "name": "Gillco Products Inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.gillco.com",
-    "meta": "Importer, Manufacturer"
-  },
-  {
-    "name": "Gillies Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.gilliescoffee.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Gimme Coffee Inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.gimmecoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Ginger Salon Inc",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/ginger-salon-inc",
-    "meta": "Ginger Salon is a tiny little salon with 2 locations specializing in everything fabulous."
-  },
-  {
-    "name": "Give Something Back Office Supplies",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/give-something-back-office-supplies",
-    "meta": ""
-  },
-  {
-    "name": "GIVN Goods",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/givn-goods",
-    "meta": ""
-  },
-  {
-    "name": "Gizmo Beverages LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.teaofakind.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "GladRags",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/gladrags",
-    "meta": ""
-  },
-  {
-    "name": "Glanbia Nutritionals",
-    "cert": "fairtradeusa",
-    "certlink": "http://glanbianutritionals.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Global Coffee Trading",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.globalcoffeetrading.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Global Family Farms",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.sherpapower.com",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "Global Gaming Initiative",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/global-gaming-initiative",
-    "meta": "Connects people to causes via mobile games & delivers tangible goods to empower children globally."
-  },
-  {
-    "name": "Global Organics LTD",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.global-organics.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Global Policy Solutions LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/global-policy-solutions-llc",
-    "meta": ""
-  },
-  {
-    "name": "Global Prairie",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/global-prairie",
-    "meta": "Global Prairie is a global marketing firm dedicated to cultivating a healthier world."
-  },
-  {
-    "name": "Global Works",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/global-works",
-    "meta": "International travel programs that combine community service & adventure travel to give back"
-  },
-  {
-    "name": "Globus Coffee LLC",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer"
-  },
-  {
-    "name": "GloryBee",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/glorybee",
-    "meta": "A family owned and operated natural products manufacturing and distribution company in Eugene, Oregon and dedicated to healthy living."
-  },
-  {
-    "name": "GloryBee Inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.glorybee.com",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "GO Box",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/go-box",
-    "meta": "Reusable takeout container service providing an alternative to single-use disposable to-go boxes."
-  },
-  {
-    "name": "Gobena Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.gobena.org",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Goddess Garden",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/goddess-garden",
-    "meta": ""
-  },
-  {
-    "name": "Gold Country Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.goldcountryroasters.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Golden Hills Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.goldenhillscoffee.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Golden Valley Farms Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.goldenvalleyfarms.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Goldfarb Financial",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/goldfarb-financial",
-    "meta": "A boutique wealth management company in the heart of Downtown Buffalo, NY"
-  },
-  {
-    "name": "Goldstein Hall PLLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/goldstein-hall-pllc",
-    "meta": "Goldstein Hall PLLC is a full-service law firm with special strengths in affordable housing"
-  },
-  {
-    "name": "Gollücke & Rothfos GmbH",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.volcafe.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "Good & Fair Clothing",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.goodandfairclothing.com",
-    "meta": "Importer, Brandholder"
-  },
-  {
-    "name": "Good as Gold Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Good Clean Love",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/good-clean-love",
-    "meta": "Making Love Organic because mating rituals matter"
-  },
-  {
-    "name": "Good Cloth, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/good-cloth-llc",
-    "meta": "Ethical, sustainable fashion designed with consideration for workers, the planet, and consumers."
-  },
-  {
-    "name": "Good Done Great, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/good-done-great-inc",
-    "meta": "Good Done Great revolutionizes the way corporations and individuals give back to the community."
-  },
-  {
-    "name": "Good Eggs",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/good-eggs",
-    "meta": "Good Eggs combines the goodness of the farmers market with the convenience of online grocery."
-  },
-  {
-    "name": "Good Food Organics LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.ambassadororganics.com",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "Good for Business",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/good-business",
-    "meta": ""
-  },
-  {
-    "name": "Good Pops",
-    "cert": "fairtradeusa",
-    "certlink": "http://goodpops.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "GOOD Worldwide",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/good-worldwide",
-    "meta": "Print publication of, by, and for pragmatic idealists"
-  },
-  {
-    "name": "Good.Must.Grow. LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/goodmustgrow-llc",
-    "meta": "Strategic Marketing for Socially Responsible Businesses and Nonprofit Causes"
-  },
-  {
-    "name": "Goodfunds Wealth Management",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/goodfunds-wealth-management",
-    "meta": ""
-  },
-  {
-    "name": "Goodmans Interior Structures",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/goodmans-interior-structures",
-    "meta": ""
-  },
-  {
-    "name": "GOODONYA® Cafe",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/goodonya%C2%AE-cafe",
-    "meta": "GOODONYA® Cafe has been passioante about REAL food and drinks since 2001."
-  },
-  {
-    "name": "Grady Britton",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/grady-britton",
-    "meta": "Creative branding agency for modern companies and brand leaders who share a will to be great."
-  },
-  {
-    "name": "Grains of Sense Coffees & Teas",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.grainsofsense.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Grassroots Capital Management Corp PBC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/grassroots-capital-management-corp-pbc",
-    "meta": "Pioneers in Global Microfinance Equity Investment."
-  },
-  {
-    "name": "Gray Ghost Management & Operations LLC dba Gray Ghost Ventures",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/gray-ghost-management-operations-llc-dba-gray-ghost-ventures",
-    "meta": "Organization built around social impact through investment and infrastructure development"
-  },
-  {
-    "name": "Great Lakes Coffee Roasting Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.greatlakescoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Greater Goods Roasting Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://ggroasting.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Green Alpha Advisors, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/green-alpha-advisors-llc",
-    "meta": ""
-  },
-  {
-    "name": "Green Canopy Homes",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/green-canopy-homes",
-    "meta": "Green Canopy is a Seattle area homebuilder focused on transforming homes to be resource efficient."
-  },
-  {
-    "name": "Green City Growers",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/green-city-growers",
-    "meta": "GCG installs urban farms, offering maintenance and education for customers to grow food, anywhere."
-  },
-  {
-    "name": "Green Dinosaur, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/green-dinosaur-inc",
-    "meta": "Providing a Collaborative Approach to High Performance Green Building Consulting."
-  },
-  {
-    "name": "Green Drop Garage",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/green-drop-garage",
-    "meta": "A full service eco-friendly auto repair shop."
-  },
-  {
-    "name": "Green Enterprises",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.green.enterprises",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Green Home",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/green-home",
-    "meta": "Online green products store promoting healthy, simple living every day at home, at work, for life."
-  },
-  {
-    "name": "Green House Data",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/green-house-data",
-    "meta": "Provides cloud hosting and colocation solutions through highly energy efficient data centers."
-  },
-  {
-    "name": "Green Ideas, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/green-ideas-inc",
-    "meta": "Green Ideas is a Building Science consulting firm focusing on maximizing performance per dollar!"
-  },
-  {
-    "name": "Green Mountain Coffee Roasters Canada",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Green Mountain Power",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/green-mountain-power",
-    "meta": "Green Mountain Power is committed to their community and"
-  },
-  {
-    "name": "Green Retirement, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/green-retirement-inc",
-    "meta": "Offers green/socially responsible retirement plans to businesses, nonprofits, and individuals"
-  },
-  {
-    "name": "Green Star Coffee / Santa Barbara Coffee LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.greenstarcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Greenbanc",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/greenbanc",
-    "meta": "Leading provider of Home Energy Scores in Vermont."
-  },
-  {
-    "name": "Greenberry's Coffee Roasters Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.greenberrys.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Greene Bean Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.greenebeancoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Greenerprinter",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/greenerprinter",
-    "meta": "Green certified printer specializing in high-quality marketing collateral using recycled materials"
-  },
-  {
-    "name": "Greenfolia Inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.greenfolia.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "GreenHouse Eco-Cleaning",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/greenhouse-eco-cleaning",
-    "meta": "GreenHouse Eco-Cleaning has led the green cleaning industry since 2006 as an organic residential and commercial cleaning service helping clients achieve a healthier lifestyle by keeping their home and office spaces free of harmful toxic chemicals found in traditional cleaning methods."
-  },
-  {
-    "name": "Greenline Community Ventures LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/greenline-community-ventures-llc",
-    "meta": "Investment management firm specializing in delivering capital to underserved communities"
-  },
-  {
-    "name": "Greenmont Capital Partners",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/greenmont-capital-partners",
-    "meta": ""
-  },
-  {
-    "name": "GreenSpot Global",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/greenspot-global",
-    "meta": "A green real estate company for project sourcing, sustainability, added value & product sales"
-  },
-  {
-    "name": "Greenstreet Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://greenstreetcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Greentech Capital Advisors",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/greentech-capital-advisors",
-    "meta": "Global investment bank serving companies that are transforming the world’s energy infrastructure"
-  },
-  {
-    "name": "Greenway Coffee Co",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.greewnaycoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Greyston Bakery, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/greyston-bakery-inc",
-    "meta": "Social enterprise producing the finest brownies, cakes and tarts."
-  },
-  {
-    "name": "Gridworks",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/gridworks",
-    "meta": ""
-  },
-  {
-    "name": "GRIFFIN - GAMMA LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.griffin-gamma.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Griswold and Griswold Insurance Agency",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/griswold-and-griswold-insurance-agency",
-    "meta": "Griswold Insurance is an independent brokerage providing all lines to cover a business or nonprofit"
-  },
-  {
-    "name": "GroundFloor Media",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/groundfloor-media",
-    "meta": "GFM is a Colorado-based integrated communications firm focused on PR and crisis & issues management."
-  },
-  {
-    "name": "Grounds For Change",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/grounds-change",
-    "meta": ""
-  },
-  {
-    "name": "Group 113",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/group-113",
-    "meta": ""
-  },
-  {
-    "name": "Group14 Engineering",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/group14-engineering",
-    "meta": ""
-  },
-  {
-    "name": "Grove Collaborative",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/grove-collaborative",
-    "meta": "Grove Collaborative's mission is to shrink the environment"
-  },
-  {
-    "name": "Grower's Secret, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/growers-secret-inc",
-    "meta": "Grower's Secret created an organic plant growth enhancer that commands a plant to grow faster, large"
-  },
-  {
-    "name": "GS Gelato",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.gsgelato.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "GS Haly Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.gshaly.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "Guayaki Sustainable Rainforest Products",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/guayaki-sustainable-rainforest-products",
-    "meta": "Imports energizing rainforest beverages, loose mate and tea bags"
-  },
-  {
-    "name": "Guittard Chocolate Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.guittard.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Gunpowder Coffee Roasting",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.gunpowderranch.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "H & H Coffee Corp",
-    "cert": "fairtradeusa",
-    "certlink": "http://hhcoffeegroup.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "H Fox & Company Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.foxsyrups.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Habitus Incorporated",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/habitus-incorporated",
-    "meta": "Innovators in negotiation, communication and conflict management."
-  },
-  {
-    "name": "Hacienda La Minita",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer, Manufacturer"
-  },
-  {
-    "name": "HAE Now",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.haenow.com",
-    "meta": "Importer, Brandholder"
-  },
-  {
-    "name": "Hail Merry LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.hailmerry.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "HAIN CELESTIAL CANADA ULC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.hain-celestial.ca",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Hamilton Perkins Collection",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/hamilton-perkins-collection",
-    "meta": "Each bag is made out of 100% recycled plastic bottles and lined with repurposed billboard vinyl."
-  },
-  {
-    "name": "Hanson Bridgett LLP c",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/hanson-bridgett-llp-c",
-    "meta": "Law firm committed to both sustainability and meeting the legal needs of sustainable businesses"
-  },
-  {
-    "name": "Happy Family Brands",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/happy-family-brands",
-    "meta": "Happy Family® is a premium organic food brand delivering optimal nutrition for babies and beyond."
-  },
-  {
-    "name": "Happy Valley Meat Company",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/happy-valley-meat-company",
-    "meta": "HVMC forges direct connections between chefs and the farmers who grow their meat"
-  },
-  {
-    "name": "Harney & Sons",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.harney.com/index.html",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "Harold L King & Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.king-coffee.com/index.html",
-    "meta": "Importer"
-  },
-  {
-    "name": "Harris Tea Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.harrisfreeman.com/",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "Harvest Market",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/harvest-market",
-    "meta": "The Best... Naturally!"
-  },
-  {
-    "name": "Hauser Foods Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.hauserchocolates.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Hawaiian Legacy Hardwoods",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/hawaiian-legacy-hardwoods",
-    "meta": "Grower of indemic Hawaiian hardwoods for sustainable harvest, ecosystem restoration & carbon credits"
-  },
-  {
-    "name": "Hawaiian Ola",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/hawaiian-ola",
-    "meta": "Hawaiian Ola is a mission-focused food and beverage company sharing organic Noni with the world."
-  },
-  {
-    "name": "Hawaiian Paddle Sports, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/hawaiian-paddle-sports-llc",
-    "meta": ""
-  },
-  {
-    "name": "Haymarket Cafe",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.haymarketcafe.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "HC Valentine Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Headframe Spirits, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/headframe-spirits-inc",
-    "meta": "Family owned & operated distillery and distillation equipment manufacturer based in Butte, Montana."
-  },
-  {
-    "name": "Headwater Foods",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/headwater-foods",
-    "meta": ""
-  },
-  {
-    "name": "HealthSMART Coffee LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://healthsmartcoffee.com/",
-    "meta": "Brandholder"
-  },
-  {
-    "name": "Healthy Beverage Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.steaz.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Healthy Building Science",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/healthy-building-science",
-    "meta": "We help people make healthy buildings. One-stop-shop for all building environmental science services"
-  },
-  {
-    "name": "Healthy Buildings",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/healthy-buildings",
-    "meta": "Sustainability, LEED credits and indoor air quality programs/diagnostics for commercial real estate"
-  },
-  {
-    "name": "Healthy Chocolate Florida LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.4noguilt.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Healthy Gourmet LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.susanshealthygourmet.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Heather Paulsen Consulting",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/heather-paulsen-consulting",
-    "meta": "Sustainability, Strategy & Project Management Consulting."
-  },
-  {
-    "name": "Heller Consulting",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/heller-consulting",
-    "meta": "Helps nonprofits streamline operations & maximize software use for fundraising & mission management"
-  },
-  {
-    "name": "Help2Heal",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/help2heal",
-    "meta": "Help2Heal is a kidpreneur-inspired buy one give one first aid company."
-  },
-  {
-    "name": "Hena Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.brooklyn-coffeehouse.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Herbalist & Alchemist",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/herbalist-alchemist",
-    "meta": "Manufactures over 250 of the highest quality herbal extracts and herbal formulas"
-  },
-  {
-    "name": "Heritage Link Brands",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.heritagelinkbrands.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Hershey Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.hersheys.com",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "Heyday Beverage Company LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://drinkheyday.com/",
-    "meta": "Brandholder"
-  },
-  {
-    "name": "HH Coffee Group Export Corp",
-    "cert": "fairtradeusa",
-    "certlink": "http://hhcoffeegroup.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "HH Logistics Planning, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/hh-logistics-planning-llc",
-    "meta": ""
-  },
-  {
-    "name": "Hiball Energy Inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.hiballer.com/",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "High Brew Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.highbrewcoffee.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "High Grounds Coffee Roasters LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.highgroundscoffee.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "High Impact Financial Analysis, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/high-impact-financial-analysis-llc",
-    "meta": ""
-  },
-  {
-    "name": "High Quality Organics Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.hqorganics.com",
-    "meta": "Importer, Manufacturer"
-  },
-  {
-    "name": "Higher Grounds Trading Company",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/higher-grounds-trading-company",
-    "meta": "Higher Grounds Trading Company, offering exceptional coffee from a world of good friends."
-  },
-  {
-    "name": "Higher Legal",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/higher-legal",
-    "meta": ""
-  },
-  {
-    "name": "Highland Group",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/highland-group",
-    "meta": "A collective of graphic designers + strategic marketing thinkers"
-  },
-  {
-    "name": "Highland Hollow Coffee & Tea",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.highlandhollowcoffeeandtea.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Highwire Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.highwirecoffee.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Hilary's Eat Well",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/hilarys-eat-well",
-    "meta": "Produces delicious, real-food products that are always non-GMO and free from common food allergens."
-  },
-  {
-    "name": "Hill City Coffee LLC",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Hirepurpose",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/hirepurpose",
-    "meta": "Hirepurpose helps transitioning service members and veterans find meaningful employment."
-  },
-  {
-    "name": "Hobo Ed's LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.hoboed.net",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Hog Island Oyster Co. Inc",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/hog-island-oyster-co-inc",
-    "meta": "Hog Island Oyster cultivates, creates and serves an exceptional oyster experience. Live to shuck, shuck to live."
-  },
-  {
-    "name": "Hogan Bros Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://hoganbrotherscoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Home Care Associates of Philadelphia, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/home-care-associates-of-philadelphia-inc",
-    "meta": "Home Health Care Services"
-  },
-  {
-    "name": "Homeboy Recycling",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/homeboy-recycling",
-    "meta": ""
-  },
-  {
-    "name": "Homefree",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/homefree",
-    "meta": "Manufacturer of whole grain, inclusive, nut free and gluten free award-winning cookies."
-  },
-  {
-    "name": "Homestead Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.homesteadcoffeeroasters.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Honest Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://honest.coffee",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Honest Tea",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.honesttea.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Honestly pHresh",
-    "cert": "fairtradeusa",
-    "certlink": "http://honestlyphresh.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Honeyville Grain",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.honeyvillegrain.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Hope Foods",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.hopefoods.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Hopscotch Coffee LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://hopscotchcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Hopworks Urban Brewery",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/hopworks-urban-brewery",
-    "meta": "Hopworks is a sustainability-focused craft brewery and two restaurants in Portland, OR."
-  },
-  {
-    "name": "Hortifrut Imports Inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.naturipefarms.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Houwzer",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/houwzer",
-    "meta": ""
-  },
-  {
-    "name": "HQ Raleigh",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/hq-raleigh",
-    "meta": "HQ Raleigh is an inclusive community of entrepreneurs that fosters positive social & economic impact."
-  },
-  {
-    "name": "Hugh Lofting Timber Framing & High Performance Building",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/hugh-lofting-timber-framing-high-performance-building",
-    "meta": "Hugh Lofting Timber Framing, Inc. crafts timber frame homes."
-  },
-  {
-    "name": "Human Investing",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/human-investing",
-    "meta": ""
-  },
-  {
-    "name": "Hygge Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://hyggecoffeeco.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "I Heart Keenwah",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.iheartkeenwah.com",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "i.d.e.a.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/idea",
-    "meta": "Integrated marketing company moving people, products and culture"
-  },
-  {
-    "name": "IceStone",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/icestone",
-    "meta": ""
-  },
-  {
-    "name": "Ideaction Corps",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/ideaction-corps",
-    "meta": "Ideaction Corps is a general contractor for good. We produce measurable results for corporations,"
-  },
-  {
-    "name": "Idealist Consulting",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/idealist-consulting",
-    "meta": "We provide nonprofits and small-medium businesses with Salesforce consulting and support."
-  },
-  {
-    "name": "IL MANGIARSANO Spa",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.mangiarsanogerminal.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Image Outfitters, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/image-outfitters-inc",
-    "meta": "Image Outfitters is a promotional products distributor that gives 10% of new sales to charities."
-  },
-  {
-    "name": "Image Relay",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/image-relay",
-    "meta": "Image Relay empowers companies to manage their brand assets from one central location in the cloud."
-  },
-  {
-    "name": "Imajine That, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/imajine-llc",
-    "meta": "Imajine That is an interactive children’s museum, located at the Riverwalk in Lawrence."
-  },
-  {
-    "name": "IMM Group Inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.solorganix.com/",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "Immaculate Cleaning Services",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/immaculate-cleaning-services",
-    "meta": "Immaculate Cleaning Services is a commercial cleaning company employing homeless men while using its income to help end homelessness."
-  },
-  {
-    "name": "Immix Law Group PC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/immix-law-group-pc",
-    "meta": "Legal counsel serving business clients (formation, fundraising, acquisitions, and litigation)."
-  },
-  {
-    "name": "Impact Hub Boulder",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/impact-hub-boulder",
-    "meta": "Co-working community dedicated to collaborative and impactful action."
-  },
-  {
-    "name": "Impact Hub Los Angeles",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/impact-hub-los-angeles",
-    "meta": "Our collective purpose is to develop and grow a community that drives social innovation."
-  },
-  {
-    "name": "Impact Hub Oakland",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/impact-hub-oakland",
-    "meta": "Dynamic coworking community transforming Oakland through entrepreneurship, art & social innovation"
-  },
-  {
-    "name": "Impact Hub Seattle",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/impact-hub-seattle",
-    "meta": "Impact Hub Seattle is a coworking space, events space, and launch pad for purpose-driven ventures."
-  },
-  {
-    "name": "Impact Makers, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/impact-makers-inc",
-    "meta": ""
-  },
-  {
-    "name": "ImpactFlow, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/impactflow-inc",
-    "meta": "ImpactFlow is an online event management platform built to promote community engagement"
-  },
-  {
-    "name": "Impactivo Consulting",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/impactivo-consulting",
-    "meta": "Social impact consulting firm that supports innovations in health, education, and philanthropy."
-  },
-  {
-    "name": "Imperative",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/imperative",
-    "meta": ""
-  },
-  {
-    "name": "Imperial Coffee Roasters Midwest LLC",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "IN GOOD CO",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/in-good-co",
-    "meta": ""
-  },
-  {
-    "name": "In Posse",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/in-posse",
-    "meta": "consulting and engineering design services"
-  },
-  {
-    "name": "InBloom Group LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.inbloomgroup.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Independence Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.independencecoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "India Tree",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.indiatree.com",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "Indigenous Designs Corporation",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/indigenous-designs-corporation",
-    "meta": "Wholesale clothing company and industry leader in organic, fair trade fashion"
-  },
-  {
-    "name": "Indigo Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.indigocoffee.com/index.cfm",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Indosole, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/indosole-llc",
-    "meta": "Indosole prevents tires from ending up in landfills by giving them new life as footwear."
-  },
-  {
-    "name": "Inesscents Aromatic Botanicals",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/inesscents-aromatic-botanicals",
-    "meta": ""
-  },
-  {
-    "name": "Inesscents Aromatic Botanicals",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.inesscents.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Inflection",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/inflection",
-    "meta": "Advancing trust, safety and fairness in hiring, the on-demand economy, and public records."
-  },
-  {
-    "name": "Ingage Partners, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/ingage-partners-llc",
-    "meta": ""
-  },
-  {
-    "name": "Innkeeper's Fresh Roasted Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.innkeepers-coffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Innovation for People",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/innovation-people",
-    "meta": "Social enterprise providing technology, training and systems to non-profits and businesses."
-  },
-  {
-    "name": "Innovative Beverage Concepts",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.mocafeusa.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Inspire Commerce",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/inspire-commerce",
-    "meta": "Combines technologically sophisticated merchant solutions with a commitment to social change"
-  },
-  {
-    "name": "Inspiring Capital",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/inspiring-capital",
-    "meta": "Training for finance, strategy and operations professionals to work for purpose-driven organizations"
-  },
-  {
-    "name": "Intelligent Blends",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.intelligentblends.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "InterAmerican Coffee Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.iaccoffee.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "InterContinental Coffee Trading",
-    "cert": "fairtradeusa",
-    "certlink": "http://ictcoffee.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "International Bazaar",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.harlow-hrk.com",
-    "meta": "Importer, Brandholder"
-  },
-  {
-    "name": "International Coffee Corporation",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.iccnola.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "International Food Products",
-    "cert": "fairtradeusa",
-    "certlink": "http://ifpc.com/",
-    "meta": "Distributor"
-  },
-  {
-    "name": "International Marketing Systems LTD",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "International Tea Importers",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.teavendor.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "InterNatural Foods LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.internaturalfoods.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Interstate Gourmet Coffee Roasters Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.bostonsbestcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Intex Solutions, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/intex-solutions-inc",
-    "meta": "Provides specialized commercial cleaning and maintenance services for a healthier workplace."
-  },
-  {
-    "name": "Invalsa Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.invalsa.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Inward Point",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/inward-point",
-    "meta": ""
-  },
-  {
-    "name": "Iroquois Valley Farms LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/iroquois-valley-farms-llc",
-    "meta": "Organic Farmland Investing"
-  },
-  {
-    "name": "ISOS Group, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/isos-group-llc",
-    "meta": ""
-  },
-  {
-    "name": "iSupportU",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/isupportu",
-    "meta": "iSupportU provides consulting, support and training in the field of technology."
-  },
-  {
-    "name": "J & J Snack Foods Corporation",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.jjsnack.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "J Horrocks Design LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://jhdesign.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Jacobs Farm / Del Cabo",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.delcabo.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "Jacqueline's Wholesale Bakery Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.jacquelinesbakery.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "James C Cannell Coffees Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.jimsorganiccoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Jameson Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.jamesoncoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Jason Wiener, P.C.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/jason-wiener-pc",
-    "meta": ""
-  },
-  {
-    "name": "Java City",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.javacity.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Java Dave's Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.javadavescoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Java Estate Roastery",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.javaestate.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Java Love Coffee Roasting Co",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.javaloveroasters.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Java Planet Organic Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.java-planet.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Java Trading Company LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.javatradingco.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Javo Beverage",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.javobeverage.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Jedwards International Inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.bulknaturaloils.com",
-    "meta": "Importer, Manufacturer"
-  },
-  {
-    "name": "Jeni's Splendid Ice Creams",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/jenis-splendid-ice-creams",
-    "meta": ""
-  },
-  {
-    "name": "Jenny Kassan Consulting",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/jenny-kassan-consulting",
-    "meta": "Legal advising, consulting, and coaching for mission-aligned structure and finance"
-  },
-  {
-    "name": "Jim's Organic Coffee",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/jims-organic-coffee",
-    "meta": "In 1994, Jim Cannell started Jim's Organic Coffee where he was able to keep a sharp eye on t"
-  },
-  {
-    "name": "Jitasa",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/jitasa",
-    "meta": "Easy Office provides managed services in finance and accounting to nonprofits nationwide"
-  },
-  {
-    "name": "JOBOMAX Global LTD",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.jobomax.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Joe's Garage Coffee LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.joesgaragecoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Joffrey's Coffee & Tea Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.joffreys.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Jogue Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://jogue.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "John Kelly Foods Inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.johnkellychocolates.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Jones Co",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer, Manufacturer"
-  },
-  {
-    "name": "Jordan Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/jordan-inc",
-    "meta": ""
-  },
-  {
-    "name": "Joule, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/joule-llc",
-    "meta": ""
-  },
-  {
-    "name": "JP Licks Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.jplicks.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "JR Muggs",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Juggle the World",
-    "cert": "fairtradeusa",
-    "certlink": "http://juggletheworld.com/",
-    "meta": "Importer, Brandholder"
-  },
-  {
-    "name": "Jumpin' Jacks Beans LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.consciouscup.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Jungle Cat Coffee LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.junglecatcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Just Love Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.justlovecoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "K & F COFFEE ROASTERS",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.kfcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "KAFIEX ROASTERS LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.kafiex.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Kalani Organica Coffees",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.kalanicoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Kaldi's Coffee Roasting Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.kaldiscoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "KAMMOK",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/kammok",
-    "meta": "Hammocks, Lifestyle Apparel"
-  },
-  {
-    "name": "Kargher Confections LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://none",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Kashi Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.kashi.com/",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "KAV America AG Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://kavamerica.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "KB Ingredients",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.kbingredients.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Kean Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.keancoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Kedem Food Products",
-    "cert": "fairtradeusa",
-    "certlink": "http://kedem.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Keene Advisors, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/keene-advisors-inc",
-    "meta": ""
-  },
-  {
-    "name": "KeHE",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/kehe",
-    "meta": "KeHE is an employee-owned food distribution company"
-  },
-  {
-    "name": "Kencaf Importing & Distributing Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.kencaf.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "Kenny's Candy & Confections",
-    "cert": "fairtradeusa",
-    "certlink": "http://klnfamilybrands.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Kerry Ingredients & Flavours",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.kerrygroup.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Keurig Green Mountain",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.brewabetterday.com/our_coffee/fair_trade",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Keurig Trading Company",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer"
-  },
-  {
-    "name": "Kevin's Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://under construction",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Kickstarter PBC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/kickstarter-pbc",
-    "meta": ""
-  },
-  {
-    "name": "Kienna Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.kienna.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Kill Cliff Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://killcliff.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Kilwin's Quality Confections",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Kimpacto, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/kimpacto-inc",
-    "meta": "Impact Investing consultants helping investors and businesses maximize financial return + social impact across U.S., Europe, Latin America."
-  },
-  {
-    "name": "Kina'ole Capital Partners, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/kinaole-capital-partners-llc",
-    "meta": "Kina'ole is a leading provider of solar financing options to home & business owners across the US."
-  },
-  {
-    "name": "Kinesis",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/kinesis",
-    "meta": "Marketing Firm and Business Consultant."
-  },
-  {
-    "name": "King Arthur Flour Company",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/king-arthur-flour-company",
-    "meta": ""
-  },
-  {
-    "name": "Kingsmill Foods",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.kingsmillfoods.com",
-    "meta": "Exporter, Manufacturer"
-  },
-  {
-    "name": "Kinvolved",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/kinvolved",
-    "meta": ""
-  },
-  {
-    "name": "Kishe Foods LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.kishefoods.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Klean Kanteen",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/klean-kanteen",
-    "meta": "Reusable food and beverage containers"
-  },
-  {
-    "name": "Knipschildt Chocolatier LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.knipschildt.com",
-    "meta": "Brandholder"
-  },
-  {
-    "name": "Kobrick's Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.kobricks.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Koffee Kult Corporation",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.centerstagecoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Kool Beans Coffee Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.koolbeanscoffee.net",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Koopman Ostbo Marketing Communications",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/koopman-ostbo-marketing-communications",
-    "meta": "Making a difference for brands that are making a difference."
-  },
-  {
-    "name": "Kosmenko & Co.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/kosmenko-co",
-    "meta": ""
-  },
-  {
-    "name": "Kregel & Company CPA",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/kregel-company-cpa",
-    "meta": ""
-  },
-  {
-    "name": "Kroger Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.kroger.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "KSV",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/ksv",
-    "meta": "We move people to think, act, and buy sustainably."
-  },
-  {
-    "name": "Kuli Kuli",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/kuli-kuli",
-    "meta": "Kuli Kuli sells delicious moringa products that improve nutrition and livelihoods worldwide."
-  },
-  {
-    "name": "Kuva Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.kuvacoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "La Cosecha Coffee Roasters LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.lacosechacoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "La Java",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.lajavaroastinghouse.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "La Maison Orphée Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.maisonorphee.com",
-    "meta": "Brandholder"
-  },
-  {
-    "name": "La Prima Espresso",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.laprima.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Labrang Traders LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.labrangtraders.com",
-    "meta": "Brandholder"
-  },
-  {
-    "name": "Lacas Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.lacascoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Lafes",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/lafes",
-    "meta": "Lafes…authentic and genuine natural personal care…because what does on the body goes in the body."
-  },
-  {
-    "name": "Lake Champlain Chocolates",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.lakechamplainchocolates.com/chocolate-gifts/fair-trade-chocolate/",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Lamex Foods Inc",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer"
-  },
-  {
-    "name": "Landgrove Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Lanka Tea Worldwide LTD",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Larry's Beans Inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.larryscoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Larry's Coffee",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/larrys-coffee",
-    "meta": ""
-  },
-  {
-    "name": "LaRue Distributing Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://laruecoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Lassonde Pappas & Company Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.clementpappas.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Last Triumph",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/last-triumph",
-    "meta": ""
-  },
-  {
-    "name": "Laureate Education",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/laureate-education",
-    "meta": ""
-  },
-  {
-    "name": "Lavanta Coffee Roasters Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.lavantacoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Law Office Of Lara Pearson & Brand Geek",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/law-office-of-lara-pearson-brand-geek",
-    "meta": ""
-  },
-  {
-    "name": "Law Plus Plus",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/law-plus-plus",
-    "meta": ""
-  },
-  {
-    "name": "LeadDog Marketing Group Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/leaddog-marketing-group-inc",
-    "meta": "We are a passionate collection of people building brands and driving business with a big heart!"
-  },
-  {
-    "name": "Leah B Noel CPA PC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/leah-b-noel-cpa-pc",
-    "meta": ""
-  },
-  {
-    "name": "Leap Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://no website yet",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "LEAP Organics",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/leap-organics",
-    "meta": "Sustainable, certified organic and all-natural bath and bodycare company based in Massachusetts"
-  },
-  {
-    "name": "LED Inspire WATT and FLUX",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/led-inspire-watt-and-flux",
-    "meta": ""
-  },
-  {
-    "name": "Leesa Sleep",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/leesa-sleep",
-    "meta": "We’ve started with a beautifully designed and crafted mattress that meets the needs of almost everyone and an online store that makes buying a mattress simple and hassle free."
-  },
-  {
-    "name": "Lemonade, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/lemonade-inc",
-    "meta": "A property and casualty insurance company that is transforming the very business model of insurance."
-  },
-  {
-    "name": "Lexington Coffee Roasting Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.lexingtoncoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Life Basics LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.lifebasicsorganics.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "LIFT Economy",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/lift-economy",
-    "meta": "For the benefit of all life"
-  },
-  {
-    "name": "Lightspan Digital",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/lightspan-digital",
-    "meta": "Lightspan Digital is Chicago’s purpose-driven digital marketing leader in social media, email and content marketing."
-  },
-  {
-    "name": "Lillo Caffe",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.lillocaffe.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "LimeRed Studio",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/limered-studio",
-    "meta": "A creative agency for mission-driven orgs and businesses — design, UX, web dev, and strategy."
-  },
-  {
-    "name": "LineSync Architecture",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/linesync-architecture",
-    "meta": ""
-  },
-  {
-    "name": "Linhardt Design",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/linhardt-design",
-    "meta": "Atelier and gallery that designs custom-made fine jewelry as well as ready-made fashion jewelry"
-  },
-  {
-    "name": "Lions Bay Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.lionsbaycoffeecompany.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Little Red Cup Tea Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.littleredcuptea.com",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "Little Secrets LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.sharelittlesecrets.com",
-    "meta": "Brandholder"
-  },
-  {
-    "name": "Living Room Realty",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/living-room-realty",
-    "meta": "Living Room Realty is a group of real estate professionals dedicated to developing vibrant communities."
-  },
-  {
-    "name": "Lizzy's Fresh Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.lizzysfreshcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "LMZ Soluble Coffee Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://lmzco.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "Loaf LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.loafcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Local Goods / Orcas Roast",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.local-goods.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Log House Foods Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.loghousefoods.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Longbottom Coffee & Tea Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.longbottomcoffee.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Longevite Tea",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Loomstate",
-    "cert": "fairtradeusa",
-    "certlink": "http://loomstate.org",
-    "meta": "Importer, Brandholder"
-  },
-  {
-    "name": "Looptworks",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/looptworks",
-    "meta": "Looptworks creates premium accessories and apparel by applying innovative design to excess materials."
-  },
-  {
-    "name": "Lotus Foods",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/lotus-foods",
-    "meta": "Helping rice farmers earn a living wage while bringing healthier rice choices to consumers"
-  },
-  {
-    "name": "Love & Hummus Co., LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/love-hummus-co-llc",
-    "meta": ""
-  },
-  {
-    "name": "Love Bottle",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/love-bottle",
-    "meta": "Love Bottle is a beautiful reusable glass water bottle that is 100% made with love in the USA."
-  },
-  {
-    "name": "Lovely Lady Products",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Lucky Goat Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.luckygoatcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Luftman, Heck & Associates, LLP",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/luftman-heck-associates-llp",
-    "meta": "Law firm defending and protecting individuals in Ohio & California"
-  },
-  {
-    "name": "Lulu Press, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/lulu-press-inc",
-    "meta": ""
-  },
-  {
-    "name": "Lumen Energy",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/lumen-energy",
-    "meta": ""
-  },
-  {
-    "name": "Luna Coffee LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://lunacafe.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Luna Gourmet Coffee & Tea Co",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.lunagourmet.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Lundberg Family Farms",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.lundberg.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Luscious Garage",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/luscious-garage",
-    "meta": "Hybrid Specialists, Recycling, Composting etc..."
-  },
-  {
-    "name": "Lyv Life Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/lyv-life-inc",
-    "meta": ""
-  },
-  {
-    "name": "M Creative",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/m-creative",
-    "meta": ""
-  },
-  {
-    "name": "MaCher USA",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/macher-usa",
-    "meta": ""
-  },
-  {
-    "name": "Macroclimate®",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/macroclimate%C2%AE",
-    "meta": ""
-  },
-  {
-    "name": "Madelaine Chocolate Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.madelainechocolate.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Madhava Natural Sweeteners",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.madhavasweeteners.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Madhava Sweeteners",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/madhava-sweeteners",
-    "meta": ""
-  },
-  {
-    "name": "MadiDrop PBC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/madidrop-pbc",
-    "meta": "MadiDrop PBC provides a simple approach to address contaminated drinking water."
-  },
-  {
-    "name": "MAFIA",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/mafia",
-    "meta": "MAFIA creates one-of-a-kind bags and accessories from recycled sails, kites, and other sports equipment."
-  },
-  {
-    "name": "Magnum Coffee Roastery",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.magnumcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Mahogany Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.mahoganyroasters.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Maine Root",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.maineroot.com/",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "MaineWorks, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/maineworks-llc",
-    "meta": ""
-  },
-  {
-    "name": "Majani Teas",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.majaniteas.com",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "Major League Hacking (MLH)",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/major-league-hacking-mlh",
-    "meta": "Major League Hacking (MLH) is the official student hackathon league."
-  },
-  {
-    "name": "Mal Warwick | Donordigital",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/mal-warwick-donordigital",
-    "meta": "One of the country's premier fundraising consultancies for nonprofit organizations"
-  },
-  {
-    "name": "MALK Organics",
-    "cert": "fairtradeusa",
-    "certlink": "http://malkorganics.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Mama Ganache Artisan Chocolates",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.sweetearthchocolates.com/",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Mamava, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/mamava-inc",
-    "meta": "Mamava provides lactation suites for nursing moms who've got to pump (or feed in privacy) on the go."
-  },
-  {
-    "name": "Mamma Chia",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/mamma-chia",
-    "meta": "Organic chia-based food & beverage company committed to uplifting humanity and the planet"
-  },
-  {
-    "name": "Management Resources",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/management-resources",
-    "meta": "CEO and leadership coaching.  Consulting projects that help companies run better and grow."
-  },
-  {
-    "name": "Mandala Naturals",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/mandala-naturals",
-    "meta": "Sustainably sourced | Mindfully crafted | Inspiringly delicious"
-  },
-  {
-    "name": "Mandalia Foods Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.heartofspice.co",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Mangrove Web Development",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/mangrove-web-development",
-    "meta": ""
-  },
-  {
-    "name": "March 4th, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/march-4th-inc",
-    "meta": "Environmentally-friendly and award-winning children's media & branded product company"
-  },
-  {
-    "name": "Marich Confectionery",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.marich.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Marigold Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.marigoldinc.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Mark Leibowitz Photography Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/mark-leibowitz-photography-inc",
-    "meta": "Photography and Film"
-  },
-  {
-    "name": "Martin Bauer Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.martin-bauer.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Marx Brothers Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.marxbrothersinc.com",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "Mass Commodities LLC",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer"
-  },
-  {
-    "name": "Massimo Zanetti Beverage",
-    "cert": "fairtradeusa",
-    "certlink": "http://mzb-usa.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Masterstouch Brand LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.masterstouch.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Matrix Liquid Mfg Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://matrixliquidmfg.com/",
-    "meta": "Brandholder"
-  },
-  {
-    "name": "Matter Unlimited",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/matter-unlimited",
-    "meta": "A creative agency and strategic partner for pioneers of the shared value economy."
-  },
-  {
-    "name": "Mattie's Mountain Mud",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.mattiesmountainmud.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Maverick Brands LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.maverickbrands.com",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "Mavericks Wholesale",
-    "cert": "fairtradeusa",
-    "certlink": "http://maverickscoffee.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "MAX Insurance",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/max-insurance",
-    "meta": "Insurance protection the way it should be.  Fair.  Faithful.  Socially Responsible."
-  },
-  {
-    "name": "Maxwell Health",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/maxwell-health",
-    "meta": "Maxwell Health pairs high-quality health plans with world-class wellness services and technology"
-  },
-  {
-    "name": "McCormick US Industrial Group",
-    "cert": "fairtradeusa",
-    "certlink": "http://mccormick.com",
-    "meta": "Exporter, Importer, Manufacturer"
-  },
-  {
-    "name": "McLaughlin Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.mclaughlincoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "MEC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.mec.ca",
-    "meta": "Importer, Brandholder"
-  },
-  {
-    "name": "Medora Ventures",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/medora-ventures",
-    "meta": ""
-  },
-  {
-    "name": "Megan A. James Photography",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/megan-a-james-photography",
-    "meta": ""
-  },
-  {
-    "name": "MEJDI Tours",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/mejdi-tours",
-    "meta": "Global tour operator that believes travel should contribute to a more positive, interconnected world"
-  },
-  {
-    "name": "Meliora Cleaning Products",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/meliora-cleaning-products",
-    "meta": "People- and Planet-Friendly Home Cleaning and Laundry Products Manufacturer."
-  },
-  {
-    "name": "Melitta USA Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Mellelo Group Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.mellelo.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Merge4 Mfg, Inc",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/merge4-mfg-inc",
-    "meta": "Making insanely comfortable and good-looking MERGE4 socks & collaborating with with some great people"
-  },
-  {
-    "name": "Meridian Trading",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.meridiantrading.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Merritt & Merritt",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/merritt-merritt",
-    "meta": "VT-based law firm which collaborates with public and privately-held growth companies in New England"
-  },
-  {
-    "name": "Message Agency",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/message-agency",
-    "meta": "A full-service interactive studio that helps nonprofits and sustainable businesses use technology to enlighten, engage, and enact change."
-  },
-  {
-    "name": "Method Products, PBC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/method-products-pbc",
-    "meta": ""
-  },
-  {
-    "name": "Metric Coffee Co",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.metriccoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Metropolis Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.metropoliscoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Metropolitan Group",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/metropolitan-group",
-    "meta": ""
-  },
-  {
-    "name": "Michel's Bakery Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://michelsbakery.com/",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Microgrid Energy, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/microgrid-energy-llc",
-    "meta": "Founded as a Triple Bottom Line company, Microgrid offers solar and energy efficiency services."
-  },
-  {
-    "name": "Mighty Leaf Tea",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.mightyleaf.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Mightybytes, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/mightybytes-inc",
-    "meta": "Full-service web and interactive creative firm"
-  },
-  {
-    "name": "MiiR",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/miir",
-    "meta": "MiiR is committed to making products that change the world."
-  },
-  {
-    "name": "Mike Shea's Coffeehouse Traditionals Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.mikesheas.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Mile Square Coffee Roastery",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.milesquarecoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Milepost Consulting",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/milepost-consulting",
-    "meta": ""
-  },
-  {
-    "name": "MilkCrate",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/milkcrate",
-    "meta": "We believe the potential to create a sustainable future is in all of us."
-  },
-  {
-    "name": "Mindfull Investors",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/mindfull-investors",
-    "meta": "VC fund investing in health focused companies positively impacting our health, environment & healthy lifestyles."
-  },
-  {
-    "name": "MIO",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/mio",
-    "meta": "MIO is a lifestyle & culture co. bridging the gap between business & sustainability through design."
-  },
-  {
-    "name": "MIRE Enterprises",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.reggiesroastcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Mission Coffee Roasters Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.missioncoffeeroasters.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Mission Hub LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/mission-hub-llc",
-    "meta": "Community Workspace"
-  },
-  {
-    "name": "Mitsubishi International Corporation",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.mitsubishicorp.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Mitsui Foods Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.mitsuifoods.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "Mixes Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.pantryshelfco.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "MJ Distribution",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer, Distributor"
-  },
-  {
-    "name": "MJ Everson Financial",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/mj-everson-financial",
-    "meta": "Independent financial planning firm focusing on a triple bottom line"
-  },
-  {
-    "name": "MN Coffees",
-    "cert": "fairtradeusa",
-    "certlink": "http://n/a",
-    "meta": "Importer, Manufacturer, Broker (Domestic)"
-  },
-  {
-    "name": "Mocha Joe's",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.mochajoes.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "MōD, Meaningful Organizational Design, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/m%C5%8Dd-meaningful-organizational-design-inc",
-    "meta": "Organizational Design & Consulting. Strategic Planning. Mindfulness Coaching. Libraries. Retreats."
-  },
-  {
-    "name": "Modernist Financial, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/modernist-financial-llc",
-    "meta": "Believe in plenty. Believe in enough."
-  },
-  {
-    "name": "Moementum, Inc",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/moementum-inc",
-    "meta": ""
-  },
-  {
-    "name": "Moka Joe",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.mokajoe.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Monkey & Son Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.monkeyandson.com",
-    "meta": "Brandholder"
-  },
-  {
-    "name": "Montana Coffee Traders",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.coffeetraders.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Montauk Coffee Roasters Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://montaukcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Montcalm TCR LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/montcalm-tcr-llc",
-    "meta": ""
-  },
-  {
-    "name": "Montgomery & Hansen",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/montgomery-hansen",
-    "meta": "Corporate law firm serving emerging technology companies and their investors"
-  },
-  {
-    "name": "Moon Valley Organics",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/moon-valley-organics",
-    "meta": "Started in 1998, Moon Valley Organics has stayed true to their passion of living ethically a"
-  },
-  {
-    "name": "Moonflower Enterprises",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer"
-  },
-  {
-    "name": "More Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://morecoffee.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Morning Bell Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://morningbellcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "MorningStar Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.morningstarcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Morris Recruiting & Consulting",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/morris-recruiting-consulting",
-    "meta": "Boutique search firm offering customized recruiting, staffing, and career support services."
-  },
-  {
-    "name": "Moschetti Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.moschetti.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Mother Lode Coffee Roasting Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.mlcrc.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Mother Parker's Tea & Coffee Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.mother-parkers.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Motherlove Herbal Company",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/motherlove-herbal-company",
-    "meta": "Providing organic herbal product for mother and baby for over a generation."
-  },
-  {
-    "name": "Mount Franklin Foods LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.mountfranklinfoods.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Mount Lookout Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.lookoutjoe.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Mountain Challenge",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/mountain-challenge",
-    "meta": "Since 1987, Mountain Challenge has provided our region with high quality and safe outdoor experience"
-  },
-  {
-    "name": "Mountain Khakis",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.mountainkhakis.com/taxons/search?utf8=%e2%9c%93&keywords=fair+trade+",
-    "meta": "Importer, Brandholder"
-  },
-  {
-    "name": "Mountanos Family Coffee & Tea",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.mfct.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Moving Forward Education",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/moving-forward-education",
-    "meta": "Tutoring and mentoring services for students in the Bay Area"
-  },
-  {
-    "name": "Moxie Java International LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.moxiejava.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Moye White",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/moye-white",
-    "meta": "Denver-based law firm representing clients in diverse areas of Business, Litigation & Real Estate."
-  },
-  {
-    "name": "MP Mountanos",
-    "cert": "fairtradeusa",
-    "certlink": "http://mpmsc.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "MPOWERD Inc",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/mpowerd-inc",
-    "meta": ""
-  },
-  {
-    "name": "Mr Espresso",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.mrespresso.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "MRW Connected, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/mrw-connected-inc",
-    "meta": ""
-  },
-  {
-    "name": "Mud River Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.mudrivercoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Muddy Waters Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.ilovemud.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Mugshots Coffeehouse",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/mugshots-coffeehouse",
-    "meta": "Mugshots is a socially conscious cafe serving local and fair trade cuisine."
-  },
-  {
-    "name": "Mukilteo Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.mukilteocoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Mulanje Tea Imports Inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://mulanjetea.com",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "Multatuli Coffee Merchants",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.multatuli.ca",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Multiple Organics Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.multipleorganics.com",
-    "meta": "Importer, Distributor"
-  },
-  {
-    "name": "Murphy's Naturals, Inc",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/murphys-naturals-inc",
-    "meta": "Maker of all-natural mosquito and flying insect repellent products"
-  },
-  {
-    "name": "MyDomino",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/mydomino",
-    "meta": "MyDomino provides a unique employee benefit that boosts a company's CSR and helps recruit talent."
-  },
-  {
-    "name": "Mystic Coffee Roaster LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.mysticcoffeeroaster.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Nada Moo",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.nadamoo.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Naked Juice Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.nakedjuice.com/#homepage",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "Namaste Solar",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/namaste-solar",
-    "meta": "A values-based, employee owned solar electric company"
-  },
-  {
-    "name": "Nassau Candy",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.nassaucandy.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "National Co+op Grocers",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/national-coop-grocers",
-    "meta": "Business services cooperative for retail food co-ops throughout the United States"
-  },
-  {
-    "name": "National Coffee Corp",
-    "cert": "fairtradeusa",
-    "certlink": "http://churchandstatecoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "NativeEnergy, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/nativeenergy-inc",
-    "meta": ""
-  },
-  {
-    "name": "Natra Cacao SL",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.natra.com",
-    "meta": "Importer, Processor"
-  },
-  {
-    "name": "Natra Chocolate Americas",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.natra.com",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "NATRA SAINT ETIENNE",
-    "cert": "fairtradeusa",
-    "certlink": "http://natra.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Natural American Foods Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.naturalamericanfoods.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Natural Flavors Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.flavor.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Natural Investments LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/natural-investments-llc",
-    "meta": ""
-  },
-  {
-    "name": "Natural Nectar",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.natural-nectar.com/",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Natural Organic Process Enterprises",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/natural-organic-process-enterprises",
-    "meta": ""
-  },
-  {
-    "name": "Natural Systems Utilities",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/natural-systems-utilities",
-    "meta": "Decentralized water management (supply treatment re-use); integrated water management systems"
-  },
-  {
-    "name": "Nature's Path Foods",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.naturespath.com/",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Nature's Power Nutraceuticals Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.npnutra.com",
-    "meta": "Importer, Manufacturer"
-  },
-  {
-    "name": "Naturescapes",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/naturescapes",
-    "meta": "Designs and installs environmentally sensitive gardens and landscape designs"
-  },
-  {
-    "name": "NAVA Real Estate Development",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/nava-real-estate-development",
-    "meta": "NAVA Real Estate Development was founded in 2013 by the partnership of Trevor M Hines and"
-  },
-  {
-    "name": "Near East",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Nectar Consulting Inc",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/nectar-consulting-inc",
-    "meta": "Executive coaching, Leadership Development Training, Business Consulting"
-  },
-  {
-    "name": "Nectar of Life Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.nectaroflife.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Needmore Coffee Roasters LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.needmoreroasters.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "NEEV",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/neev",
-    "meta": "Lifestyle Creations for a Conscious World! Ethical Eco-friendly Handcrafted Linens, Furnishings & Accessories."
-  },
-  {
-    "name": "Neil Kelly Company",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/neil-kelly-company",
-    "meta": "Neil Kelly Company is a pioneer in the design/build process in the Northwest and strive to incorporate green design and remodeling elements in all their practices"
-  },
-  {
-    "name": "Nellson Nutraceutical LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.nellsonllc.com/",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Nespresso USA",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.nespresso-us.com",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "NetRaising",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/netraising",
-    "meta": ""
-  },
-  {
-    "name": "Network for Good",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/network-good",
-    "meta": ""
-  },
-  {
-    "name": "New Belgium Brewing Co, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/new-belgium-brewing-co-inc",
-    "meta": "100% Employee owned brewer of fine Belgian inspired ales"
-  },
-  {
-    "name": "New Chapter",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/new-chapter",
-    "meta": ""
-  },
-  {
-    "name": "New Day Films, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/new-day-films-inc",
-    "meta": "New Day Films is a filmmaker-run educational documentary distribution company."
-  },
-  {
-    "name": "New England Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.newenglandcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "New Hampshire Coffee Roasting",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.nhcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "New Harvest Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.newharvestcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "New Hope Mills Manufacturing",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.newhopemills.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "New Leaf Community Markets",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/new-leaf-community-markets",
-    "meta": "Natural grocery store founded in 1985 with a mission to nourish and sustain our community"
-  },
-  {
-    "name": "New Leaf Paper",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/new-leaf-paper",
-    "meta": "Developer and distributor of leading environmental office and printing papers"
-  },
-  {
-    "name": "New Level Group LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/new-level-group-llc",
-    "meta": ""
-  },
-  {
-    "name": "New Living",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/new-living",
-    "meta": "Green building and home store committed to providing affordable, safe, and clean spaces"
-  },
-  {
-    "name": "New Organics",
-    "cert": "fairtradeusa",
-    "certlink": "http://neworganics.com",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "New Orleans Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.coolbrew.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "New Outlook Financial, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/new-outlook-financial-llc",
-    "meta": "Investment advisory firm offering fee only financial planning and investment advice"
-  },
-  {
-    "name": "New Resource Bank",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/new-resource-bank",
-    "meta": "Banking for people, planet and prosperity."
-  },
-  {
-    "name": "New Seasons Market",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/new-seasons-market",
-    "meta": ""
-  },
-  {
-    "name": "Newtown Foods USA",
-    "cert": "fairtradeusa",
-    "certlink": "http://newtownfoods.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Nexgen Pharma Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Next Street",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/next-street",
-    "meta": "Business advisory services and customized financing solutions for small businesses"
-  },
-  {
-    "name": "NibMor",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Nielsen - Massey Vanillas",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.nielsenmassey.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Noble Coyote Coffee Roasters LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.noblecoyotecoffee.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Nomadic Ground",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.nomadicground.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Noonday Collection",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/noonday-collection",
-    "meta": ""
-  },
-  {
-    "name": "North Berkeley Investment Partners",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/north-berkeley-investment-partners",
-    "meta": "Independent investment advisory firm committed to client, investment and community sustainability"
-  },
-  {
-    "name": "North Coast Brewing Co., Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/north-coast-brewing-co-inc",
-    "meta": "Small, Independent and Traditional since 1988. Carpe Diem, Vita Brevis."
-  },
-  {
-    "name": "North Coast Organics LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/north-coast-organics-llc",
-    "meta": ""
-  },
-  {
-    "name": "North, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/north-inc",
-    "meta": ""
-  },
-  {
-    "name": "Northeast Green Building Consulting, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/northeast-green-building-consulting-llc",
-    "meta": "We build, advise, & verify sustainable construction using biomimicry, building & resilience science."
-  },
-  {
-    "name": "Northern Harvest Gift Baskets",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.northernharvestgiftbaskets.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "NorthFork Financial, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/northfork-financial-llc",
-    "meta": ""
-  },
-  {
-    "name": "Northside Food Corp",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.northsidefood.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "NorthStar Asset Management, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/northstar-asset-management-inc",
-    "meta": ""
-  },
-  {
-    "name": "Northwest Capital Management, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/northwest-capital-management-inc",
-    "meta": ""
-  },
-  {
-    "name": "Northwest Permanente",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/northwest-permanente",
-    "meta": "Our dedicated physicians help others live longer, healthier, and happier lives."
-  },
-  {
-    "name": "Nossa Familia Coffee",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/nossa-familia-coffee",
-    "meta": "Building relationships through exceptional coffee, with community & our planet in mind."
-  },
-  {
-    "name": "Notogroup Executive Search",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/notogroup-executive-search",
-    "meta": "Consumer / Retail Focus: Active, Outdoor, Lifestyle, Fashion, Natural Products, Food & Grocery."
-  },
-  {
-    "name": "Notting Hill Coffee Roastery",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.nottinghillcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "NR North Roast",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.northroast.ca/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "NRG Insurance",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/nrg-insurance",
-    "meta": "Offers insurance that puts people first."
-  },
-  {
-    "name": "Numi Organic Tea",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/numi-organic-tea",
-    "meta": "Organic, full leaf teas, herbal teasans, and flowering teas"
-  },
-  {
-    "name": "Numi Organic Tea",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.numitea.com",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "NuNaturals Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.nunaturals.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Nutiva",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/nutiva",
-    "meta": "Super people deserve superfoods. For Nutiva, it starts with organic, non-GMO farming."
-  },
-  {
-    "name": "Nutiva",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.nutiva.com",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "NutriGold Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.nutrigold.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "NuttZo",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/nuttzo",
-    "meta": "NuttZo - the only organic 7 nut and seed butter - Non-GMO, Gluten Free, No added Sugar or Oils."
-  },
-  {
-    "name": "Oaklandish",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/oaklandish",
-    "meta": ""
-  },
-  {
-    "name": "OBEY CLOTHING",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.obeyclothing.com",
-    "meta": "Importer, Brandholder"
-  },
-  {
-    "name": "Ocean First, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/ocean-first-llc",
-    "meta": ""
-  },
-  {
-    "name": "Octavia Tea",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.octaviatea.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Odacrem Coffee LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.odacremcoffee.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Ogden Publications, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/ogden-publications-inc",
-    "meta": "Publishes magazines and books for people interested in self-sufficiency, sustainability, rural lifes"
-  },
-  {
-    "name": "Oke USA",
-    "cert": "fairtradeusa",
-    "certlink": "http://beyondthepeel.com/index.html",
-    "meta": "Importer"
-  },
-  {
-    "name": "Olam Americas Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.olamonline.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "Olam Cocoa",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer"
-  },
-  {
-    "name": "Olam International",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Exporter, Importer"
-  },
-  {
-    "name": "Old Chicago Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://oldchicagocoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Old Crown Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.oldcrown.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Old Rock Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://oldrock.ca",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Old Structures Engineering",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/old-structures-engineering",
-    "meta": "An engineering consulting firm dedicated to repair/reuse of existing buildings."
-  },
-  {
-    "name": "Oliberté Footwear",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.oliberte.com",
-    "meta": "Importer, Brand Holder"
-  },
-  {
-    "name": "Oliver Russell & Associates",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/oliver-russell-associates",
-    "meta": "Oliver Russell is a purpose-driven brand marketing and advertising firm."
-  },
-  {
-    "name": "Olomomo Nut Company, LLC.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/olomomo-nut-company-llc",
-    "meta": ""
-  },
-  {
-    "name": "Olson Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.truestonecoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "OluKai",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/olukai",
-    "meta": "OluKai is a luxury lifestyle brand that believes everyone, no matter where they are, can live Aloha."
-  },
-  {
-    "name": "OlyKraut",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/olykraut",
-    "meta": "OlyKraut crafts delicious, raw, organic sauerkrauts, pickles, and sipping brines in the Pacific Northwest."
-  },
-  {
-    "name": "Omar Coffee Company Incorporated - Hartford",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.omarcoffeecompany.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Omari Gourmet Coffee & Tea",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.omaricoffee.com/",
-    "meta": "Manufacturer, Distributor"
-  },
-  {
-    "name": "On Belay Business Advisors Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/on-belay-business-advisors-inc",
-    "meta": "Provides practical support for leaders to make conscious choices"
-  },
-  {
-    "name": "One Earth Designs",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/one-earth-designs",
-    "meta": "Rethinking household energy"
-  },
-  {
-    "name": "One Hundred Seconds",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/one-hundred-seconds",
-    "meta": "A value-driven team of creatives delivering authentic, accessible videos and personalized service."
-  },
-  {
-    "name": "One Line Coffee LTD",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.onelinecoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "One Nature LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/one-nature-llc",
-    "meta": "Designs, grows, and builds remarkable places that improve the environment."
-  },
-  {
-    "name": "One Village Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.onevillagecoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "One Village Coffee LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/one-village-coffee-llc",
-    "meta": ""
-  },
-  {
-    "name": "One World Flowers Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.oneworldflowers.org/",
-    "meta": "Importer"
-  },
-  {
-    "name": "OneEnergy Renewables",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/oneenergy-renewables",
-    "meta": ""
-  },
-  {
-    "name": "OneKind25 LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.cocokind.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "OneSeventeen Media, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/oneseventeen-media-inc",
-    "meta": ""
-  },
-  {
-    "name": "Oppenheimer Group",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.oppy.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Opticos Design, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/opticos-design-inc",
-    "meta": "Planning healthy, sustainable, diverse communities and designing buildings that reinforce them"
-  },
-  {
-    "name": "Orbit Media Studios, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/orbit-media-studios-inc",
-    "meta": ""
-  },
-  {
-    "name": "Orchestrate Technologies",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/orchestrate-technologies",
-    "meta": "Builds IT managed service partnerships focused on cloud solutions."
-  },
-  {
-    "name": "Oregon Cherry Growers, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/oregon-cherry-growers-inc",
-    "meta": "Oregon Cherry Growers is a cooperative of family farms in the Willamette Valley and Columbia Gorge"
-  },
-  {
-    "name": "Organic Culture",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.organicculture.us",
-    "meta": "Importer"
-  },
-  {
-    "name": "Organic Delight LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.myorganicdelight.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Organic India USA",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/organic-india-usa",
-    "meta": "Ethically and Regeneratively farmed, Certified Organic herbal supplements and teas."
-  },
-  {
-    "name": "Organic Planet LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/organic-planet-llc",
-    "meta": ""
-  },
-  {
-    "name": "Organic Products Trading Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.optco.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Organic Spices",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.organicspices.com",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "Organik SEO",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/organik-seo",
-    "meta": "A digital marketing agency dedicated to helping purpose-driven businesses grow"
-  },
-  {
-    "name": "Origin Climate",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/origin-climate",
-    "meta": "Our projects reduce GHG emissions through carbon offsets, RECs and sustainable energy."
-  },
-  {
-    "name": "Orinoco Coffee & Tea LTD",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.cafeorinoco.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Orleans Coffee Exchange",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.orleanscoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Others Fair Trade Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://otherscoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Oughtred Coffee & Tea",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.oughtred.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Out Leadership",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/out-leadership",
-    "meta": "A global business advisory firm partnering with innovative companies to create Return on Equality™."
-  },
-  {
-    "name": "Out of the Box Collective",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/out-of-the-box-collective",
-    "meta": "LA’s Farm to Table Home Delivery Service.  The Food Revolution:  Delivered."
-  },
-  {
-    "name": "Outerknown",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.outerknown.com",
-    "meta": "Importer, Brandholder"
-  },
-  {
-    "name": "Outlaw Imports LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.outlawimports.com",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "Ozo Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.ozocoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "P.L.A.Y. Pet Lifestyle and You Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/play-pet-lifestyle-and-you-inc",
-    "meta": ""
-  },
-  {
-    "name": "Pacific Blue Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer"
-  },
-  {
-    "name": "Pacific Collective Real Estate",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/pacific-collective-real-estate",
-    "meta": ""
-  },
-  {
-    "name": "Pacific Green Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.pacificgreencoffee.com",
-    "meta": "Brandholder"
-  },
-  {
-    "name": "Pacific Natural Foods",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.pacificfoods.com/",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Pacific Organic Produce",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.pacorg.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "Packaging 2.0, Inc",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/packaging-20-inc",
-    "meta": ""
-  },
-  {
-    "name": "PACT Apparel",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.wearpact.com",
-    "meta": "Importer, Brandholder"
-  },
-  {
-    "name": "Paige Wolf Media & Public Relations",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/paige-wolf-media-public-relations",
-    "meta": "Public relations and communications services for sustainable and mission-driven businesses"
-  },
-  {
-    "name": "Palmer Candy",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.palmercandy.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Palto",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/palto",
-    "meta": ""
-  },
-  {
-    "name": "Pan American Coffee Company Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://panamericancoffee.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "PANOS brands LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.panosbrands.com",
-    "meta": "Importer, Brandholder"
-  },
-  {
-    "name": "Paper Plane Coffee Company LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.paperplanecoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Paragon Coffee Trading Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.paragoncoffee.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Paramount Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.paramountcoffee.com/",
-    "meta": "Importer, Manufacturer"
-  },
-  {
-    "name": "Park City Coffee Roaster",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.parkcitycoffeeroaster.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Paromi Tea",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer, Brandholder"
-  },
-  {
-    "name": "Participate",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/participate",
-    "meta": ""
-  },
-  {
-    "name": "Partner App TEST ACCOUNT",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer, Manufacturer"
-  },
-  {
-    "name": "Partnership Capital Growth",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/partnership-capital-growth",
-    "meta": "Facilitates capital relationships in the healthy, active and sustainable marketplace"
-  },
-  {
-    "name": "Passion House Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.passionhousecoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Patagonia Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.patagonia.com",
-    "meta": "Importer, Brandholder"
-  },
-  {
-    "name": "Patagonia Organics LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.patagoniaorganics.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Patagonia, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/patagonia-inc",
-    "meta": "Outdoor clothing, apparel and gear for climbing, hiking, surfing, running, travel"
-  },
-  {
-    "name": "Paul deLima Company Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.delimacoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "PayActiv, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/payactiv-inc",
-    "meta": ""
-  },
-  {
-    "name": "Peak Organic Brewing",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.peakbrewing.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Pearson Candy Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.pearsonscandy.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Peeled Snacks",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/peeled-snacks",
-    "meta": "Tasty and nourishing fruit & nut mixes that are as close to nature as possible"
-  },
-  {
-    "name": "Peerless Coffee & Tea Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.peerlesscoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Peet's Coffee & Tea",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.peets.com",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "Pekin Singer Strauss Asset Management",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/pekin-singer-strauss-asset-management",
-    "meta": "Independent investment manager that seeks to make prudent, disciplined, and sustainable investments"
-  },
-  {
-    "name": "Peniel Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.penielcoffee.com  under construction",
-    "meta": "Importer"
-  },
-  {
-    "name": "Pepsi Beverage Company",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Perc Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.perccoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Perfect Harvest",
-    "cert": "fairtradeusa",
-    "certlink": "http://perfectharvest.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "Perlman and Perlman, LLP",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/perlman-and-perlman-llp",
-    "meta": "Provides legal counsel to nonprofits, social enterprises and commercial businesses"
-  },
-  {
-    "name": "Pete & Gerry's Organics, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/pete-gerrys-organics-llc",
-    "meta": "Pete and Gerry's Organics are the founding Certified Humane egg farm in the U.S."
-  },
-  {
-    "name": "Peter Paul Philippine Corporation",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.peterpaul.com.ph",
-    "meta": "Exporter, Manufacturer"
-  },
-  {
-    "name": "Peterson Farms Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.petersonfarmsinc.com/",
-    "meta": "Importer, Manufacturer"
-  },
-  {
-    "name": "Pharos Systems",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/pharos-systems",
-    "meta": ""
-  },
-  {
-    "name": "Phildesco Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer"
-  },
-  {
-    "name": "Phildesco LTD",
-    "cert": "fairtradeusa",
-    "certlink": "http://phildesco.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "Philly Fair Trade Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.phillyfairtrade.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Philz Coffee Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.philzcoffee.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Pie Pan, Inc. DBA Bull City Burger and Brewery & Pompieri Pizza",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/pie-pan-inc-dba-bull-city-burger-and-brewery-pompieri-pizza",
-    "meta": "Eat Pasture-Raised Beef, Drink Freshly Brewed Beer & Burning with Pizza Passion"
-  },
-  {
-    "name": "Pierce Bros Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.piercebroscoffee.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Pike's Perk Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Pique Tea Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.piquetea.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Pishkesh",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.pishkeshmarket.com",
-    "meta": "Brandholder"
-  },
-  {
-    "name": "Pitchfork Coffee Roasters LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://pitchforkcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Pixel Parlor",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/pixel-parlor",
-    "meta": "Pixel Parlor is an award-winning design studio specializing in print, brand, and interactive design."
-  },
-  {
-    "name": "Pixellu",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/pixellu",
-    "meta": "Pixellu is the photography industry's leading album design software."
-  },
-  {
-    "name": "PixelSpoke",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/pixelspoke",
-    "meta": "PixelSpoke creates online strategies and websites for credit unions and progressive businesses"
-  },
-  {
-    "name": "PJ's Coffee/New Orleans Roast",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.pjscoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Place of the Future LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/place-of-the-future-llc",
-    "meta": "Transforming Business Through Impact Driven Work."
-  },
-  {
-    "name": "Planet Bluegrass",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/planet-bluegrass",
-    "meta": "Producers of Telluride Bluegrass Festival, RockyGrass, Rocky Mountain Folks Festival, and more!"
-  },
-  {
-    "name": "Playing for Change",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/playing-change",
-    "meta": "Playing For Change is a movement created to inspire and connect the world through music."
-  },
-  {
-    "name": "Pley",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/pley",
-    "meta": "Pley is a toy rental service, enabling more fun, less clutter and brighter kids."
-  },
-  {
-    "name": "Plum Organics",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/plum-organics",
-    "meta": ""
-  },
-  {
-    "name": "PLUSfoam",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/plusfoam",
-    "meta": ""
-  },
-  {
-    "name": "PlusUs",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/plusus",
-    "meta": "Design for Education"
-  },
-  {
-    "name": "PoliOleos",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.ikove.com.br",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "Pontiac Foods",
-    "cert": "fairtradeusa",
-    "certlink": "http://kroger.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Port City Java",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.portcityjava.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Port Townsend Coffee Roasting Company",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Portico Brands/Under the Canopy",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer, Brandholder"
-  },
-  {
-    "name": "Portland Roasting Company LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://portlandroasting.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Postcard.com, PBC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/postcardcom-pbc",
-    "meta": "Redefining how we take action in the digital space through Advocacy, Arts and Education."
-  },
-  {
-    "name": "Pottery Barn",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.potterybarn.com",
-    "meta": "Importer, Brandholder"
-  },
-  {
-    "name": "Pour le Monde Parfums",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/pour-le-monde-parfums",
-    "meta": "A certified 100% natural fine fragrance company. For the world, naturally!"
-  },
-  {
-    "name": "PowerDash Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/powerdash-inc",
-    "meta": "PowerDash provides web-based software tools for the monitoring of alternative energy installations."
-  },
-  {
-    "name": "Practical Energy Solutions",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/practical-energy-solutions",
-    "meta": "Provides building energy audits & a broad range of energy consulting and strategic planning services"
-  },
-  {
-    "name": "Practice Makes Perfect Holdings PBC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/practice-makes-perfect-holdings-pbc",
-    "meta": ""
-  },
-  {
-    "name": "prAna Living LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.prana.com/catalogsearch/result/?origin=store&x=0&y=0&q=%22fair+trade%22",
-    "meta": "Importer, Brandholder"
-  },
-  {
-    "name": "Praxis Consulting Group",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/praxis-consulting-group",
-    "meta": "Assists mission driven businesses and nonprofits to develop high-performing sustainable workplaces"
-  },
-  {
-    "name": "Prepare Inc",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/prepare-inc",
-    "meta": ""
-  },
-  {
-    "name": "Prescott Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.prescottcoffeeroasters.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Preserve",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/preserve",
-    "meta": "Preserve makes sustainable consumer products for the home that are recycled and recyclable"
-  },
-  {
-    "name": "Prestige Wine Group",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.organicwinetradecompany.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "Preting",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/preting",
-    "meta": "Preting is a government consulting company focused on training and design services."
-  },
-  {
-    "name": "Prichard Communications, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/prichard-communications-inc",
-    "meta": ""
-  },
-  {
-    "name": "Prime Roast Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.demonroast.com/index.html",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Pringle Creek Community- Sustainable Investments",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/pringle-creek-community-sustainable-investments",
-    "meta": "A neighborhood inspired by nature, community and innovation"
-  },
-  {
-    "name": "Pro - Line Packaging",
-    "cert": "fairtradeusa",
-    "certlink": "http://prolinecoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Profile Food Ingredients",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.profilefoodingredients.com",
-    "meta": "Importer, Manufacturer"
-  },
-  {
-    "name": "Project Healthy Living",
-    "cert": "fairtradeusa",
-    "certlink": "http://aloha.com",
-    "meta": "Brandholder"
-  },
-  {
-    "name": "Prosper for Purpose LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/prosper-purpose-llc",
-    "meta": ""
-  },
-  {
-    "name": "Prosper Strategies",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/prosper-strategies",
-    "meta": ""
-  },
-  {
-    "name": "Prosperity Candle",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/prosperity-candle",
-    "meta": ""
-  },
-  {
-    "name": "Prosperity Organic Foods",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/prosperity-organic-foods",
-    "meta": ""
-  },
-  {
-    "name": "Prosperity Organic Foods Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.meltorganic.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Proud Harvest Inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.deansbeans.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Prova Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.prova.fr",
-    "meta": "Importer"
-  },
-  {
-    "name": "PROVOC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/provoc",
-    "meta": "Leverage the power of creative design and technology to drive social change and innovation"
-  },
-  {
-    "name": "Public - Supply",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/public-supply",
-    "meta": "High quality stationery supplies in support of the creative arts in our public schools."
-  },
-  {
-    "name": "Pullman Sugar LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.pullmansugar.com",
-    "meta": "Importer, Manufacturer"
-  },
-  {
-    "name": "Pura Vida Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.puravidacoffee.com",
-    "meta": "Brand Holder"
-  },
-  {
-    "name": "Puratos",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.puratos.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Pure Aroma Café LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.purearomacafe.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Pure Ground Ingredients",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.puregroundingredients.com",
-    "meta": "Importer, Manufacturer"
-  },
-  {
-    "name": "Pure Intentions Roasting Company LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.pureintentionscoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Pure Madness Chocolates LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.puremadnesschocolate.com",
-    "meta": "Brandholder"
-  },
-  {
-    "name": "Purely Elizabeth",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/purely-elizabeth",
-    "meta": "A natural food company that creates delicious, gluten-free, nutrient-rich and organic products"
-  },
-  {
-    "name": "Purpose",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/purpose",
-    "meta": "Deploys the collective power of millions of citizens to help solve the world’s biggest problems"
-  },
-  {
-    "name": "PV Squared",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/pv-squared",
-    "meta": "PV Squared promotes solar power for sustainable communities and is a worker-owned cooperative."
-  },
-  {
-    "name": "PWPvideo",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/pwpvideo",
-    "meta": "Full service production company specializing in video for nonprofits and green/sustainable busine"
-  },
-  {
-    "name": "Pyramid Communications",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/pyramid-communications",
-    "meta": "Pyramid is a full-service communications agency delivering results for mission-driven organizations."
-  },
-  {
-    "name": "Q&A",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/qa",
-    "meta": ""
-  },
-  {
-    "name": "QTrade Teas & Herbs",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.qtradeteas.com/index.html",
-    "meta": "Importer, Manufacturer"
-  },
-  {
-    "name": "R World Energy Solutions LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/r-world-energy-solutions-llc",
-    "meta": "Consulting/Engineering firm focused on energy efficiency, conservation, distributed energy solutions."
-  },
-  {
-    "name": "R+M Agency",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/rm-agency",
-    "meta": ""
-  },
-  {
-    "name": "Radically Good Food Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://paschachocolate.com",
-    "meta": "Brandholder"
-  },
-  {
-    "name": "Radicle Impact Partners",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/radicle-impact-partners",
-    "meta": ""
-  },
-  {
-    "name": "Radix Consulting Group, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/radix-consulting-group-llc",
-    "meta": "Healing Symptoms - Changing Systems"
-  },
-  {
-    "name": "Raffa, P.C.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/raffa-pc",
-    "meta": "Raffa is a national Top 100 CPA advisory firm working with nonprofits and socially-responsible firms"
-  },
-  {
-    "name": "Rain Water Solutions, Inc",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/rain-water-solutions-inc",
-    "meta": "Provides rainwater harvesting systems for residential and commercial applications."
-  },
-  {
-    "name": "Raining Rose Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/raining-rose-inc",
-    "meta": ""
-  },
-  {
-    "name": "Raining Rose Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.rainingrose.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Ramble Coffee LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://ramblecoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Raptis Coffee Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.raptiscoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Rare Fare Foods",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Brandholder"
-  },
-  {
-    "name": "Raven & Lily",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.ravenandlily.com",
-    "meta": "Importer, Brandholder"
-  },
-  {
-    "name": "Raven + Lily",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/raven-lily",
-    "meta": "Raven + Lily is an ethical fashion and lifestyle brand dedicated to empowering women through design."
-  },
-  {
-    "name": "RayJen Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.rayjencoffeeco.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "re:focus partners",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/refocus-partners",
-    "meta": ""
-  },
-  {
-    "name": "Re:Vision Architecture",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/revision-architecture",
-    "meta": "Architecture, planning, and consulting specializing in sustainable design and development"
-  },
-  {
-    "name": "Reach Trade LLC",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer"
-  },
-  {
-    "name": "Real Coffee Roasters LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.stonestreetcoffee.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Real Leaders",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/real-leaders",
-    "meta": "The mission of Real Leaders is to inspire better leaders for a better world."
-  },
-  {
-    "name": "Reality Roasters Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://realityroasters.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "REBBL Inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.rebbltea.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Recycle-A-Textbook.com",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/recycle-a-textbookcom",
-    "meta": ""
-  },
-  {
-    "name": "Recyclebank",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/recyclebank",
-    "meta": "Rewards everyday green actions with discounts and deals from local and national businesses"
-  },
-  {
-    "name": "Red Barn Coffee Roasters Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.redbarncoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Red Bay Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.redbaycoffee.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Red Bike Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.redbikecoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Red Cedar Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.redcedarcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Red Goni Coffee LLC",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer"
-  },
-  {
-    "name": "Red Rabbit",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/red-rabbit",
-    "meta": "Red Rabbit provides healthy, farm-fresh meals to schools."
-  },
-  {
-    "name": "Red Rambler Coffees",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.redrambler.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Red Rock Distributing Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.redrockroasters.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Red Rooster Coffee Roaster",
-    "cert": "fairtradeusa",
-    "certlink": "http://https://redroostercoffeeroaster.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "RedCo Foods",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.redcofoods.com/",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Reformation",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/reformation",
-    "meta": "Reformation uses sustainable fabrics and practices to produce beautiful limited edition collections."
-  },
-  {
-    "name": "REG Trading",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.regtrade.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "REI",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.rei.com",
-    "meta": "Importer, Brandholder"
-  },
-  {
-    "name": "Renewal Care Partners",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/renewal-care-partners",
-    "meta": ""
-  },
-  {
-    "name": "Rescue Agency",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/rescue-agency",
-    "meta": "A behavior change marketing firm that helps clients make healthy behaviors easier and more appealing"
-  },
-  {
-    "name": "Rescue Chocolate",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/rescue-chocolate",
-    "meta": "Organic, vegan, artisan chocolate; all profits are donated to animal rescue groups."
-  },
-  {
-    "name": "ResolutionCare Network",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/resolutioncare-network",
-    "meta": "Bringing capable compassionate care to everyone everywhere as life approaches completion."
-  },
-  {
-    "name": "REthink Development",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/rethink-development",
-    "meta": ""
-  },
-  {
-    "name": "reThink llc",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/rethink-llc",
-    "meta": "reThink has an emphasis on providing high quality products in the passion areas of the company."
-  },
-  {
-    "name": "Reunion Island Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.reunionislandcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Revision Energy LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/revision-energy-llc",
-    "meta": "Northern New England's leading installer of solar energy solutions for homes, businesses, and institutions"
-  },
-  {
-    "name": "Revive Brands",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.revivedrinks.com",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "Revivn",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/revivn",
-    "meta": "Revivn is a social enterprise focused on the repurposing of used technology for social good"
-  },
-  {
-    "name": "Revolution Foods",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/revolution-foods",
-    "meta": ""
-  },
-  {
-    "name": "ReWork",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/rework",
-    "meta": "ReWork provides best-in-class recruiting services to companies making social, environmental, and culture progress."
-  },
-  {
-    "name": "Rex Roasting Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.rexroasting.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Rex's Outrageous",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.roadcrewcrunch.com/",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "RGC Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer"
-  },
-  {
-    "name": "Rhino Foods",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/rhino-foods",
-    "meta": ""
-  },
-  {
-    "name": "Rice Fergus Miller",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/rice-fergus-miller",
-    "meta": "Architectural design services with a purpose: to bring people together in remarkable spaces."
-  },
-  {
-    "name": "Richmond Grid",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/richmond-grid",
-    "meta": "Free conscious lifestyle magazine for the greater Richmond area"
-  },
-  {
-    "name": "Ricks Roasters Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.ricksroasters.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Righteous Roast Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.righteousroastcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Riley Life Logistics",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/riley-life-logistics",
-    "meta": "Logistics solutions specialists"
-  },
-  {
-    "name": "Ripinsky Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.mountain-market.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Ripple Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.drinkripplecoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Ripple Foods, PBC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/ripple-foods-pbc",
-    "meta": ""
-  },
-  {
-    "name": "Ripple Strategies LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/ripple-strategies-llc",
-    "meta": "Ripple designs and implements communications campaigns to accelerate positive social change."
-  },
-  {
-    "name": "Rise Up Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.riseupcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Rishi Tea",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.rishi-tea.com",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "RiskSOURCE Clark-Theders",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/risksource-clark-theders",
-    "meta": "We go beyond insurance for our clients, coworkers and our community and do what is right for them."
-  },
-  {
-    "name": "Rivanna Natural Designs, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/rivanna-natural-designs-inc",
-    "meta": "Awards, plaques, and gifts made from FSC-certified wood and other planet-friendly materials"
-  },
-  {
-    "name": "Riverwalk Roasters LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.riverwalkroasters.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "RNL Design",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/rnl-design",
-    "meta": "Multi-discipline design firm for place-making guided by environmental, social and economic values."
-  },
-  {
-    "name": "ROAR for Good LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/roar-good-llc",
-    "meta": "ROAR for Good is a wearable technology startup that aims to reduce the incidence of assault."
-  },
-  {
-    "name": "Roast Coffee & Tea Trading Company",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Roast House LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.roasthouse.net",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Roasters Coffee House",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.roasterscafe.com/index.html",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Roastery 7",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.roastery7.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Rocky Mountain Chocolate Factory",
-    "cert": "fairtradeusa",
-    "certlink": "http://rmcf.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Rogers' Chocolates Inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.rogerschocolates.com/",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Rogue Creamery",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/rogue-creamery",
-    "meta": "Dedicated to sustainability, service, and the tradition of creating the world’s finest handmade cheese"
-  },
-  {
-    "name": "Rolling Leaf LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.rolling-leaf.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Roma Kawa Coffee Roasters Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Ronkin Group LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://4purposeenergy.com",
-    "meta": "Brandholder"
-  },
-  {
-    "name": "Rosen",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/rosen",
-    "meta": "A global marketing consultancy that helps clients fulfill socially responsible missions."
-  },
-  {
-    "name": "Rosie's Coffee Roasting Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.rosietheroaster.com/",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Rothfos Corporation",
-    "cert": "fairtradeusa",
-    "certlink": "http://greencoffeetrading.com/home",
-    "meta": "Importer"
-  },
-  {
-    "name": "Roundpeg Benefit LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/roundpeg-benefit-llc",
-    "meta": ""
-  },
-  {
-    "name": "Royal Blue Organics",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.cafemam.com",
-    "meta": "Importer, Manufacturer"
-  },
-  {
-    "name": "Royal Coffee Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.royalcoffee.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "Royal Coffee New York Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.royalny.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "Royal Mile Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.royalmilecoffeeroasters.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Royal Pacific Industry",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.royalpi.com/",
-    "meta": "Importer"
-  },
-  {
-    "name": "Royal Tea New York LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.royalteany.com",
-    "meta": "Importer"
-  },
-  {
-    "name": "RSF Capital Management PBC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/rsf-capital-management-pbc",
-    "meta": "Social enterprise lending designed specifically for companies with high social impact"
-  },
-  {
-    "name": "Rubicon Bakers",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/rubicon-bakers",
-    "meta": "Bakery"
-  },
-  {
-    "name": "Rubicon Global",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/rubicon-global",
-    "meta": "Rubicon Global is North America’s leading provider of sustainable waste and recycling solut"
-  },
-  {
-    "name": "Ruby & Rudy",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer, Brandholder"
-  },
-  {
-    "name": "Ruby's Naturals, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/rubys-naturals-inc",
-    "meta": ""
-  },
-  {
-    "name": "Rumi Spice, PBC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/rumi-spice-pbc",
-    "meta": "A team of military veterans partnering with Afghan farmers to import premium saffron."
-  },
-  {
-    "name": "Runa",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/runa",
-    "meta": "Premium quality guayusa tea grown by indigenous farming families"
-  },
-  {
-    "name": "Runa",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.runa.org",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "Rust Belt Roastery LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.rustbeltroastery.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "RV Industries Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.rvindustries.com",
-    "meta": "Importer, Manufacturer, Brandholder"
-  },
-  {
-    "name": "Ryan Bros Coffee of San Diego",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.ryanbroscoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Ryan Nonprofits",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/ryan-nonprofits",
-    "meta": "Practical Strategic Planning Facilitation and Consulting for Small Nonprofits"
-  },
-  {
-    "name": "S & D Coffee Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.sndcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "S.W. Basics",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/sw-basics",
-    "meta": ""
-  },
-  {
-    "name": "SABEResPODER",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/saberespoder",
-    "meta": "Educational multi-media platform reaching Hispanic immigrants at key points"
-  },
-  {
-    "name": "Saccuzzo Coffee Company Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.saccuzzo.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Saco Foods LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.sacofoods.com",
-    "meta": "Brandholder"
-  },
-  {
-    "name": "Sacred Grounds Coffee & Tea",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Sacred Grounds Coffee Roasters LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://sacredgrounds.coffee",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Salazon Chocolate Company LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.salazonchoc.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Salem Baking Company",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/salem-baking-company",
-    "meta": ""
-  },
-  {
-    "name": "Salud Beverages LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://saludrefresco.com",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "San Francisco Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.sfcoffeecompany.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Sanders Candy Factory Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://n/a",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Santa Cruz Coffee Roasting Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.santacruzcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Sattwa Chai",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.sattwa.com/",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Sauvie Island Coffee Company LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.sauvieislandcoffee.com",
-    "meta": "Manufacturer"
-  },
-  {
-    "name": "Savenia LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/savenia-llc",
-    "meta": ""
-  },
-  {
-    "name": "Savvy Boheme",
-    "cert": "fairtradeusa",
-    "certlink": "http://savvyboheme.com/",
-    "meta": "Manufacturer, Brandholder"
-  },
-  {
-    "name": "Savvy Rest, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/savvy-rest-inc",
-    "meta": "Savvy Rest manufactures customizable natural latex mattresses and organic bedding in Virginia."
-  },
-  {
-    "name": "Schaffer&Combs",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/schaffercombs",
-    "meta": "Consulting for Purpose-Driven Organizations"
+  { 
+    "name": "TIGI Rockaholic Dirty Secret Dry Conditioner",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/525573/TIGI_Rockaholic_Dirty_Secret_Dry_Conditioner/",
+    "meta": "conditioner"
   },
   {
-    "name": "Schoolzilla PBC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/schoolzilla-pbc",
-    "meta": "Schoolzilla is a data management platform that turns achievement and operational data into i"
+    "name": "Trump Cologne: Success by Trump Eau De Toilette Spray",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/698007/Trump_Cologne%3A_Success_by_Trump_Eau_De_Toilette_Spray/",
+    "meta": "fragrance for men"
   },
   {
-    "name": "Schuest LTD",
-    "cert": "fairtradeusa",
-    "certlink": "http://viecua.co.uk",
-    "meta": "Brandholder"
+    "name": "Vaseline Intensive Care Healthy Hand & Nail Conditioning Hand Lotion",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/463855/Vaseline_Intensive_Care_Healthy_Hand_%26_Nail_Conditioning_Hand_Lotion/",
+    "meta": "hand cream, nail treatment"
   },
   {
-    "name": "Schuil Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.schuilcoffee.com",
-    "meta": "Manufacturer"
+    "name": "Vaseline Intensive Care Healthy Hands Stronger Nails Lotion",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/691598/Vaseline_Intensive_Care_Healthy_Hands_Stronger_Nails_Lotion/",
+    "meta": "hand cream"
   },
   {
-    "name": "Sconza Candy Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://sconzacandy.com",
-    "meta": "Manufacturer"
+    "name": "Vitabath by Vitabath Fragrance Body Mist Citron Leaves",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/691831/Vitabath_by_Vitabath_Fragrance_Body_Mist_Citron_Leaves/",
+    "meta": "body spray"
   },
   {
-    "name": "Scott Brothers Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.scottbroscoffee.com",
-    "meta": "Manufacturer"
+    "name": "Vitabath Fragrance Mist, Grapefruit Vanilla",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/691837/Vitabath_Fragrance_Mist%2C_Grapefruit_Vanilla/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "Scoutcomms, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/scoutcomms-inc",
-    "meta": ""
+    "name": "Vitabath Grapefruit Vanilla Fragrance Mist, Grapefruit Vanilla",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/532464/Vitabath_Grapefruit_Vanilla_Fragrance_Mist%2C_Grapefruit_Vanilla/",
+    "meta": "body spray"
   },
   {
-    "name": "SCP",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/scp",
-    "meta": ""
+    "name": "Vitabath Lavender Chamomile, Lavender Chamomile",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/532465/Vitabath_Lavender_Chamomile%2C_Lavender_Chamomile/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "Scream Agency",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/scream-agency",
-    "meta": ""
+    "name": "Wild Musk Cologne Spray",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/465428/Wild_Musk_Cologne_Spray/",
+    "meta": "fragrance for men"
   },
   {
-    "name": "Sea to Table",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/sea-to-table",
-    "meta": "Sea to Table partners with local fishermen from small-scale sustainable wild fisheries, finding better markets for their catch."
+    "name": "Prive Finishing Texture Spray",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/530935/Prive_Finishing_Texture_Spray/",
+    "meta": "hair spray"
   },
   {
-    "name": "Seacoast Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://seacoastcoffee.com/",
-    "meta": "Manufacturer"
+    "name": "Redken Blonde Glam Shampoo",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/598601/Redken_Blonde_Glam_Shampoo/",
+    "meta": "shampoo"
   },
   {
-    "name": "Seald Sweet International",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.sealdsweet.com/",
-    "meta": "Importer"
+    "name": "Redken Blonde Glam Shampoo",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/314765/Redken_Blonde_Glam_Shampoo/",
+    "meta": "shampoo"
   },
   {
-    "name": "Seams To Fit",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/seams-to-fit",
-    "meta": ""
+    "name": "Redken Color Extend Rich Recovery Protective Treatment for Color-Treated Hair",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/466307/Redken_Color_Extend_Rich_Recovery_Protective_Treatment_for_Color-Treated_Hair/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "Seattle Gourmet Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.seattlegourmetcoffee.com",
-    "meta": "Manufacturer"
+    "name": "Redken Satin Wear 02",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/522725/Redken_Satin_Wear_02/",
+    "meta": "styling gel/lotion"
   },
   {
-    "name": "Seattle Gourmet Foods",
-    "cert": "fairtradeusa",
-    "certlink": "http://seattlegourmetfoods.com",
-    "meta": "Manufacturer"
+    "name": "Redken Wax Blast High Impact Finishing Spray-Wax",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/530150/Redken_Wax_Blast_High_Impact_Finishing_Spray-Wax/",
+    "meta": "hair spray"
   },
   {
-    "name": "Sechler CPA PC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/sechler-cpa-pc",
-    "meta": "Sechler, CPA, PC is a totally virtual accounting firm based in Phoenix, AZ."
+    "name": "Revlon Luxurious ColorSilk Buttercream Ammonia-Free Nourishing Cream Color, Brown Black (20N)",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/600217/Revlon_Luxurious_ColorSilk_Buttercream_Ammonia-Free_Nourishing_Cream_Color%2C_Brown_Black_%2820N%29/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "SecondMuse",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/secondmuse",
-    "meta": "SecondMuse applies collaboration to understand and transform complex systems."
+    "name": "Revlon Luxurious ColorSilk Buttercream Ammonia-Free Nourishing Cream Color, Dark Brown",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/594704/Revlon_Luxurious_ColorSilk_Buttercream_Ammonia-Free_Nourishing_Cream_Color%2C_Dark_Brown/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "See3 Communications LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/see3-communications-llc",
-    "meta": "The digital agency for do-gooders."
+    "name": "Revlon Luxurious ColorSilk Buttercream Ammonia-Free Nourishing Cream Color, Light Brown (51N)",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/597120/Revlon_Luxurious_ColorSilk_Buttercream_Ammonia-Free_Nourishing_Cream_Color%2C_Light_Brown_%2851N%29/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "Seed Systems, Inc",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/seed-systems-inc",
-    "meta": "Seed Systems builds capacity for a sustainable world where all life thrives all the time."
+    "name": "Revlon Luxurious ColorSilk Buttercream Ammonia-Free Nourishing Cream Color, Medium Auburn (42R)",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/593324/Revlon_Luxurious_ColorSilk_Buttercream_Ammonia-Free_Nourishing_Cream_Color%2C_Medium_Auburn_%2842R%29/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "Seeds Printing",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/seeds-printing",
-    "meta": "Sustainable printer that is changing the environmental impact of printing"
+    "name": "Revlon Luxurious ColorSilk Buttercream Ammonia-Free Nourishing Cream Color, Medium Golden Brown",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/598906/Revlon_Luxurious_ColorSilk_Buttercream_Ammonia-Free_Nourishing_Cream_Color%2C_Medium_Golden_Brown/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "Seely Family Farm Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.seelyfamilyfarm.com",
-    "meta": "Manufacturer, Brandholder"
+    "name": "Revlon Luxurious ColorSilk Buttercream Ammonia-Free Nourishing Cream Color, Medium Neutral Blonde",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/598640/Revlon_Luxurious_ColorSilk_Buttercream_Ammonia-Free_Nourishing_Cream_Color%2C_Medium_Neutral_Blonde/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "Selecta Auto Body",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/selecta-auto-body",
-    "meta": "Selecta Auto Body is a recently Certified B Corp whose mission is to provide reputable, depe"
+    "name": "Revlon Luxurious ColorSilk Buttercream Ammonia-Free Nourishing Cream Color, Ultra Light Sun Blonde (03G)",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/594788/Revlon_Luxurious_ColorSilk_Buttercream_Ammonia-Free_Nourishing_Cream_Color%2C_Ultra_Light_Sun_Blonde_%2803G%29/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "Sencha Naturals",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/sencha-naturals",
-    "meta": ""
+    "name": "Revlon Luxurious ColorSilk Buttercream Permanent Haircolor, Ultra Light Natural Blonde 04N",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/688442/Revlon_Luxurious_ColorSilk_Buttercream_Permanent_Haircolor%2C_Ultra_Light_Natural_Blonde_04N/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "Senda Athletics",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/senda-athletics",
-    "meta": "Senda makes quality Fair Trade soccer balls, and partners with organizations using soccer for change."
+    "name": "Rimmel Moisture Renew Lipstick, As You Want Victoria",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/688889/Rimmel_Moisture_Renew_Lipstick%2C_As_You_Want_Victoria/",
+    "meta": "lipstick"
   },
   {
-    "name": "Senda Athletics",
-    "cert": "fairtradeusa",
-    "certlink": "http://sendaathletics.com",
-    "meta": "Importer, Brandholder"
+    "name": "Rimmel Moisture Renew Lipstick, Back to Fuchsia",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/598494/Rimmel_Moisture_Renew_Lipstick%2C_Back_to_Fuchsia/",
+    "meta": "lipstick"
   },
   {
-    "name": "Sensible Organics",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.nourishorganic.com",
-    "meta": "Manufacturer, Brandholder"
+    "name": "Rimmel Moisture Renew Lipstick, Back to Fuchsia",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/688890/Rimmel_Moisture_Renew_Lipstick%2C_Back_to_Fuchsia/",
+    "meta": "lipstick"
   },
   {
-    "name": "Sensible Organics Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/sensible-organics-inc",
-    "meta": ""
+    "name": "Rimmel Moisture Renew Lipstick, Coral Britannia",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/592385/Rimmel_Moisture_Renew_Lipstick%2C_Coral_Britannia/",
+    "meta": "lipstick"
   },
   {
-    "name": "Sentrex Ingredients LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.sentrexingredients.com",
-    "meta": "Manufacturer"
+    "name": "Rimmel Moisture Renew Lipstick, Crystal Mauve",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/688895/Rimmel_Moisture_Renew_Lipstick%2C_Crystal_Mauve/",
+    "meta": "lipstick"
   },
   {
-    "name": "SEQUIL Systems Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/sequil-systems-inc",
-    "meta": "SEQUIL Systems, Inc. is an award-winning professional services firm which provides highly technical building commissioning, LEED program management, energy modeling and sustainability consulting services."
+    "name": "Rimmel Moisture Renew Lipstick, In Love with Ginger",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/599216/Rimmel_Moisture_Renew_Lipstick%2C_In_Love_with_Ginger/",
+    "meta": "lipstick"
   },
   {
-    "name": "Serengeti Trading Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.serengetitrading.com",
-    "meta": "Importer"
+    "name": "Rimmel Moisture Renew Lipstick, Let's Get Naked",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/592386/Rimmel_Moisture_Renew_Lipstick%2C_Let%27s_Get_Naked/",
+    "meta": "lipstick"
   },
   {
-    "name": "Seven Hills Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.sevenhillscoffee.com",
-    "meta": "Manufacturer"
+    "name": "Rimmel Moisture Renew Lipstick, Notting Hill Nude",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/688903/Rimmel_Moisture_Renew_Lipstick%2C_Notting_Hill_Nude/",
+    "meta": "lipstick"
   },
   {
-    "name": "Seventh Generation",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/seventh-generation",
-    "meta": "Committed to being the most trusted brand of household and personal-care products"
+    "name": "Rimmel Moisture Renew Lipstick, Notting Hill Nude",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/594171/Rimmel_Moisture_Renew_Lipstick%2C_Notting_Hill_Nude/",
+    "meta": "lipstick"
   },
   {
-    "name": "Shank's Extracts",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.shanks.com",
-    "meta": "Manufacturer"
+    "name": "Rimmel Moisture Renew Lipstick, Nude Delight",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/594170/Rimmel_Moisture_Renew_Lipstick%2C_Nude_Delight/",
+    "meta": "lipstick"
   },
   {
-    "name": "She Geeks Out, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/she-geeks-out-llc",
-    "meta": ""
+    "name": "Rimmel Moisture Renew Lipstick, Oxford St Fuchsia",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/594820/Rimmel_Moisture_Renew_Lipstick%2C_Oxford_St_Fuchsia/",
+    "meta": "lipstick"
   },
   {
-    "name": "Shearer's Snacks",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.shearers.com",
-    "meta": "Manufacturer"
+    "name": "Rimmel Moisture Renew Lipstick, Pink Chic",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/688908/Rimmel_Moisture_Renew_Lipstick%2C_Pink_Chic/",
+    "meta": "lipstick"
   },
   {
-    "name": "Shearwater Coffee Roasters LLC",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer"
+    "name": "Rimmel Moisture Renew Lipstick, Rose Blush",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/688911/Rimmel_Moisture_Renew_Lipstick%2C_Rose_Blush/",
+    "meta": "lipstick"
   },
   {
-    "name": "Shelburne Falls Coffee Roasters LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.ibuycoffee.com",
-    "meta": "Manufacturer"
+    "name": "Rimmel Moisture Renew Lipstick, Rose Blush",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/598493/Rimmel_Moisture_Renew_Lipstick%2C_Rose_Blush/",
+    "meta": "lipstick"
   },
   {
-    "name": "Shema Global LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.shemastore.com",
-    "meta": "Manufacturer, Brandholder"
+    "name": "Rimmel Moisture Renew Lipstick, To Nude Or Not To Nude?",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/596603/Rimmel_Moisture_Renew_Lipstick%2C_To_Nude_Or_Not_To_Nude%3F/",
+    "meta": "lipstick"
   },
   {
-    "name": "Shifting Patterns Consulting",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/shifting-patterns-consulting",
-    "meta": ""
+    "name": "Rimmel Moisture Renew Lipstick, Tower of Mauve",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/592951/Rimmel_Moisture_Renew_Lipstick%2C_Tower_of_Mauve/",
+    "meta": "lipstick"
   },
   {
-    "name": "Sierra Leadership LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/sierra-leadership-llc",
-    "meta": ""
+    "name": "Salon Grafix Shaping Hair Spray Extra Super Hold",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/689466/Salon_Grafix_Shaping_Hair_Spray_Extra_Super_Hold/",
+    "meta": "hair spray"
   },
   {
-    "name": "Sierra Sage Herbs",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/sierra-sage-herbs",
-    "meta": "Creates natural first aid and body care products."
+    "name": "Senscience Volume Conditioner",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/689753/Senscience_Volume_Conditioner/",
+    "meta": "conditioner"
   },
   {
-    "name": "Signature Breads",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/signature-breads",
-    "meta": "Independent, employee owned bakery specializing in par-baked breads for restaurants and supermarkets"
+    "name": "skyn ICELAND Glacial Face Wash",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/669449/skyn_ICELAND_Glacial_Face_Wash/",
+    "meta": "facial cleanser"
   },
   {
-    "name": "Signature Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.signaturecoffeecompany.com/",
-    "meta": "Manufacturer"
+    "name": "Smooth 'n Shine Polishing Diamond Luster Anti-Frizz Curl 'n Shape Spray Gel, Strong Hold",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/476750/Smooth_%27n_Shine_Polishing_Diamond_Luster_Anti-Frizz_Curl_%27n_Shape_Spray_Gel%2C_Strong_Hold/",
+    "meta": "hair spray"
   },
   {
-    "name": "Signature Estates LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.single-estates.com",
-    "meta": "Importer"
+    "name": "Solar Sense Clear Zinc Lotion for Body & Face, SPF 70",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/592529/Solar_Sense_Clear_Zinc_Lotion_for_Body_%26_Face%2C_SPF_70/",
+    "meta": "sunscreen: SPF greater than 30"
   },
   {
-    "name": "Silver Springs Citrus",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.silverspringscitrus.com/",
-    "meta": "Manufacturer, Brandholder"
+    "name": "Stetson Lady Stetson Cologne Spray",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/465430/Stetson_Lady_Stetson_Cologne_Spray/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "Simple Energy",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/simple-energy",
-    "meta": "Simple Energy is changing how millions of people save energy by transforming the way utilities engage their customers."
+    "name": "Stetson Men's Cologne Splash",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/690632/Stetson_Men%27s_Cologne_Splash/",
+    "meta": "fragrance for men"
   },
   {
-    "name": "Simply Straws",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/simply-straws",
-    "meta": "Reusable Glass Drinking Straw Company"
+    "name": "Stetson Original After Shave",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/465466/Stetson_Original_After_Shave/",
+    "meta": "after shave"
   },
   {
-    "name": "Single Serve Coffee Partnership",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.singlecc.com",
-    "meta": "Manufacturer"
+    "name": "Stetson Original Cologne Spray",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/465427/Stetson_Original_Cologne_Spray/",
+    "meta": "fragrance for men"
   },
   {
-    "name": "Singlebrook Technology",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/singlebrook-technology",
-    "meta": ""
+    "name": "Sun Bum Moisturizing Sunscreen Lotion, SPF 70",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/662248/Sun_Bum_Moisturizing_Sunscreen_Lotion%2C_SPF_70/",
+    "meta": "sunscreen: SPF greater than 30"
   },
   {
-    "name": "Singularity University",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/singularity-university",
-    "meta": ""
+    "name": "ORS Olive Oil No-Lye Hair Relaxer",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/644175/ORS_Olive_Oil_No-Lye_Hair_Relaxer/",
+    "meta": "hair relaxer"
   },
   {
-    "name": "SJF Ventures",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/sjf-ventures",
-    "meta": "Helps companies succeed by providing growth capital & assisting entrepreneurs with their challenges"
+    "name": "Oxy Daily Defense Advanced Facial Cleanser, Citrus",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/686195/Oxy_Daily_Defense_Advanced_Facial_Cleanser%2C_Citrus_/",
+    "meta": "facial cleanser"
   },
   {
-    "name": "Sleeping Lady Resort",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/sleeping-lady-resort",
-    "meta": "Year-round retreat where nature, dining, and the arts inspire reverence for Earth's wellspring"
+    "name": "OXY Daily Defense Exfoliating Face Scrub",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/531088/OXY_Daily_Defense_Exfoliating_Face_Scrub/",
+    "meta": "exfoliant/scrub"
   },
   {
-    "name": "SLO Roasted Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.sloroasted.com",
-    "meta": "Manufacturer"
+    "name": "Philosophy Amazing Grace Spray Fragrance",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/595970/Philosophy_Amazing_Grace_Spray_Fragrance/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "Smart Set, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/smart-set-inc",
-    "meta": "Digital Craft Printing and Design. Proud purveyors of premium print services since 1986."
+    "name": "philosophy living grace spray fragrance",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/528459/philosophy_living_grace_spray_fragrance/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "Smart Sustainability Consulting",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/smart-sustainability-consulting",
-    "meta": ""
+    "name": "philosophy love sweet love fragrance",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/476569/philosophy_love_sweet_love_fragrance/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "Smokestack Roasters LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.smokestackroasters.com",
-    "meta": "Manufacturer"
+    "name": "philosophy loveswept eau de toilette",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/686750/philosophy_loveswept_eau_de_toilette/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "Snoqualmie Ice Cream",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/snoqualmie-ice-cream",
-    "meta": "Literally the best organic ice cream ever."
+    "name": "philosophy loveswept fragrance",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/593956/philosophy_loveswept_fragrance/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "SNP Strategies, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/snp-strategies-inc",
-    "meta": "Non-profit consulting"
+    "name": "philosophy ultimate miracle worker eye",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/686786/philosophy_ultimate_miracle_worker_eye/",
+    "meta": "around-eye cream"
   },
   {
-    "name": "SNW Asset Management",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/snw-asset-management",
-    "meta": ""
+    "name": "Preferred Stock Spray Cologne",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/465488/Preferred_Stock_Spray_Cologne/",
+    "meta": "fragrance for men"
   },
   {
-    "name": "SoapBox Soaps",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/soapbox-soaps",
-    "meta": "SoapBox Soaps is a mission-based personal care company."
+    "name": "ISO Bouncy Creme Curl Texturizer",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/600450/ISO_Bouncy_Creme_Curl_Texturizer/",
+    "meta": "styling gel/lotion"
   },
   {
-    "name": "SoCafe",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.socafe.com",
-    "meta": "Manufacturer"
+    "name": "ISO Daily Finish Firm-Hold Spray",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/471561/ISO_Daily_Finish_Firm-Hold_Spray/",
+    "meta": "hair spray"
   },
   {
-    "name": "Social Enterprises Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/social-enterprises-inc",
-    "meta": "Social Cause Events"
+    "name": "Ivanka Trump Eau De Parfum Purse Spray",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/698005/Ivanka_Trump_Eau_De_Parfum_Purse_Spray/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "Social Impact Architects",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/social-impact-architects",
-    "meta": "Reshaping the business of social change."
+    "name": "Ivanka Trump Eau De Parfum Spray",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/698006/Ivanka_Trump_Eau_De_Parfum_Spray/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "Social(k)",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/socialk",
-    "meta": "Retirement plans; 401(k), 403(b), 457, SIMPLE plans. With ESG options & low cost."
+    "name": "Joico Design Collection Flexible Shaping Spray",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/679976/Joico_Design_Collection_Flexible_Shaping_Spray/",
+    "meta": "hair styling aide"
   },
   {
-    "name": "Sofia Produce",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.trufresh.net/",
-    "meta": "Importer"
+    "name": "JOOP! Homme Eau De Toilette Natural Spray Men's Fragrance",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/478675/JOOP%21_Homme_Eau_De_Toilette_Natural_Spray_Men%27s_Fragrance/",
+    "meta": "fragrance for men"
   },
   {
-    "name": "Software Anywhere, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/software-anywhere-llc",
-    "meta": ""
+    "name": "Jovan Cologne Concentrate Spray, White Musk for Women",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/98381/Jovan_Cologne_Concentrate_Spray%2C_White_Musk_for_Women/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "Software for Good, GBC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/software-good-gbc",
-    "meta": ""
+    "name": "Jovan Cologne Spray, Musk for Women",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/515957/Jovan_Cologne_Spray%2C_Musk_for_Women/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "Sokol Blosser Winery",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/sokol-blosser-winery",
-    "meta": ""
+    "name": "Jovan Island Gardenia Cologne Spray for Women",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/515958/Jovan_Island_Gardenia_Cologne_Spray_for_Women/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "Sol Simple LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.sol-simple.com",
-    "meta": "Importer, Manufacturer, Brandholder"
+    "name": "Jovan Musk for Women Cologne Concentrate Spray",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/592983/Jovan_Musk_for_Women_Cologne_Concentrate_Spray/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "Solar Roast Coffee LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://solarroast.com/",
-    "meta": "Manufacturer"
+    "name": "Jovan White Musk for Women Cologne Spray",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/593216/Jovan_White_Musk_for_Women_Cologne_Spray/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "Solar States",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/solar-states",
-    "meta": "Solar States installs solar panels on homes, businesses and schools in the Philadelphia area."
+    "name": "Just 5 Minute Hair Colorant, Natural Rich Black",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/597313/Just_5_Minute_Hair_Colorant%2C_Natural_Rich_Black/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "Solar Works",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/solar-works",
-    "meta": "Solar electric design and installation for Sonoma, Napa, Lake, Mendocino, and Marin Counties"
+    "name": "Katy Perry Killer Queen Eau de Parfum Natural Spray",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/594130/Katy_Perry_Killer_Queen_Eau_de_Parfum_Natural_Spray/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "Solberg Manufacturing, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/solberg-manufacturing-inc",
-    "meta": "Manufacturer of innovative solutions in filtration, silencing and separation products"
+    "name": "L'Oreal Paris Preference Fade-Defying Color + Shine System, 8GB Golden Iridescent Blonde",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/598353/L%27Oreal_Paris_Preference_Fade-Defying_Color_%2B_Shine_System%2C_8GB_Golden_Iridescent_Blonde/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "Solidarity Capital Group",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/solidarity-capital-group",
-    "meta": "Solidarity Capital Group is an impact investment firm financing economically sustainable social justice enterprises."
+    "name": "L'Oreal Paris Superior Preference Fade Defying Color & Shine System, Permanent, 2BL Black Sapphire",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/681571/L%27Oreal_Paris_Superior_Preference_Fade_Defying_Color_%26_Shine_System%2C_Permanent%2C_2BL_Black_Sapphire/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "Solutions For Progress",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/solutions-progress",
-    "meta": "National antipoverty & tech co.  Runs The Benefit Bank® online tax and benefit application service"
+    "name": "L'Oreal Paris Superior Preference Mousse Absolue Automatic Reusable Color, 100 Pure Deep Black",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/594106/L%27Oreal_Paris_Superior_Preference_Mousse_Absolue_Automatic_Reusable_Color%2C_100_Pure_Deep_Black/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "Soma",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/soma",
-    "meta": ""
+    "name": "L'Oreal Professional Texture Expert Volume Elevation Volumizing Serum-Gel, Fine Hair",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/477038/L%27Oreal_Professional_Texture_Expert_Volume_Elevation_Volumizing_Serum-Gel%2C_Fine_Hair/",
+    "meta": "styling mousse/foam"
   },
   {
-    "name": "Sonen Capital LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/sonen-capital-llc",
-    "meta": ""
+    "name": "La Roche-Posay Anthelios 60 Ultra Light Sunscreen Fluid Extreme, SPF 60",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/593680/La_Roche-Posay_Anthelios_60_Ultra_Light_Sunscreen_Fluid_Extreme%2C_SPF_60/",
+    "meta": "sunscreen: SPF greater than 30"
   },
   {
-    "name": "SOOKA INC / GLYDE America",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/sooka-inc-glyde-america",
-    "meta": ""
+    "name": "Lacoste Live Eau de Toilette Spray",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/682029/Lacoste_Live_Eau_de_Toilette_Spray/",
+    "meta": "fragrance for men"
   },
   {
-    "name": "SoupCycle",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/soupcycle",
-    "meta": "Made with love. Delivered by Bike. Organic soups to home and office."
+    "name": "Le Couvent des Minimes Botanical Cologne of the Morning, Orange, Lemon and Basil",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/682094/Le_Couvent_des_Minimes_Botanical_Cologne_of_the_Morning%2C_Orange%2C_Lemon_and_Basil/",
+    "meta": "body spray"
   },
   {
-    "name": "Source Intelligence",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/source-intelligence",
-    "meta": "Sustainability data management company"
+    "name": "Love2Love Women's Eau de Toilette Spray, Freesia + Violet Petal",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/682445/Love2Love_Women%27s_Eau_de_Toilette_Spray%2C_Freesia_%2B_Violet_Petal/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "SOUTH AM FREEZE DRY SA",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.southam.cl",
-    "meta": "Exporter, Manufacturer"
+    "name": "Love2Love Women's Eau de Toilette Spray, Fresh Rose + Peach",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/682446/Love2Love_Women%27s_Eau_de_Toilette_Spray%2C_Fresh_Rose_%2B_Peach/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "South Mountain Company, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/south-mountain-company-inc",
-    "meta": "Employee owned and managed residential design build and energy company"
+    "name": "Love2Love Women's Eau de Toilette Spray, Jasmine + Sparkling Mimosa",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/682447/Love2Love_Women%27s_Eau_de_Toilette_Spray%2C_Jasmine_%2B_Sparkling_Mimosa/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "South Street Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://southstreetcoffee.com/",
-    "meta": "Manufacturer"
+    "name": "Matrix Amplify Volumizing System Foam Volumizer",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/536101/Matrix_Amplify_Volumizing_System_Foam_Volumizer/",
+    "meta": "styling mousse/foam"
   },
   {
-    "name": "Southern Energy Management",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/southern-energy-management",
-    "meta": "Serving solar and energy efficiency customers throughout the Southeast, Mid-Atlantic and Eastern US"
+    "name": "McGraw Eau de Toilette Spray",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/465235/McGraw_Eau_de_Toilette_Spray/",
+    "meta": "fragrance for men"
   },
   {
-    "name": "Southern Specialties",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.southernspecialties.com",
-    "meta": "Importer"
+    "name": "Nautica Life Women's Eau de Toilette Spray",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/684263/Nautica_Life_Women%27s_Eau_de_Toilette_Spray/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "Southern Wine Group",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.elixirwinegroup.com/",
-    "meta": "Importer"
+    "name": "Neutrogena Age Shield Face Oil-Free Lotion Sunscreen, SPF 110",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/662102/Neutrogena_Age_Shield_Face_Oil-Free_Lotion_Sunscreen%2C_SPF_110/",
+    "meta": "sunscreen: moisturizer"
   },
   {
-    "name": "Specialty Commodities Inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.specialtycommodities.com",
-    "meta": "Importer"
+    "name": "Neutrogena Age Shield Face Sunscreen, SPF 110 (2015 formulation)",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/618851/Neutrogena_Age_Shield_Face_Sunscreen%2C_SPF_110_%282015_formulation%29/",
+    "meta": "sunscreen: SPF greater than 30"
   },
   {
-    "name": "SpecialtyJava.com",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.specialtyjava.com",
-    "meta": "Manufacturer"
+    "name": "Neutrogena Healthy Skin Anti-Aging Perfector, Tan to Medium",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/684322/Neutrogena_Healthy_Skin_Anti-Aging_Perfector%2C_Tan_to_Medium/",
+    "meta": "foundation"
   },
   {
-    "name": "Spectrum",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.spectrumorganics.com",
-    "meta": "Manufacturer, Brandholder"
+    "name": "Neutrogena Pure & Free Baby Sunblock Stick, SPF 60+",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/600136/Neutrogena_Pure_%26_Free_Baby_Sunblock_Stick%2C_SPF_60%2B/",
+    "meta": "baby sunscreen"
   },
   {
-    "name": "Speeder & Earl's Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.vtbeans.com",
-    "meta": "Manufacturer"
+    "name": "Neutrogena Pure & Free Baby Sunblock Stick, SPF 60+",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/596925/Neutrogena_Pure_%26_Free_Baby_Sunblock_Stick%2C_SPF_60%2B/",
+    "meta": "sunscreen: SPF greater than 30"
   },
   {
-    "name": "Spirit Boosters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.spiritboosterstea.com",
-    "meta": "Importer, Brandholder"
+    "name": "Neutrogena Pure & Free Baby Sunscreen Lotion, SPF 60+ (2015 formulation)",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/617927/Neutrogena_Pure_%26_Free_Baby_Sunscreen_Lotion%2C_SPF_60%2B_%282015_formulation%29/",
+    "meta": "baby sunscreen, sunscreen: SPF greater than 30"
   },
   {
-    "name": "Spotlight Solar",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/spotlight-solar",
-    "meta": "Beautiful solar structures designed to make clean energy visible"
+    "name": "Neutrogena Pure & Free Baby Sunscreen, SPF 60+",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/600686/Neutrogena_Pure_%26_Free_Baby_Sunscreen%2C_SPF_60%2B/",
+    "meta": "baby sunscreen"
   },
   {
-    "name": "Spring Bank",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/spring-bank",
-    "meta": ""
+    "name": "Neutrogena Pure & Free Baby Sunscreen, SPF 60+",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/662147/Neutrogena_Pure_%26_Free_Baby_Sunscreen%2C_SPF_60%2B/",
+    "meta": "baby sunscreen, sunscreen: SPF greater than 30"
   },
   {
-    "name": "Spring Hill Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.carpe-coffee.com",
-    "meta": "Manufacturer"
+    "name": "Neutrogena Sensitive Skin Sunscreen, SPF 60+",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/662158/Neutrogena_Sensitive_Skin_Sunscreen%2C_SPF_60%2B/",
+    "meta": "sunscreen: SPF greater than 30"
   },
   {
-    "name": "Springboard Education in America LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/springboard-education-in-america-llc",
-    "meta": "Springboard Education is a leading provider of extended learning programs for students in elementary"
+    "name": "Neutrogena Sensitive Skin Sunscreen, SPF 60+ (2015 formulation)",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/617967/Neutrogena_Sensitive_Skin_Sunscreen%2C_SPF_60%2B_%282015_formulation%29/",
+    "meta": "sunscreen: SPF greater than 30"
   },
   {
-    "name": "SpringFour, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/springfour-inc",
-    "meta": "SpringFour connects people to local, vetted resources that put them on the road to financial health."
+    "name": "Neutrogena Ultra Sheer Body Mist Sunscreen, SPF 100",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/594418/Neutrogena_Ultra_Sheer_Body_Mist_Sunscreen%2C_SPF_100/",
+    "meta": "sunscreen: SPF greater than 30"
   },
   {
-    "name": "Sputnik Moment",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/sputnik-moment",
-    "meta": "Sputnik  Moment was recently certified as a B Corporation!"
+    "name": "Obsession Eau De Parfum Spray For Women",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/527213/Obsession_Eau_De_Parfum_Spray_For_Women/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "Spyhouse Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://spyhousecoffee.com/",
-    "meta": "Manufacturer"
+    "name": "Optimum Salon Haircare Defy Breakage No-Lye Relaxer, Regular",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/641507/Optimum_Salon_Haircare_Defy_Breakage_No-Lye_Relaxer%2C_Regular/",
+    "meta": "hair relaxer"
   },
   {
-    "name": "SQA Pharmacy Services LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/sqa-pharmacy-services-llc",
-    "meta": "Unique, personalized medication delivery service"
+    "name": "Organics by Africa's Best Touch Up Plus Organic Conditioning Relaxer System",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/641514/Organics_by_Africa%27s_Best_Touch_Up_Plus_Organic_Conditioning_Relaxer_System/",
+    "meta": "hair relaxer"
   },
   {
-    "name": "Sriwijaya Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer"
+    "name": "Guess Seductive Homme Body Spray",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/594072/Guess_Seductive_Homme_Body_Spray/",
+    "meta": "fragrance for men"
   },
   {
-    "name": "Staach",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/staach",
-    "meta": ""
+    "name": "Halle Berry Eau de Parfum Spray, Reveal",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/600441/Halle_Berry_Eau_de_Parfum_Spray%2C_Reveal/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "Stacy's",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer, Brandholder"
+    "name": "Halle Berry Exotic Jasmine Eau de Parfum Spray",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/678998/Halle_Berry_Exotic_Jasmine_Eau_de_Parfum_Spray/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "Stapleton Roasters LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.stapletonroasters.com/",
-    "meta": "Manufacturer"
+    "name": "Halle Berry Fragrances Reveal by Halle Berry Eau de Parfum Spray",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/525401/Halle_Berry_Fragrances_Reveal_by_Halle_Berry_Eau_de_Parfum_Spray/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "Starbucks Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.starbucks.com",
-    "meta": "Importer, Manufacturer, Brandholder"
+    "name": "Hawaiian Tropic Sheer Touch Sunscreen Lotion, SPF 50",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/596820/Hawaiian_Tropic_Sheer_Touch_Sunscreen_Lotion%2C_SPF_50/",
+    "meta": "sunscreen: SPF greater than 30"
   },
   {
-    "name": "Stars Design Group",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer"
+    "name": "Hawaiian Tropic Sheer Touch Sunscreen Lotion, SPF 50 (2015 formulation)",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/617489/Hawaiian_Tropic_Sheer_Touch_Sunscreen_Lotion%2C_SPF_50_%282015_formulation%29/",
+    "meta": "sunscreen: SPF greater than 30"
   },
   {
-    "name": "Starvation Alley Farms",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/starvation-alley-farms",
-    "meta": "Starvation Alley Farms is an organic cranberry farm in SW Washington, making raw unsweetened juice."
+    "name": "Hawaiian Tropic Silk Hydration Continuous Spray Sunscreen, SPF 30",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/496470/Hawaiian_Tropic_Silk_Hydration_Continuous_Spray_Sunscreen%2C_SPF_30/",
+    "meta": "sunscreen: SPF 15-30"
   },
   {
-    "name": "Starwest Botanicals",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.starwest-botanicals.com/default.asp",
-    "meta": "Importer, Manufacturer, Brandholder"
+    "name": "Infusion Organique Petit Parfum, Buddha's Fig",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/478046/Infusion_Organique_Petit_Parfum%2C_Buddha%27s_Fig/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "Stash Tea",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.stashtea.com/",
-    "meta": "Manufacturer, Brandholder"
+    "name": "Isaac Mizrahi Fabulous Eau de Toilette Spray",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/679574/Isaac_Mizrahi_Fabulous_Eau_de_Toilette_Spray/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "Steel Bridge Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.steelbridgecoffee.com",
-    "meta": "Manufacturer"
+    "name": "ISO Bouncy Creme Curl texturizer",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/471555/ISO_Bouncy_Creme_Curl_texturizer/",
+    "meta": "styling gel/lotion"
   },
   {
-    "name": "Sterling Tea LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://sterlingtea.com",
-    "meta": "Manufacturer, Brandholder"
+    "name": "Black Opal Total Coverage Spot & Scar Concealer, Beautiful Bronze",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/640904/Black_Opal_Total_Coverage_Spot_%26_Scar_Concealer%2C_Beautiful_Bronze/",
+    "meta": "concealer"
   },
   {
-    "name": "Steve & Harry's Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://steveandharryscoffee.com/",
-    "meta": "Manufacturer"
+    "name": "Black Opal Total Coverage Spot & Scar Concealer, Hazelnut",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/640905/Black_Opal_Total_Coverage_Spot_%26_Scar_Concealer%2C_Hazelnut/",
+    "meta": "concealer"
   },
   {
-    "name": "stok",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/stok",
-    "meta": ""
+    "name": "Black Opal Total Coverage Spot & Scar Concealer, Heavenly Honey",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/640906/Black_Opal_Total_Coverage_Spot_%26_Scar_Concealer%2C_Heavenly_Honey/",
+    "meta": "concealer"
   },
   {
-    "name": "Stone Bros Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.sorbenots.com",
-    "meta": "Manufacturer"
+    "name": "Black Opal Total Coverage Spot & Scar Concealer, Kalahari Sand",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/640907/Black_Opal_Total_Coverage_Spot_%26_Scar_Concealer%2C_Kalahari_Sand/",
+    "meta": "concealer"
   },
   {
-    "name": "Stone Creek Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.stonecreekcoffee.com/",
-    "meta": "Manufacturer"
+    "name": "Black Opal Total Coverage Spot & Scar Concealer, Nutmeg",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/640908/Black_Opal_Total_Coverage_Spot_%26_Scar_Concealer%2C_Nutmeg/",
+    "meta": "concealer"
   },
   {
-    "name": "Stonyfield Farm",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/stonyfield-farm",
-    "meta": ""
+    "name": "Black Opal Total Coverage Spot & Scar Concealer, Truly Topaz",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/640909/Black_Opal_Total_Coverage_Spot_%26_Scar_Concealer%2C_Truly_Topaz/",
+    "meta": "concealer"
   },
   {
-    "name": "Storehouse Tea Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.storehousetea.com",
-    "meta": "Brandholder"
+    "name": "Black Opal Total Coverage Spot & Scar Eraser, Beautiful Bronze",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/478324/Black_Opal_Total_Coverage_Spot_%26_Scar_Eraser%2C_Beautiful_Bronze/",
+    "meta": "concealer"
   },
   {
-    "name": "Straightup Solar, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/straightup-solar-llc",
-    "meta": "To inspire a solar tribe to create a sustainable world."
+    "name": "Black Opal Total Coverage Spot & Scar Eraser, Heavenly Honey",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/478323/Black_Opal_Total_Coverage_Spot_%26_Scar_Eraser%2C_Heavenly_Honey/",
+    "meta": "concealer"
   },
   {
-    "name": "Strategic Sustainability Consulting",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/strategic-sustainability-consulting",
-    "meta": "Provides organizations with the tools they need to manage their social and environmental impacts"
+    "name": "Black Opal Total Coverage Spot & Scar Eraser, Nutmeg",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/478326/Black_Opal_Total_Coverage_Spot_%26_Scar_Eraser%2C_Nutmeg/",
+    "meta": "concealer"
   },
   {
-    "name": "Strategy Arts",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/strategy-arts",
-    "meta": "Assists business & nonprofits in strategic planning, leadership development & organizational change"
+    "name": "Black Opal Total Coverage Spot & Scar Eraser, Truly Topaz",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/526851/Black_Opal_Total_Coverage_Spot_%26_Scar_Eraser%2C_Truly_Topaz/",
+    "meta": "concealer"
   },
   {
-    "name": "Strictly Organic Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.strictlyorganic.com",
-    "meta": "Manufacturer"
+    "name": "Boots No7 Beautiful Skin Pore Minimizing Serum",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/673851/Boots_No7_Beautiful_Skin_Pore_Minimizing_Serum/",
+    "meta": "facial moisturizer/treatment"
   },
   {
-    "name": "Stringbean Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.stringbeans.net",
-    "meta": "Manufacturer"
+    "name": "Borghese Fango Deep Hydration, Finishing Treatment",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/528851/Borghese_Fango_Deep_Hydration%2C_Finishing_Treatment/",
+    "meta": "body spray"
   },
   {
-    "name": "Strongtree Organic Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.strongtreecoffee.com",
-    "meta": "Manufacturer"
+    "name": "Burberry Brit Eau de Toilette Natural Spray for Women",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/527218/Burberry_Brit_Eau_de_Toilette_Natural_Spray_for_Women/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "Stubborn Soda",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer, Brandholder"
+    "name": "Calvin Klein Euphoria Eau De Parfum Spray for Women",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/527211/Calvin_Klein_Euphoria_Eau_De_Parfum_Spray_for_Women/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "Stumbeano's Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://stumbeanos.com",
-    "meta": "Manufacturer"
+    "name": "Calvin Klein Euphoria Men Eau de Toilette Spray",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/527210/Calvin_Klein_Euphoria_Men_Eau_de_Toilette_Spray/",
+    "meta": "fragrance for men"
   },
   {
-    "name": "Sturm Foods",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.sturmfoods.com",
-    "meta": "Manufacturer, Brandholder"
+    "name": "Celine Dion Parfums Signature Eau de Toilette Spray",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/475738/Celine_Dion_Parfums_Signature_Eau_de_Toilette_Spray/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "SUCAFINA North America Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.sucafina.ch",
-    "meta": "Importer"
+    "name": "CHI Helmet Head Extra Firm Spritz",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/674743/CHI_Helmet_Head_Extra_Firm_Spritz/",
+    "meta": "hair spray"
   },
   {
-    "name": "Sulpice",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.sulpicechocolat.com",
-    "meta": "Manufacturer, Brandholder"
+    "name": "Coppertone Sport Clear Continuous Spray Sunscreen, SPF 90 (2015 formulation)",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/618768/Coppertone_Sport_Clear_Continuous_Spray_Sunscreen%2C_SPF_90_%282015_formulation%29/",
+    "meta": "sunscreen: SPF greater than 30"
   },
   {
-    "name": "Summit Creek Capital LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/summit-creek-capital-llc",
-    "meta": ""
+    "name": "Coppertone UltraGuard Sunscreen Lotion, SPF 70+",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/496152/Coppertone_UltraGuard_Sunscreen_Lotion%2C_SPF_70%2B/",
+    "meta": "sunscreen: SPF greater than 30"
   },
   {
-    "name": "Sun - Maid Growers",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.sunmaid.com",
-    "meta": "Manufacturer, Brandholder"
+    "name": "Coppertone Water Babies Foaming Lotion Sunscreen, SPF 70+ (2015 formulation)",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/618758/Coppertone_Water_Babies_Foaming_Lotion_Sunscreen%2C_SPF_70%2B_%282015_formulation%29/",
+    "meta": "baby sunscreen, sunscreen: SPF greater than 30"
   },
   {
-    "name": "Sun Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.suncoffeeroasters.com",
-    "meta": "Manufacturer"
+    "name": "CrÃ¨me of Nature Argan Oil No-Lye Relaxer, Regular",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/641076/Cr%C3%83%C2%A8me_of_Nature_Argan_Oil_No-Lye_Relaxer%2C_Regular/",
+    "meta": "hair relaxer"
   },
   {
-    "name": "Sun Garden Tea",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.sungardentea.com/",
-    "meta": "Importer"
+    "name": "Creme of Nature Exotic Shine Hair Color, Honey Blonde 10.0",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/535706/Creme_of_Nature_Exotic_Shine_Hair_Color%2C_Honey_Blonde_10.0/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "Sun Light & Power",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/sun-light-power",
-    "meta": "Sun Light & Power are your solar electric and solar water heating system experts since 1976."
+    "name": "Creme Of Nature Exotic Shine Hair Color, Intense Black 1.0",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/97619/Creme_Of_Nature_Exotic_Shine_Hair_Color%2C_Intense_Black_1.0/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "SunCommon",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/suncommon",
-    "meta": ""
+    "name": "Creme of Nature Exotic Shine Hair Color, Intensive Red 7.6",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/535222/Creme_of_Nature_Exotic_Shine_Hair_Color%2C_Intensive_Red_7.6/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "SunCommon NY",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/suncommon-ny",
-    "meta": ""
+    "name": "Creme of Nature Exotic Shine Hair Color, Light Caramel Brown 9.2",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/534847/Creme_of_Nature_Exotic_Shine_Hair_Color%2C_Light_Caramel_Brown_9.2/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "Sundari Chocolate",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.sundarichocolate.com",
-    "meta": "Brandholder"
+    "name": "Creme of Nature Exotic Shine Hair Color, Light Golden Blonde 9.23",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/536687/Creme_of_Nature_Exotic_Shine_Hair_Color%2C_Light_Golden_Blonde_9.23/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "SunFed",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.sunfed.net/",
-    "meta": "Importer"
+    "name": "Creme of Nature Exotic Shine Hair Color, Medium Warm Brown 7.3",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/539480/Creme_of_Nature_Exotic_Shine_Hair_Color%2C_Medium_Warm_Brown_7.3/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "Sungevity",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/sungevity",
-    "meta": "The leading web-based sales company making it easy and affordable for homeowners to go solar"
+    "name": "Creme Of Nature Exotic Shine Hair Color, Red Copper 6.4",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/97613/Creme_Of_Nature_Exotic_Shine_Hair_Color%2C_Red_Copper_6.4/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "SunPower by Positive Energy Solar",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/sunpower-positive-energy-solar",
-    "meta": "Positive Energy Solar was recently certified as a B Corp!"
+    "name": "Cristophe Professional Volumizing Spray Tonic",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/592978/Cristophe_Professional_Volumizing_Spray_Tonic/",
+    "meta": "hair spray"
   },
   {
-    "name": "SunRidge Farms",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.sunridgefarms.com",
-    "meta": "Manufacturer, Brandholder"
+    "name": "Curve Crush by Liz Claiborne Curve Crush Eau De Toilette Spray For Women",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/527229/Curve_Crush_by_Liz_Claiborne_Curve_Crush_Eau_De_Toilette_Spray_For_Women/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "Sunrise Banks",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/sunrise-banks",
-    "meta": "Working with businesses and communities to strengthen urban neighborhoods"
+    "name": "CVS Baby Pure & Gentle Lotion Sunscreen, SPF 60 (2015 formulation)",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/617969/CVS_Baby_Pure_%26_Gentle_Lotion_Sunscreen%2C_SPF_60_%282015_formulation%29/",
+    "meta": "baby sunscreen, sunscreen: SPF greater than 30"
   },
   {
-    "name": "Sunspire Chocolates",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.sunspire.com",
-    "meta": "Manufacturer, Brandholder"
+    "name": "CVS Sensitive Skin Sun Lotion Sunscreen, SPF 60",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/660505/CVS_Sensitive_Skin_Sun_Lotion_Sunscreen%2C_SPF_60/",
+    "meta": "sunscreen: SPF greater than 30"
   },
   {
-    "name": "Super Humane",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/super-humane",
-    "meta": "Super Humane designs and builds software that improves the human condition. Empathy + Technology."
+    "name": "CVS Sensitive Skin Sun Lotion Sunscreen, SPF 60 (2015 formulation)",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/617968/CVS_Sensitive_Skin_Sun_Lotion_Sunscreen%2C_SPF_60_%282015_formulation%29/",
+    "meta": "sunscreen: SPF greater than 30"
   },
   {
-    "name": "Supreme Bean Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.thesupremebean.com",
-    "meta": "Manufacturer"
+    "name": "David Beckham Instinct Eau de Toilette For Men",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/470882/David_Beckham_Instinct_Eau_de_Toilette_For_Men/",
+    "meta": "fragrance for men"
   },
   {
-    "name": "Sustain Natural",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/sustain-natural",
-    "meta": "Do What's Natural"
+    "name": "Dr. Murad Firm and Tone Serum",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/677418/Dr._Murad_Firm_and_Tone_Serum/",
+    "meta": "facial moisturizer/treatment"
   },
   {
-    "name": "Sustainable Business Consulting",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/sustainable-business-consulting",
-    "meta": "We lead & inspire businesses to increase profits & create business value through sustainability."
+    "name": "Duane Reade Prevail Moisturizing Sunscreen, SPF 50 (2015 formulation)",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/619906/Duane_Reade_Prevail_Moisturizing_Sunscreen%2C_SPF_50_%282015_formulation%29/",
+    "meta": "sunscreen: SPF greater than 30"
   },
   {
-    "name": "Sustainable Harvest",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/sustainable-harvest",
-    "meta": "Leading importer of organic and fair trade coffee"
+    "name": "Emeraude Cologne Spray",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/123738/Emeraude_Cologne_Spray/",
+    "meta": "fragrance for men"
   },
   {
-    "name": "Sustainable Harvest Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.sustainableharvest.com",
-    "meta": "Importer"
+    "name": "Equate Kids Sunscreen Continuous Spray, SPF 50 (2015 formulation)",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/618793/Equate_Kids_Sunscreen_Continuous_Spray%2C_SPF_50_%282015_formulation%29/",
+    "meta": "sunscreen: SPF greater than 30"
   },
   {
-    "name": "Sustainable Insight Capital Management",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/sustainable-insight-capital-management",
-    "meta": ""
+    "name": "Faith Hill Parfums True Eau De Toilette Spray",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/470894/Faith_Hill_Parfums_True_Eau_De_Toilette_Spray/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "Sustainable Law Group, P.C.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/sustainable-law-group-pc",
-    "meta": "Sustainable Law Group, P.C. is a Certified B Corp social enterprise law firm"
+    "name": "Givenchy Amarige Eau de Toilette Spray",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/597935/Givenchy_Amarige_Eau_de_Toilette_Spray/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "Sustainable Solutions Corporation",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/sustainable-solutions-corporation",
-    "meta": "Sustainable Solutions Corporation (SSC) is a firm driven by a passion to make things better, one"
+    "name": "Banana Boat Sport Performance UltraMist Spray Sunscreen, SPF 30 (2015 formulation)",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/618810/Banana_Boat_Sport_Performance_UltraMist_Spray_Sunscreen%2C_SPF_30_%282015_formulation%29/",
+    "meta": "sunscreen: SPF 15-30"
   },
   {
-    "name": "Sustaining Elements LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://sustainingelementsofcoffee.com",
-    "meta": "Manufacturer"
+    "name": "Banana Boat Sport UltraMist Sunscreen Continuous Spray, SPF 100 (2015 formulation)",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/617805/Banana_Boat_Sport_UltraMist_Sunscreen_Continuous_Spray%2C_SPF_100_%282015_formulation%29/",
+    "meta": "sunscreen: SPF greater than 30"
   },
   {
-    "name": "Sustrana LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/sustrana-llc",
-    "meta": "Strategic sustainability consulting firm"
+    "name": "Banana Boat Ultra Defense Max Skin Protect Continuous Spray Sunscreen, SPF 100",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/660677/Banana_Boat_Ultra_Defense_Max_Skin_Protect_Continuous_Spray_Sunscreen%2C_SPF_100/",
+    "meta": "sunscreen: SPF greater than 30"
   },
   {
-    "name": "Susty Pacific",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/susty-pacific",
-    "meta": ""
+    "name": "Banana Boat Ultra Defense Sheer Protect Continuous Spray Sunscreen, SPF 30 (2015 formulation)",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/618811/Banana_Boat_Ultra_Defense_Sheer_Protect_Continuous_Spray_Sunscreen%2C_SPF_30_%282015_formulation%29/",
+    "meta": "sunscreen: SPF 15-30"
   },
   {
-    "name": "Suzanne's Specialities",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.suzannes-specialties.com/",
-    "meta": "Manufacturer"
+    "name": "Beyonce Heat Eau de Parfum Spray",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/470883/Beyonce_Heat_Eau_de_Parfum_Spray/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "Sven's Coffee Roasters LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.svenscoffee.com",
-    "meta": "Manufacturer"
+    "name": "Biolage by Matrix Hydrasource Daily Leave In Tonic",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/597253/Biolage_by_Matrix_Hydrasource_Daily_Leave_In_Tonic/",
+    "meta": "conditioner"
   },
   {
-    "name": "SVT Group",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/svt-group",
-    "meta": ""
+    "name": "Biolage by Matrix Hydro-Foaming Styler",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/168872/Biolage_by_Matrix_Hydro-Foaming_Styler/",
+    "meta": "styling mousse/foam"
   },
   {
-    "name": "Sweet Additions Distributors LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.sweetadditions.com",
-    "meta": "Manufacturer"
+    "name": "Biolage by Matrix Styling Freeze Fix Hair Spray, Firm Hold",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/466363/Biolage_by_Matrix_Styling_Freeze_Fix_Hair_Spray%2C_Firm_Hold/",
+    "meta": "hair spray"
   },
   {
-    "name": "Sweet Designs Chocolatier",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.sweetdesigns.com",
-    "meta": "Manufacturer, Brandholder"
+    "name": "Biosilk Silk Therapy Thickening Shampoo",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/673485/Biosilk_Silk_Therapy_Thickening_Shampoo/",
+    "meta": "shampoo"
   },
   {
-    "name": "Sweet Livity LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/sweet-livity-llc",
-    "meta": "Mind-Body-Spirit coaching and wellness programs for individuals and organizations"
+    "name": "Biosilk Volumizing Conditioner",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/596482/Biosilk_Volumizing_Conditioner/",
+    "meta": "conditioner"
   },
   {
-    "name": "Sweet Maria's Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.sweetmarias.com",
-    "meta": "Manufacturer"
+    "name": "Salvatore Ferragamo Incanto Charms Eau de Toilette, Natural Spray",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/517967/Salvatore_Ferragamo_Incanto_Charms_Eau_de_Toilette%2C_Natural_Spray/",
+    "meta": "fragrance for womenData: Fair"
   },
   {
-    "name": "Sweet Origins LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.sweetorigins.com",
-    "meta": "Importer, Brandholder"
+    "name": "Adidas Moves for Her, Spray Eau De Toilette",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/97235/Adidas_Moves_for_Her%2C_Spray_Eau_De_Toilette/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "Sweeteners Plus Inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://sweetenersplus.com",
-    "meta": "Manufacturer"
+    "name": "Adidas Moves for Him Eau de Toilette Spray",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/479057/Adidas_Moves_for_Him_Eau_de_Toilette_Spray/",
+    "meta": "fragrance for men"
   },
   {
-    "name": "sweetriot",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/sweetriot",
-    "meta": ""
+    "name": "Adidas Moves Him Eau de Toilette Spray",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/595745/Adidas_Moves_Him_Eau_de_Toilette_Spray/",
+    "meta": "fragrance for men"
   },
   {
-    "name": "sweetriot",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.sweetriot.com",
-    "meta": "Brandholder, ImporterofFinishedProduct"
+    "name": "African Pride Olive Miracle Deep Conditioning Anti-Breakage No-Lye Relaxer Regular",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/640667/African_Pride_Olive_Miracle_Deep_Conditioning_Anti-Breakage_No-Lye_Relaxer_Regular/",
+    "meta": "hair relaxer"
   },
   {
-    "name": "Swift River Coffee Roasters Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.swiftrivercoffee.com",
-    "meta": "Manufacturer"
+    "name": "Alpessence Silky Dew Moisture Supplement",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/667022/Alpessence_Silky_Dew_Moisture_Supplement/",
+    "meta": "moisturizer"
   },
   {
-    "name": "Synapse LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/synapse-llc",
-    "meta": "Economic and community development through networking."
+    "name": "Alterna Caviar Clinical Daily Root & Scalp Stimulator",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/672195/Alterna_Caviar_Clinical_Daily_Root_%26_Scalp_Stimulator/",
+    "meta": "hair treatment/serum"
   },
   {
-    "name": "Synchronicity Coffee Company LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.synccoffee.com",
-    "meta": "Manufacturer"
+    "name": "American Crew Defining Paste, Medium Hold with Low Shine",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/464622/American_Crew_Defining_Paste%2C_Medium_Hold_with_Low_Shine/",
+    "meta": "styling gel/lotion"
   },
   {
-    "name": "Synergy Flavors LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.synergytaste.com",
-    "meta": "Manufacturer"
+    "name": "American Crew Forming Cream",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/596860/American_Crew_Forming_Cream/",
+    "meta": "styling mousse/foam"
   },
   {
-    "name": "Syona Home",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.syonahome.com",
-    "meta": "Importer, Brandholder"
+    "name": "Aveeno Clear Complexion BB Cream",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/530780/Aveeno_Clear_Complexion_BB_Cream/",
+    "meta": "BB cream, facial moisturizer/treatment"
   },
   {
-    "name": "Tadin Herb & Tea Co",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.lateas.com",
-    "meta": "Manufacturer, Brandholder"
+    "name": "Banana Boat Clear UltraMist Kids Max Protect & Play Continuous Spray Sunscreen, SPF 100 (2015 formulation)",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/617876/Banana_Boat_Clear_UltraMist_Kids_Max_Protect_%26_Play_Continuous_Spray_Sunscreen%2C_SPF_100_%282015_formulation%29/",
+    "meta": "sunscreen: SPF greater than 30"
   },
   {
-    "name": "Taitem Engineering, PC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/taitem-engineering-pc",
-    "meta": ""
+    "name": "Banana Boat Clear UltraMist Kids Max Protect & Play Continuous Spray Sunscreen, SPF 110 (2015 formulation)",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/618620/Banana_Boat_Clear_UltraMist_Kids_Max_Protect_%26_Play_Continuous_Spray_Sunscreen%2C_SPF_110_%282015_formulation%29/",
+    "meta": "sunscreen: SPF greater than 30"
   },
   {
-    "name": "Talgra",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/talgra",
-    "meta": "A consulting and investment company focused on aligning money and values to create positive change."
+    "name": "Banana Boat Clear UltraMist Kids MAX Protect & Play Spray Sunscreen, SPF 110",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/617783/Banana_Boat_Clear_UltraMist_Kids_MAX_Protect_%26_Play_Spray_Sunscreen%2C_SPF_110/",
+    "meta": "sunscreen: SPF greater than 30"
   },
   {
-    "name": "Tamara's Professional Body Sugaring",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.tamarasprofessionalbodysugaring.com",
-    "meta": "Manufacturer, Brandholder"
+    "name": "Banana Boat Clear UltraMist Sport Performance Active MAX Protection, SPF 110 (2015 formulation)",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/617994/Banana_Boat_Clear_UltraMist_Sport_Performance_Active_MAX_Protection%2C_SPF_110_%282015_formulation%29/",
+    "meta": "sunscreen: SPF greater than 30"
   },
   {
-    "name": "Taos Ski Valley, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/taos-ski-valley-inc",
-    "meta": "Taos has been a famed mountain resort for more than 60 years."
+    "name": "Banana Boat Clear UltraMist Ultra Defense MAX Skin Protect Continuous Spray Sunscreen, SPF 110 (2015 formulation)",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/618567/Banana_Boat_Clear_UltraMist_Ultra_Defense_MAX_Skin_Protect_Continuous_Spray_Sunscreen%2C_SPF_110_%282015_formulation%29/",
+    "meta": "sunscreen: SPF greater than 30"
   },
   {
-    "name": "Target Corporation",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer, Brandholder"
+    "name": "Banana Boat Kids Max Protect & Play Continuous Spray Sunscreen, SPF 100",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/660638/Banana_Boat_Kids_Max_Protect_%26_Play_Continuous_Spray_Sunscreen%2C_SPF_100/",
+    "meta": "sunscreen: SPF greater than 30"
   },
   {
-    "name": "Tartan Fashion Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer"
+    "name": "Banana Boat Kids Max Protect & Play Sunscreen Lotion, SPF 100",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/660657/Banana_Boat_Kids_Max_Protect_%26_Play_Sunscreen_Lotion%2C_SPF_100/",
+    "meta": "sunscreen: SPF greater than 30"
   },
   {
-    "name": "Tate's Bake Shop",
-    "cert": "fairtradeusa",
-    "certlink": "http://tatesbakeshop.com",
-    "meta": "Manufacturer, Brandholder"
+    "name": "Banana Boat Sport Performance Broad Spectrum Faces Sunscreen Lotion, SPF 30",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/495893/Banana_Boat_Sport_Performance_Broad_Spectrum_Faces_Sunscreen_Lotion%2C_SPF_30/",
+    "meta": "sunscreen: SPF 15-30"
   },
   {
-    "name": "TCHO Ventures",
-    "cert": "fairtradeusa",
-    "certlink": "http://tcho.com/",
-    "meta": "Importer, Manufacturer, Brandholder"
+    "name": "Banana Boat Sport Performance Continuous Spray Sunscreen, SPF 100",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/660639/Banana_Boat_Sport_Performance_Continuous_Spray_Sunscreen%2C_SPF_100/",
+    "meta": "sunscreen: SPF greater than 30"
   },
   {
-    "name": "Tea Forte",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Brandholder, ImporterofFinishedProduct"
+    "name": "Banana Boat Sport Performance Continuous Spray Sunscreen, SPF 30",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/618813/Banana_Boat_Sport_Performance_Continuous_Spray_Sunscreen%2C_SPF_30/",
+    "meta": "sunscreen: SPF 15-30"
   },
   {
-    "name": "Tea Horse Road LLC",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer, Brandholder"
+    "name": "Banana Boat Sport Performance Faces Sunscreen Lotion, SPF 30 (2015 formulation)",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/618465/Banana_Boat_Sport_Performance_Faces_Sunscreen_Lotion%2C_SPF_30_%282015_formulation%29/",
+    "meta": "sunscreen: SPF 15-30"
   },
   {
-    "name": "Tea Importers",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.teaimporters.com/",
-    "meta": "Importer"
+    "name": "Banana Boat Sport Performance Sunscreen Lotion, SPF 100",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/660656/Banana_Boat_Sport_Performance_Sunscreen_Lotion%2C_SPF_100/",
+    "meta": "sunscreen: SPF greater than 30"
   },
   {
-    "name": "Teadora",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/teadora",
-    "meta": "Brazilian Beauty Secrets from the Amazon Rainforest"
+    "name": "Banana Boat Sport Performance Sunscreen Lotion, SPF 100 (2015 formulation)",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/618747/Banana_Boat_Sport_Performance_Sunscreen_Lotion%2C_SPF_100_%282015_formulation%29/",
+    "meta": "sunscreen: SPF greater than 30"
   },
   {
-    "name": "Teak Media + Communication",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/teak-media-communication",
-    "meta": "Teak Media + Communication is a values-driven public relations and communications firm that works with nonprofit organizations and responsible companies."
+    "name": "Banana Boat Sport Performance Sunscreen Spray, SPF 110 (2015 formulation)",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/618754/Banana_Boat_Sport_Performance_Sunscreen_Spray%2C_SPF_110_%282015_formulation%29/",
+    "meta": "sunscreen: SPF greater than 30"
   },
   {
-    "name": "Teatulia Organic Teas",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/teatulia-organic-teas",
-    "meta": "Cultivator of premium, 100% organic, and sustainable whole leaf, fine cut, and iced teas."
+    "name": "Banana Boat Sport Performance UltraMist Continuous Spray Sunscreen, SPF 100 (2015 formulation)",
+    "cert": "ewg_score_10",
+    "certlink": "http://www.ewg.org/skindeep/product/618619/Banana_Boat_Sport_Performance_UltraMist_Continuous_Spray_Sunscreen%2C_SPF_100_%282015_formulation%29/",
+    "meta": "sunscreen: SPF greater than 30"
   },
   {
-    "name": "Teawolf",
-    "cert": "fairtradeusa",
-    "certlink": "http://teawolf.com",
-    "meta": "Manufacturer, Brandholder"
+    "name": "Vidal Sassoon Pro Series Hair Color, 5 Medium Brown",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/599916/Vidal_Sassoon_Pro_Series_Hair_Color%2C_5_Medium_Brown/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "Tech Networks of Boston",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/tech-networks-of-boston",
-    "meta": "Tech Networks of Boston provides a full range of IT services to larger non-profits and corporate clients."
+    "name": "Vidal Sassoon Pro Series Hair Color, 5C Medium Cool Brown",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/595466/Vidal_Sassoon_Pro_Series_Hair_Color%2C_5C_Medium_Cool_Brown/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "TechChange",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/techchange",
-    "meta": ""
+    "name": "Vidal Sassoon Pro Series Hair Color, 5G Medium Golden Brown",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/595465/Vidal_Sassoon_Pro_Series_Hair_Color%2C_5G_Medium_Golden_Brown/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "Technicians For Sustainability",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/technicians-sustainability",
-    "meta": "Powering our Southern Arizona community with solar since 2003."
+    "name": "Vidal Sassoon Pro Series Hair Color, 5G Medium Golden Brown, 1 kit",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/598899/Vidal_Sassoon_Pro_Series_Hair_Color%2C_5G_Medium_Golden_Brown%2C_1_kit/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "Techstars",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/techstars",
-    "meta": "Techstars is a global ecosystem that empowers entrepreneurs to bring new technologies to market"
+    "name": "Vitabath Hydrating Body Lotion, Cupcake Couture Dreamy Pink Frosting",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/691839/Vitabath_Hydrating_Body_Lotion%2C_Cupcake_Couture_Dreamy_Pink_Frosting/",
+    "meta": "moisturizer"
   },
   {
-    "name": "Telesis Corporation",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/telesis-corporation",
-    "meta": "Planning, financing and building urban communities that are livable, beautiful, and safe"
+    "name": "Vitabath Hydrating Lotion, Grapefruit Vanilla",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/691842/Vitabath_Hydrating_Lotion%2C_Grapefruit_Vanilla/",
+    "meta": "moisturizer"
   },
   {
-    "name": "Templar Food Products",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.icedtea.com",
-    "meta": "Manufacturer"
+    "name": "Vitabath Moisturizing Lotion, Fresh Citrus Twist",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/479320/Vitabath_Moisturizing_Lotion%2C_Fresh_Citrus_Twist/",
+    "meta": "moisturizer"
   },
   {
-    "name": "Temple Lifestyle Inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.templelifestyle.com",
-    "meta": "Importer, Brandholder"
+    "name": "Vitabath Moisturizing Lotion, Original Spring Green",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/593228/Vitabath_Moisturizing_Lotion%2C_Original_Spring_Green/",
+    "meta": "moisturizer"
   },
   {
-    "name": "Tend Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.tendcoffee.com",
-    "meta": "Manufacturer"
+    "name": "Vitabath Moisturizing Lotion, Original Spring Green",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/233172/Vitabath_Moisturizing_Lotion%2C_Original_Spring_Green/",
+    "meta": "moisturizer"
   },
   {
-    "name": "Tendril",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/tendril",
-    "meta": ""
+    "name": "Vitabath Moisturizing Lotion, Plus Dry Skin",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/210267/Vitabath_Moisturizing_Lotion%2C_Plus_Dry_Skin/",
+    "meta": "moisturizer"
   },
   {
-    "name": "Terra Education, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/terra-education-inc",
-    "meta": "Teen and adult service-learning travel programs throughout Africa, Asia and Latin America"
+    "name": "Vitabath Moisturizing Lotion, Spa Skin Therapy",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/26437/Vitabath_Moisturizing_Lotion%2C_Spa_Skin_Therapy/",
+    "meta": "moisturizer"
   },
   {
-    "name": "TerraCarbon",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/terracarbon",
-    "meta": ""
+    "name": "Wet 'n Wild MegaSlicks Lip Gloss, Sinless",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/465401/Wet_%27n_Wild_MegaSlicks_Lip_Gloss%2C_Sinless/",
+    "meta": "lip gloss"
   },
   {
-    "name": "Terralite",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.terralite.com",
-    "meta": "Manufacturer, Brandholder"
+    "name": "XFusion Keratin Hair Fibers Fiberhold Spray",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/477401/XFusion_Keratin_Hair_Fibers_Fiberhold_Spray/",
+    "meta": "hair-loss treatment"
   },
   {
-    "name": "Terranova Coffee Roasting Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.terranovacoffeeroasting.com",
-    "meta": "Manufacturer"
+    "name": "Youthair Creme, For Men & Women",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/464068/Youthair_Creme%2C_For_Men_%26_Women/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "Terrapin Bright Green LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/terrapin-bright-green-llc",
-    "meta": ""
+    "name": "Youthair Hair Creme For Men",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/516201/Youthair_Hair_Creme_For_Men/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "Terrelli Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://terrellicoffee.com",
-    "meta": "Manufacturer"
+    "name": "TIGI Colour Combat Dumb Blonde Shampoo",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/596998/TIGI_Colour_Combat_Dumb_Blonde_Shampoo/",
+    "meta": "shampoo"
   },
   {
-    "name": "Terry Laboratories LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.terrylabs.com",
-    "meta": "Manufacturer"
+    "name": "TIGI Rockaholic Livin The Dream Conditioner",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/471330/TIGI_Rockaholic_Livin_The_Dream_Conditioner/",
+    "meta": "conditioner"
   },
   {
-    "name": "Test Company 2",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.fairtradeusa.org",
-    "meta": "Distributor"
+    "name": "TRESemme Climate Control Climate Protection Finishing Spray",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/472210/TRESemme_Climate_Control_Climate_Protection_Finishing_Spray/",
+    "meta": "hair spray"
   },
   {
-    "name": "Thanksgiving Coffee Co.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/thanksgiving-coffee-co",
-    "meta": "Not Just A Cup, But A Just Cup: An artisan coffee roaster in Northern California since 1972"
+    "name": "TRESemme Expert Selection Keratin Smooth Hairspray",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/691454/TRESemme_Expert_Selection_Keratin_Smooth_Hairspray/",
+    "meta": "hair spray"
   },
   {
-    "name": "The Ariel Group LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/the-ariel-group-llc",
-    "meta": "The Ariel Group LLC is an international training and coaching firm comprised of performing a"
+    "name": "TRESemme Fresh Start Dry Shampoo Color Care",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/529399/TRESemme_Fresh_Start_Dry_Shampoo_Color_Care/",
+    "meta": "shampoo"
   },
   {
-    "name": "The Arnold Development Group",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/the-arnold-development-group",
-    "meta": "Mixed use real estate development and real estate services"
+    "name": "Trump: Empire by Trump Shower Gel",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/697733/Trump%3A_Empire_by_Trump_Shower_Gel/",
+    "meta": "body wash/cleanser"
   },
   {
-    "name": "The Atomic Cafe",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.atomicafe.com",
-    "meta": "Manufacturer"
+    "name": "Vaseline Intensive Care Cocoa Butter Deep Conditioning Body Lotion",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/100128/Vaseline_Intensive_Care_Cocoa_Butter_Deep_Conditioning_Body_Lotion/",
+    "meta": "moisturizer"
   },
   {
-    "name": "The Bark House at Highland Craftsmen, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/the-bark-house-highland-craftsmen-inc",
-    "meta": "Upcycles reclaimed tree bark into beautiful wall coverings for exteriors + interiors 100% US sourced."
+    "name": "VaVoom by Matrix Extra-Full Freezing Spray",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/230333/VaVoom_by_Matrix_Extra-Full_Freezing_Spray/",
+    "meta": "hair spray"
   },
   {
-    "name": "The Beanery Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://beaneryinc.com/",
-    "meta": "Manufacturer"
+    "name": "VaVoom by Matrix Shape Maker Shaping Spray",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/471302/VaVoom_by_Matrix_Shape_Maker_Shaping_Spray/",
+    "meta": "hair spray"
   },
   {
-    "name": "The Bear James Company",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/the-bear-james-company",
-    "meta": "Awesomeness for Everyone"
+    "name": "VaVoom by Matrix Shape Maker Xtra Hold Shaping Spray",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/471303/VaVoom_by_Matrix_Shape_Maker_Xtra_Hold_Shaping_Spray/",
+    "meta": "hair spray"
   },
   {
-    "name": "The Benjamin P Forbes Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.forbeschocolate.com",
-    "meta": "Manufacturer"
+    "name": "Revlon Colorsilk Beautiful Color, Medium Auburn 42",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/688190/Revlon_Colorsilk_Beautiful_Color%2C_Medium_Auburn_42/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "The Black Sheep Agency",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/the-black-sheep-agency",
-    "meta": "To shock. To awe. To be the agency that changes minds and accelerates impact."
+    "name": "Revlon Colorsilk Beautiful Color, Medium Golden Brown 43",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/595866/Revlon_Colorsilk_Beautiful_Color%2C_Medium_Golden_Brown_43/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "The Builders Fund",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/the-builders-fund",
-    "meta": ""
+    "name": "Revlon Colorsilk Beautiful Color, Medium Rich Brown 47",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/593424/Revlon_Colorsilk_Beautiful_Color%2C_Medium_Rich_Brown_47/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "The CAPROCK Group",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/the-caprock-group",
-    "meta": ""
+    "name": "Revlon Colorsilk Beautiful Color, Ultra Light Natural Blonde 04",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/688201/Revlon_Colorsilk_Beautiful_Color%2C_Ultra_Light_Natural_Blonde_04/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "The Change Creation, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/the-change-creation-inc",
-    "meta": "Brand strategy and design team that works exclusively with purpose-driven companies"
+    "name": "Revlon Colorsilk Beautiful Color, Ultra Light Sun Blonde 03",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/260349/Revlon_Colorsilk_Beautiful_Color%2C_Ultra_Light_Sun_Blonde_03/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "The Chosen Bean",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.thechosenbean.com",
-    "meta": "Manufacturer"
+    "name": "Revlon Colorsilk Beautiful Color, Warm Golden Blonde 75",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/594772/Revlon_Colorsilk_Beautiful_Color%2C_Warm_Golden_Blonde_75/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "The Cleaver Co.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/the-cleaver-co",
-    "meta": "High quality, values-driven catering & events company, and farm to table restaurant, The Green Table"
+    "name": "Revlon ColorSilk Luminista Permanent Color Burgundy Brown 145",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/688205/Revlon_ColorSilk_Luminista_Permanent_Color_Burgundy_Brown_145/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "The Coconut Cooperative",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.pancakeorganics.com/",
-    "meta": "Importer"
+    "name": "Revlon ColorSilk Luminista Permanent Color Red 150",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/688210/Revlon_ColorSilk_Luminista_Permanent_Color_Red_150/",
+    "meta": "hair color and bleaching"
   },
   {
-    "name": "The Coffee Bean & Tea Leaf",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer"
+    "name": "Rimmel Foundation Primer 001",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/520525/Rimmel_Foundation_Primer_001/",
+    "meta": "foundation"
   },
   {
-    "name": "The Coffee Beanery Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.coffeebeanery.com",
-    "meta": "Manufacturer"
+    "name": "Rimmel Lasting Finish 25 Hour Foundation, Sand",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/593296/Rimmel_Lasting_Finish_25_Hour_Foundation%2C_Sand/",
+    "meta": "foundation"
   },
   {
-    "name": "The Coffee Roastery",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer"
+    "name": "Rimmel Lasting Finish 25 Hour Foundation, True Ivory",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/593295/Rimmel_Lasting_Finish_25_Hour_Foundation%2C_True_Ivory/",
+    "meta": "foundation"
   },
   {
-    "name": "The Coffee Scoop LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.freshcoffeescoop.com",
-    "meta": "Manufacturer"
+    "name": "Rimmel Moisture Renew Lipstick, Berry Rose",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/688892/Rimmel_Moisture_Renew_Lipstick%2C_Berry_Rose/",
+    "meta": "lipstick"
   },
   {
-    "name": "The Coffee Source",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.coffee.cr/",
-    "meta": "Importer"
+    "name": "RoC Retinol Correxion Deep Wrinkle Filler",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/519527/RoC_Retinol_Correxion_Deep_Wrinkle_Filler/",
+    "meta": "anti-aging"
   },
   {
-    "name": "The Communications Refinery PBC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/the-communications-refinery-pbc",
-    "meta": ""
+    "name": "Rusk Designer Collection Thermal Shine Spray",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/689050/Rusk_Designer_Collection_Thermal_Shine_Spray/",
+    "meta": "hair spray"
   },
   {
-    "name": "The Dandavati Group",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/the-dandavati-group",
-    "meta": "Growth Strategies, Strategic Planning, Organizational Effectiveness, and Leadership Development"
+    "name": "Rusk Radical Extreme Hold Finishing Hairspray",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/689069/Rusk_Radical_Extreme_Hold_Finishing_Hairspray/",
+    "meta": "hair spray"
   },
   {
-    "name": "The Eco Laundry Company",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/the-eco-laundry-company",
-    "meta": "Mission based organic laundry and dry cleaning business with stores in New York and Buenos Aires."
+    "name": "Rusk Sensories Brilliance Color-Protecting Leave-in Conditioner",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/689073/Rusk_Sensories_Brilliance_Color-Protecting_Leave-in_Conditioner/",
+    "meta": "conditioner"
   },
   {
-    "name": "The Electric Brew",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.theelectricbrew.com",
-    "meta": "Manufacturer"
+    "name": "Rusk Sensories Pure Shampoo, Mandarin & Jasmine",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/466374/Rusk_Sensories_Pure_Shampoo%2C_Mandarin_%26_Jasmine/",
+    "meta": "shampoo"
   },
   {
-    "name": "The Elephant Pants",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.theelephantpants.com",
-    "meta": "Importer, Brandholder"
+    "name": "Rusk Thermal Shine Spray",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/689107/Rusk_Thermal_Shine_Spray/",
+    "meta": "hair treatment/serum"
   },
   {
-    "name": "The Food Source International Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.foodsourceinc.com",
-    "meta": "Manufacturer"
+    "name": "Rusk W8less Plus, Extra Strong Hold",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/599165/Rusk_W8less_Plus%2C_Extra_Strong_Hold_/",
+    "meta": "hair spray"
   },
   {
-    "name": "The GFB",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/the-gfb",
-    "meta": "At The GFB we focus on sustainably producing the best gluten-free snacks that money can buy."
+    "name": "Rusk W8less Shaping & Control Hair Spray, Strong Hold",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/593476/Rusk_W8less_Shaping_%26_Control_Hair_Spray%2C_Strong_Hold/",
+    "meta": "hair spray"
   },
   {
-    "name": "The Giumarra Companies",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.giumarra.com",
-    "meta": "Importer"
+    "name": "Sally Hansen Diamond Strength No Chip Nail Color, Black Diamond",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/689206/Sally_Hansen_Diamond_Strength_No_Chip_Nail_Color%2C_Black_Diamond/",
+    "meta": "nail polish"
   },
   {
-    "name": "The Green Engineer, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/the-green-engineer-inc",
-    "meta": "The Green Engineer, Inc. is a sustainable design consulting firm based in Concord MA"
+    "name": "Sally Hansen Diamond Strength No Chip Nail Color, Honeymoon Red",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/689210/Sally_Hansen_Diamond_Strength_No_Chip_Nail_Color%2C_Honeymoon_Red/",
+    "meta": "nail polish"
   },
   {
-    "name": "The Hain Celestial Group Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.hain-celestial.com/",
-    "meta": "Manufacturer, Brandholder"
+    "name": "Sally Hansen Diamond Strength No Chip Nail Color, Together Forever",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/689213/Sally_Hansen_Diamond_Strength_No_Chip_Nail_Color%2C_Together_Forever/",
+    "meta": "nail polish"
   },
   {
-    "name": "The HallStar Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.hallstar.com",
-    "meta": "Manufacturer"
+    "name": "Sally Hershberger Supreme Lift Root Boost & Heat Protect",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/466760/Sally_Hershberger_Supreme_Lift_Root_Boost_%26_Heat_Protect/",
+    "meta": "hair spray"
   },
   {
-    "name": "The Honest Company",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/the-honest-company",
-    "meta": "The Honest Company is a trustworthy source for safe, natural, non-toxic, eco-friendly baby diapers"
+    "name": "Salon Grafix Chroma-Logica High Gloss Hair Spray",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/530927/Salon_Grafix_Chroma-Logica_High_Gloss_Hair_Spray/",
+    "meta": "hair spray"
   },
   {
-    "name": "THE HUMANITEA COMPANY LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.humaniteaco.com",
-    "meta": "Brandholder"
+    "name": "Salon Grafix Play It Big Firmer Hair Spray",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/593148/Salon_Grafix_Play_It_Big_Firmer_Hair_Spray/",
+    "meta": "hair spray"
   },
   {
-    "name": "The Image Shoppe",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/the-image-shoppe",
-    "meta": "A brand marketing ally, inspired to be lifelong partners for clients, community & planet."
+    "name": "Salon Grafix Play It Big Touchable Hair Spray",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/592685/Salon_Grafix_Play_It_Big_Touchable_Hair_Spray/",
+    "meta": "hair spray"
   },
   {
-    "name": "The JM Smucker Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.smuckers.com",
-    "meta": "Importer, Manufacturer, Brandholder"
+    "name": "Salon Grafix Shaping Hair Spray Finishing Mist, Extra Super Hold",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/518140/Salon_Grafix_Shaping_Hair_Spray_Finishing_Mist%2C_Extra_Super_Hold/",
+    "meta": "hair spray"
   },
   {
-    "name": "The Joinery",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/the-joinery",
-    "meta": "Sustainable hardwood furniture designed and handcrafted in Portland, Oregon since 1982"
+    "name": "Sebastian Shaper Plus Aero The Ultimate Flexible Hold",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/535698/Sebastian_Shaper_Plus_Aero_The_Ultimate_Flexible_Hold/",
+    "meta": "hair spray"
   },
   {
-    "name": "The Majora Carter Group LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/the-majora-carter-group-llc",
-    "meta": ""
+    "name": "Sebastian SHAPER Plus Extra Hold Hairspray",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/478756/Sebastian_SHAPER_Plus_Extra_Hold_Hairspray/",
+    "meta": "hair spray"
   },
   {
-    "name": "The Muffin Mam",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.muffinmam.com/index.html",
-    "meta": "Manufacturer, Brandholder"
+    "name": "Sexy Hair Concepts Big Sexy Hair What A Tease Backcomb in a Bottle Hairspray",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/476072/Sexy_Hair_Concepts_Big_Sexy_Hair_What_A_Tease_Backcomb_in_a_Bottle_Hairspray/",
+    "meta": "hair spray"
   },
   {
-    "name": "The National Society of Leadership and Success",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/the-national-society-of-leadership-and-success",
-    "meta": "Building leaders who make a better world"
+    "name": "Sexy Hair Concepts Healthy Sexy Hair Soy-Tri-Wheat Leave In Conditioner",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/592342/Sexy_Hair_Concepts_Healthy_Sexy_Hair_Soy-Tri-Wheat_Leave_In_Conditioner/",
+    "meta": "conditioner"
   },
   {
-    "name": "The Paradigm Project",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/the-paradigm-project",
-    "meta": "Social venture company creating sustainable economic, social and environmental returns"
+    "name": "Sexy Hair Concepts Straight Sexy Hair Smooth & Seal, Aerated Anti-Frizz & Shine Spray",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/280382/Sexy_Hair_Concepts_Straight_Sexy_Hair_Smooth_%26_Seal%2C_Aerated_Anti-Frizz_%26_Shine_Spray/",
+    "meta": "hair spray"
   },
   {
-    "name": "The Pepper Peddler",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.thepepperpeddler.com/",
-    "meta": "Manufacturer"
+    "name": "Skin Success Eventone Fade Cream, For Oily Skin",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/146962/Skin_Success_Eventone_Fade_Cream%2C_For_Oily_Skin/",
+    "meta": "facial moisturizer/treatment, skin fading/lightener"
   },
   {
-    "name": "The Reader Magazine",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/the-reader-magazine",
-    "meta": "The Reader Magazine is one of the largest circulation print publications in California."
+    "name": "Skin Success Eventone Fade Cream, Regular",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/240782/Skin_Success_Eventone_Fade_Cream%2C_Regular/",
+    "meta": "skin fading/lightener"
   },
   {
-    "name": "The Redwoods Group",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/the-redwoods-group",
-    "meta": ""
+    "name": "Skin Success Eventone Fade Milk with Vitamin E and Alpha Hydroxy",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/596312/Skin_Success_Eventone_Fade_Milk_with_Vitamin_E_and_Alpha_Hydroxy/",
+    "meta": "facial moisturizer/treatment"
   },
   {
-    "name": "The Refill Shoppe",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/the-refill-shoppe",
-    "meta": "Eco-bath store making a difference one bottle at a time."
+    "name": "skyn ICELAND Pure Cloud Cream",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/669455/skyn_ICELAND_Pure_Cloud_Cream/",
+    "meta": "facial moisturizer/treatment"
   },
   {
-    "name": "The Republic of Tea",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.republicoftea.com",
-    "meta": "Importer, Manufacturer, Brandholder"
+    "name": "StriVectin Advanced Retinol Eye Cream",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/690639/StriVectin_Advanced_Retinol_Eye_Cream/",
+    "meta": "around-eye cream"
   },
   {
-    "name": "The Restorative Leadership Institute",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/the-restorative-leadership-institute",
-    "meta": "Leadership and organizational development for purpose-driven organizations and conscious leaders"
+    "name": "TIGI Catwalk Sleek Mystique Fast Fixx Style Prep",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/476055/TIGI_Catwalk_Sleek_Mystique_Fast_Fixx_Style_Prep/",
+    "meta": "conditioner"
   },
   {
-    "name": "The Road Less Traveled",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/the-road-less-traveled",
-    "meta": "Extraordinary summer travel opportunity for teens to experience service, community, adventure"
+    "name": "TIGI Colour Combat Colour Goddess Shampoo",
+    "cert": "ewg_score_9",
+    "certlink": "http://www.ewg.org/skindeep/product/596997/TIGI_Colour_Combat_Colour_Goddess_Shampoo/",
+    "meta": "shampoo"
   },
   {
-    "name": "The Roasterie",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.theroasterie.com",
-    "meta": "Manufacturer"
+    "name": "ProductScore",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/search.php?search_group=products&showmore=products&start=0&order=product+INC",
+    "meta": "Score"
   },
   {
-    "name": "The Rose Group",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/the-rose-group",
-    "meta": "The Rose Group was founded to help employers hire more veterans."
+    "name": "Aromatica Calendula Castile Soap",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671547/Aromatica_Calendula_Castile_Soap/",
+    "meta": "liquid hand soap"
   },
   {
-    "name": "The Simba Shop",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.kahawacup.com",
-    "meta": "Manufacturer"
+    "name": "ATTITUDE Baby Natural baby wipes",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/669774/ATTITUDE_Baby_Natural_baby_wipes/",
+    "meta": "baby wipes"
   },
   {
-    "name": "The Sox Box",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/the-sox-box",
-    "meta": ""
+    "name": "Be Natural Organics Hyaluronic Serum",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/655715/Be_Natural_Organics_Hyaluronic_Serum/",
+    "meta": "facial moisturizer/treatment"
   },
   {
-    "name": "The Stroopie Co.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/the-stroopie-co",
-    "meta": "The Stroopie Co. is a social enterprise that is committed to quality and making a difference for refugees!"
+    "name": "Boyzz Only No Nonsense Hair & Body Wash",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/707461/Boyzz_Only_No_Nonsense_Hair_%26_Body_Wash/",
+    "meta": "body wash/cleanser, shampoo"
   },
   {
-    "name": "The Tea Smith LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.theteasmith.com",
-    "meta": "Brandholder"
+    "name": "C2 California Clean Advanced Hyaluronic Hydrating Primer",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/664980/C2_California_Clean_Advanced_Hyaluronic_Hydrating_Primer/",
+    "meta": "anti-aging"
   },
   {
-    "name": "The Tea Spot",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.theteaspot.com/",
-    "meta": "Manufacturer, Brandholder"
+    "name": "Dr. Brite Cleansing Mouth Rinse - MINT",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/669535/Dr._Brite_Cleansing_Mouth_Rinse_-_MINT/",
+    "meta": "mouthwash"
   },
   {
-    "name": "The Tea Spot, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/the-tea-spot-inc",
-    "meta": ""
+    "name": "Just the Goods lightly foaming + exfoliating vegan face wash for normal/sensitive skin",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/695433/Just_the_Goods_lightly_foaming_%2B_exfoliating_vegan_face_wash_for_normal%3B%3Bsensitive_skin/",
+    "meta": "exfoliant/scrub, facial cleanser"
   },
   {
-    "name": "The Union Company LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://rockabillyroasting.com",
-    "meta": "Manufacturer"
+    "name": "Just the Goods lightly foaming + exfoliating vegan face wash for normal/sensitive skin (no palma rosa)",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/695435/Just_the_Goods_lightly_foaming_%2B_exfoliating_vegan_face_wash_for_normal%3B%3Bsensitive_skin_%28no_palma_rosa%29/",
+    "meta": "exfoliant/scrub, facial cleanser"
   },
   {
-    "name": "The Vashon Island Coffee Roasterie",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.tvicr.com",
-    "meta": "Manufacturer"
+    "name": "Just the Goods lightly foaming + exfoliating vegan face wash for oily/combination skin",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/701055/Just_the_Goods_lightly_foaming_%2B_exfoliating_vegan_face_wash_for_oily%3B%3Bcombination_skin/",
+    "meta": "facial cleanser"
   },
   {
-    "name": "The Warrell Corporation",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.warrellcorp.com",
-    "meta": "Manufacturer"
+    "name": "Just the Goods lightly foaming vegan face wash for normal/sensitive skin (no palma rosa)",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/695434/Just_the_Goods_lightly_foaming_vegan_face_wash_for_normal%3B%3Bsensitive_skin_%28no_palma_rosa%29/",
+    "meta": "facial cleanser"
   },
   {
-    "name": "The Well Clinic",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/the-well-clinic",
-    "meta": ""
+    "name": "ProductScore",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/search.php?search_group=products&showmore=products&start=0&order=product+INC",
+    "meta": "Score"
   },
   {
-    "name": "The Zen Life Center, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/the-zen-life-center-inc",
-    "meta": ""
+    "name": "Just the Goods lightly foaming vegan face wash for oily/combination skin",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/701054/Just_the_Goods_lightly_foaming_vegan_face_wash_for_oily%3B%3Bcombination_skin/",
+    "meta": "facial cleanser"
   },
   {
-    "name": "thedatabank, Gbc. (General Benefit Corporation)",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/thedatabank-gbc-general-benefit-corporation",
-    "meta": "High performance, easy to use software solutions for nonprofits"
+    "name": "Just the Goods moisturizing vegan face wash for oily/combination skin",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/701056/Just_the_Goods_moisturizing_vegan_face_wash_for_oily%3B%3Bcombination_skin/",
+    "meta": "facial cleanser"
   },
   {
-    "name": "TheGreenOffice.com",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/thegreenofficecom",
-    "meta": "Online office products retailer providing a one-stop, sustainable shop"
+    "name": "Just the Goods Vegan Cleansing Toner for Normal/sensitive Skin",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/654669/Just_the_Goods_Vegan_Cleansing_Toner_for_Normal%3B%3Bsensitive_Skin/",
+    "meta": "toners/astringents"
   },
   {
-    "name": "Therafit Shoe",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/therafit-shoe",
-    "meta": "Therafit is a fashion-forward footwear brand with a patented Personal Comfort System dedicated to a women’s wellness."
+    "name": "Just the Goods vegan facial scrub for sensitive skin",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/693567/Just_the_Goods_vegan_facial_scrub_for_sensitive_skin/",
+    "meta": "exfoliant/scrub"
   },
   {
-    "name": "Theta Ridge Coffee LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.thetaridgecoffee.com",
-    "meta": "Importer"
+    "name": "Just the Goods vegan hand + body lotion, unscented",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/701059/Just_the_Goods_vegan_hand_%2B_body_lotion%2C_unscented/",
+    "meta": "moisturizer"
   },
   {
-    "name": "Thinkbaby & Thinksport",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/thinkbaby-thinksport",
-    "meta": "Thinkbaby & Thinksport create safer alternatives to products with biologically harmful chemicals."
+    "name": "Just the Goods vegan lip scrub â€“ sweet orange",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/693573/Just_the_Goods_vegan_lip_scrub_%C3%A2%E2%82%AC%E2%80%9C_sweet_orange/",
+    "meta": "exfoliant/scrub"
   },
   {
-    "name": "thinkPARALLAX",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/thinkparallax",
-    "meta": "A full service creative communications agency focused on building brands with purpose."
+    "name": "Just the Goods vegan lip scrub â€“ unflavored",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/693572/Just_the_Goods_vegan_lip_scrub_%C3%A2%E2%82%AC%E2%80%9C_unflavored/",
+    "meta": "exfoliant/scrub"
   },
   {
-    "name": "Thinkshift Communications",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/thinkshift-communications",
-    "meta": "Communications to build credibility for clean-tech and sustainability-focused organizations"
+    "name": "Just the Goods vegan lip scrub â€“ vanilla",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/693574/Just_the_Goods_vegan_lip_scrub_%C3%A2%E2%82%AC%E2%80%9C_vanilla/",
+    "meta": "exfoliant/scrub"
   },
   {
-    "name": "ThinkShout, Inc",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/thinkshout-inc",
-    "meta": "Website design, strategy, and open source for nonprofits. Specializing in CMS and CRM solutions."
+    "name": "just the goods vegan massage oil â€“ unscented",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/696335/just_the_goods_vegan_massage_oil_%C3%A2%E2%82%AC%E2%80%9C_unscented/",
+    "meta": "body oil"
   },
   {
-    "name": "Third Street",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.3rdstreetchai.com",
-    "meta": "Manufacturer, Brandholder"
+    "name": "Just the Goods vegan salt body scrub â€“ gin + tonic",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/693580/Just_the_Goods_vegan_salt_body_scrub_%C3%A2%E2%82%AC%E2%80%9C_gin_%2B_tonic/",
+    "meta": "exfoliant/scrub"
   },
   {
-    "name": "Third Sun Solar",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/third-sun-solar",
-    "meta": "Third Sun Solar brings simplicity and value to solar power in Ohio."
+    "name": "ProductScore",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/search.php?search_group=products&showmore=products&start=0&order=product+INC",
+    "meta": "Score"
   },
   {
-    "name": "This Bar Saves Lives",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.thisbarsaveslives.com",
-    "meta": "Manufacturer, Brandholder"
+    "name": "Just the Goods vegan salt body scrub â€“ unscented",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/693579/Just_the_Goods_vegan_salt_body_scrub_%C3%A2%E2%82%AC%E2%80%9C_unscented/",
+    "meta": "exfoliant/scrub"
   },
   {
-    "name": "This Good World Network",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/good-world-network",
-    "meta": ""
+    "name": "Lowen's Natural Skin Care Be Local Lip Balm",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/707650/Lowen%27s_Natural_Skin_Care_Be_Local_Lip_Balm/",
+    "meta": "lip balm"
   },
   {
-    "name": "This is L. Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/l-inc",
-    "meta": "L."
+    "name": "Makes 3 Soap Bar, Coriander Ginger Oatmeal",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/604408/Makes_3_Soap_Bar%2C_Coriander_Ginger_Oatmeal/",
+    "meta": "bar soap"
   },
   {
-    "name": "Thomas Hammer Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.hammercoffee.com",
-    "meta": "Manufacturer"
+    "name": "Modere Mouth Rinse REFRESH",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/663837/Modere_Mouth_Rinse_REFRESH/",
+    "meta": "mouthwash"
   },
   {
-    "name": "Thread",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/thread",
-    "meta": "Creates fabric from trash in the developing world. Tracks & shares impact from Ground to GoodTM."
+    "name": "Organic to Green Hand Sanitizer Clean Lavender Lemon",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/670275/Organic_to_Green_Hand_Sanitizer_Clean_Lavender_Lemon_/",
+    "meta": "hand sanitizer"
   },
   {
-    "name": "Threads 4 Thought",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/threads-4-thought",
-    "meta": "Threads 4 Thought is a sustainable apparel brand for men and women."
+    "name": "Organic to Green Scrub Rainforest Body & face Coco Sugar",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/670274/Organic_to_Green_Scrub_Rainforest_Body_%26_face_Coco_Sugar/",
+    "meta": "exfoliant/scrub"
   },
   {
-    "name": "Threads for Thought",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.threadsforthought.com",
-    "meta": "Importer, Brandholder"
+    "name": "Purelygreat Cream Deodorant - Unscented",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/650972/Purelygreat_Cream_Deodorant_-_Unscented_/",
+    "meta": "antiperspirant/deodorant"
   },
   {
-    "name": "Three Tree Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.3treecoffeeroasters.com",
-    "meta": "Manufacturer"
+    "name": "Qet Botanicals Balancing Herbal Exfoliant with Tea & Thyme",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/663942/Qet_Botanicals_Balancing_Herbal_Exfoliant_with_Tea_%26_Thyme/",
+    "meta": "exfoliant/scrub"
   },
   {
-    "name": "Three Twins Ice Cream",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.threetwinsicecream.com",
-    "meta": "Manufacturer, Brandholder"
+    "name": "Qet Botanicals Espresso Mint Body Polish",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/663966/Qet_Botanicals_Espresso_Mint_Body_Polish/",
+    "meta": "exfoliant/scrub"
   },
   {
-    "name": "Threespot",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/threespot",
-    "meta": "We help organizations do good, better."
+    "name": "Qet Botanicals Honey Cream Mask with Active Manuka UMF 16+",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/663956/Qet_Botanicals_Honey_Cream_Mask_with_Active_Manuka_UMF_16%2B/",
+    "meta": "mask"
   },
   {
-    "name": "Thrive Consulting Group",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/thrive-consulting-group",
-    "meta": ""
+    "name": "ProductScore",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/search.php?search_group=products&showmore=products&start=0&order=product+INC",
+    "meta": "Score"
   },
   {
-    "name": "Thrive Farmers International, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/thrive-farmers-international-inc",
-    "meta": ""
+    "name": "Qet Botanicals Hydrating Herbal Exfoliant with Tea & Lavender",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/663943/Qet_Botanicals_Hydrating_Herbal_Exfoliant_with_Tea_%26_Lavender/",
+    "meta": "exfoliant/scrub"
   },
   {
-    "name": "Thunder Island Coffee Roasters LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.thunderislandcoffee.com",
-    "meta": "Manufacturer"
+    "name": "Qet Botanicals Natural Sea Spray",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/663962/Qet_Botanicals_Natural_Sea_Spray/",
+    "meta": "hair spray"
   },
   {
-    "name": "Thunderkiss Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.thunderkisscoffee.com",
-    "meta": "Manufacturer"
+    "name": "Qet Botanicals Raw Cacao & Oat Body Polish",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/663969/Qet_Botanicals_Raw_Cacao_%26_Oat_Body_Polish/",
+    "meta": "exfoliant/scrub"
   },
   {
-    "name": "Tierra Farm",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.tierrafarm.com",
-    "meta": "Manufacturer"
+    "name": "Qet Botanicals Restoring Herbal Exfolaint with Tea & Roses",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/663944/Qet_Botanicals_Restoring_Herbal_Exfolaint_with_Tea_%26_Roses/",
+    "meta": "exfoliant/scrub"
   },
   {
-    "name": "Times International Trading Corporation",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer"
+    "name": "Sally B's Skin Yummies Moisturizing Body Buff, Unscented",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/705664/Sally_B%27s_Skin_Yummies_Moisturizing_Body_Buff%2C_Unscented/",
+    "meta": "exfoliant/scrub"
   },
   {
-    "name": "TJ's Roaster LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.tjsroaster.com",
-    "meta": "Manufacturer"
+    "name": "Silk Therapeutics Cleansing Silk Complete Facial Cleanser",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/654604/Silk_Therapeutics_Cleansing_Silk_Complete_Facial_Cleanser/",
+    "meta": "facial cleanser"
   },
   {
-    "name": "TMI Consulting",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/tmi-consulting",
-    "meta": "Consulting firm specializing in diversity and innovation strategies"
+    "name": "Silk Therapeutics Cleansing Silk Refresh Facial Cleanser",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/654603/Silk_Therapeutics_Cleansing_Silk_Refresh_Facial_Cleanser/",
+    "meta": "facial cleanser"
   },
   {
-    "name": "TOAD - ALLY SNAX Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.toadallysnax.com",
-    "meta": "Manufacturer, Brandholder"
+    "name": "Soap for Goodness Sake Babassu Shampoo and Body Bar",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/701926/Soap_for_Goodness_Sake_Babassu_Shampoo_and_Body_Bar/",
+    "meta": "body wash/cleanser, shampoo"
   },
   {
-    "name": "Toddy LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://toddycafe.com",
-    "meta": "Manufacturer"
+    "name": "Soap for Goodness Sake Handmade Soap, Olive Oil II",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/701959/Soap_for_Goodness_Sake_Handmade_Soap%2C_Olive_Oil_II/",
+    "meta": "bar soap"
   },
   {
-    "name": "Tofurky",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/tofurky",
-    "meta": "Healthy. Compassionate. Sustainable."
+    "name": "Soap for Goodness Sake Handmade Soap, Sugar",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/701977/Soap_for_Goodness_Sake_Handmade_Soap%2C_Sugar_/",
+    "meta": "bar soap"
   },
   {
-    "name": "Tony's Coffees & Teas Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.tonyscoffee.com",
-    "meta": "Manufacturer"
+    "name": "ProductScore",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/search.php?search_group=products&showmore=products&start=0&order=product+INC",
+    "meta": "Score"
   },
   {
-    "name": "Tonyan Coffee LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.tonyancoffee.com/",
-    "meta": "Manufacturer"
+    "name": "Soap for Goodness Sake Shaving Soap, Babassu",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/701927/Soap_for_Goodness_Sake_Shaving_Soap%2C_Babassu/",
+    "meta": "shaving cream"
   },
   {
-    "name": "Topeca Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.topecacoffee.com",
-    "meta": "Manufacturer"
+    "name": "White & Elm Exfoliating Enzyme Mask",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/694754/White_%26_Elm_Exfoliating_Enzyme_Mask/",
+    "meta": "mask"
   },
   {
-    "name": "Topical BioMedics, Inc",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/topical-biomedics-inc",
-    "meta": "Pain Relief & Healing Creams"
+    "name": "Akar Skin Desert Rescue Face Oil",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/703027/Akar_Skin_Desert_Rescue_Face_Oil/",
+    "meta": "facial moisturizer/treatment"
   },
   {
-    "name": "Torke Coffee Roasting Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.torkecoffee.com",
-    "meta": "Manufacturer"
+    "name": "Akar Skin Lush Balance Toning Mist",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/703026/Akar_Skin_Lush_Balance_Toning_Mist/",
+    "meta": "toners/astringents"
   },
   {
-    "name": "Torn Ranch Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.tornranch.com",
-    "meta": "Manufacturer, Brandholder"
+    "name": "Akar Skin Mini Care Lip Butter",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/703030/Akar_Skin_Mini_Care_Lip_Butter/",
+    "meta": "lip balm"
   },
   {
-    "name": "Total Sweeteners Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://batoryfoods.com",
-    "meta": "Manufacturer"
+    "name": "Akar Skin Ruby Tint Lip Butter",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/703031/Akar_Skin_Ruby_Tint_Lip_Butter/",
+    "meta": "lip balm"
   },
   {
-    "name": "Touton SA",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer"
+    "name": "ARGANAT ALL NATURAL CLAY TOOTHPASTE PEPPERMINT WHITENING",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/693709/ARGANAT_ALL_NATURAL_CLAY_TOOTHPASTE_PEPPERMINT_WHITENING/",
+    "meta": "tooth whitening, toothpaste"
   },
   {
-    "name": "Trabocca BV",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.trabocca.com",
-    "meta": "Importer"
+    "name": "ARGANAT FACIAL TONIFYING CLEANSER",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/693711/ARGANAT_FACIAL_TONIFYING_CLEANSER_____/",
+    "meta": "facial cleanser"
   },
   {
-    "name": "Trader Harris International Inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.traderharris.com",
-    "meta": "Importer"
+    "name": "Aromatica 95% Natural Aloe Aqua Cream",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671518/Aromatica_95%25_Natural_Aloe_Aqua_Cream/",
+    "meta": "facial moisturizer/treatment"
   },
   {
-    "name": "Tradin Organics USA",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.tradinorganic.com",
-    "meta": "Importer"
+    "name": "Aromatica 95% Organic Aloe Vera Gel",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671517/Aromatica_95%25_Organic_Aloe_Vera_Gel/",
+    "meta": "after sun product"
   },
   {
-    "name": "Traditional Medicinals",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/traditional-medicinals",
-    "meta": ""
+    "name": "ProductScore",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/search.php?search_group=products&showmore=products&start=0&order=product+INC",
+    "meta": "Score"
   },
   {
-    "name": "Traditional Medicinals",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.traditionalmedicinals.com",
-    "meta": "Manufacturer, Brandholder"
+    "name": "Aromatica Argan Intensive Hydrating Eye Cream",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671533/Aromatica_Argan_Intensive_Hydrating_Eye_Cream/",
+    "meta": "around-eye cream"
   },
   {
-    "name": "Trail Lodge Tea",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer, Brandholder"
+    "name": "Aromatica Argan Intensive Hydrating Serum",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671532/Aromatica_Argan_Intensive_Hydrating_Serum/",
+    "meta": "facial moisturizer/treatment"
   },
   {
-    "name": "Transcend, The Fearless Company",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/transcend-the-fearless-company",
-    "meta": "Delivering practical solutions for better leadership to build a stronger local and global community."
+    "name": "Aromatica Damask Rose Soothing Gel",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671523/Aromatica_Damask_Rose_Soothing_Gel/",
+    "meta": "anti-itch/rash cream"
   },
   {
-    "name": "Transmar Commodity Group",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.transmargroup.com",
-    "meta": "Importer"
+    "name": "Aromatica Good Morning Good Day Roll-On",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671576/Aromatica_Good_Morning_Good_Day_Roll-On/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "Travel Chocolate LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://travelchocolate.com/",
-    "meta": "Manufacturer"
+    "name": "Aromatica Good Night Good Sleep Roll-On",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671575/Aromatica_Good_Night_Good_Sleep_Roll-On/",
+    "meta": "body oil"
   },
   {
-    "name": "Traviesa Coffee LLC",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer"
+    "name": "Aromatica Jerry's baby Hyalu ato cream",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/708209/Aromatica_Jerry%27s_baby_Hyalu_ato_cream/",
+    "meta": "baby lotion, moisturizer"
   },
   {
-    "name": "Tree-Mendous",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/tree-mendous",
-    "meta": "Tree-Mendous Forest Aerial Adventures make people want to play in nature."
+    "name": "Aromatica Jerry's baby Hyalu daily lotion",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/708260/Aromatica_Jerry%27s_baby_Hyalu_daily_lotion/",
+    "meta": "baby lotion, moisturizer"
   },
   {
-    "name": "Treefort Music Fest",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/treefort-music-fest",
-    "meta": "Multi-venue music festival in Boise, ID featuring national / regional / local emerging artists."
+    "name": "Aromatica Lavender Relaxing Massage & Body Oil",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671549/Aromatica_Lavender_Relaxing_Massage_%26_Body_Oil/",
+    "meta": "body oil"
   },
   {
-    "name": "Treeseed.Org",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/treeseedorg",
-    "meta": "Online platform to help non-profits fundraise, engage donors, expand networks & grow."
+    "name": "Aromatica Lavender Relaxing Toner",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671539/Aromatica_Lavender_Relaxing_Toner/",
+    "meta": "toners/astringents"
   },
   {
-    "name": "Treetop Commons LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/treetop-commons-llc",
-    "meta": "Online Community Software"
+    "name": "Aromatica Natural Coconut Cleansing Oil",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671546/Aromatica_Natural_Coconut_Cleansing_Oil/",
+    "meta": "makeup remover"
   },
   {
-    "name": "Trickling Springs Creamery",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.tricklingspringscreamery.com",
-    "meta": "Manufacturer, Brandholder"
+    "name": "ProductScore",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/search.php?search_group=products&showmore=products&start=0&order=product+INC",
+    "meta": "Score"
   },
   {
-    "name": "TriLibrium",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/trilibrium",
-    "meta": "Certified Public Accounting firm that centers on building sustainable communities"
+    "name": "Aromatica Natural Jasmine Hand Cream",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671558/Aromatica_Natural_Jasmine_Hand_Cream/",
+    "meta": "hand cream"
   },
   {
-    "name": "TriLinc Global",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/trilinc-global",
-    "meta": "Creating a global platform for impact investing through alternative investment funds"
+    "name": "Aromatica Rose Absolute Eye Cream",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671522/Aromatica_Rose_Absolute_Eye_Cream/",
+    "meta": "around-eye cream"
   },
   {
-    "name": "Trilliant Food & Nutrition",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.victorallen.com",
-    "meta": "Manufacturer"
+    "name": "Aromatica Rose Absolute First Serum",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671519/Aromatica_Rose_Absolute_First_Serum/",
+    "meta": "facial moisturizer/treatment"
   },
   {
-    "name": "Trillium Asset Management",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/trillium-asset-management",
-    "meta": "A pioneer, innovator, and leader in sustainable and responsible investing for three decades"
+    "name": "Aromatica Rose Absolute Vital Cream",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671521/Aromatica_Rose_Absolute_Vital_Cream/",
+    "meta": "facial moisturizer/treatment"
   },
   {
-    "name": "Trinidad Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Manufacturer"
+    "name": "Aromatica Rosemary Refresh Toner",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671538/Aromatica_Rosemary_Refresh_Toner/",
+    "meta": "toners/astringents"
   },
   {
-    "name": "TriplePundit, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/triplepundit-llc",
-    "meta": ""
+    "name": "Aromatica Tea Tree Balancing Foaming Cleanser",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671526/Aromatica_Tea_Tree_Balancing_Foaming_Cleanser/",
+    "meta": "facial cleanser"
   },
   {
-    "name": "TripZero",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/tripzero",
-    "meta": "Responsible travel agency that offsets your trip’s entire carbon footprint—for free."
+    "name": "Aromatica Tea Tree Balancing Toner",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671524/Aromatica_Tea_Tree_Balancing_Toner/",
+    "meta": "toners/astringents"
   },
   {
-    "name": "Troon Pacific, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/troon-pacific-inc",
-    "meta": ""
+    "name": "Aromatica Uplifting & Cheering Roll-On",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671577/Aromatica_Uplifting_%26_Cheering_Roll-On/",
+    "meta": "fragrance for women"
   },
   {
-    "name": "Tropic Trade LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://tropictradellc.com/",
-    "meta": "Importer"
+    "name": "ATTITUDE 100% Mineral Face stick, SPF 30",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/714389/ATTITUDE_100%25_Mineral_Face_stick%2C_SPF_30/",
+    "meta": "sunscreen: moisturizer"
   },
   {
-    "name": "Tropical Cubes Company LTD",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.tropicalcubes.com",
-    "meta": "Manufacturer"
+    "name": "ATTITUDE Baby 2-in-1 Natural Hair and Body Foaming Wash",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/669779/ATTITUDE_Baby_2-in-1_Natural_Hair_and_Body_Foaming_Wash/",
+    "meta": "baby shampoo"
   },
   {
-    "name": "Tropical Sunshine Products",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.palmandbean.com",
-    "meta": "Manufacturer, Brandholder"
+    "name": "ProductScore",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/search.php?search_group=products&showmore=products&start=0&order=product+INC",
+    "meta": "Score"
   },
   {
-    "name": "Tru Chocolate LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.tru-chocolate.com",
-    "meta": "Manufacturer, Brandholder"
+    "name": "ATTITUDE Baby 2-in-1 Natural Shampoo & Body Wash",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/669776/ATTITUDE_Baby_2-in-1_Natural_Shampoo_%26_Body_Wash/",
+    "meta": "baby shampoo"
   },
   {
-    "name": "True Beans Coffee Roasters LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://truebeans.com/",
-    "meta": "Manufacturer"
+    "name": "ATTITUDE Baby Natural Baby Diaper Cream - Zinc",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/669783/ATTITUDE_Baby_Natural_Baby_Diaper_Cream_-_Zinc/",
+    "meta": "diaper cream"
   },
   {
-    "name": "True Impact",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/true-impact",
-    "meta": "True Impact LLC provides web-based software and support services to help organizations measure their social, financial, and environmental impact."
+    "name": "ATTITUDE Baby Natural Deep Repair Cream",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/669781/ATTITUDE_Baby_Natural_Deep_Repair_Cream/",
+    "meta": "baby lotion"
   },
   {
-    "name": "TruFood Mfg",
-    "cert": "fairtradeusa",
-    "certlink": "http://trufoodmfg.com",
-    "meta": "Manufacturer"
+    "name": "ATTITUDE Baby Natural Foaming Hand Wash",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/669777/ATTITUDE_Baby_Natural_Foaming_Hand_Wash/",
+    "meta": "liquid hand soap"
   },
   {
-    "name": "TruMatcha LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://https://trumatchatea.com/",
-    "meta": "Brandholder"
+    "name": "ATTITUDE Baby Natural Protective Ointment",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/669778/ATTITUDE_Baby_Natural_Protective_Ointment/",
+    "meta": "baby lotion"
   },
   {
-    "name": "TS Designs, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/ts-designs-inc",
-    "meta": "Our t-shirts & printing methods are not only the most sustainable, they're also of superior quality!"
+    "name": "ATTITUDE Baby Natural Soothing Bath Soak",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/669784/ATTITUDE_Baby_Natural_Soothing_Bath_Soak/",
+    "meta": "baby bubble bath"
   },
   {
-    "name": "Tuckerman & Co.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/tuckerman-co",
-    "meta": "Premium men's dress shirts made from 100% organic cotton."
+    "name": "ATTITUDE Baby Natural Soothing Bodycream - Daily Moisturizer",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/669786/ATTITUDE_Baby_Natural_Soothing_Bodycream_-_Daily_Moisturizer/",
+    "meta": "moisturizer"
   },
   {
-    "name": "Tugboat Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.tugboatcoffee.com",
-    "meta": "Manufacturer"
+    "name": "ATTITUDE Blooming Belly natural body wash",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/665019/ATTITUDE_Blooming_Belly_natural_body_wash_/",
+    "meta": "body wash/cleanser"
   },
   {
-    "name": "Turn-Key Marketing & Promotions, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/turn-key-marketing-promotions-inc",
-    "meta": ""
+    "name": "ATTITUDE Blooming Belly Natural Bubble Bath",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/665013/ATTITUDE_Blooming_Belly_Natural_Bubble_Bath/",
+    "meta": "bubble bath"
   },
   {
-    "name": "Turnstile Tours, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/turnstile-tours-inc",
-    "meta": "Develops and operates in-depth tour experiences in partnership with non-profit organizations in NYC"
+    "name": "ATTITUDE Blooming Belly natural conditioner",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/665020/ATTITUDE_Blooming_Belly_natural_conditioner/",
+    "meta": "conditioner"
   },
   {
-    "name": "Twin Valley Coffee LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.twinvalleycoffee.com",
-    "meta": "Manufacturer"
+    "name": "ProductScore",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/search.php?search_group=products&showmore=products&start=0&order=product+INC",
+    "meta": "Score"
   },
   {
-    "name": "Twinings North America Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.twiningsusa.com/",
-    "meta": "Importer, Manufacturer, Brandholder"
+    "name": "ATTITUDE Blooming Belly natural cream for tired legs",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/665014/ATTITUDE_Blooming_Belly_natural_cream_for_tired_legs_/",
+    "meta": "moisturizer"
   },
   {
-    "name": "Twirl Management",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/twirl-management",
-    "meta": "Twirl Management plans amazing events for socially responsible organizations and individuals."
+    "name": "ATTITUDE Blooming Belly natural foaming face cleanser",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/665018/ATTITUDE_Blooming_Belly_natural_foaming_face_cleanser_/",
+    "meta": "facial cleanser"
   },
   {
-    "name": "Two Dudes Painting Company",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/two-dudes-painting-company",
-    "meta": ""
+    "name": "ATTITUDE Blooming Belly natural nourishing cream",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/665016/ATTITUDE_Blooming_Belly_natural_nourishing_cream/",
+    "meta": "moisturizer"
   },
   {
-    "name": "Two J's Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.theartofroasting.com",
-    "meta": "Manufacturer"
+    "name": "ATTITUDE Blooming Belly natural stretch oil",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/665017/ATTITUDE_Blooming_Belly_natural_stretch_oil_/",
+    "meta": "body oil"
   },
   {
-    "name": "Two Leaves & a Bud Tea Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://twoleavesandabud.com",
-    "meta": "Brandholder, ImporterofFinishedProduct"
+    "name": "ATTITUDE little ones 100% Mineral Sunscreen vanilla blossom,  SPF 30",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/714388/ATTITUDE_little_ones_100%25_Mineral_Sunscreen_vanilla_blossom%2C__SPF_30/",
+    "meta": "sunscreen: moisturizer"
   },
   {
-    "name": "U Konserve",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/u-konserve",
-    "meta": "A complete line of quality, safe and reusable food-storage solutions for the whole family."
+    "name": "ATTITUDE little ones 100% Mineral Sunscreen, SPF 30",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/714386/ATTITUDE_little_ones_100%25_Mineral_Sunscreen%2C_SPF_30/",
+    "meta": "sunscreen: moisturizer"
   },
   {
-    "name": "Ultimate Superfoods Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.ultimatesuperfoods.com",
-    "meta": "Manufacturer"
+    "name": "ATTITUDE little ones Aftersun melt-in Gel, Calendula, Tutti Fruti",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/707220/ATTITUDE_little_ones_Aftersun_melt-in_Gel%2C_Calendula%2C_Tutti_Fruti/",
+    "meta": "after sun product"
   },
   {
-    "name": "UncommonGoods",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/uncommongoods",
-    "meta": ""
+    "name": "ATTITUDE little ones Baby Diaper Cream, Zinc",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/701064/ATTITUDE_little_ones_Baby_Diaper_Cream%2C_Zinc__/",
+    "meta": "diaper cream"
   },
   {
-    "name": "Union Kitchen",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/union-kitchen",
-    "meta": "Food incubator catalyzing small business growth by lowering barriers to entry for food businesses."
+    "name": "ATTITUDE little ones Calendula Face & Body Cream",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/701065/ATTITUDE_little_ones_Calendula_Face_%26_Body_Cream/",
+    "meta": "facial moisturizer/treatment, moisturizer"
   },
   {
-    "name": "United By Blue",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/united-blue",
-    "meta": "Apparel brand that removes one pound of trash from oceans and waterways for every product sold"
+    "name": "ATTITUDE little ones Calendula Face & Body Cream NIGHT Soothing Chamomile",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/701066/ATTITUDE_little_ones_Calendula_Face_%26_Body_Cream_NIGHT_Soothing_Chamomile/",
+    "meta": "facial moisturizer/treatment, moisturizer"
   },
   {
-    "name": "United Cocoa Processor Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.unitedcocoa.com",
-    "meta": "Manufacturer"
+    "name": "ProductScore",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/search.php?search_group=products&showmore=products&start=0&order=product+INC",
+    "meta": "Score"
   },
   {
-    "name": "United Fund Advisors",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/united-fund-advisors",
-    "meta": "Provides investment capital and advisory services for community development and renewable energy projects"
+    "name": "ProductScore",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/search.php?search_group=products&showmore=products&start=0&order=product+INC",
+    "meta": "Score"
   },
   {
-    "name": "Universal Commodities Tea Trading Inc",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "tea"
+    "name": "Aromatica Calendula Castile Soap",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671547/Aromatica_Calendula_Castile_Soap/",
+    "meta": "liquid hand soap"
   },
   {
-    "name": "UnReal Brands",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.getunreal.com",
-    "meta": "Manufacturer, Brandholder"
+    "name": "ATTITUDE Baby Natural baby wipes",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/669774/ATTITUDE_Baby_Natural_baby_wipes/",
+    "meta": "baby wipes"
   },
   {
-    "name": "Unreasonable Group",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/unreasonable-group",
-    "meta": "Unreasonable Group's ambition is to serve as a catalyst for entrepreneurship in the 21st century."
+    "name": "Be Natural Organics Hyaluronic Serum",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/655715/Be_Natural_Organics_Hyaluronic_Serum/",
+    "meta": "facial moisturizer/treatment"
   },
   {
-    "name": "Untours",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/untours",
-    "meta": ""
+    "name": "Boyzz Only No Nonsense Hair & Body Wash",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/707461/Boyzz_Only_No_Nonsense_Hair_%26_Body_Wash/",
+    "meta": "body wash/cleanser, shampoo"
   },
   {
-    "name": "Upcyclity Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/upcyclity-inc",
-    "meta": "The online community where those who practice Upcycling can meet, communicate and e-commerce"
+    "name": "C2 California Clean Advanced Hyaluronic Hydrating Primer",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/664980/C2_California_Clean_Advanced_Hyaluronic_Hydrating_Primer/",
+    "meta": "anti-aging"
   },
   {
-    "name": "UpSpring",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/upspring",
-    "meta": "Providing triple bottom line entities success in business planning financing"
+    "name": "Dr. Brite Cleansing Mouth Rinse - MINT",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/669535/Dr._Brite_Cleansing_Mouth_Rinse_-_MINT/",
+    "meta": "mouthwash"
   },
   {
-    "name": "Urban Green Development, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/urban-green-development-llc",
-    "meta": "Urban Green Development builds energy efficient residential units designed upon 'green' standards,"
+    "name": "Just the Goods lightly foaming + exfoliating vegan face wash for normal/sensitive skin",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/695433/Just_the_Goods_lightly_foaming_%2B_exfoliating_vegan_face_wash_for_normal%3B%3Bsensitive_skin/",
+    "meta": "exfoliant/scrub, facial cleanser"
   },
   {
-    "name": "Urban Mining PBC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/urban-mining-pbc",
-    "meta": "Welcome to the future of sustainable sourcing and a better afterlife for your unwanted electronics."
+    "name": "Just the Goods lightly foaming + exfoliating vegan face wash for normal/sensitive skin (no palma rosa)",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/695435/Just_the_Goods_lightly_foaming_%2B_exfoliating_vegan_face_wash_for_normal%3B%3Bsensitive_skin_%28no_palma_rosa%29/",
+    "meta": "exfoliant/scrub, facial cleanser"
   },
   {
-    "name": "Urbane & Gallant",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/urbane-gallant",
-    "meta": "Urbane & Gallant is a lifestyle menswear brand empowering men to live authentically masculine lives."
+    "name": "Just the Goods lightly foaming + exfoliating vegan face wash for oily/combination skin",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/701055/Just_the_Goods_lightly_foaming_%2B_exfoliating_vegan_face_wash_for_oily%3B%3Bcombination_skin/",
+    "meta": "facial cleanser"
   },
   {
-    "name": "US Foods",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.usfoods.com/",
-    "meta": "food"
+    "name": "Just the Goods lightly foaming vegan face wash for normal/sensitive skin (no palma rosa)",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/695434/Just_the_Goods_lightly_foaming_vegan_face_wash_for_normal%3B%3Bsensitive_skin_%28no_palma_rosa%29/",
+    "meta": "facial cleanser"
   },
   {
-    "name": "USA Bouquet",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.usabq.com",
-    "meta": "Importer"
+    "name": "ProductScore",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/search.php?search_group=products&showmore=products&start=0&order=product+INC",
+    "meta": "Score"
   },
   {
-    "name": "USEED",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/useed",
-    "meta": "USEED is a startup dedicated to redesigning philanthropy in HigherEd."
+    "name": "ATTITUDE Natural Body Wash",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/669788/ATTITUDE_Natural_Body_Wash/",
+    "meta": "body wash/cleanser"
   },
   {
-    "name": "Utopian Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.utopiancoffee.com",
-    "meta": "coffee"
+    "name": "ATTITUDE Natural Deep Repair Cream",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/669791/ATTITUDE_Natural_Deep_Repair_Cream/",
+    "meta": "moisturizer"
   },
   {
-    "name": "Valley Green Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.valleygreencoffee.com/",
-    "meta": "Manufacturer"
+    "name": "ATTITUDE Natural Foaming Hand Wash",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/669790/ATTITUDE_Natural_Foaming_Hand_Wash/",
+    "meta": "liquid hand soap"
   },
   {
-    "name": "Van Dusen Coffee Company LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.briocoffeeworks.com",
-    "meta": "coffee"
+    "name": "ATTITUDE Natural Hand Repair Cream",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/669793/ATTITUDE_Natural_Hand_Repair_Cream/",
+    "meta": "hand cream"
   },
   {
-    "name": "Van Rees (North America) Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.vanrees.com/global-network/north-america",
-    "meta": "Importer"
+    "name": "ATTITUDE Natural Protective Ointment",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/669789/ATTITUDE_Natural_Protective_Ointment/",
+    "meta": "moisturizer"
   },
   {
-    "name": "Van Rees Kenya LTD",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.vanrees.com/global-network/kenya",
-    "meta": "Exporter"
+    "name": "ATTITUDE Natural Soothing Bath Soak",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/669794/ATTITUDE_Natural_Soothing_Bath_Soak/",
+    "meta": "bath oil/salts/soak"
   },
   {
-    "name": "VanAmerongen & Son Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.klassiccoconut.com",
-    "meta": "Importer, Manufacturer"
+    "name": "ATTITUDE Natural Soothing Bodycream - Daily Moisturizer",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/669792/ATTITUDE_Natural_Soothing_Bodycream_-_Daily_Moisturizer/",
+    "meta": "moisturizer"
   },
   {
-    "name": "Varsity Technologies, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/varsity-technologies-inc",
-    "meta": "Varsity Technologies helps schools and non-profits make strategic information technology decisions"
+    "name": "ATTITUDE Natural Treatment Shampoo",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/669787/ATTITUDE_Natural_Treatment_Shampoo/",
+    "meta": "shampoo"
   },
   {
-    "name": "Vasquez Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.vasquezcoffee.com",
-    "meta": "coffee"
+    "name": "ATTITUDE Sensitive Skin Solution - 100% Mineral Sunscreen, SPF 30",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/714387/ATTITUDE_Sensitive_Skin_Solution_-_100%25_Mineral_Sunscreen%2C_SPF_30/",
+    "meta": "sunscreen: moisturizer"
   },
   {
-    "name": "Veg - Fresh Farms LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.vegfresh.com/",
-    "meta": "Distributor"
+    "name": "ATTITUDE Super Leaves Natural Body Cream, Energizing Ginseng",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/706060/ATTITUDE_Super_Leaves_Natural_Body_Cream%2C_Energizing_Ginseng/",
+    "meta": "moisturizer"
   },
   {
-    "name": "Venia Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.veniacoffee.com",
-    "meta": "coffee"
+    "name": "ProductScore",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/search.php?search_group=products&showmore=products&start=0&order=product+INC",
+    "meta": "Score"
   },
   {
-    "name": "Ventegra",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/ventegra",
-    "meta": "Ventegra is a new Class-of-Trade Pharmacy Services Administrator for pharmacy benefit management."
+    "name": "ATTITUDE Super Leaves Natural Body Cream, Energizing Orange Leaves",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/706061/ATTITUDE_Super_Leaves_Natural_Body_Cream%2C_Energizing_Orange_Leaves/",
+    "meta": "moisturizer"
   },
   {
-    "name": "Vera Solutions, Benefit LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/vera-solutions-benefit-llc",
-    "meta": "Vera Solutions is a social enterprise that harnesses cloud- and mobile-technology to improve the"
+    "name": "ATTITUDE Super Leaves Natural Body Cream, Nourishing Olive Leaves",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/706050/ATTITUDE_Super_Leaves_Natural_Body_Cream%2C_Nourishing_Olive_Leaves/",
+    "meta": "moisturizer"
   },
   {
-    "name": "Veris Wealth Partners",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/veris-wealth-partners",
-    "meta": "National sustainable wealth management firm aligning clients' financial objectives with their values"
+    "name": "ATTITUDE Super Leaves Natural Body Cream, Regenerating Lemon Leaves",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/706049/ATTITUDE_Super_Leaves_Natural_Body_Cream%2C_Regenerating_Lemon_Leaves/",
+    "meta": "moisturizer"
   },
   {
-    "name": "Veritable Vegetable",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/veritable-vegetable",
-    "meta": "Veritable Vegetable, a mission-driven company, distributes organic produce to impact social change."
+    "name": "ATTITUDE Super Leaves Natural Body Cream, Soothing Black Willow",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/706048/ATTITUDE_Super_Leaves_Natural_Body_Cream%2C_Soothing_Black_Willow/",
+    "meta": "moisturizer"
   },
   {
-    "name": "Vermeiren Princeps NV",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.vermeirenprinceps.be",
-    "meta": "Manufacturer"
+    "name": "ATTITUDE Super Leaves Natural Body Cream, Soothing White Tea Leaves",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/706051/ATTITUDE_Super_Leaves_Natural_Body_Cream%2C_Soothing_White_Tea_Leaves/",
+    "meta": "moisturizer"
   },
   {
-    "name": "Vermont Creamery",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/vermont-creamery",
-    "meta": ""
+    "name": "ATTITUDE Super Leaves Natural Conditioner, Clarifying",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/706062/ATTITUDE_Super_Leaves_Natural_Conditioner%2C_Clarifying/",
+    "meta": "conditioner"
   },
   {
-    "name": "Vermont Smoke & Cure",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/vermont-smoke-cure",
-    "meta": "At Vermont Smoke & Cure, they’re making better meat for all."
+    "name": "ATTITUDE Super Leaves Natural Conditioner, Moisture Rich",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/706063/ATTITUDE_Super_Leaves_Natural_Conditioner%2C_Moisture_Rich/",
+    "meta": "conditioner"
   },
   {
-    "name": "VIANOVA, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/vianova-inc",
-    "meta": "Social Impact Consulting & Professional Facilitation Services"
+    "name": "ATTITUDE Super Leaves Natural Conditioner, Nourishing & Strengthening",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/706064/ATTITUDE_Super_Leaves_Natural_Conditioner%2C_Nourishing_%26_Strengthening/",
+    "meta": "conditioner"
   },
   {
-    "name": "Viasyn, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/viasyn-inc",
-    "meta": "Provides engineering consulting and services to utility-scale renewable energy generators"
+    "name": "ATTITUDE Super Leaves Natural Hand Soap, Lemon Leaves & White Tea",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/706052/ATTITUDE_Super_Leaves_Natural_Hand_Soap%2C_Lemon_Leaves_%26_White_Tea/",
+    "meta": "liquid hand soap"
   },
   {
-    "name": "Vienna Coffee Company LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.viennacoffeecompany.com",
-    "meta": "coffee"
+    "name": "ATTITUDE Super Leaves Natural Hand Soap, Olive Leaves & Grape Seed Oil",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/706053/ATTITUDE_Super_Leaves_Natural_Hand_Soap%2C_Olive_Leaves_%26_Grape_Seed_Oil/",
+    "meta": "liquid hand soap"
   },
   {
-    "name": "Virginia Community Capital",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/virginia-community-capital",
-    "meta": "Providing capital for affordable housing, job creation, and community facilities in Virginia"
+    "name": "ProductScore",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/search.php?search_group=products&showmore=products&start=0&order=product+INC",
+    "meta": "Score"
   },
   {
-    "name": "Virginia Dare Extract Company Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.virginiadare.com",
-    "meta": "Manufacturer"
+    "name": "ATTITUDE Super Leaves Natural Hand Soap, Orange Leaves & Soy Protein",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/706054/ATTITUDE_Super_Leaves_Natural_Hand_Soap%2C_Orange_Leaves_%26_Soy_Protein/",
+    "meta": "liquid hand soap"
   },
   {
-    "name": "Virginia Tea Company LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://virginiateacompany.com/",
-    "meta": "tea"
+    "name": "ATTITUDE Super Leaves Natural Hand Soap, White Tea Leaves & Quinoa",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/706055/ATTITUDE_Super_Leaves_Natural_Hand_Soap%2C_White_Tea_Leaves_%26_Quinoa/",
+    "meta": "liquid hand soap"
   },
   {
-    "name": "Visceral",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/visceral",
-    "meta": "Combines design and technology to engage, influence and inspire action."
+    "name": "ATTITUDE Super Leaves Natural Shower Gel, Energizing Orange Leaves",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/706058/ATTITUDE_Super_Leaves_Natural_Shower_Gel%2C_Energizing_Orange_Leaves/",
+    "meta": "body wash/cleanser"
   },
   {
-    "name": "Vision Executive Coaching",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/vision-executive-coaching",
-    "meta": "Vision Executive Coaching works with highly inspired entrepreneurs, business leaders, and hi"
+    "name": "ATTITUDE Super Leaves Natural Shower Gel, Nourishing Olive Leaves",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/706057/ATTITUDE_Super_Leaves_Natural_Shower_Gel%2C_Nourishing_Olive_Leaves/",
+    "meta": "body wash/cleanser"
   },
   {
-    "name": "Vista Caballo",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/vista-caballo",
-    "meta": ""
+    "name": "ATTITUDE Super Leaves Natural Shower Gel, Regenerating Lemon Leaves",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/706056/ATTITUDE_Super_Leaves_Natural_Shower_Gel%2C_Regenerating_Lemon_Leaves/",
+    "meta": "body wash/cleanser"
   },
   {
-    "name": "Vista Global Coaching & Consulting LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/vista-global-coaching-consulting-llc",
-    "meta": "VGCC supports nonprofit executives, social entrepreneurs, young leaders or socially responsible busi"
+    "name": "ATTITUDE Super Leaves Natural Shower Gel, Soothing White Tea Leaves",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/706059/ATTITUDE_Super_Leaves_Natural_Shower_Gel%2C_Soothing_White_Tea_Leaves/",
+    "meta": "body wash/cleanser"
   },
   {
-    "name": "Vita Global, Inc",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/vita-global-inc",
-    "meta": "Specialists in transforming businesses into profitable social impact companies!"
+    "name": "ATTITUDE Super Leaves Shampoo Moisture Rich",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/693862/ATTITUDE_Super_Leaves_Shampoo_Moisture_Rich/",
+    "meta": "shampoo"
   },
   {
-    "name": "Vital Choice",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/vital-choice",
-    "meta": "VitalChoice.com specializes in premium seafood and other health-restoring, earth-friendly fare."
+    "name": "ATTITUDE Super Leaves Shampoo Volume & Shine",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/693861/ATTITUDE_Super_Leaves_Shampoo_Volume_%26_Shine/",
+    "meta": "shampoo"
   },
   {
-    "name": "Vital Plan",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/vital-plan",
-    "meta": "Physician-formulated natural supplements and chronic immune dysfunction restoration programs"
+    "name": "Baby Mantra 3-in-1 Bubble Bath, Shampoo + Wash with Lavender Oil & Aloe",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/666589/Baby_Mantra_3-in-1_Bubble_Bath%2C_Shampoo_%2B_Wash_with_Lavender_Oil_%26_Aloe/",
+    "meta": "baby bubble bath, baby shampoo, baby soap"
   },
   {
-    "name": "VitalFarms",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/vitalfarms",
-    "meta": "Bringing Ethically Produced Food to the Table!"
+    "name": "Baby Mantra Calming Lotion with Shea Butter & Lavender Oil",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/666587/Baby_Mantra_Calming_Lotion_with_Shea_Butter_%26_Lavender_Oil/",
+    "meta": "baby lotion"
   },
   {
-    "name": "Vivid Story",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/vivid-story",
-    "meta": ""
+    "name": "Baby Mantra Calming Massage Oil with Apricot and Avocado Oil",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/666590/Baby_Mantra_Calming_Massage_Oil_with_Apricot_and_Avocado_Oil/",
+    "meta": "baby oil"
   },
   {
-    "name": "VoIP Supply, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/voip-supply-llc",
-    "meta": "VoIP Supply is North America’s leading Voice Over IP solutions provider."
+    "name": "Baby Mantra Detangling Conditioner with Coconut & Lavender Oil",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/666592/Baby_Mantra_Detangling_Conditioner_with_Coconut_%26_Lavender_Oil/",
+    "meta": "conditioner"
   },
   {
-    "name": "Volcafe LTD",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer"
+    "name": "Baby Mantra Diaper Rash Ointment with Jojoba and Sunflower Seed Oil",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/666588/Baby_Mantra_Diaper_Rash_Ointment_with_Jojoba_and_Sunflower_Seed_Oil/",
+    "meta": "diaper cream"
   },
   {
-    "name": "Volcafe Specialty Coffee Corp",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.volcafespecialty.com",
-    "meta": "coffee"
+    "name": "Baby Mantra Newborn Shampoo + Body Wash",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/666591/Baby_Mantra_Newborn_Shampoo_%2B_Body_Wash/",
+    "meta": "baby shampoo"
   },
   {
-    "name": "Volcanic Red Coffees",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.volcanicred.com",
-    "meta": "Manufacturer"
+    "name": "Babytime! by Episencial Cheeky Salve",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/708376/Babytime%21_by_Episencial_Cheeky_Salve/",
+    "meta": "moisturizer"
   },
   {
-    "name": "Vora Certified Public Accountants",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/vora-certified-public-accountants",
-    "meta": ""
+    "name": "Babytime! by Episencial Massage Serum",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/708377/Babytime%21_by_Episencial_Massage_Serum/",
+    "meta": "body oil"
   },
   {
-    "name": "Vosges Haut - Chocolat",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.vosgeschocolate.com/",
-    "meta": "chocolate"
+    "name": "Babytime! by Episencial Peaceful Bubbles",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/708379/Babytime%21_by_Episencial_Peaceful_Bubbles/",
+    "meta": "baby bubble bath"
   },
   {
-    "name": "Vournas Coffee Trading Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.vournascoffee.com/",
-    "meta": "Importer"
+    "name": "Babytime! by Episencial Playful Wash",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/708380/Babytime%21_by_Episencial_Playful_Wash/",
+    "meta": "baby shampoo, baby soap"
   },
   {
-    "name": "VPL",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/vpl",
-    "meta": "A smart fitness clothing company with mission to empower women to stay fit, healthy and educated"
+    "name": "Babytime! by Episencial Snuggly Lotion",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/708382/Babytime%21_by_Episencial_Snuggly_Lotion/",
+    "meta": "facial moisturizer/treatment, moisturizer"
   },
   {
-    "name": "Vyykn Inc",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/vyykn-inc",
-    "meta": "Vyykn has developed a point-of-use computer controlled drinking water purification system designed"
+    "name": "Baja Baby Creamsicle Bubble Bath",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/704948/Baja_Baby_Creamsicle_Bubble_Bath/",
+    "meta": "baby bubble bath, bubble bath"
   },
   {
-    "name": "W B Law & Son Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.lawcoffee.com/",
-    "meta": "law"
+    "name": "Baja Baby Lavender Body Lotion",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/704946/Baja_Baby_Lavender_Body_Lotion/",
+    "meta": "baby lotion, moisturizer"
   },
   {
-    "name": "W.S. Badger Co, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/ws-badger-co-inc",
-    "meta": "Manufacturer of Badger Balm and other USDA organic body care products."
+    "name": "Baja Baby Lavender Conditioning Cream",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/704947/Baja_Baby_Lavender_Conditioning_Cream/",
+    "meta": "conditioner"
   },
   {
-    "name": "Walden Hyde",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/walden-hyde",
-    "meta": "Brand strategy and creative agency that helps good brands tell good stories"
+    "name": "Baja Baby Lavender Shampoo & Wash",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/704945/Baja_Baby_Lavender_Shampoo_%26_Wash/",
+    "meta": "baby shampoo, body wash/cleanser, shampoo"
   },
   {
-    "name": "Waldron",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/waldron",
-    "meta": "Executive Search, Organization and Leadership Development, and Career Transition"
+    "name": "Baja Baby Soft Citrus Body Lotion",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/704943/Baja_Baby_Soft_Citrus_Body_Lotion/",
+    "meta": "baby lotion, moisturizer"
   },
   {
-    "name": "Walker Coffee Trading LP",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.walkercoffee.com/",
-    "meta": "Importer"
+    "name": "Baja Baby Soft Citrus Conditioning Cream",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/704944/Baja_Baby_Soft_Citrus_Conditioning_Cream/",
+    "meta": "conditioner"
   },
   {
-    "name": "Walla Walla Roastery",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.wallawallaroastery.com",
-    "meta": "coffee"
+    "name": "Baja Baby Soft Citrus Shampoo & Wash",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/704942/Baja_Baby_Soft_Citrus_Shampoo_%26_Wash/",
+    "meta": "baby shampoo, body wash/cleanser, shampoo"
   },
   {
-    "name": "Wallaroo Hat Company",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/wallaroo-hat-company",
-    "meta": ""
+    "name": "Be Green Bath & Body Baby Balm",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671067/Be_Green_Bath_%26_Body_Baby_Balm/",
+    "meta": "diaper cream"
   },
   {
-    "name": "Wallingford Coffee Company Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.wallingfordcoffee.com",
-    "meta": "Manufacturer"
+    "name": "Be Green Bath & Body Body Oil - Citrus",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671075/Be_Green_Bath_%26_Body_Body_Oil_-_Citrus/",
+    "meta": "body oil"
   },
   {
-    "name": "Wandering Bear Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://https://wanderingbearcoffee.com/",
-    "meta": "Brandholder"
+    "name": "Be Green Bath & Body Body Oil - Lavender",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671076/Be_Green_Bath_%26_Body_Body_Oil_-_Lavender/",
+    "meta": "body oil"
   },
   {
-    "name": "War Eagle Coffee Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://wareaglecoffee.com/",
-    "meta": "Manufacturer"
+    "name": "Be Green Bath & Body Body Oil - Unscented",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671074/Be_Green_Bath_%26_Body_Body_Oil_-_Unscented/",
+    "meta": "body oil"
   },
   {
-    "name": "Warby Parker",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/warby-parker",
-    "meta": "Creates boutique-quality, classically crafted eyewear at a revolutionary price point"
+    "name": "Be Green Bath & Body Body Powder Lavender",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671085/Be_Green_Bath_%26_Body_Body_Powder_Lavender/",
+    "meta": "body powder"
   },
   {
-    "name": "Wasmer, Schroeder & Company, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/wasmer-schroeder-company-inc",
-    "meta": "Independent Investment Advisory Firm"
+    "name": "Be Green Bath & Body Body Powder Unscented",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671084/Be_Green_Bath_%26_Body_Body_Powder_Unscented/",
+    "meta": "body powder"
   },
   {
-    "name": "Waste Farmers",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/waste-farmers",
-    "meta": "Waste Farmers is a sustainable agriculture company for people who grow food, eat well, and live full"
+    "name": "Be Green Bath & Body Citrus Hand & Body Soap",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/706082/Be_Green_Bath_%26_Body_Citrus_Hand_%26_Body_Soap/",
+    "meta": "body wash/cleanser, liquid hand soap"
   },
   {
-    "name": "Waste to Energy Partners",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/waste-to-energy-partners",
-    "meta": "Repurposing waste streams into valuable products while creating a positive environmental impact."
+    "name": "Be Green Bath & Body Citrus Lip Balm",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671070/Be_Green_Bath_%26_Body_Citrus_Lip_Balm/",
+    "meta": "lip balm"
   },
   {
-    "name": "WasteZero, Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/wastezero-inc",
-    "meta": ""
+    "name": "Be Green Bath & Body Cleansing Grains",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671077/Be_Green_Bath_%26_Body_Cleansing_Grains/",
+    "meta": "facial cleanser"
   },
   {
-    "name": "Waterleaf Architecture",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/waterleaf-architecture",
-    "meta": "Mid-sized architecture firm dedicated to creating smart, sustainable buildings and interiors."
+    "name": "Be Green Bath & Body Dry Shampoo",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671087/Be_Green_Bath_%26_Body_Dry_Shampoo/",
+    "meta": "shampoo"
   },
   {
-    "name": "Watershed Coaching, LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/watershed-coaching-llc",
-    "meta": "Supports leaders and teams to lead from their core values to increase their positive impact."
+    "name": "Be Green Bath & Body Evening Primrose Healing Oil",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671081/Be_Green_Bath_%26_Body_Evening_Primrose_Healing_Oil/",
+    "meta": "body oil"
   },
   {
-    "name": "WaterSmart Software",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/watersmart-software",
-    "meta": "Water efficiency, data analytics and customer communication software tools for water utilities"
+    "name": "Be Green Bath & Body Facial Serum for Dry/Sensitive/Mature Skin",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671062/Be_Green_Bath_%26_Body_Facial_Serum_for_Dry%3B%3BSensitive%3B%3BMature_Skin/",
+    "meta": "facial moisturizer/treatment"
   },
   {
-    "name": "Watson's Candies Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.watsonschocolates.com",
-    "meta": "candy"
+    "name": "Be Green Bath & Body Facial Serum for Normal Skin",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671063/Be_Green_Bath_%26_Body_Facial_Serum_for_Normal_Skin/",
+    "meta": "facial moisturizer/treatment"
   },
   {
-    "name": "Weaver's Coffee & Tea",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.weaverscoffee.com",
-    "meta": "Manufacturer"
+    "name": "Be Green Bath & Body Facial Serum for Oily Skin",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671066/Be_Green_Bath_%26_Body_Facial_Serum_for_Oily_Skin/",
+    "meta": "facial moisturizer/treatment"
   },
   {
-    "name": "WeBuild",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/webuild",
-    "meta": "We're WeBuild: a digital design and product studio. We design amazing digital products."
+    "name": "Be Green Bath & Body Facial Serum for Sensitive Skin",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671065/Be_Green_Bath_%26_Body_Facial_Serum_for_Sensitive_Skin/",
+    "meta": "facial moisturizer/treatment"
   },
   {
-    "name": "WeeWork for Good",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/weework-good",
-    "meta": "WeeWork for Good creates educational products that develop compassion in children!"
+    "name": "Be Green Bath & Body Gentle Baby Oil",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671083/Be_Green_Bath_%26_Body_Gentle_Baby_Oil/",
+    "meta": "baby oil"
   },
   {
-    "name": "Wellspring Consulting LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/wellspring-consulting-llc",
-    "meta": "Strategy consulting for the social sector: helping leaders make better decisions about the future"
+    "name": "Be Green Bath & Body Gentle Facial Cleanser",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671072/Be_Green_Bath_%26_Body_Gentle_Facial_Cleanser/",
+    "meta": "facial cleanser"
   },
   {
-    "name": "Wendel, Rosen, Black & Dean LLP",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/wendel-rosen-black-dean-llp",
-    "meta": "Full service law firm serving the Bay Area and clients nationwide"
+    "name": "Be Green Bath & Body Hair Oil",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671080/Be_Green_Bath_%26_Body_Hair_Oil/",
+    "meta": "conditioner"
   },
   {
-    "name": "Wertform GmbH",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.wertform.de/index.php/welcome.html",
-    "meta": "Manufacturer"
+    "name": "Be Green Bath & Body Lavender Hand & Body Soap",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/706084/Be_Green_Bath_%26_Body_Lavender_Hand_%26_Body_Soap/",
+    "meta": "body wash/cleanser, liquid hand soap"
   },
   {
-    "name": "West Arete",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/west-arete",
-    "meta": ""
+    "name": "Be Green Bath & Body Lemongrass Hand & Body Soap",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/706083/Be_Green_Bath_%26_Body_Lemongrass_Hand_%26_Body_Soap/",
+    "meta": "body wash/cleanser, liquid hand soap"
   },
   {
-    "name": "West Coast Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.westcoastcoffeeroasters.com",
-    "meta": "Manufacturer"
+    "name": "Be Green Bath & Body Makeup Remover",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671073/Be_Green_Bath_%26_Body_Makeup_Remover/",
+    "meta": "makeup remover"
   },
   {
-    "name": "West Elm",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.westelm.com",
-    "meta": "Importer, Brandholder"
+    "name": "Be Green Bath & Body Natural Deodorant",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671079/Be_Green_Bath_%26_Body_Natural_Deodorant/",
+    "meta": "antiperspirant/deodorant"
   },
   {
-    "name": "West Paw Design",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/west-paw-design",
-    "meta": "Toys, beds and apparel crafted in Bozeman, Montana with the planet in mind and pets at heart."
+    "name": "Be Green Bath & Body Shea Butter Tin",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671078/Be_Green_Bath_%26_Body_Shea_Butter_Tin/",
+    "meta": "moisturizer"
   },
   {
-    "name": "West Point Home",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer, Brandholder"
+    "name": "Be Green Bath & Body Shower Gel Citrus",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671089/Be_Green_Bath_%26_Body_Shower_Gel_Citrus/",
+    "meta": "body wash/cleanser"
   },
   {
-    "name": "Westfeldt Brothers Incorporated",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.westfeldtcoffee.com/(s(irmufs3pl5pcyui3ix2gaaeo))/default.aspx",
-    "meta": "Importer"
+    "name": "Be Green Bath & Body Shower Gel Lavender",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671090/Be_Green_Bath_%26_Body_Shower_Gel_Lavender/",
+    "meta": "body wash/cleanser"
   },
   {
-    "name": "Westrock Coffee LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.westrockcoffee.com",
-    "meta": "Manufacturer"
+    "name": "Be Green Bath & Body Shower Gel Unscented",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671088/Be_Green_Bath_%26_Body_Shower_Gel_Unscented/",
+    "meta": "body wash/cleanser"
   },
   {
-    "name": "Westwood International",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/westwood-international",
-    "meta": "A boutique leadership consulting group developing global leaders of the future."
+    "name": "Be Green Bath & Body Simply Baby Oil",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/671082/Be_Green_Bath_%26_Body_Simply_Baby_Oil/",
+    "meta": "baby oil"
   },
   {
-    "name": "Wetherby Asset Management",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/wetherby-asset-management",
-    "meta": ""
+    "name": "Be Green Bath & Body Unscented Hand & Body Soap",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/706081/Be_Green_Bath_%26_Body_Unscented_Hand_%26_Body_Soap/",
+    "meta": "body wash/cleanser, liquid hand soap"
   },
   {
-    "name": "What's your Grind Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.whatsyourgrind.com",
-    "meta": "coffee"
+    "name": "Beautycounter Body Bar, Citrus Mimosa",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/645273/Beautycounter_Body_Bar%2C_Citrus_Mimosa/",
+    "meta": "facial cleanser"
   },
   {
-    "name": "White Buffalo LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://wbkitchen.com",
-    "meta": "Manufacturer, Brandholder"
+    "name": "Beautycounter Body Oil, Rose Neroli",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/645276/Beautycounter_Body_Oil%2C_Rose_Neroli/",
+    "meta": "body oil"
   },
   {
-    "name": "White Coffee Corporation",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.whitecoffee.com",
-    "meta": "coffee"
+    "name": "Beautycounter Charcoal Cleansing Bar",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/645272/Beautycounter_Charcoal_Cleansing_Bar/",
+    "meta": "bar soap"
   },
   {
-    "name": "White Mountain Gourmet Coffees",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.whitemountaingourmetcoffee.com",
-    "meta": "Manufacturer"
+    "name": "Beautycounter Cleansing Cloths",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/646937/Beautycounter_Cleansing_Cloths/",
+    "meta": "facial cleanser"
   },
   {
-    "name": "Whole Alternatives",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.wholealternatives.com",
-    "meta": "Manufacturer"
+    "name": "Beautycounter Color Define Brow Pencil, Dark",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/590494/Beautycounter_Color_Define_Brow_Pencil%2C_Dark/",
+    "meta": "brow liner"
   },
   {
-    "name": "Whole Foods Market",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.wholefoods.com",
-    "meta": "Importer"
+    "name": "Beautycounter Color Define Brow Pencil, Light",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/590496/Beautycounter_Color_Define_Brow_Pencil%2C_Light/",
+    "meta": "brow liner"
   },
   {
-    "name": "Wholesome Sweeteners",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.wholesomesweeteners.com",
-    "meta": "sugar"
+    "name": "Beautycounter Color Define Brow Pencil, Medium",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/590495/Beautycounter_Color_Define_Brow_Pencil%2C_Medium/",
+    "meta": "brow liner"
   },
   {
-    "name": "Wholesum Family Farms Inc",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.wholesumharvest.com/",
-    "meta": "Importer"
+    "name": "Beautycounter Color Outline Eye Pencil, Black",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/590493/Beautycounter_Color_Outline_Eye_Pencil%2C_Black/",
+    "meta": "eye liner"
   },
   {
-    "name": "WhyWhisper Collective",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/whywhisper-collective",
-    "meta": "A strategy & marketing firm offering bold approaches to better our world."
+    "name": "Beautycounter Color Outline Eye Pencil, Brown",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/590491/Beautycounter_Color_Outline_Eye_Pencil%2C_Brown/",
+    "meta": "eye liner"
   },
   {
-    "name": "Wicked Joe Coffee Roasting Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.wickedjoe.com/",
-    "meta": "coffee"
+    "name": "Beautycounter Color Outline Eye Pencil, Navy",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/645280/Beautycounter_Color_Outline_Eye_Pencil%2C_Navy/",
+    "meta": "eye liner"
   },
   {
-    "name": "Wicked Joe Organic Coffees",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/wicked-joe-organic-coffees",
-    "meta": ""
+    "name": "Beautycounter Color Outline Eye Pencil, Violet",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/590492/Beautycounter_Color_Outline_Eye_Pencil%2C_Violet/",
+    "meta": "eye liner"
   },
   {
-    "name": "Willoughby's Coffee & Tea",
-    "cert": "fairtradeusa",
-    "certlink": "http://willoughbyscoffee.com",
-    "meta": "Manufacturer"
+    "name": "Beautycounter Color Pinch Cream Blusher, Caramel",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/624337/Beautycounter_Color_Pinch_Cream_Blusher%2C_Caramel/",
+    "meta": "blush"
   },
   {
-    "name": "Wilson's Coffee & Tea",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.wilsoncoffee.com",
-    "meta": "coffee, tea"
+    "name": "Beautycounter Color Pinch Cream Blusher, Hibiscus",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/624335/Beautycounter_Color_Pinch_Cream_Blusher%2C_Hibiscus/",
+    "meta": "blush"
   },
   {
-    "name": "Winderlea Vineyard and Winery",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/winderlea-vineyard-and-winery",
-    "meta": "Winderlea is a boutique winery specializing in the limited production of Pinot noir and Chardonnay."
+    "name": "Beautycounter Color Pinch Cream Blusher, Umber",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/624336/Beautycounter_Color_Pinch_Cream_Blusher%2C_Umber/",
+    "meta": "blush"
   },
   {
-    "name": "Windy City Organics LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://windycityorganics.com",
-    "meta": "Manufacturer"
+    "name": "Beautycounter Countertime Enlightening Treatment Pads",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/564612/Beautycounter_Countertime_Enlightening_Treatment_Pads/",
+    "meta": "toners/astringents"
   },
   {
-    "name": "Wire Media",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/wire-media",
-    "meta": "Design on a mission"
+    "name": "Beautycounter Countertime Nourishing Cleansing Balm",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/564609/Beautycounter_Countertime_Nourishing_Cleansing_Balm/",
+    "meta": "facial cleanser"
   },
   {
-    "name": "Wisconsin Specialty Protein",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "protein, tofu"
+    "name": "Beautycounter Countertime Radiance Firming Complex",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/564608/Beautycounter_Countertime_Radiance_Firming_Complex/",
+    "meta": "anti-aging, facial moisturizer/treatment"
   },
   {
-    "name": "Wolfgang Puck Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.wpcoffee.com",
-    "meta": "Brandholder"
+    "name": "Beautycounter Countertime Soothing Face Wash",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/564611/Beautycounter_Countertime_Soothing_Face_Wash/",
+    "meta": "facial cleanser"
   },
   {
-    "name": "Wolthers Douque LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.wolthersdouque.com",
-    "meta": "Importer"
+    "name": "Beautycounter Enrich Body Butter, Citrus Mimosa",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/624332/Beautycounter_Enrich_Body_Butter%2C_Citrus_Mimosa/",
+    "meta": "moisturizer"
   },
   {
-    "name": "Woodland Foods",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.woodlandfoods.com",
-    "meta": "Importer, Manufacturer, Brandholder"
+    "name": "Beautycounter Hand Cream, Citrus Mimosa",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/624334/Beautycounter_Hand_Cream%2C_Citrus_Mimosa/",
+    "meta": "hand cream"
   },
   {
-    "name": "Woodshed Roasting Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.woodshedroast.com",
-    "meta": "roasting, coffee"
+    "name": "Beautycounter Hand Cream, Rose Neroli",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/645275/Beautycounter_Hand_Cream%2C_Rose_Neroli_/",
+    "meta": "hand cream"
   },
   {
-    "name": "WorkplaceDynamics",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/workplacedynamics",
-    "meta": ""
+    "name": "Beautycounter Hand Wash, Citrus Mimosa",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/624333/Beautycounter_Hand_Wash%2C_Citrus_Mimosa/",
+    "meta": "liquid hand soap"
   },
   {
-    "name": "WorkSquare",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/worksquare",
-    "meta": ""
+    "name": "Beautycounter Kidscounter Nice Do Shampoo",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/558507/Beautycounter_Kidscounter_Nice_Do_Shampoo/",
+    "meta": "shampoo"
   },
   {
-    "name": "World Centric",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/world-centric",
-    "meta": "High-quality compostable food service disposables made from plants, guaranteed to turn into soil."
+    "name": "Beautycounter Kidscounter Squeaky Clean Body Wash",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/558509/Beautycounter_Kidscounter_Squeaky_Clean_Body_Wash/",
+    "meta": "body wash/cleanser"
   },
   {
-    "name": "World Leadership School",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/world-leadership-school",
-    "meta": "Partners with U.S. schools to develop service learning programs"
+    "name": "Beautycounter Lip Conditioner Calendula Balm",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/590466/Beautycounter_Lip_Conditioner_Calendula_Balm/",
+    "meta": "lip balm"
   },
   {
-    "name": "World's Fare LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.tesorosfoods.com",
-    "meta": "Importer"
+    "name": "Beautycounter Lip Gloss, Buff",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/624339/Beautycounter_Lip_Gloss%2C_Buff/",
+    "meta": "lip gloss"
   },
   {
-    "name": "Worldways Social Marketing",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/worldways-social-marketing",
-    "meta": ""
+    "name": "Beautycounter Lip Gloss, Opal",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/645277/Beautycounter_Lip_Gloss%2C_Opal/",
+    "meta": "lip gloss"
   },
   {
-    "name": "WorthWild LLC",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/worthwild-llc",
-    "meta": "WorthWild is a crowdfunding platform for environmental education, innovation, conservation,"
+    "name": "Beautycounter Lip Gloss, Peony",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/624338/Beautycounter_Lip_Gloss%2C_Peony/",
+    "meta": "lip gloss"
   },
   {
-    "name": "Xocolla LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.xocolla.com",
-    "meta": "Manufacturer, Brandholder"
+    "name": "Beautycounter Lip Gloss, Ruby",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/645278/Beautycounter_Lip_Gloss%2C_Ruby/",
+    "meta": "lip gloss"
   },
   {
-    "name": "Y Scouts",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/y-scouts",
-    "meta": "Y Scouts is a purpose-based leadership search practice."
+    "name": "Beautycounter Lip Gloss, Sienna",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/624340/Beautycounter_Lip_Gloss%2C_Sienna/",
+    "meta": "lip gloss"
   },
   {
-    "name": "Yapacopia Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/yapacopia-inc",
-    "meta": ""
+    "name": "Beautycounter Lip Shine",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/546796/Beautycounter_Lip_Shine/",
+    "meta": "lip gloss"
   },
   {
-    "name": "Yellow Leaf Hammocks",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/yellow-leaf-hammocks",
-    "meta": "Beautiful and sustainable Thai hammocks"
+    "name": "Beautycounter Lustro Body Oil, Rosemary + Citrus",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/645281/Beautycounter_Lustro_Body_Oil%2C_Rosemary_%2B_Citrus/",
+    "meta": "body oil"
   },
   {
-    "name": "Yellowstone Coffee Roasters",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.yellowstonecoffee.com",
-    "meta": "Manufacturer"
+    "name": "Beautycounter Mattify Skin Finishing Powder",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/639286/Beautycounter_Mattify_Skin_Finishing_Powder/",
+    "meta": "facial powder"
   },
   {
-    "name": "YIKES, Inc",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/yikes-inc",
-    "meta": ""
+    "name": "Biossance 100% Squalane Oil (formerly The Revitalizer)",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/650981/Biossance_100%25_Squalane_Oil_%28formerly_The_Revitalizer%29/",
+    "meta": "moisturizer"
   },
   {
-    "name": "Yin Yang Naturals",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/yin-yang-naturals",
-    "meta": ""
+    "name": "Biossance Squalane + Antioxidant Cleansing Oil (formerly The Purifier)",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/658144/Biossance_Squalane_%2B_Antioxidant_Cleansing_Oil_%28formerly_The_Purifier%29/",
+    "meta": "facial cleanser"
   },
   {
-    "name": "Yo el Rey Roasting",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.yoelrey.com",
-    "meta": "coffee"
+    "name": "Biossance Squalane + Peptide Eye Gel (formerly The Illuminator)",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/698031/Biossance_Squalane_%2B_Peptide_Eye_Gel_%28formerly_The_Illuminator%29/",
+    "meta": "around-eye cream"
   },
   {
-    "name": "YogaLife Institute Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/yogalife-institute-inc",
-    "meta": "YogaLife serves society by empowering people to minimize stress to reach optimum joy and productivity"
+    "name": "Biossance Squalane + Vitamin C Rose Oil (formerly The Nourisher)",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/658143/Biossance_Squalane_%2B_Vitamin_C_Rose_Oil_%28formerly_The_Nourisher%29/",
+    "meta": "facial moisturizer/treatment"
   },
   {
-    "name": "Yogi Tea U.S.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/yogi-tea-us",
-    "meta": "Yogi® tea, officially founded in 1984, is a manufacturer of"
+    "name": "Biossance The Refresher",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/658142/Biossance_The_Refresher/",
+    "meta": "makeup remover"
   },
   {
-    "name": "YouCaring.com",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/youcaringcom",
-    "meta": ""
+    "name": "Boyzz Only No Nonsense Conditioner",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/707459/Boyzz_Only_No_Nonsense_Conditioner/",
+    "meta": "conditioner"
   },
   {
-    "name": "YR&G",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/yrg",
-    "meta": "Sustainability consulting, education, and analysis"
+    "name": "Boyzz Only No Nonsense Shampoo",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/707458/Boyzz_Only_No_Nonsense_Shampoo/",
+    "meta": "shampoo"
   },
   {
-    "name": "Yumbutter",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/yumbutter",
-    "meta": "Yumbutter // stellar nut butter potions + changing the world. Buy 1, feed a kid in need. Eat Good. Fuel Good."
+    "name": "C2 California Clean Apple Stem Cell Regenerating Serum",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/664981/C2_California_Clean_Apple_Stem_Cell_Regenerating_Serum/",
+    "meta": "facial moisturizer/treatment"
   },
   {
-    "name": "Zen Business Consulting",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/zen-business-consulting",
-    "meta": ""
+    "name": "C2 California Clean Ultra Replenishing Oil Squalane + Vitamin E",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/664982/C2_California_Clean_Ultra_Replenishing_Oil_Squalane_%2B_Vitamin_E/",
+    "meta": "facial moisturizer/treatment"
   },
   {
-    "name": "Zephyr Green Coffee",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.zephyrcoffee.com",
-    "meta": "Importer"
+    "name": "Celtic Complexion Creme",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/651666/Celtic_Complexion_Creme/",
+    "meta": "moisturizer"
   },
   {
-    "name": "Zero to Go",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/zero-to-go",
-    "meta": ""
+    "name": "Celtic Complexion Eye Elixir",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/651665/Celtic_Complexion_Eye_Elixir/",
+    "meta": "around-eye cream"
   },
   {
-    "name": "Zevin Asset Management",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/zevin-asset-management",
-    "meta": "Global top-down SRI/ESG asset manager dedicated to social change and competitive financial results."
+    "name": "Cocoon Apothecary Rosey Cheeks Facial Cream",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/653526/Cocoon_Apothecary_Rosey_Cheeks_Facial_Cream_/",
+    "meta": "facial moisturizer/treatment"
   },
   {
-    "name": "Zhi Tea LLC",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.zhitea.com",
-    "meta": "tea"
+    "name": "Davids Natural Toothpaste - Peppermint",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/711422/Davids_Natural_Toothpaste_-_Peppermint/",
+    "meta": "tooth whitening, toothpaste"
   },
   {
-    "name": "Zico",
-    "cert": "fairtradeusa",
-    "certlink": "",
-    "meta": "Importer, Manufacturer, Brandholder"
+    "name": "Desert Farms Camel Milk Soap, Unscented",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/707231/Desert_Farms_Camel_Milk_Soap%2C_Unscented/",
+    "meta": "bar soap"
   },
   {
-    "name": "ZogSports",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/zogsports",
-    "meta": ""
+    "name": "Desert Farms Morrocan Lava & Camel Milk Face Masque, Nomadic Secret",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/707234/Desert_Farms_Morrocan_Lava_%26_Camel_Milk_Face_Masque%2C_Nomadic_Secret/",
+    "meta": "facial moisturizer/treatment"
   },
   {
-    "name": "Zoka Coffee Roaster & Tea Company",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.zokacoffee.com",
-    "meta": "coffee, tea"
+    "name": "DO Naturals Face Wash/Make up remover",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/693759/DO_Naturals_Face_Wash%3B%3BMake_up_remover/",
+    "meta": "facial cleanser"
   },
   {
-    "name": "Zullo's Markets Inc.",
-    "cert": "bcorporation",
-    "certlink": "https://www.bcorporation.net/community/zullos-markets-inc",
-    "meta": "Organic Italian restaurant and catering"
+    "name": "DO Naturals Lip Balm",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/652736/DO_Naturals_Lip_Balm/",
+    "meta": "lip balm"
   },
   {
-    "name": "Zumbar Coffee & Tea",
-    "cert": "fairtradeusa",
-    "certlink": "http://zumbarcoffee.com",
-    "meta": "Manufacturer"
+    "name": "Dolphin Organics Baby Bubble Bath Fragrance Free",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/658124/Dolphin_Organics_Baby_Bubble_Bath_Fragrance_Free/",
+    "meta": "baby bubble bath, bubble bath"
   },
   {
-    "name": "Zumi Natural LTD",
-    "cert": "fairtradeusa",
-    "certlink": "http://www.cocozumi.com",
-    "meta": "Importer, Brandholder"
+    "name": "Dolphin Organics Baby Shampoo Fragrance Free",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/658127/Dolphin_Organics_Baby_Shampoo_Fragrance_Free/",
+    "meta": "baby shampoo"
   },
   {
-    "name": "ABC GRUPPEN AB",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/abc-gruppen-ab",
-    "meta": "All sportswear, graduation caps, yearbooks for the ABC Gruppen and Nordic Traditions brands.From the ABC GRUPPEN AB website: ABC GRUPPEN is a member of Fair Labor Association (FLA), a voluntary organization that aims to improve working conditions in factories all over the world. The purpose is to promote good working conditions and assure that the Human Rights Act adopted by the UN is respected and followed. As a member of FLA we also demand all suppliers and business partners to apply to the FLA regulations."
+    "name": "Dolphin Organics Baby Shampoo Norfolk Lavender",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/658129/Dolphin_Organics_Baby_Shampoo_Norfolk_Lavender/",
+    "meta": "baby shampoo"
   },
   {
-    "name": "adidas Group",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/adidas-group",
-    "meta": "All adidas Group's apparel, footwear and equipment products. The adidas Group brands include adidas, Reebok, TaylorMade adidas Golf, Rockport, CCM, and Ashworth. adidas Group's compliance program is accredited by FLA.From the adidas Group website: As a truly global business in the sporting goods industry, the adidas Group is continually confronted with a variety of challenges that arise from our commitment to striking the balance between shareholder interests and the needs and concerns of our employees, the workers in our supply chain and the environment, or in short in our aim to become a sustainable company."
+    "name": "Dolphin Organics Bubble Bath Norfolk Lavender",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/658126/Dolphin_Organics_Bubble_Bath_Norfolk_Lavender/",
+    "meta": "baby bubble bath, bubble bath"
   },
   {
-    "name": "arena Group",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/arena-group",
-    "meta": "All arena branded products. The TM rights are owned by Arena Distribution SA."
+    "name": "Dolphin Organics Hair Conditioner Fragrance Free",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/658130/Dolphin_Organics_Hair_Conditioner_Fragrance_Free/",
+    "meta": "conditioner"
   },
   {
-    "name": "Barnes & Noble College Booksellers",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/barnes-noble-college-booksellers",
-    "meta": "Clothing, footwear and logoed products.From the Barnes & Noble College Booksellers website: We have been recognized as an industry leader in the effort to eliminate sweatshops used to produce college apparel. We are a member of the Fair Labor Association (FLA) and since 1998, we have required all vendors who supply products to our stores to adopt the FLA’s Code of Conduct, which requires strict adherence to workers’ rights (and no child labor). And all of the brands sold in our bookstores currently meet labor standards set by the Workers Rights Consortium (WCA), an independent labor rights monitoring organization."
+    "name": "Dolphin Organics Liquid Handsoap Frangrance Free",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/693758/Dolphin_Organics_Liquid_Handsoap_Frangrance_Free/",
+    "meta": "liquid hand soap"
   },
   {
-    "name": "Burton",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/burton",
-    "meta": "All Burton, Anon, and Analog branded products including: boards, bindings, boots, helmets, goggles, hardgoods accessories, outerwear, apparel, gloves, headwear, socks, protection, softgoods accessories, bags, luggage, and camping equipment.From the Burton sustainability website: Our efforts are not only within our walls, but include the people that we impact all over the world. We aim to not only have all our factories meet our high international human rights and responsibility standards, but to impact everyone around us as positively as possible."
+    "name": "Dolphin Organics Lotion Fragrance Free",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/658132/Dolphin_Organics_Lotion_Fragrance_Free/",
+    "meta": "moisturizer"
   },
   {
-    "name": "Colosseum",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/colosseum",
-    "meta": "All Colosseum knits and fleece products (jerseys, tees, and outerwear, including tops and bottoms) From the Colosseum website: At Colosseum Athletics we realize that our sourcing decisions have a social impact in factories around the globe. Along with meeting our customer’s expectations, we are also active in improving working conditions for hundreds of workers wherever Colosseum products are made. We feel responsible for the well-being of workers finishing our products and are committed to improving their quality of life."
+    "name": "Dolphin Organics Lotion Norfolk Lavender",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/658134/Dolphin_Organics_Lotion_Norfolk_Lavender/",
+    "meta": "moisturizer"
   },
   {
-    "name": "Cutter & Buck, Inc.",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/cutter-buck-inc",
-    "meta": "Cutter & Buck, Annika, New Wave and Clique brands marketed in the United States.From the Cutter & Buck, Inc. website: At Cutter & Buck, we believe that every person is unique and valuable. We believe in providing a responsible and ethical work environment for our employees. We believe in treating all people with respect and dignity and we expect our suppliers to uphold similar values. Cutter & Buck seeks vendors that strive to maintain sustainable social and environmental business practices. We believe that organizations that are socially and environmentally responsible are better equipped to succeed and prosper in a rapidlychanging world. These are the partners we choose to align ourselves with."
+    "name": "Dr Fedorenko True Organic Skin Stick, Organic skin moiturizer",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/697834/Dr_Fedorenko_True_Organic_Skin_Stick%2C_Organic_skin_moiturizer/",
+    "meta": "moisturizer"
   },
   {
-    "name": "Dallas Cowboys Merchandising, Ltd.",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/dallas-cowboys-merchandising-ltd",
-    "meta": "In-store headwear and apparel. Dallas Cowboys Merchandising, Ltd.'s affiliation includes Blue Star Graphics and Design and 289c Apparel, Ltd."
+    "name": "Dr. Brite for Kids Cleansing Mouth Rinse - Strawberry",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/669537/Dr._Brite_for_Kids_Cleansing_Mouth_Rinse_-_Strawberry/",
+    "meta": "mouthwash"
   },
   {
-    "name": "Delta Apparel, Inc.",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/delta-apparel-inc",
-    "meta": "Products for brands under the following subsidiaries: Delta Activewear (Delta Pro-Weight, Delta Magnum Weight, Health Knit, and Quail Hollow), M.J. Soffe, LLC (Soffe, Intensity, Cape Fear Trading, Soffe Chic, TCX, The Cotton Exchange, Milton James, and XT46), Junkfood Clothing Company (Junk Food, Junk Mail, Sweet and Sour, and Junk Food loves GAP), and FunTees (private label supplier to a select group of major brands).From the Delta Apparel, Inc. website: We have invested significant time and resources in ensuring that the working conditions in all of our facilities meet or exceed the standards imposed by the governing laws. We have obtained WRAP (Worldwide Responsible Apparel Production) certification for all of our existing sewing plants that we operate in Honduras, El Salvador and Mexico. We also obligate our third party manufacturing contractors to follow our employment policies."
+    "name": "Dr. Brite for Kids Mineral Toothpaste - Strawberry",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/669536/Dr._Brite_for_Kids_Mineral_Toothpaste_-_Strawberry/",
+    "meta": "baby toothpaste, toothpaste"
   },
   {
-    "name": "Fanatics",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/fanatics",
-    "meta": "Products Covered by FLA Affiliation:  All Fanatics Branded and RNL products.Company Commitment:  Like many internationally recognized brands, Fanatics Apparel views the workers along its supply chain as its extended workforce.  We appreciate that this workforce is vital to the creation of our product, and that ensuring quality product and worker welfare are not mutually exclusive.  As a brand uniquely attuned to its sports fan customer base, Fanatics Apparel also recognizes the growing interest among consumers in factory working conditions.  This growing interest cannot go ignored."
+    "name": "Dr. Brite Organic Clean Facial Cleanser",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/705609/Dr._Brite_Organic_Clean_Facial_Cleanser/",
+    "meta": "facial cleanser"
   },
   {
-    "name": "Fast Retailing",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/fast-retailing",
-    "meta": "All Fast Retailing group brand’s apparel and footwear. The Fast Retailing group brands include UNIQLO, GU, Theory, COMPTOIR DES COTONNIERS, PRINCESSE TAM.TAM, J Brand.From the Fast Retailing website: Making clothing meeting the world's highest standards means providing more than simply good quality products. FR believes the highest standards can only be achieved by maintaining strong partnerships with all suppliers, and ensuring responsible working environments and manufacturing processes. To creating the world's highest standards for clothing, FR must achieve quality in the social sphere, quality partnerships, and quality business processes."
+    "name": "Dr. Brite Whitening Mineral Toothpaste - MINT",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/669534/Dr._Brite_Whitening_Mineral_Toothpaste_-_MINT/",
+    "meta": "tooth whitening, toothpaste"
   },
   {
-    "name": "Fenix Outdoor",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/fenix-outdoor",
-    "meta": "Fenix Outdoor AB is a group of outdoor companies, providing textiles for outdoor use, apparel, accessories, boots, stoves and camping cookers, compasses and binoculars. The main line and focus are outdoor garments, tents and sleeping bags. Known brands are Fjällräven, Hanwag, Primus, Brunton and Tierra, covered by the FLA affiliation."
+    "name": "Exactly! Organics Eye Makeup and Mascara Remover",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/701907/Exactly%21_Organics_Eye_Makeup_and_Mascara_Remover/",
+    "meta": "makeup remover"
   },
   {
-    "name": "Follett Higher Education Group",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/follett-higher-education-group",
-    "meta": "Clothing, footwear and logoed products.From the Follett Higher Education Group website: In 1995, Follett became the first academic retailer to develop standards for fair labor practices in the manufacture of collegiate products. In doing so, we assumed a leadership position on the issue of child and sweatshop labor. Partnering with Global Social Compliance, Follett monitors factories to ensure that no child or sweatshop labor is used to make products sold in our stores. Follett purchases only from reputable and responsible vendors that meet or exceed our strict Vendor Labor Code of Conduct."
+    "name": "Exactly! Organics Pure Beauty Facial Serum",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/701914/Exactly%21_Organics_Pure_Beauty_Facial_Serum/",
+    "meta": "facial moisturizer/treatment"
   },
   {
-    "name": "Forty Seven Brand",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/forty-seven-brand",
-    "meta": "All Forty Seven Brand headwear and apparel. Forty Seven Brand's compliance program is accredited by FLA.From the Forty Seven Brand website: Forty Seven Brand is committed to conducting its business affairs in a socially responsible manner consistent with its ethical accountability for improving the workplace. This Code of Conduct shall apply to all employees, including contractors, subcontractors, and any person or entity involved with the production of Forty Seven Brand products."
+    "name": "Exactly! Organics Tropical Coconut Sugar Scrub",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/701916/Exactly%21_Organics_Tropical_Coconut_Sugar_Scrub_/",
+    "meta": "exfoliant/scrub"
   },
   {
-    "name": "Fruit of the Loom",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/fruit-loom",
-    "meta": "Russell Brands/Fruit of the Loom. Russell Athletic, Fruit of the Loom and Vanity Fair Brands products. Russell Brands' compliance program is accredited by FLA.From the Russell Brands/Fruit of the Loom website: In 2002, our Russell Brands, LLC subsidiary furthered its commitment to supply chain accountability by becoming an FLA affiliated company, subject to all FLA compliance criteria including annual unannounced assessments at manufacturing facilities. Russell Brands' labor compliance program has been accredited as being in substantial compliance with the FLA's Workplace Code of Conduct."
+    "name": "Farma Dorsch Go Organic Mousse",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/646568/Farma_Dorsch_Go_Organic_Mousse/",
+    "meta": "facial cleanser"
   },
   {
-    "name": "Gear For Sports",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/gear-sports",
-    "meta": "All products. Gear For Sports' compliance program is accredited by FLA.From the Gear For Sports website: GEAR For Sports® is completely opposed to sweatshops or abusive labor practices. We instituted our first written code of conduct detailing our standards back in 1995. We established our office of Global Human Rights Compliance in 1997 to insure that workers manufacturing our products were treated fairly and to convey to our factory owners the importance of our code of conduct to our many stakeholders."
+    "name": "Farma Dorsch Go Organic Oils",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/668781/Farma_Dorsch_Go_Organic_Oils/",
+    "meta": "hair treatment/serum, moisturizer"
   },
   {
-    "name": "Gildan Activewear Inc.",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/gildan-activewear-inc",
-    "meta": "Gildan apparel and GoldToe socks. Gildan Activewear Inc.'s compliance program is accredited by FLA.From the Gildan Activewear Inc. website: A key element in demonstrating our commitment to being a socially responsible employer in all our geographical hubs is the successful implementation of our Social Compliance Program for labour practices and working conditions. This program is designed to ensure that, at a minimum, all facilities comply with our own strict internal Code of Conduct, local and international laws, and the codes to which we adhere, including those of Worldwide Responsible Apparel Production (WRAP) and Fair Labor Association (FLA). When external suppliers are being used, they must also adhere to these codes. This is, in fact, a condition for doing business with us."
+    "name": "Farma Dorsch Go Organic, Aloe",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/710952/Farma_Dorsch_Go_Organic%2C_Aloe/",
+    "meta": "moisturizer"
   },
   {
-    "name": "GTM Sportswear",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/gtm-sportswear",
-    "meta": "All GTM Sportswear and GTM Select apparel."
+    "name": "Finally Pure Hand & Body Lotion for Pregnancy",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/702420/Finally_Pure_Hand_%26_Body_Lotion_for_Pregnancy/",
+    "meta": "hand cream, moisturizer"
   },
   {
-    "name": "Hanesbrands",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/hanesbrands",
-    "meta": "All apparel, including Hanes, Champion, Playtex, Bali, Barely There, JMS, Duofold, Wonderbra, L'eggs, Outer Banks and other licensed brands. Hanesbrands' compliance program is accredited by FLA.From the Hanesbrands website: The significant majority of Hanesbrands products are made in company-owned plants, which gives us direct control over workplace conditions and interactions with local communities. We have an innovative worldwide business ethics program, and Hanesbrands is a participating company in the Fair Labor Association, an independent corporate social responsibility monitoring organization."
+    "name": "Finally Pure Men's Herbal Hand & Body Lotion",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/702419/Finally_Pure_Men%27s_Herbal_Hand_%26_Body_Lotion/",
+    "meta": "hand cream, moisturizer"
   },
   {
-    "name": "Hugo Boss",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/hugo-boss",
-    "meta": "All HUGO BOSS’ apparel, shoes, and leather accessories producers. The HUGO BOSS brands include BOSS, BOSS Green, BOSS Orange, and HUGO.From the HUGO BOSS website: As a manufacturer of clothing, shoes and accessories for the premium and luxury segment, HUGO BOSS is responsible for adhering to sustainability standards throughout the global value chain. Fair and safe working conditions are one focal point of the company’s sustainability commitment."
+    "name": "Finally Pure Rosemary Mint Hand & Body Lotion",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/702418/Finally_Pure_Rosemary_Mint_Hand_%26_Body_Lotion/",
+    "meta": "hand cream, moisturizer"
   },
   {
-    "name": "J. America Inc.",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/j-america-inc",
-    "meta": "From the J.America website: J.America’s Corporate Social Responsibility (CSR) mission is to conduct business in an ethical manner, to promote and protect worker’s rights worldwide and to help improve working conditions by partnering with our global supply chain. We require our suppliers to conduct business with the highest of standards and ethics while respecting human rights and complying with local laws by committing to our Workplace Code of Conduct and submitting to third party audits of their facilities. In partnership with our global supply chain, J.America continues to work towards creating positive change for apparel workers worldwide."
+    "name": "GRAYDON All Over Face + Body Lotion",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/669862/GRAYDON_All_Over_Face_%2B_Body_Lotion/",
+    "meta": "moisturizer"
   },
   {
-    "name": "Kathmandu",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/kathmandu",
-    "meta": "Kathmandu branded products:   apparel, tents, sleeping bags, packs, and bags.From Kathmandu's sustainability report:  In 2014, we joined the Fair Labor Association to enhance our long-standing social compliance program, and to improve working conditions throughout our supplier network. This membership will give us critical guidance to address unresolved corrective action plans, setting up grievance mechanisms with regional partners, and providing us with a distinct road map toward global best practice."
+    "name": "GRAYDON Aloe Milk Cleanser",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/669863/GRAYDON_Aloe_Milk_Cleanser/",
+    "meta": "facial cleanser, makeup remover"
   },
   {
-    "name": "Knights Apparel",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/knights-apparel",
-    "meta": "Collegiate brands: NCAA, Alta Gracia, Pro Edge, Red Oak, Pro Player, Pro Player 2, Section 101, Knights Apparel; non-collegiate brands: NBA, NBA Player, NHL, NHL Player, MLB, NASCAR and X Games. Knights Apparel's compliance program is accredited by FLA.From the Knights Apparel website: The KA Code of Conduct states our commitment to protect workers' rights from slavery or human trafficking by defining our expectations in the following areas: forced labor, child labor, employment relationship, harassment or abuse, discrimination, health and safety, freedom of association, wages and benefits, hours of work, overtime compensation, environment, documentation. KA conducts independent audits of suppliers at least every six months to evaluate compliance with the KA Code of Conduct for trafficking and slavery supply chains. These audits are conducted by trained independent auditors and are unannounced. Each factory is graded on a point basis. After each audit the factory is given a Corrective Action Plan (CAP) which outlines in detail any needed corrections. KA monitors the CAP on an ongoing basis to ensure that the corrections are made. Depending on the severity of the issues raised at the CAP, a follow up audit will occur as early as ninety days from the initiation of the CAP."
+    "name": "Graydon Berry Rich",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/715193/Graydon_Berry_Rich/",
+    "meta": "facial moisturizer/treatment"
   },
   {
-    "name": "Lakeshirts, Inc.",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/lakeshirts-inc",
-    "meta": "All Lakeshirts/Blue84 apparel. Lakeshirts, Inc. has only 1 brand, Blue 84."
+    "name": "Graydon Green Cream",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/708703/Graydon_Green_Cream/",
+    "meta": "facial moisturizer/treatment"
   },
   {
-    "name": "Mountain Equipment Co-op",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/mountain-equipment-co-op",
-    "meta": "MEC Brand Products. MEC's compliance program is accredited by FLA.From the Mountain Equipment Co-op website: Our goal is to make affordable, quality products. Central to this goal is our core belief that our gear be made in a way that respects the people who manufacture it."
+    "name": "GRAYDON Hair Smoothie",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/669864/GRAYDON_Hair_Smoothie/",
+    "meta": "conditioner"
   },
   {
-    "name": "Nestle",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/nestle",
-    "meta": "From the Nestlé website: Nestlé’s mission is to enhance consumers’ lives by offering tastier and healthier food and beverage choices for all stages of life and at any time of the day. True to our values and principles we also Create Shared Value through sustainable growth and a commitment to environmental sustainability and compliance along every step of the value chain. Nestlé’s promise is Good Food, Good Life."
+    "name": "Graydon Keto Cleanse",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/708702/Graydon_Keto_Cleanse/",
+    "meta": "facial moisturizer/treatment"
   },
   {
-    "name": "New Balance Athletic Shoe, Inc.",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/new-balance-athletic-shoe-inc",
-    "meta": "aravon, Brine, Cobb Hill, Dunham, New Balance, PF-Flyers, Warrior.  New Balance's compliance program is accredited by FLA.From the New Balance Athletic Shoe, Inc. website: The Supplier Code of Conduct defines our minimum expectations. We expect our suppliers to ensure that no exploitative conditions or unsafe working conditions exist at the facilities where our merchandise is manufactured. This Code of Conduct expresses the commitment of New Balance Athletic Shoe, Inc. to do business only with those manufacturers and suppliers that share its commitment to fair and safe labor practices."
+    "name": "Graydon Skin Stuff",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/715186/Graydon_Skin_Stuff/",
+    "meta": "facial moisturizer/treatment"
   },
   {
-    "name": "New Era Cap Co., Inc.",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/new-era-cap-co-inc",
-    "meta": "New Era Cap Headwear, 5th & Ocean Clothing LLC. New Era Cap Co., Inc.'s compliance program is accredited by FLA.From the New Era Cap Co., Inc website: Our global Social Compliance Program operationalizes our commitment to responsible sourcing for headwear and apparel through education, risk assessment, strong partnerships with our suppliers, industry collaboration, promoting best practices, and stakeholder engagement. We select suppliers that share our commitment to ethical practices and labor standards, as provided for in our Workplace Code of Conduct."
+    "name": "GRAYDON The Putty",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/669866/GRAYDON_The_Putty/",
+    "meta": "moisturizer"
   },
   {
-    "name": "Nike, Inc.",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/nike-inc",
-    "meta": "All Nike footwear, apparel and equipment. Nike, Inc.'s compliance program is accredited by FLA.From the Nike, Inc. website: Our greatest responsibility as a global company is to play a role in bringing about positive, systemic change for workers within our supply chain and in the industry. We're looking end-to-end, from the first phase of our product creation process to the impacts of our decisions on the lives of workers in the factories that bring our product to life."
+    "name": "Honestly pHresh Cedarwood and Eucalyptus Deodorant Cream",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/719996/Honestly_pHresh_Cedarwood_and_Eucalyptus_Deodorant_Cream/",
+    "meta": "antiperspirant/deodorant"
   },
   {
-    "name": "Olam",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/olam",
-    "meta": "Olam International Cocoa Code d’Ivoire and Hazelnut Turkey  supply chains are assessed by the FLA.From the Olam website:  As Olam has grown, so has our direct workforce – employed across our upstream operations in plantations, concessions and farming to our downstream processing. These employees and contractors are governed by the Olam Code of Conduct and ILO compliant labour standards."
+    "name": "Honestly pHresh Geranium and Patchouli Deodorant Cream",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/719995/Honestly_pHresh_Geranium_and_Patchouli_Deodorant_Cream/",
+    "meta": "antiperspirant/deodorant"
   },
   {
-    "name": "Outerknown",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/outerknown",
-    "meta": "All Outerknown apparel and accessories From the Outerknown website: Founded by eleven-time world champion surfer, Kelly Slater, Outerknown is a menswear brand established from an understated approach to design and an overstated approach to quality, cloth, and consciousness. The concept aims to blend style, function and sustainability with the intent to protect our natural resources and inspire change within the fashion and apparel industry."
+    "name": "Honestly pHresh Lavender and Ylang Ylang Deodorant Cream",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/719997/Honestly_pHresh_Lavender_and_Ylang_Ylang_Deodorant_Cream/",
+    "meta": "antiperspirant/deodorant"
   },
   {
-    "name": "Outerstuff, Ltd.",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/outerstuff-ltd",
-    "meta": "All Outerstuff apparel and licensed apparel. Licensors include adidas, Nike, Reebok, NFL, NBA, NHL, MLB, MLS, and over 200 colleges and universities.From the Outerstuff, Ltd. website: Outerstuff is committed to addressing any issues in our supply chain by working with our suppliers, customers, business partners, the Fair Labor Association, members of local civil society, and the appropriate regulatory agencies to promptly correct those issues.  We are committed to fair, healthy and safe working conditions in all of the factories making products for Outerstuff."
+    "name": "Honestly pHresh Phree Unscented Deodorant Cream",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/719998/Honestly_pHresh_Phree_Unscented_Deodorant_Cream/",
+    "meta": "antiperspirant/deodorant"
   },
   {
-    "name": "Patagonia",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/patagonia",
-    "meta": "All Patagonia in-store products including footwear. Patagonia's compliance program is accredited by FLA.From the Patagonia website: We have integrated corporate responsibility into our sourcing strategy: when considering new factories we take a fourfold vetting approach – one that includes social and environmental practices equally with quality standards and business requirements like financial stability, adequate capacity and fair pricing."
+    "name": "Honestly pHresh Sage and Chamomile Deodorant Cream",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/720000/Honestly_pHresh_Sage_and_Chamomile_Deodorant_Cream/",
+    "meta": "antiperspirant/deodorant"
   },
   {
-    "name": "prAna",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/prana",
-    "meta": "All products - apparel and accessories. prAna's compliance program is accredited by the FLA.From the prAna website: As any one with a regular practice of sport, hobbies, meditation and internal growth - living your values is constantly challenged by the world around you. prAna’s path is the same, and sometimes customers and friends are surprised that we don’t have everything buttoned up and have all the answers. prAna has products and practices that are at odds with our values, we are not perfect by any means, we have a lot to learn. To help us get there, we have set up a more formal sustainability program, the idea is to build and manage a master plan that aligns our company actions and products with our values. We look forward to raising our own level of awareness, education, discipline, and action on the long and winding road of sustainability."
+    "name": "isoi Bulgarian Rose Cleansing Essence Bar",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/722333/isoi_Bulgarian_Rose_Cleansing_Essence_Bar/",
+    "meta": "bar soap"
   },
   {
-    "name": "Puma, AG",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/puma-ag",
-    "meta": "All Puma branded goods, including licensees. Puma, AG's compliance program is accredited by FLA.From the Puma, AG website: PUMA.Safe comprises our initiatives and commitment for environmental protection and improved working conditions that have been in place for many years now. They will be complemented by new programs, which focus on implementing cleaner, safer and more sustainable systems and processes within the supply chain.PUMA AG was approved by the FLA Board for affiliation as a Participating Company in 2004. The FLA Board accredited PUMA's labor compliance program in October 2007."
+    "name": "isoi Bulgarian Rose Cover Fit Foundation Pact",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/722324/isoi_Bulgarian_Rose_Cover_Fit_Foundation_Pact/",
+    "meta": "foundation"
   },
   {
-    "name": "PVH Corp.",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/pvh-corp",
-    "meta": "Van Heusen brand, all Van Heusen apparel. PVH Corp.'s compliance program is accredited by FLA.From the PVH Corp. website: Phillips-Van Heusen is committed to an ongoing program of monitoring all our facilities and those of companies with whom we do business in accordance with our code of conduct, “A Shared Commitment”. This code defines PVH standards and values, which must be upheld in our facilities and those of our supplies, contractors and business partners."
+    "name": "isoi Bulgarian Rose Intensive Age Control Eye Cream",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/722318/isoi_Bulgarian_Rose_Intensive_Age_Control_Eye_Cream/",
+    "meta": "around-eye cream"
   },
   {
-    "name": "SanMar Corporation",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/sanmar-corporation",
-    "meta": "All private label brands consisting of CornerStone, District Threads, Port Authority, Port Authority Signature, Port & Company, Precious Cargo, Red House and Sport-Tek. SanMar Corporation's compliance program is accredited by FLA.From the SanMar Corporation website: SanMar is committed to ensuring production of our products meets legal and ethical standards. SanMar sets strong benchmarks through its Global Operating Principles, and proactively monitors suppliers for compliance. We are also proud to be a fully participating company of the Fair Labor Association, a collaborative effort of socially responsible companies, colleges and universities, and civil society organizations to improve working conditions in factories around the world."
+    "name": "isoi Bulgarian Rose Intensive Energizing Cream",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/722315/isoi_Bulgarian_Rose_Intensive_Energizing_Cream/",
+    "meta": "facial moisturizer/treatment"
   },
   {
-    "name": "Syngenta",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/syngenta",
-    "meta": "From the Syngenta website: Syngenta is guided by the conviction that value creation depends on the successful integration of business, social and environmental performance. Syngenta is committed to promote and maintain high standards of corporate responsibility worldwide in an industry that is essential to global agriculture and food production. The company acts in accordance with its Code of Conduct and its Health, Safety and Environmental Policy, which respect human rights and embrace internationally accepted regulations and the highest scientific standards."
+    "name": "isoi Bulgarian Rose Intensive Energizing Oil",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/722321/isoi_Bulgarian_Rose_Intensive_Energizing_Oil/",
+    "meta": "facial moisturizer/treatment"
   },
   {
-    "name": "The s.Oliver Group",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/soliver-group",
-    "meta": "s.Oliver, s.Oliver Denim, s.Oliver Premium, Comma, Triangle by s.Oliver."
+    "name": "isoi Bulgarian Rose Intensive Lifting Corset Mask Pack",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/722320/isoi_Bulgarian_Rose_Intensive_Lifting_Corset_Mask_Pack/",
+    "meta": "facial moisturizer/treatment"
   },
   {
-    "name": "Top of the World, LLC",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/top-world-llc",
-    "meta": "Top of the World, Captivating Headgear, Anheuser Busch, Disney, Hard Rock and all brands and products produced under university licenses. Top of the World, LLC's compliance program is accredited by FLA.From the Top of the World website: Top of the World is a member of the Fair Labor Association (FLA). Our products are manufactured in the best factories with the highest standards. Our factories are required to uphold the highest standards to ensure the fair treatment of employees. Top of the World regularly audits our factory partners and upholds the Fair Labor Association Code of Conduct."
+    "name": "isoi Bulgarian Rose Intensive Multiple Essence",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/722314/isoi_Bulgarian_Rose_Intensive_Multiple_Essence/",
+    "meta": "facial moisturizer/treatment"
   },
   {
-    "name": "Under Armour",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/under-armour",
-    "meta": "Under Armour apparel, footwear, and accessories and collegiate products made for Under Armour. Licensed products and products related to Map My Fitness are not covered.From the Under Armour website: Under Armour was founded on the following core values: Innovation, Inspiration, Reliability and Integrity. Consistent with these values, we seek to do business with suppliers and their subcontractors that adhere to these practices, follow established work place practices and comply with our Code of Conduct (the \"Code\")."
+    "name": "isoi Bulgarian Rose Intensive Perfect Anti-aging Program",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/722319/isoi_Bulgarian_Rose_Intensive_Perfect_Anti-aging_Program/",
+    "meta": "anti-aging"
   },
   {
-    "name": "Volcom, LLC",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/volcom-llc",
-    "meta": "Products covered: apparel, backpacks, headwear, footwear, bags, socks.  From the Volcom website:  Volcom, LLC. is now a participating member of the Fair Labor Association. The FLA brings greater insight and elevated standards for workers within our supply chain that help protect those who are making Volcom’s product. This collaborative effort ensures greater due diligence through training and tools within the work place as well as stronger visibility and transparency over all."
+    "name": "isoi Bulgarian Rose Intensive Sugar Scrub",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/722313/isoi_Bulgarian_Rose_Intensive_Sugar_Scrub/",
+    "meta": "exfoliant/scrub"
   },
   {
-    "name": "W.L. Gore & Associates GmbH",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/wl-gore-associates-gmbh",
-    "meta": "Gore Bike Wear® and Gore Running Wear® products."
+    "name": "isoi Bulgarian Rose Intensive Treatment Essence",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/722312/isoi_Bulgarian_Rose_Intensive_Treatment_Essence/",
+    "meta": "anti-aging"
   },
   {
-    "name": "Zephyr Graf-X",
-    "cert": "fairlaborassociation",
-    "certlink": "http://www.fairlabor.org/affiliate/zephyr-graf-x",
-    "meta": "All Zephyr Graf-X products. Zephyr Graf-X's compliance program is accredited by FLA. From the Zephyr Graf-X website: At Zephyr, we have always been drawn to business partners that share our passion, vision, and values. In the apparel industry, it is especially important to work with ethical factories that will ensure workers' rights. While we have worked towards this goal since our inception in 1993, the Zephyr Social Compliance Program officially began in 2001 when we joined the Fair Labor Association (FLA). We base the program on the FLA Code of Conduct, which we have adopted to help us implement better working conditions in the factories. As members of the FLA, we are required to periodically audit all factories that produce our hats to guarantee they are following the standards set forth in the Code."
+    "name": "isoi Bulgarian Rose Intensive Treatment Lotion",
+    "cert": "ewg_verified",
+    "certlink": "http://www.ewg.org/skindeep/product/722323/isoi_Bulgarian_Rose_Intensive_Treatment_Lotion/",
+    "meta": "facial moisturizer/treatment"
   }
 ]
