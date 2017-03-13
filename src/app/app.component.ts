@@ -57,7 +57,7 @@ export class AppComponent implements OnInit {
 
 
 	ngOnInit(){
-		this.companyCount = this.objectLength(this.companies); 
+		this.companyCount = this.objectLength(this.products); 
 		}
 
 

@@ -31,7 +31,7 @@ export class ObjectComponent implements OnInit {
       // let reqUrl = 'https://rest.viglink.com/api/product/search?apiKey=645728cd6d815e3890d53f3b16f562cd&query='+this.searchQuery+'&filterImages=false';
       // let reqUrl = 'https://rest.viglink.com/api/product/search?apiKey=645728cd6d815e3890d53f3b16f562cd&query='+this.company.name+'&filterImages=false';
       // this.makeBrand()
-      let reqUrl = 'https://rest.viglink.com/api/product/search?apiKey=645728cd6d815e3890d53f3b16f562cd&query='+this.product.name+'&filterImages=false'
+      let reqUrl = 'https://rest.viglink.com/api/product/search?apiKey=645728cd6d815e3890d53f3b16f562cd&query='+this.product.name+'&itemsPerPage=1&filterImages=false'
       // let reqUrl = 'https://rest.viglink.com/api/product/search?apiKey=645728cd6d815e3890d53f3b16f562cd&query='+this.firstNameCompany+'%20'+this.searchQuery+'&filterImages=false';
       // let reqUrl = 'https://rest.viglink.com/api/product/search?apiKey=645728cd6d815e3890d53f3b16f562cd&query='+this.company.name+'%20'+this.searchQuery+'&filterImages=false';
       let reqHeaders = new Headers({ 'Authorization': 'secret 57b0201432561234baaf7c58fa7797fb70b5689f' });

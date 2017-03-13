@@ -2,40 +2,41 @@
   {{this.searchQuery}}
 </p>
 <p>
-  {{this.company.name}}
-</p>
- -->
-<div style="border-style: none" *ngIf="loader=='loading' || loader=='loaded'">
- 	<p style="color: grey">{{company.meta}}</p>
-	<p *ngIf="company.cert == 'ewg_score_10'" style="color: grey"><img height="30px" src="assets/bcorporation.jpg"><b>10</b><a href="{{company.certlink}}" target="_blank">View Certificate</a></p>
-	<p *ngIf="company.cert == 'ewg_verified'" style="color: grey"><img height="30px" src="assets/fairtradeusa.png"><b>EWG VERIFIED</b><a href="{{company.certlink}}" target="_blank">View Site</a></p>
+  {{this.product.name}}
+</p> -->
+
+<div style="text-align:center; border-style: none" *ngIf="loader=='loading' || loader=='loaded'">
+			<!-- <p style="color: grey">{{product.meta}}</p> -->
 </div>
 
-<hr>
 
-<div style="border-style: none" *ngIf="loader=='wait'" class="row">
-	<p style="padding: 20px"></p>
-</div> 
-
-<div style="border-style: none" *ngIf="loader=='loading'" class="row">
-	<p style="padding: 20px">Loading Products...</p>
+<div style="border-style: none" *ngIf="loader=='loading'" >
+	<p style="padding: 20px">Getting Prices...</p>
 </div> 
 
 
-<div style="border-style: none" *ngIf="loader=='loaded'" class="row">
-	<div *ngFor="let item of this.resultItems.items" class="col-xs-4 col-sm-4 col-md-3 col-lg-2 hoverBox" style="border-style: none; text-align:center; position: relative; ">
+<span style="border-style: none" *ngIf="loader=='loaded'">
+	<div *ngFor="let item of this.resultItems.items" style="border-style: none; text-align:center; position: relative; padding:0px; margin: 0px; ">
 		<a href="{{item.url}}" target="_blank" (click)="googleAnalytics()">
-			<p><img class="hoverImage" src="{{item.imageUrl}}" height="" width="100%"></p>
-			<p class="hoverText" style="position: absolute; top: 50px; left: 0; width: 100%; text-decoration: none; color: black"><b>{{item.name.substring(0,50)}}</b></p>
-			<h5 style="text-decoration: none; color: darkgrey">
-				{{item.price | currency:'USD':true:'1.0-2'}}
-			</h5>
+			<img class="hoverImage" src="{{item.imageUrl}}" height="" width="80%">
+		</a>
+		<br><br>
+		<p style="height: 5rem; text-align: center; " >
+			{{product.name}}
+		</p>
+		<a href="{{item.url}}" target="_blank" (click)="googleAnalytics()">
+			<button class="btn btn-secondary">
+				<span *ngIf="product.cert == 'ewg_score_10'" style="display:inline"><a style="display:inline; text-align: center"  href="{{product.certlink}}" target="_blank"><img src="assets/ewg_score_8.png" height="30px"></a></span>
+				<span *ngIf="product.cert == 'ewg_verified'" style="display:inline"><a style="display:inline; text-align: center"  href="{{product.certlink}}" target="_blank"><img src="assets/ewg_verified.png" height="30px"></a></span>
+				<span *ngIf="product.cert == ' '" style="display:inline">N/A</span>
+				 @ {{item.price | currency:'USD':true:'1.0-2'}}
+			</button>
 		</a>
 	</div>
-</div> 
+</span> 
 
 
 
-<div style="border-style: none" *ngIf="resultItems?.items.length == 0" class="row">
-	<p style="padding-left: 20px">No Products Found</p>
+<div style="border-style: none" *ngIf="resultItems?.items.length == 0" >
+	<p style="padding-left: 20px">No Prices Found</p>
 </div> 
