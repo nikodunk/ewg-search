@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { PRODUCTS } from '../assets/companies'
+import { PRODUCTS } from '../assets/products'
 // import { RESULTS } from './services/results'
 import { Http, Response, Headers } from '@angular/http'
 
@@ -25,12 +25,12 @@ export class AppComponent implements OnInit {
 	  if ( this.timer ){
 	    clearTimeout( this.timer );
 	    this.timer = window.setTimeout(()=>{
-				   		this.search()}, 1000);;
-				}
+				   		this.search()}, 1000)
+						}
 	  else{
 	    this.timer = window.setTimeout(()=>{
-				   		this.search()}, 1000);
-	  }
+				   		this.search()}, 1000)
+						}
 	}
 
 
