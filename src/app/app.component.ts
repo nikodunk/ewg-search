@@ -24,13 +24,11 @@ export class AppComponent implements OnInit {
   keyDown(){
   	this.resultShower = false;
 	  if ( this.timer ){
-	  	this.loader="loading"
 	    clearTimeout( this.timer );
 	    this.timer = window.setTimeout(()=>{
 				   		this.search()}, 1000)
 						}
 	  else{
-	  	this.loader="loading"
 	    this.timer = window.setTimeout(()=>{
 				   		this.search()}, 1000)
 						}
@@ -42,7 +40,6 @@ export class AppComponent implements OnInit {
 		// console.log('searching');
 		if (this.searchQuery){
 			if (this.searchQuery.length > 2){
-				this.loader="loaded"
 				this.resultShower = true;
 				}
 				// console.log(this.resultShower)
