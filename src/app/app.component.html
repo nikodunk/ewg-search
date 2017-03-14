@@ -1,7 +1,4 @@
-
-
 <div class="container" style="margin-top: 80px;">
-	
 		<h1>
 		  Compare prices for the safe skincare products you love, and find new ones you didn't know existed.
 		</h1>
@@ -16,10 +13,7 @@
 			placeholder="What're you looking for? (Try: Hand Soap, Lipstick, Baby oil, Shampoo)" 
 			autocorrect="off" 
 		/>
-	
-
 	<div style="color: grey; margin-top: 200px" *ngIf="!searchQuery || searchQuery.length == 0">
-
 		<p>Superjuice makes it easier to search & buy the {{this.companyCount}} products in the EWG's certification database. When you like something you find and decide to buy it through our affiliate, we donate 10% of our profit back to EWG's certification work. &nbsp;
 			<span style="" class="fb-share-button" data-href="http://superjuice.cc" data-layout="button_count" data-size="small" data-mobile-iframe="true">
 				<a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsuperjuice.cc%2F&amp;src=sdkpreparse">
@@ -27,23 +21,36 @@
 				</a>
 			</span>
 		</p>
-
-<!-- 		<p>
-			<a href="https://www.bcorporation.net" target="_blank"><img height="30px" src="assets/bcorporation.jpg"> B-Corporation</a> | 
-			<a href="https://www.fairtradeusa.com" target="_blank"><img height="30px" src="assets/fairtradeusa.png">Fair Trade USA</a> | 
-			<a href="http://www.fairlabor.org" target="_blank"><img height="30px" src="assets/fairlabor.png"> Fair Labor Association</a>
-		</p> -->
 	</div>
-
-	<div style=" margin-top: 80px" *ngIf="resultShower" class="row">
-		<div *ngFor="let product of this.products | search: searchQuery, let i = index " class="col-xs-4 col-sm-4 col-md-3 col-lg-2">
-			<div *ngIf="i < 100" >
-				<div class="myPanel">
-					<juice-object [searchQuery]="this.searchQuery" [product]="product"></juice-object>
+	<div style="margin-top: 80px">
+		<div  *ngIf="searchQuery && !resultShower" class="row">
+			<p style="padding-left:20px; color:grey">
+				Please complete a phrase to find products
+			</p>
+		</div>
+		<div  *ngIf="resultShower" class="row">
+			<p style="padding-left:20px; color:grey">
+				Safe Products Sorted By <a href="http://www.ewg.org/skindeep/users-guide-to-skin-deep/" > EWG Rating</a>
+			</p>
+		</div>
+		<div *ngIf="resultShower" class="row">
+			<div *ngFor="let product of this.products | search: searchQuery, let i = index " class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+				<div *ngIf="i < this.resultLimit" >
+					<div class="hoverBox myPanel" >
+						<juice-object [searchQuery]="this.searchQuery" [product]="product"></juice-object>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div *ngIf="resultShower" class="row">
+			<div class="col-lg-12">
+				<div class="myPanel" >
+					<p style="padding-left:20px; color:grey">
+						🔍 Please be less specific to find more results!
+					</p>
 				</div>
 			</div>
 		</div>
-		
 	</div>
-	
 </div>
