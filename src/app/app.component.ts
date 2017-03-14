@@ -24,14 +24,13 @@ export class AppComponent implements OnInit {
   keyDown(){
   	this.resultShower = false;
 	  if ( this.timer ){
-	    clearTimeout( this.timer );
-	    this.timer = window.setTimeout(()=>{
+	  			clearTimeout( this.timer )
+	  		}
+	  else{}
+
+	this.timer = window.setTimeout(()=>{
 				   		this.search()}, 1000)
-						}
-	  else{
-	    this.timer = window.setTimeout(()=>{
-				   		this.search()}, 1000)
-						}
+						
 	}
 
 
@@ -42,9 +41,12 @@ export class AppComponent implements OnInit {
 			if (this.searchQuery.length > 2){
 				this.resultShower = true;
 				}
+			else if (this.searchQuery.length==0)
+				{this.searchQuery = null}
 				// console.log(this.resultShower)
 				this.timer = null
 			}
+
 	}
 
 

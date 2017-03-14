@@ -11,8 +11,7 @@ export class SearchPipe {
       if(typeof args == 'string'){args = args.toLowerCase()}
       return value.filter(item => {
         for (let key in item) {
-          if ((typeof item[key] == 'string' || item[key] instanceof String) && 
-              (item[key].indexOf(args) !== -1)) {
+          if (item[key].indexOf(args) !== -1) {
                 return true;
               }
             }
