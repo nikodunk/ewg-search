@@ -22,15 +22,15 @@
 		</a>
 		<br><br>
 		<p style="height: 5rem; text-align: center; " >
-			{{product.name}}
+			{{product.name}} 
+			<span *ngIf="product.cert == 'ewg_rank_1'" style="display:inline"><a style="display:inline; text-align: center"  href="{{product.certlink}}" target="_blank"><img src="assets/ewg_score_1.png" height="30px"></a></span>
+			<!-- <span *ngIf="product.cert == 'ewg_rank_2'" style="display:inline"><a style="display:inline; text-align: center"  href="{{product.certlink}}" target="_blank"><img src="assets/ewg_score_1.png" height="30px"></a></span> -->
+			<span *ngIf="product.cert == 'ewg_verified'" style="display:inline"><a style="display:inline; text-align: center"  href="{{product.certlink}}" target="_blank"><img src="assets/ewg_verified.png" height="30px"></a></span>
+			<span *ngIf="product.cert == ' '" style="display:inline">N/A</span>
 		</p>
 		<a href="{{item.url}}" target="_blank" (click)="googleAnalytics()">
 			<button class="btn btn-secondary">
-				<span *ngIf="product.cert == 'ewg_rank_1'" style="display:inline"><a style="display:inline; text-align: center"  href="{{product.certlink}}" target="_blank"><img src="assets/ewg_score_1.png" height="30px"></a></span>
-				<!-- <span *ngIf="product.cert == 'ewg_rank_2'" style="display:inline"><a style="display:inline; text-align: center"  href="{{product.certlink}}" target="_blank"><img src="assets/ewg_score_1.png" height="30px"></a></span> -->
-				<span *ngIf="product.cert == 'ewg_verified'" style="display:inline"><a style="display:inline; text-align: center"  href="{{product.certlink}}" target="_blank"><img src="assets/ewg_verified.png" height="30px"></a></span>
-				<span *ngIf="product.cert == ' '" style="display:inline">N/A</span>
-				 @ {{item.price | currency:'USD':true:'1.0-2'}}
+				{{item.price | currency:'USD':true:'1.0-2'}}
 			</button>
 		</a>
 	</div>
