@@ -17,6 +17,7 @@ export class AppComponent implements OnInit {
 	resultShower: boolean = false;
 	timer = null
 	companyCount
+	resultLimit: 100
 
 
 
@@ -37,9 +38,13 @@ export class AppComponent implements OnInit {
 
 	search(){
 		// console.log('searching');
-		this.resultShower = true;
-		// console.log(this.resultShower)
-		this.timer = null
+		if (this.searchQuery){
+			if (this.searchQuery.length > 2){
+				this.resultShower = true;
+				}
+				// console.log(this.resultShower)
+				this.timer = null
+			}
 	}
 
 

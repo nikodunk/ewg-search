@@ -14,3 +14,18 @@
       margin-bottom:0;
     }
 }*/
+
+
+
+.myPanel {
+  width: 100%;
+  height: 100%;
+  padding: 20px; 
+  margin-bottom: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+  border-radius: 3px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
