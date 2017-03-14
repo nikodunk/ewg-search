@@ -1,7 +1,11 @@
 <div class="container" style="margin-top: 80px;">
-		<h1>
-		  Compare prices for the safe skincare products you love, and find new ones you didn't know existed.
+		<h1 style="text-align: center">
+			<img src="assets/logo.png" height="40px" style="margin-bottom:10px"><br>
+		  	Compare prices for the safe skincare products you love
 		</h1>
+		<h4 style="text-align: center">
+			(and find new ones you didn't know existed.)
+		</h4>
 		<br><br>
 		<input 
 			(keyup)="keyDown()"
@@ -10,7 +14,7 @@
 			type="text" 
 			autofocus="autofocus"
 			class="form-control" 
-			placeholder="What're you looking for? (Try: Hand Soap, Lipstick, Baby oil, Shampoo)" 
+			placeholder="What're you looking for? (Try: Hand Soap, Sunscreen, Lipstick, Body oil, Shampoo)" 
 			autocorrect="off" 
 		/>
 	<div style="color: grey; margin-top: 200px" *ngIf="!searchQuery || searchQuery.length == 0">
