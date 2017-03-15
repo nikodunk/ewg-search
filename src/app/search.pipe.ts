@@ -5,19 +5,17 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class SearchPipe {
   transform(value, args) {
-    // if (!args[0]) {
+    // if (!args) {
     //   return value;
     // } else if (value) {
-      if(typeof args == 'string'){args = args.toLowerCase()}
+       if(typeof args == 'string'){args = args.toUpperCase()}
       return value.filter(item => {
         for (let key in item) {
-          if (item[key].indexOf(args) !== -1) {
-                return true;
-              }
-            }
-          });
-    // }
+          if ((typeof item[key] === 'string' || item[key] instanceof String) && 
+              (item[key].toUpperCase().indexOf(args) !== -1)) {
+            return true;
+          }
+        }
+      });
+    }
   }
-}
-
-
