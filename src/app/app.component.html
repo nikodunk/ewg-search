@@ -52,7 +52,7 @@
 					</p>
 				</div>
 				<div *ngIf="searchQuery && searchQuery.length>2 && resultShower" class="row">
-					<div *ngFor="let product of this.products | search: searchQuery, let i = index " class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+					<div *ngFor="let product of this.products | search: searchQuery, let i = index " class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
 						<div *ngIf="i < this.resultLimit" >
 							<div class="hoverBox myPanel" >
 								<juice-object [searchQuery]="this.searchQuery" [product]="product"></juice-object>
