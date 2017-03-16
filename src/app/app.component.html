@@ -44,25 +44,36 @@
 				</div>
 				<div  *ngIf="resultShower" class="row">
 					<p style="padding-left:20px; color:grey">
-						Safe Products Sorted By <a href="http://www.ewg.org/skindeep/users-guide-to-skin-deep/" > EWG Rating:</a>&nbsp;&nbsp;
-						 <span style="display:inline">Best: <img src="assets/ewg_verified.png" height="30px"></span> &nbsp;|&nbsp;
-						 <span style="display:inline">Safe: <img src="assets/ewg_score_1.png" height="30px"></span> &nbsp;|&nbsp;
-						 <span style="display:inline">Okay: <img src="assets/ewg_score_2.png" height="30px"></span> 
+						<b>Sorted By <a href="http://www.ewg.org/skindeep/users-guide-to-skin-deep/" > EWG Rating:</a></b> &nbsp;&nbsp;
+						 <span style="display:inline"> Best: EWG Verified <img src="assets/ewg_verified.png" height="30px"></span> &nbsp;|&nbsp;
+						 <span style="display:inline">Safe: EWG Rank <img src="assets/ewg_score_1.png" height="30px"></span> &nbsp;|&nbsp;
+						 <span style="display:inline">Okay: EWG Rank <img src="assets/ewg_score_2.png" height="30px"></span> 
 						<br><br>
 					</p>
 				</div>
 				<div *ngIf="searchQuery && searchQuery.length>2 && resultShower" class="row">
-					<div *ngFor="let product of this.products | search: searchQuery, let i = index " class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+					<div class="row" style="text-align:center">
+						<div class="col-xs-4">
+							<b><p>Product</p></b>
+						</div>
+						<div class="col-xs-4">
+							<b><p>Certification</p></b>
+						</div>
+						<div class="col-xs-4">
+							<b><p>Best Price</p></b>
+						</div>
+					</div>
+					<hr>
+					<div *ngFor="let product of this.products | search: searchQuery, let i = index " class="col-lg-12">
 						<div *ngIf="i < this.resultLimit" >
-							<div class="hoverBox myPanel" >
-								<juice-object [searchQuery]="this.searchQuery" [product]="product"></juice-object>
-							</div>
+							<juice-object [searchQuery]="this.searchQuery" [product]="product"></juice-object>
+							<hr>
 						</div>
 					</div>
 				</div>
 				<div *ngIf="searchQuery && searchQuery.length>2 && resultShower" class="row">
 					<div class="col-lg-12">
-						<div class="myPanel" >
+						<div class="" >
 							<p style="padding-left:20px; color:grey">
 								🔍 Please be less specific to find more results!
 							</p>
