@@ -43,16 +43,17 @@
 					</p>
 				</div>
 				<div  *ngIf="resultShower" class="row">
-					<p style="padding-left:20px; color:grey">
-						<b>Sorted By <a href="http://www.ewg.org/skindeep/users-guide-to-skin-deep/" > EWG Rating:</a></b> &nbsp;&nbsp;
-						 <span style="display:inline"> Best: EWG Verified <img src="assets/ewg_verified.png" height="30px"></span> &nbsp;|&nbsp;
-						 <span style="display:inline">Safe: EWG Rank <img src="assets/ewg_score_1.png" height="30px"></span> &nbsp;|&nbsp;
-						 <span style="display:inline">Okay: EWG Rank <img src="assets/ewg_score_2.png" height="30px"></span> 
+					<p style="padding-left:20px">
+						Sorted By <a href="http://www.ewg.org/skindeep/users-guide-to-skin-deep/" style="text-decoration: none">EWG Rank:
+						 <button style="display:inline; border-style:none" class="btn btn-default">Safest - EWG Verified <img src="assets/ewg_verified.png" height="30px"></button> | 
+						 <button style="display:inline; border-style:none" class="btn btn-default">Safe - EWG Rank <img src="assets/ewg_score_1.png" height="30px"></button>  | 
+						 <button style="display:inline; border-style:none" class="btn btn-default">Okay - EWG Rank <img src="assets/ewg_score_2.png" height="30px"></button></a>
 						<br><br>
 					</p>
 				</div>
 				<div *ngIf="searchQuery && searchQuery.length>2 && resultShower" class="row">
-					<div class="row" style="text-align:center">
+					<hr>
+					<div class="row" style="text-align:center; padding:0px; margin: 0px">
 						<div class="col-xs-4">
 							<b><p>Product</p></b>
 						</div>
