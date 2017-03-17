@@ -20,7 +20,7 @@
 				type="text" 
 				autofocus="autofocus"
 				class="form-control" 
-				placeholder="Hand Cream, Sunscreen, Lipstick, Dr. Bronner's, Shampoo" 
+				placeholder="Hand Cream, Sunscreen, Baby Bath, Dr. Bronner's, Shampoo" 
 				autocorrect="off" 
 			/>
 		</div>
@@ -28,7 +28,7 @@
 	<div class="row">
 		<div class="col-sm-10 col-sm-offset-1">
 			<div style="color: grey; margin-top: 200px" *ngIf="!searchQuery || searchQuery.length == 0">
-				<p>Superjuice makes it easier to search & buy the {{this.companyCount}} products in the EWG's certification database. When you like something you find and decide to buy it through our affiliate, we donate 10% of our profit back to EWG's certification work. &nbsp; Questions? <a href="mailto:n.dunkel@gmail.com">Reach out</a>!
+				<p>Superjuice makes it easier to search & buy the {{this.companyCount}} products in the EWG's certification database. When you like something you find and decide to buy it through our affiliate, we donate 10% of our profit back to EWG's certification work. Questions? <a href="mailto:n.dunkel@gmail.com">Reach out</a>! &nbsp;
 					<span style="" class="fb-share-button" data-href="http://superjuice.cc" data-layout="button_count" data-size="small" data-mobile-iframe="true">
 						<a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsuperjuice.cc%2F&amp;src=sdkpreparse">
 							Spread the word
@@ -44,7 +44,8 @@
 				</div>
 				<div  *ngIf="resultShower" class="row">
 					<p style="padding-left:20px">
-						Sorted By <a href="http://www.ewg.org/skindeep/users-guide-to-skin-deep/" style="text-decoration: none">EWG Rank:
+						 <a href="http://www.ewg.org/skindeep/users-guide-to-skin-deep/" style="text-decoration: none">
+						 <button style="display:inline; border-style:none" class="btn btn-default">Sorted By EWG Rank:</button><br>
 						 <button style="display:inline; border-style:none" class="btn btn-default">Safest - EWG Verified <img src="assets/ewg_verified.png" height="30px"></button> | 
 						 <button style="display:inline; border-style:none" class="btn btn-default">Safe - EWG Rank <img src="assets/ewg_score_1.png" height="30px"></button>  | 
 						 <button style="display:inline; border-style:none" class="btn btn-default">Okay - EWG Rank <img src="assets/ewg_score_2.png" height="30px"></button></a>
