@@ -3,7 +3,7 @@ import { PRODUCTS } from '../assets/products'
 // import { RESULTS } from './services/results'
 import { Http, Response, Headers } from '@angular/http'
 
-
+declare var fbq: any;
 
 @Component({
   selector: 'app',
@@ -40,7 +40,10 @@ export class AppComponent implements OnInit {
 		if (this.searchQuery){
 			if (this.searchQuery.length > 2){
 				this.resultShower = true;
-				}
+				fbq('track', 'Search', {
+				search_string: this.searchQuery
+				});
+			}
 			else if (this.searchQuery.length==0)
 				{this.searchQuery = null}
 				// console.log(this.resultShower)
