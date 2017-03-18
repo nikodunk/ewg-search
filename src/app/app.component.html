@@ -26,8 +26,8 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-sm-10 col-sm-offset-1">
-			<div style="color: grey; margin-top: 200px" *ngIf="!searchQuery || searchQuery.length == 0">
+		<div class="col-sm-10 col-sm-offset-1 col-lg-offset-2 col-lg-8">
+			<div style="color: grey; margin-top: 200px" *ngIf="default">
 				<p>Superjuice makes it easier to search & buy the {{this.companyCount}} products in the EWG's certification database. When you like something you find and decide to buy it through our affiliate, we donate 10% of our profit back to EWG's certification work. Questions? <a href="mailto:n.dunkel@gmail.com">Reach out</a>! &nbsp;
 					<span style="" class="fb-share-button" data-href="http://superjuice.cc" data-layout="button_count" data-size="small" data-mobile-iframe="true">
 						<a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsuperjuice.cc%2F&amp;src=sdkpreparse">
@@ -37,12 +37,12 @@
 				</p>
 			</div>
 			<div style="margin-top: 80px">
-				<div  *ngIf="searchQuery && !resultShower" class="row">
+				<div  *ngIf="typing" class="row">
 					<p style="padding-left:20px; color:grey">
 						Please complete a phrase to find products
 					</p>
 				</div>
-				<div  *ngIf="resultShower" class="row">
+				<div *ngIf="resultShower && filteredProducts.length !== 0" class="row">
 					<p style="padding-left:20px">
 						 <a href="http://www.ewg.org/skindeep/users-guide-to-skin-deep/" style="text-decoration: none">
 						 <button style="display:inline; border-style:none" class="btn btn-default">Sorted By EWG Rank:</button><br>
@@ -51,9 +51,7 @@
 						 <button style="display:inline; border-style:none" class="btn btn-default">Okay - EWG Rank <img src="assets/ewg_score_2.png" height="30px"></button></a>
 						<br><br>
 					</p>
-				</div>
-				<div *ngIf="searchQuery && searchQuery.length>2 && resultShower" class="row">
-					<hr>
+					<hr style="padding: 0px; margin-bottom: 5px">
 					<div class="row" style="text-align:center; padding:0px; margin: 0px">
 						<div class="col-xs-4">
 							<b><p>Product</p></b>
@@ -65,19 +63,43 @@
 							<b><p>Best Price</p></b>
 						</div>
 					</div>
-					<hr>
-					<div *ngFor="let product of this.products | search: searchQuery, let i = index " class="col-lg-12">
-						<div *ngIf="i < this.resultLimit" >
-							<juice-object [searchQuery]="this.searchQuery" [product]="product"></juice-object>
-							<hr>
+					<hr style="padding: 0px; margin-top: 0px">
+					<div class="col-lg-12">
+						<div *ngFor="let product of this.filteredProducts, let i = index ">
+							<div *ngIf="i < this.resultLimit" >
+								<juice-object [searchQuery]="this.searchQuery" [product]="product"></juice-object>
+								<hr>
+							</div>
 						</div>
+						<p style="text-align: center; margin: 50px">
+							<span class="btn btn-default" (click)="this.resultLimit = this.resultLimit + 20">		Load More
+							</span>
+						</p>
 					</div>
 				</div>
-				<div *ngIf="searchQuery && searchQuery.length>2 && resultShower" class="row">
+				<div *ngIf="filteredProducts && filteredProducts.length == 0" class="row">
 					<div class="col-lg-12">
 						<div class="" >
 							<p style="padding-left:20px; color:grey">
 								🔍 Please be less specific to find more results!
+							</p>
+						</div>
+					</div>
+				</div>
+				<div *ngIf="tooShort" class="row">
+					<div class="col-lg-12">
+						<div class="" >
+							<p style="padding-left:20px; color:grey">
+								🔍 Please enter a longer Phrase
+							</p>
+						</div>
+					</div>
+				</div>
+				<div *ngIf="mySearching" class="row">
+					<div class="col-lg-12">
+						<div class="" >
+							<p style="padding-left:20px; color:grey">
+								🔍 Searching...
 							</p>
 						</div>
 					</div>
