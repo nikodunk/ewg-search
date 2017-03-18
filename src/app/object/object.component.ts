@@ -16,7 +16,7 @@ declare var ga: any;
 export class ObjectComponent implements OnInit {
 
 	@Input() searchQuery;
-	@Input() company;
+	@Input() product;
 	resultItems = null;
   subscription: Subscription;
   loader: string;
@@ -30,8 +30,8 @@ export class ObjectComponent implements OnInit {
       // let reqUrl = 'https://rest.viglink.com/api/product/search?apiKey=645728cd6d815e3890d53f3b16f562cd&query=patagonia%20surfing&filterImages=false';
       // let reqUrl = 'https://rest.viglink.com/api/product/search?apiKey=645728cd6d815e3890d53f3b16f562cd&query='+this.searchQuery+'&filterImages=false';
       // let reqUrl = 'https://rest.viglink.com/api/product/search?apiKey=645728cd6d815e3890d53f3b16f562cd&query='+this.company.name+'&filterImages=false';
-      this.makeBrand()
-      let reqUrl = 'https://rest.viglink.com/api/product/search?apiKey=645728cd6d815e3890d53f3b16f562cd&brand[]='+this.firstNameCompany+'&filterImages=false'
+      // this.makeBrand()
+      let reqUrl = 'https://rest.viglink.com/api/product/search?apiKey=645728cd6d815e3890d53f3b16f562cd&query='+this.product.name+'&itemsPerPage=1&filterImages=false'
       // let reqUrl = 'https://rest.viglink.com/api/product/search?apiKey=645728cd6d815e3890d53f3b16f562cd&query='+this.firstNameCompany+'%20'+this.searchQuery+'&filterImages=false';
       // let reqUrl = 'https://rest.viglink.com/api/product/search?apiKey=645728cd6d815e3890d53f3b16f562cd&query='+this.company.name+'%20'+this.searchQuery+'&filterImages=false';
       let reqHeaders = new Headers({ 'Authorization': 'secret 57b0201432561234baaf7c58fa7797fb70b5689f' });
@@ -44,16 +44,16 @@ export class ObjectComponent implements OnInit {
       // return resultItems
   }
 
-  makeBrand(){
-    // this.firstNameCompany = this.company.name.substr(0, this.company.name.indexOf(" "))
-   this.firstNameCompany = this.company.name.replace("Company", "").replace("LLC", "").replace("L.L.C.", "").replace("Inc.", "").replace("Company", "").replace("Cosmetics", "").replace("'s", "").replace("Dr.", "Dr").replace("Group", "").replace("Ltd.", "")
-   this.firstNameCompany = this.firstNameCompany.trim()
-   this.firstNameCompany = this.firstNameCompany.replace(/,/g , "").replace(/ /g, "%20")
-   console.log(this.firstNameCompany)
-  }
+  // makeBrand(){
+  //   // this.firstNameCompany = this.company.name.substr(0, this.company.name.indexOf(" "))
+  //  this.firstNameCompany = this.product.name.replace("Company", "").replace("LLC", "").replace("L.L.C.", "").replace("Inc.", "").replace("Company", "").replace("Cosmetics", "").replace("'s", "").replace("Dr.", "Dr").replace("Group", "").replace("Ltd.", "")
+  //  this.firstNameCompany = this.firstNameCompany.trim()
+  //  this.firstNameCompany = this.firstNameCompany.replace(/,/g , "").replace(/ /g, "%20")
+  //  console.log(this.firstNameCompany)
+  // }
 
   googleAnalytics(){
-    ga('send', 'event', 'Affiliate', this.company.name)
+    ga('send', 'event', 'Affiliate', this.product.name)
   }
 
 

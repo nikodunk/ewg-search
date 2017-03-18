@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { COMPANIES } from '../assets/companies'
+import { PRODUCTS } from '../assets/products'
 // import { RESULTS } from './services/results'
 import { Http, Response, Headers } from '@angular/http'
 
-
+declare var fbq: any;
 
 @Component({
   selector: 'app',
@@ -12,34 +12,44 @@ import { Http, Response, Headers } from '@angular/http'
 })
 export class AppComponent implements OnInit {
 
-	companies = COMPANIES;
+	products = PRODUCTS;
 	searchQuery: string = null;
 	resultShower: boolean = false;
 	timer = null
 	companyCount
+	resultLimit:number = 100
 
 
 
   keyDown(){
   	this.resultShower = false;
 	  if ( this.timer ){
-	    clearTimeout( this.timer );
-	    this.timer = window.setTimeout(()=>{
-				   		this.search()}, 1000);;
-				}
-	  else{
-	    this.timer = window.setTimeout(()=>{
-				   		this.search()}, 1000);
-	  }
+	  			clearTimeout( this.timer )
+	  		}
+	  else{}
+
+	this.timer = window.setTimeout(()=>{
+				   		this.search()}, 1000)
+						
 	}
 
 
 
 	search(){
 		// console.log('searching');
-		this.resultShower = true;
-		// console.log(this.resultShower)
-		this.timer = null
+		if (this.searchQuery){
+			if (this.searchQuery.length > 2){
+				this.resultShower = true;
+				fbq('track', 'Search', {
+				search_string: this.searchQuery
+				});
+			}
+			else if (this.searchQuery.length==0)
+				{this.searchQuery = null}
+				// console.log(this.resultShower)
+				this.timer = null
+			}
+
 	}
 
 
@@ -57,7 +67,7 @@ export class AppComponent implements OnInit {
 
 
 	ngOnInit(){
-		this.companyCount = this.objectLength(this.companies); 
+		this.companyCount = this.objectLength(this.products); 
 		}
 
 
