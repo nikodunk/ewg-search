@@ -20,7 +20,7 @@
 				type="text" 
 				autofocus="autofocus"
 				class="form-control" 
-				placeholder="Hand Cream, Sunscreen, Baby Bath, Dr. Bronner's, Shampoo" 
+				placeholder="Hand Cream, Sunscreen, Baby Bath, Dr. Bronner's" 
 				autocorrect="off" 
 			/>
 		</div>
@@ -29,7 +29,7 @@
 		<div class="col-sm-10 col-sm-offset-1 col-lg-offset-2 col-lg-8">
 			<div style="color: grey; margin-top: 200px" *ngIf="default">
 				<p>There are thousands of skincare products out there but you want what's safest for you & your child, so GoodGood searches only top-ranked certified toxin-free products from the EWG database and sorts them by price. Disclosure: When you buy a product through our partners (Viglink & Amazon), we donate 10% back to the EWG’s certification efforts. Questions? <a href="mailto:n.dunkel@gmail.com">Reach out</a>! Find this useful?
-					<span class="fb-share-button" data-href="http://getgoodgood.com" data-layout="button_count" data-size="small" data-mobile-iframe="true">
+					<span class="fb-share-button" data-href="http://getgoodgood.com" data-layout="button_count" data-size="small" data-mobile-iframe="false">
 						<a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fgetgoodgood.com%2F&amp;src=sdkpreparse">
 							Spread The Word!
 						</a>
@@ -79,7 +79,7 @@
 							</div>
 						</div>
 						<p style="text-align: center; margin: 50px">
-							<span class="btn btn-default" (click)="this.resultLimit = this.resultLimit + 20">		Load More
+							<span class="btn btn-primary" (click)="this.resultLimit = this.resultLimit + 20">		Load More
 							</span>
 						</p>
 					</div>
