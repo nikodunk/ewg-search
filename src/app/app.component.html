@@ -1,13 +1,13 @@
 <div class="container" style="margin-top: 80px;">
 	<div class="row">
 		<div class="col-sm-10 col-sm-offset-1">
-			<h1 style="text-align: center">
-				<img src="assets/logo.png" height="40px" style="margin-bottom:10px"><br>
-			  	Compare prices for the safe skincare products you love
+			<h1 style="text-align: center; color: #f28a67">
+				<!-- <img src="assets/logo.png" height="40px" style="margin-bottom:10px; "><br> -->
+			  	Find skincare products you'll <span style="color: #7c7cf4">trust</span> on your loved ones
 			</h1>
-			<h4 style="text-align: center">
-				(and find new ones you didn't know existed.)
-			</h4>
+			<h3 style="text-align: center; color: #f28a67">
+				(& you'll <span style="color: #7c7cf4">love</span>, too.)
+			</h3>
 		</div>
 	</div>
 	<div class="row">
@@ -28,10 +28,10 @@
 	<div class="row">
 		<div class="col-sm-10 col-sm-offset-1 col-lg-offset-2 col-lg-8">
 			<div style="color: grey; margin-top: 200px" *ngIf="default">
-				<p>Superjuice makes it easier to search & buy the {{this.companyCount}} products in the EWG's certification database. When you like something you find and decide to buy it through our affiliate, we donate 10% of our profit back to EWG's certification work. Questions? <a href="mailto:n.dunkel@gmail.com">Reach out</a>! &nbsp;
-					<span style="" class="fb-share-button" data-href="http://superjuice.cc" data-layout="button_count" data-size="small" data-mobile-iframe="false">
-						<a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsuperjuice.cc%2F&amp;src=sdkpreparse">
-							Spread the word
+				<p>There are thousands of skincare products out there but you want what's safest for you & your child, so GoodGood searches only top-ranked certified toxin-free products from the EWG database and sorts them by price. Disclosure: When you buy a product through our partners (Viglink & Amazon), we donate 10% back to the EWG’s certification efforts. Questions? <a href="mailto:n.dunkel@gmail.com">Reach out</a>! Find this useful?
+					<span class="fb-share-button" data-href="http://getgoodgood.com" data-layout="button_count" data-size="small" data-mobile-iframe="true">
+						<a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fgetgoodgood.com%2F&amp;src=sdkpreparse">
+							Spread The Word!
 						</a>
 					</span>
 				</p>
@@ -43,21 +43,28 @@
 					</p>
 				</div>
 				<div *ngIf="resultShower && filteredProducts.length !== 0" class="row">
-					<p style="padding-left:20px">
-						 <a href="http://www.ewg.org/skindeep/users-guide-to-skin-deep/" style="text-decoration: none">
-						 <button style="display:inline; border-style:none" class="btn btn-default">Sorted By EWG Rank:</button><br>
-						 <button style="display:inline; border-style:none" class="btn btn-default">Safest - EWG Verified <img src="assets/ewg_verified.png" height="30px"></button> | 
-						 <button style="display:inline; border-style:none" class="btn btn-default">Safe - EWG Rank <img src="assets/ewg_score_1.png" height="30px"></button>  | 
-						 <button style="display:inline; border-style:none" class="btn btn-default">Okay - EWG Rank <img src="assets/ewg_score_2.png" height="30px"></button></a>
-						<br><br>
-					</p>
+					<a style="margin-left:20px" class="btn btn-success" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+					  About Our Ranking Method
+					</a>
+					<div class="collapse" id="collapseExample">
+  						<div class="well">					
+							<p>The Environmental Working Group's Skin Deep Database rates products based on the 
+							<a href="http://www.ewg.org/skindeep/users-guide-to-skin-deep/" target="_blank">
+								ingredient hazard score
+							</a>
+							. Score 1-10 (1 is best) reflects known and suspected hazards of ingredients. We display only 
+							<img src="assets/ewg_verified.png" height="30px"> EWG verified (Best: All ingredients declared, all are safe), Rating 
+							<img src="assets/ewg_score_1.png" height="30px"> (Lowest Hazard) and Rating 
+							<img src="assets/ewg_score_2.png" height="30px"> (Low Hazard), because we think only low to no-hazard products are worth considering. Then we sort them by price. Touch the certification button next to the product to find more ingredient information on the EWG site.</p>
+					  	</div>
+					</div>
 					<hr style="padding: 0px; margin-bottom: 5px">
 					<div class="row" style="text-align:center; padding:0px; margin: 0px">
 						<div class="col-xs-4">
 							<b><p>Product</p></b>
 						</div>
 						<div class="col-xs-4">
-							<b><p>Certification</p></b>
+							<b><p>Certification (Touch For Ingredients)</p></b>
 						</div>
 						<div class="col-xs-4">
 							<b><p>Best Price</p></b>

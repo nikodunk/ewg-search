@@ -86,7 +86,7 @@ export class AppComponent implements OnInit {
 
 	getMissingData(products){
 		for(let product of products){
-			let reqUrl = 'https://rest.viglink.com/api/product/search?apiKey=645728cd6d815e3890d53f3b16f562cd&query='+product.name+'&itemsPerPage=1&filterImages=false'
+			let reqUrl = 'https://rest.viglink.com/api/product/search?apiKey=645728cd6d815e3890d53f3b16f562cd&query='+product.name+'&merchant[]=Amazon%20Marketplace&itemsPerPage=1&filterImages=false'
       		let reqHeaders = new Headers({ 'Authorization': 'secret 57b0201432561234baaf7c58fa7797fb70b5689f' });
       		this.http.get(reqUrl, {headers: reqHeaders})
                .map(res => {product.imageUrl = res.json().items[0].imageUrl;
