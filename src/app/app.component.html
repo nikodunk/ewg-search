@@ -40,20 +40,38 @@
 					</p>
 				</div>
 				<div *ngIf="resultShower && filteredProducts.length !== 0" class="row">
-					<a style="margin-left:20px" class="btn btn-success" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-					  About Our Ranking Method
-					</a>
-					<div class="collapse" id="collapseExample">
-  						<div class="well">					
-							<p>The Environmental Working Group's Skin Deep Database rates products based on the 
+					<!-- <a style="text-decoration:none" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"> -->
+					<div class="well" style="background-color: white">
+						<div class="pull-left" style="margin: 5px">
+							<b>The rating system:</b>
+							<div>
+								<button class="btn btn-default" style="border-style:none; font-size: 1rem">
+									Zero Hazard: EWG verified 
+									<img src="assets/ewg_verified.png" height="30px">
+								</button><br>
+								<button class="btn btn-default" style="border-style:none; font-size: 1rem">
+									Lowest Hazard: Rating 
+									<img src="assets/ewg_score_1.png" height="30px">
+								</button><br>
+								<button class="btn btn-default" style="border-style:none; font-size: 1rem">
+									Low Hazard: Rating 
+									<img src="assets/ewg_score_2.png" height="30px">
+								</button>
+							</div>
+	<!-- 						<button class="btn btn-default" style="font-size: 1rem">
+									Expand
+							</button> -->
+						</div>
+					<!-- </a> -->
+					<!-- <div class="collapse" id="collapseExample"> -->
+  						<!-- <div class="well"> -->					
+							<p style="color: grey"><br>The Environmental Working Group's Skin Deep Database rates products based on the 
 							<a href="http://www.ewg.org/skindeep/users-guide-to-skin-deep/" target="_blank">
 								ingredient hazard score
 							</a>
-							. Score 1-10 (1 is best) reflects known and suspected hazards of ingredients. We display only 
-							<img src="assets/ewg_verified.png" height="30px"> EWG verified (Best: All ingredients declared, all are safe), Rating 
-							<img src="assets/ewg_score_1.png" height="30px"> (Lowest Hazard) and Rating 
-							<img src="assets/ewg_score_2.png" height="30px"> (Low Hazard), because we think only low to no-hazard products are worth considering. Then we sort them by price. Touch the certification button next to the product to find more ingredient information on the EWG site.</p>
-					  	</div>
+							. Score 1-10 (1 is best) reflects known and suspected hazards of ingredients. We display only EWG verified (Best: All ingredients declared, all are safe), Rating (Lowest Hazard) and Rating (Low Hazard), because we think only low to no-hazard products are worth considering. Then we sort them by price. Touch the certification button next to the product to find more ingredient information on the EWG site.</p>
+					  	<!-- </div> -->
+					<!-- </div> -->
 					</div>
 					<hr style="padding: 0px; margin-bottom: 5px">
 					<div class="row" style="text-align:center; padding:0px; margin: 0px">
@@ -61,7 +79,7 @@
 							<b><p>Product</p></b>
 						</div>
 						<div class="col-xs-4">
-							<b><p>Certification (Touch For Ingredients)</p></b>
+							<b><p>EWG Rating</p></b>
 						</div>
 						<div class="col-xs-4">
 							<b><p>Best Price</p></b>

@@ -23,23 +23,23 @@
 		<div class="col-xs-4">
 			<a style="text-align: center" href="{{product.certlink}}" target="_blank">
 				<button class="btn btn-default" style="height: 100px; width:100%; margin-top: 3px; margin-bottom: 3px">
-					<p style="font-size:1rem">
-						Certification
-					</p>
 					<h3><span *ngIf="product.cert == 'ewg_rank_0'" style="display:inline"><img src="assets/ewg_verified.png" height="40px"></span>
 					<span *ngIf="product.cert == ' '" style="display:inline">N/A</span>
 					<span *ngIf="product.cert == 'ewg_rank_1'" style="display:inline"><img src="assets/ewg_score_1.png" height="40px"></span>
 					<span *ngIf="product.cert == 'ewg_rank_2'" style="display:inline"><img src="assets/ewg_score_2.png" height="40px"></span> </h3>
+					<p style="font-size:1rem">
+						More Info
+					</p>
 				</button>
 			</a>
 		</div>
 		<div class="col-xs-4">
 			<a href="{{product.affLink}}" target="_blank" (click)="googleAnalytics()">
-				<button class="btn btn-default" style="height: 100px; width:100%;margin-top: 3px; margin-bottom: 3px">
-					<!-- <p style="font-size:1rem; overflow: hidden; text-overflow: ellipsis">
-						{{item.merchant}}
-					</p> -->
+				<button class="btn btn-default" style="height: 100px; width:100%; margin-top: 3px; margin-bottom: 3px">
 					<h2 style="text-height: 40px">{{product.price | currency:'USD':true:'1.0-0'}}</h2>
+					<p style="font-size:1rem">
+						More Info
+					</p>
 				</button>
 			</a>
 			<br>
