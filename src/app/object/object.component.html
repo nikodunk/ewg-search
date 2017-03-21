@@ -8,16 +8,16 @@
 <!-- <div style="text-align:center" *ngIf="loader=='loading' || loader=='loaded'">
 			 <p style="color: grey">{{product.meta}}</p> 
 </div> -->
-<div *ngIf="loader=='loading'" >
-	<p style="padding: 20px">Getting Prices...</p>
-</div> 
-<span style="" *ngIf="loader=='loaded'">
-	<div *ngFor="let item of this.resultItems.items" class="hoverBox row" style="text-align:center; position: relative">
+<span>
+	<div class="hoverBox row" style="text-align:center">
 		<div class="col-xs-4">
-			<a href="{{item.url}}" target="_blank" (click)="googleAnalytics()">
-				<img class="hoverImage" src="{{item.imageUrl}}" style="height:100px"><br><br>
-				<p class="hoverText" style="position: absolute; top: 50px; left: 0; width: 100%; text-decoration: none; color: black; overflow: hidden; text-overflow: ellipsis" >
-				{{product.name}}</p>
+			<a href="{{product.affLink}}" target="_blank" (click)="googleAnalytics()">
+			<div style="position: relative">
+				<img class="hoverImage" src="{{product.imageUrl}}" style="height:100px"><br><br>
+				<p class="hoverText" style="position: absolute; top: 5px; left: 5px; height: 100px; width: 100%; text-decoration: none; color: black; overflow: hidden; text-overflow: ellipsis" >
+					{{product.name}}
+				</p>
+			</div>
 			</a>
 		</div>
 		<div class="col-xs-4">
@@ -34,18 +34,15 @@
 			</a>
 		</div>
 		<div class="col-xs-4">
-			<a href="{{item.url}}" target="_blank" (click)="googleAnalytics()">
+			<a href="{{product.affLink}}" target="_blank" (click)="googleAnalytics()">
 				<button class="btn btn-default" style="height: 100px; width:100%;margin-top: 3px; margin-bottom: 3px">
-					<p style="font-size:1rem; overflow: hidden; text-overflow: ellipsis">
+					<!-- <p style="font-size:1rem; overflow: hidden; text-overflow: ellipsis">
 						{{item.merchant}}
-					</p>
-					<h2 style="text-height: 40px">{{item.price | currency:'USD':true:'1.0-0'}}</h2>
+					</p> -->
+					<h2 style="text-height: 40px">{{product.price | currency:'USD':true:'1.0-0'}}</h2>
 				</button>
 			</a>
 			<br>
 		</div>
 	</div>
 </span> 
-<div style="" *ngIf="resultItems?.items.length == 0" >
-	<p style="padding-left: 20px">No Prices Found</p>
-</div> 
